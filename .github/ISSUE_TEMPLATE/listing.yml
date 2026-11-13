@@ -1,0 +1,39 @@
+name: Suggest a listing or correction
+description: Add an art-supply shop, studio, gallery, workshop or event on Cape Ann, or correct an existing listing.
+title: "Listing: "
+labels: [listing]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Business or organization name
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: Town and street address
+  - type: input
+    id: website
+    attributes:
+      label: Website or social page
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of place is it?
+      options: [Art supplies, Workshop or class, Gallery or museum, Framing, Event or paint-out, Other]
+  - type: textarea
+    id: special
+    attributes:
+      label: What makes it special for painters?
+      description: Unique stock, classes, local pigments, discounts for students, a view worth painting nearby...
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction to an existing listing (if any)
+  - type: checkboxes
+    id: owner
+    attributes:
+      label: Your connection
+      options:
+        - label: I own or work for this business
