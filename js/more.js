@@ -65,11 +65,12 @@ PGX.init = () => {
   PG = window.PG;
   buildHome(); buildMapLayers(); buildPaint(); buildShops(); buildPlan(); viewerSampling();
   document.addEventListener('click', e => { const a = e.target.closest('[data-go-site]'); if (!a) return; e.preventDefault(); goSite(a.dataset.goSite); });
+  document.addEventListener('click', e => { const a = e.target.closest('[data-shops-map]'); if (!a) return; e.preventDefault(); PG.show('shops'); PG.setHash('shops'); requestAnimationFrame(() => { initShopMap(); $('#shopmap').scrollIntoView({ block: 'center' }); }); });
   document.addEventListener('click', e => { const a = e.target.closest('[data-go-place]'); if (!a) return; e.preventDefault(); goPlace(a.dataset.goPlace); });
 };
 function goSite(id) { const s = PG.D.sites.find(x => x.id === id); if (!s) return; PG.show('map'); requestAnimationFrame(() => { PG.MAP.resize(); PG.selectSite(s, true); }); }
-function goPlace(id) { const p = PL().places.find(x => x.id === id); if (!p) return; if (!inMap(p.ll)) { window.open(dirUrl(p.ll), '_blank', 'noopener'); return; } PG.show('map'); PG.setHash('map'); requestAnimationFrame(() => { PG.MAP.resize(); showPlace(p, true); }); }
-PGX.onShow = v => { if (v === 'home') heroPlay(true); else heroPlay(false); if (v === 'plan') renderPassport(); if (v === 'paint') labInit(); };
+function goPlace(id) { if (!PL().places.find(x => x.id === id)) return; PG.show('shops'); PG.setHash('shops'); requestAnimationFrame(() => focusPlace(id)); }
+PGX.onShow = v => { if (v === 'home') heroPlay(true); else heroPlay(false); if (v === 'plan') renderPassport(); if (v === 'paint') labInit(); if (v === 'shops') requestAnimationFrame(initShopMap); };
 
 /* ================= home ================= */
 const SLIDES = ['lane-braces-rock', 'homer-gloucester-harbor-1880', 'hassam-norton', 'lane-ten-pound-cam', 'metcalf-gloucester-harbor', 'twachtman-fishing-boats', 'duveneck-horizon', 'homer-green-dory'];
@@ -160,7 +161,7 @@ function placeBody(p) {
 PGX.onIntro = () => setTimeout(() => {
   if (!PG) return; const panel = PG.panel; if (panel.querySelector('.newbox')) return;
   const lead = panel.querySelector('.lead');
-  lead && lead.insertAdjacentHTML('afterend', `<div class="newbox"><b>On Cape Ann today?</b> Tap <span class="kbd">ME</span> to see yourself on the chart. Open a site and tap <i>Line it up</i> to hold the painting over your camera view, then stamp your passport. Square markers are art shops and studios.</div>`);
+  lead && lead.insertAdjacentHTML('afterend', `<div class="newbox"><b>On Cape Ann today?</b> Tap <span class="kbd">ME</span> to see yourself on the chart. Open a site and tap <i>Line it up</i> to hold the painting over your camera view, then stamp your passport. Square markers are art shops and studios; <a href="#shops" data-shops-map="1">see them all on one map</a>.</div>`);
 }, 0);
 PGX.onSite = s => {
   const panel = PG.panel, w = s.main ? PG.WBY[s.main] : null, st = LS.get('passport', {})[s.id];
@@ -340,13 +341,66 @@ async function labInit() {
   pickAt(0.5, 0.3);
 }
 
+/* ================= shops map (Leaflet over a vector coastline) ================= */
+let smap = null, smMarkers = {}, shopFilter = 'all', smTiles = null;
+const matchT = (p, t) => t === 'all' || p.type === t || (t === 'museum' && p.type === 'gallery');
+const mkType = p => p.type === 'gallery' ? 'museum' : p.type;
+function initShopMap() {
+  if (smap || !window.L) { if (smap) smap.invalidateSize(); return; }
+  smap = L.map('shopmap', { scrollWheelZoom: false, zoomSnap: 0.25, minZoom: 9, maxZoom: 18 });
+  smTiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, className: 'smtile',
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Coastline: MassGIS' });
+  // vector coastline: shown until street tiles load, and whenever they are switched off
+  const C = window.COAST || { coast: [], towns: [] }, vec = L.layerGroup();
+  C.towns.forEach(t => L.polyline(t.c, { color: '#8A9BA8', weight: t.k === 17 ? .8 : 1, dashArray: t.k === 17 ? '3 4' : null, opacity: .7, interactive: false }).addTo(vec));
+  C.coast.forEach(c => L.polyline(c, { color: '#5E7A8C', weight: 1.1, opacity: .8, interactive: false }).addTo(vec));
+  vec.addTo(smap);
+  let errs = 0, ok = false;
+  smTiles.on('tileload', () => { if (!ok) { ok = true; smap.removeLayer(vec); } }).on('tileerror', () => { if (++errs === 4 && !ok) { smap.removeLayer(smTiles); $('#smtiles').checked = false; } });
+  smTiles.addTo(smap);
+  // painting sites, quietly
+  PG.D.sites.forEach(s => L.marker([s.V[0], s.V[1]], { icon: L.divIcon({ className: '', html: '<span class="smsite"></span>', iconSize: [12, 12], iconAnchor: [6, 6] }), title: s.title, keyboard: false })
+    .bindTooltip(`Painting site ${s.n}: ${esc(s.title)}`).on('click', () => goSite(s.id)).addTo(smap));
+  PL().places.forEach(p => {
+    const m = L.marker(p.ll, { icon: L.divIcon({ className: '', html: `<span class="smk ${mkType(p)}">${p.num}</span>`, iconSize: [26, 26], iconAnchor: [13, 13], popupAnchor: [0, -12] }), title: p.name, riseOnHover: true });
+    m.bindPopup(`<div class="smpop"><b>${p.num}. ${esc(p.name)}</b><span>${esc(p.addr)}</span>${p.phone ? `<span>${esc(p.phone)}</span>` : ''}
+      <span class="lk"><a href="${dirUrl(p.ll)}" target="_blank" rel="noopener">Directions ↗</a> · <a href="#shops" data-card="${p.id}">Details ↓</a></span></div>`);
+    smMarkers[p.id] = m;
+  });
+  smap.on('popupopen', e => { const a = e.popup.getElement().querySelector('[data-card]'); if (a) a.onclick = ev => { ev.preventDefault(); const el = $('#place-' + a.dataset.card); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1600); } }; });
+  $('#smtiles').onchange = e => { if (e.target.checked) { smTiles.addTo(smap); if (ok) smap.removeLayer(vec); } else { smap.removeLayer(smTiles); vec.addTo(smap); } };
+  document.querySelectorAll('.shopmap-bar [data-zoom]').forEach(b => b.onclick = () => { const z = b.dataset.zoom; if (z === 'cape') fitShops(false); else if (z === 'all') fitShops(true); else { const [la, lo, zz] = z.split(',').map(Number); smap.flyTo([la, lo], zz, { duration: .7 }); } });
+  syncMarkers(); fitShops(false, true);
+}
+function syncMarkers() { if (!smap) return; PL().places.forEach(p => { const m = smMarkers[p.id]; if (matchT(p, shopFilter)) m.addTo(smap); else smap.removeLayer(m); }); }
+function fitShops(all, instant) {
+  const cape = ll => ll[1] > -70.8; // Cape Ann only, unless "whole region"
+  const pts = PL().places.filter(p => matchT(p, shopFilter) && (all || cape(p.ll))).map(p => p.ll).concat(all ? [] : PG.D.sites.map(s => [s.V[0], s.V[1]]));
+  const away = PL().places.filter(p => matchT(p, shopFilter) && !cape(p.ll)), note = $('#smaway');
+  if (note) note.innerHTML = !all && away.length ? `${away.length} more off Cape Ann, in ${[...new Set(away.map(p => p.town))].join(' and ')}. <button class="linkbtn" data-zoom2="all">Show the whole region</button>` : '';
+  const nb = note && note.querySelector('[data-zoom2]'); if (nb) nb.onclick = () => fitShops(true);
+  if (pts.length) smap.fitBounds(L.latLngBounds(pts).pad(0.08), { animate: !instant });
+}
+function focusPlace(id) {
+  const p = PL().places.find(x => x.id === id); if (!p) return;
+  if (!matchT(p, shopFilter)) $('#ptabs button[data-t="all"]').click();
+  initShopMap(); $('#shopmap').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  setTimeout(() => { smap.invalidateSize(); smap.flyTo(p.ll, 16, { duration: .8 }); setTimeout(() => smMarkers[p.id].openPopup(), 850); }, 250);
+}
+function chartPlace(id) { const p = PL().places.find(x => x.id === id); if (!p) return; PG.show('map'); PG.setHash('map'); requestAnimationFrame(() => { PG.MAP.resize(); showPlace(p, true); }); }
+
 /* ================= shops view ================= */
 function buildShops() {
   const P = PL(); $('#checked').textContent = P.checked;
+  P.places.forEach((p, i) => p.num = i + 1);
   const render = t => { const T = { supply: 'Art supplies', school: 'Workshops & associations', museum: 'Museum', gallery: 'Gallery' };
-    $('#pcards').innerHTML = P.places.filter(p => t === 'all' || p.type === t || (t === 'museum' && p.type === 'gallery')).map(p => `<article class="place ${p.type}" id="place-${p.id}">
-      <div class="kicker pk">${T[p.type]}${p.far ? ' · further afield' : ''} · ${esc(p.town)}</div><h3 class="disp">${esc(p.name)}</h3>${placeBody(p)}
-      ${inMap(p.ll) ? `<p class="tiny"><a href="#map" data-go-place="${p.id}">Show on the chart →</a></p>` : ''}</article>`).join(''); };
+    const list = P.places.filter(p => matchT(p, t));
+    $('#pcards').innerHTML = list.map(p => `<article class="place ${p.type}" id="place-${p.id}">
+      <div class="phead"><button class="pnum ${mkType(p)}" data-focus="${p.id}" aria-label="Show ${esc(p.name)} on the map">${p.num}</button><div><div class="kicker pk">${T[p.type]}${p.far ? ' · further afield' : ''} · ${esc(p.town)}</div><h3 class="disp">${esc(p.name)}</h3></div></div>${placeBody(p)}
+      <p class="tiny"><a href="#shops" data-focus="${p.id}">Show on the map ↑</a>${inMap(p.ll) ? ` · <a href="#map" data-chart="${p.id}">On the painters' chart</a>` : ''}</p></article>`).join('');
+    $$('#pcards [data-focus]').forEach(a => a.onclick = e => { e.preventDefault(); focusPlace(a.dataset.focus); });
+    $$('#pcards [data-chart]').forEach(a => a.onclick = e => { e.preventDefault(); chartPlace(a.dataset.chart); });
+    shopFilter = t; syncMarkers(); };
   render('all');
   $$('#ptabs button').forEach(b => b.onclick = () => { $$('#ptabs button').forEach(x => x.classList.toggle('on', x === b)); render(b.dataset.t); });
   $('#events').innerHTML = P.events.map(e => `<div class="event"><b>${esc(e.name)}</b><span class="ew">${esc(e.when)}</span><span class="tiny">${esc(e.where)}</span><p>${esc(e.what)}</p>
@@ -358,7 +412,7 @@ function buildShops() {
 function buildPlan() {
   $('#days').innerHTML = G().days.map(d => `<article class="day"><img src="${thumb(d.img)}" alt="" loading="lazy"><div><h3 class="disp">${esc(d.name)}</h3><p class="small">${esc(d.sum)}</p>
     <ol class="steps">${d.steps.map(([tm, n, t, ref]) => { const [k, v] = (ref || '').split(':');
-      const link = k === 'site' ? `<a href="#map" data-go-site="${v}">Open the site →</a>` : k === 'place' ? `<a href="#shops" data-go-place="${v}">On the chart →</a>` : '';
+      const link = k === 'site' ? `<a href="#map" data-go-site="${v}">Open the site →</a>` : k === 'place' ? `<a href="#shops" data-go-place="${v}">On the map →</a>` : '';
       return `<li><span class="tm">${esc(tm)}</span><div><b>${esc(n)}</b><p>${esc(t)}</p>${link}</div></li>`; }).join('')}</ol></div></article>`).join('');
   renderPassport();
 }
