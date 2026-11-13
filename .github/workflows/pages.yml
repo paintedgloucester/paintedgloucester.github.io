@@ -22,8 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Check data files are valid JSON
-        run: for f in data/*.json; do python3 -m json.tool "$f" > /dev/null || exit 1; done
+      - name: Check the site's scripts parse
+        run: for f in js/*.js; do node --check "$f" || exit 1; done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
