@@ -35,8 +35,9 @@ h3.disp{ font-family:'Cormorant', serif; font-weight:600; color:var(--navy); lin
 .hero-cta{ display:flex; gap:10px; flex-wrap:wrap; }
 .hero-cta .btn.solid{ background:var(--ochre); border-color:var(--ochre); }
 .hero-cta .btn.solid:hover{ background:#B26F2A; }
-.hero-cap{ position:absolute; z-index:2; right:max(16px, env(safe-area-inset-right, 0px)); bottom:12px; margin:0; font:11.5px Inter, sans-serif; color:rgba(243,237,225,.82); text-align:right; max-width:min(560px, 70%); }
-@media (max-width:700px){ .hero-cap{ position:relative; right:auto; bottom:auto; max-width:none; text-align:left; padding:0 20px 14px; } .hero{ flex-direction:column; justify-content:flex-end; } .hero-in{ padding-bottom:20px; } }
+/* caption sits top-right, clear of the today bar that overlaps the hero's bottom edge */
+.hero-cap{ position:absolute; z-index:2; top:14px; right:max(16px, env(safe-area-inset-right, 0px)); margin:0; font:11.5px/1.45 Inter, sans-serif; color:#F3EDE1; text-align:right; max-width:min(520px, calc(100% - 32px)); background:rgba(14,22,30,.6); padding:5px 10px; border-radius:3px; transition:opacity .6s; }
+@media (max-width:700px){ .hero-cap{ position:relative; top:auto; right:auto; max-width:none; text-align:left; background:none; padding:0 20px 14px; border-radius:0; color:rgba(243,237,225,.85); } .hero{ flex-direction:column; justify-content:flex-end; } .hero-in{ padding-bottom:20px; } }
 .home-in{ max-width:1200px; margin:0 auto; padding:0 max(20px, env(safe-area-inset-right, 0px)) 80px max(20px, env(safe-area-inset-left, 0px)); }
 .todaybar{ display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); background:#fff; border:1px solid var(--rule); border-top:3px solid var(--sunl); margin-top:-1px; position:relative; z-index:3; transform:translateY(-34px); box-shadow:0 10px 30px rgba(20,30,40,.12); }
 .todaybar > div{ padding:14px 18px; border-right:1px solid var(--rule); min-width:0; }
