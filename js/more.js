@@ -10,7 +10,7 @@ const LS = {
   get(k, d) { try { const v = localStorage.getItem('pg:' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem('pg:' + k, JSON.stringify(v)); } catch (e) {} }
 };
-const CFG = { REPO: 'rreid53-cyber/painted-gloucester' };
+const CFG = { REPO: 'paintedgloucester/paintedgloucester.github.io' };
 const PL = () => window.PLACES, G = () => window.PG_GUIDE;
 const R = Math.PI / 180;
 function dist(a, b) { const dLat = (b[0] - a[0]) * R, dLon = (b[1] - a[1]) * R, h = Math.sin(dLat / 2) ** 2 + Math.cos(a[0] * R) * Math.cos(b[0] * R) * Math.sin(dLon / 2) ** 2; return 2 * 6371000 * Math.asin(Math.sqrt(h)); }
