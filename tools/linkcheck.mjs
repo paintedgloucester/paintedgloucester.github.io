@@ -10,7 +10,7 @@ async function probe(url) {
   for (let attempt = 0; attempt < 2; attempt++) {
     try { const r = await fetch(url, { method: 'GET', redirect: 'follow', headers: { 'user-agent': UA, accept: 'text/html,*/*' }, signal: AbortSignal.timeout(25000) });
       if (r.ok) return null;
-      if ([401, 403, 405, 429, 999].includes(r.status)) return { soft: true, why: `HTTP ${r.status} (site blocks automated checks; open it by hand)` };
+      if ([401, 403, 405, 429, 999].includes(r.status) || (r.status >= 520 && r.status <= 530))   // 52x: Cloudflare turning away the robot, not a dead page return { soft: true, why: `HTTP ${r.status} (site blocks automated checks; open it by hand)` };
       if (attempt) return { why: `HTTP ${r.status}` };
     } catch (e) { if (attempt) return { why: e.name === 'TimeoutError' ? 'timed out' : (e.cause?.code || e.message) }; }
     await new Promise(r => setTimeout(r, 3000));
