@@ -204,7 +204,7 @@ window.PLACES = {
    "url": "https://rockyneckartcolony.org/programs-events",
    "what": "One of America's oldest working art colonies: a neighborhood of studios and galleries on the East Gloucester peninsula that drew Twachtman, Hopper and Stuart Davis.",
    "special": [
-    "Plein-air workshops at the Cultural Center, such as a two-day Impressionist workshop held in September 2024.",
+    "Workshops and classes for all skill levels, taught by working Rocky Neck artists at the Cultural Center. Check the calendar for what is running.",
     "Co-hosts a Paint Out on Rocky Neck with Cape Ann Plein Air and Cape Ann Art Haven.",
     "The public way on Rocky Neck looks west across the harbor at Homer's sunsets and Ten Pound Island."
    ],
@@ -214,8 +214,8 @@ window.PLACES = {
      "https://rockyneckartcolony.org/programs-events"
     ],
     [
-     "2024 Impressionist plein-air workshop",
-     "https://rockyneckartcolony.org/event/impressionist-plein-air-painting-on-rocky-neck/2024-09-11"
+     "Rocky Neck workshops & classes",
+     "https://www.rockyneckartcolony.org/program-events/workshops"
     ]
    ],
    "checked": "November 2026"
