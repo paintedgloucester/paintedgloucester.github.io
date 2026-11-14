@@ -166,6 +166,25 @@ ${p.tip ? `<p class="note"><b>Try it</b>${esc(p.tip)}</p>` : ''}</section>`).joi
 ${N.list()}</article>`) });
   }
 
+
+  /* ---- painters: profiles and who-brought-whom chains ---- */
+  { const N = Notes(), Pn = X.painters;
+    const byName = {}; Pn.people.forEach(p => { byName[p.name] = p.id; });
+    const nodeHtml = n => byName[n] ? `<a class="cn" href="#p-${byName[n]}">${esc(n)}</a>` : `<span class="cn">${esc(n)}</span>`;
+    const first = Pn.people.flatMap(p => p.works).map(id => WBY[id]).find(w => w && w.img);
+    page({ file: 'painters.html', title: 'The painters of Cape Ann: their lives here and who brought whom', type: 'article',
+      desc: 'Short, sourced lives of the painters who worked in Gloucester and on Cape Ann, from Fitz Henry Lane and Mary Blood Mellen to Rothko and Nell Blaine, and the chains of teachers and friends that brought them.',
+      image: first ? `img/${first.id}.jpg` : undefined, imageAlt: first ? `${first.by}, ${first.t}, ${first.d}` : undefined,
+      crumbs: [['The painters']],
+      body: up => stable(`<article><div class="kicker">The painters</div><h1>Who came, and who brought them</h1>
+<p class="lead measure">${N.cite(Pn.lead, up)}</p>
+<section class="grp" aria-labelledby="chains-h"><h2 id="chains-h">Who brought whom</h2>
+<p class="small measure">Read each chain left to right: each painter brought, taught or welcomed the next. Names link to the profiles below.</p>
+<ol class="chains">${Pn.chains.map(c => `<li class="chain"><div class="ch-h"><b>${esc(c.title)}</b><span>${esc(c.years)}</span>${N.cite(c.src, up)}</div><div class="ch-row">${nodeHtml(c.steps[0])}${c.steps.slice(1).map((st, i, arr) => i % 2 ? '' : `<span class="cg"><span class="ce"><span class="ce-l">${esc(st)}</span><span class="ce-a" aria-hidden="true"></span></span>${nodeHtml(arr[i + 1])}</span>`).join('')}</div></li>`).join('')}</ol></section>
+${Pn.people.map(p => `<section class="grp prof" id="p-${p.id}"><div class="prof-h"><h2>${esc(p.name)}</h2><p class="sub">${esc(p.life)} · ${esc(p.here)}</p></div><p class="measure">${N.cite(p.text, up)}</p>${works(p.works, up)}${p.g ? `<p class="acts"><a href="${up}works/#g-${p.g}">${esc(D.artists.find(a => a.k === p.g).name)}: all works</a></p>` : ''}</section>`).join('')}
+<p class="small measure">More lives are on the <a href="${up}trails/women.html">Women of Cape Ann trail</a> (Martha Walter, Sally Michel Avery, Jane Peterson, Virginia Lee Burton) and the <a href="${up}photographers.html">photographers page</a>.</p>
+${N.list()}</article>`) });
+  }
   /* ---- teachers ---- */
   { const N = Notes(), T = X.teachers;
     page({ file: 'teachers.html', title: 'For teachers: three lessons on painting Cape Ann', type: 'article',

@@ -7,7 +7,7 @@ A free public field guide to painting Cape Ann, Massachusetts, in the footsteps 
 - **Map & sites**: a hand-drawn chart of Cape Ann with the nine places where a painting can be tied to a standing point, the line of sight, the 1800s shoreline, and the sun at any date and hour. Drag across *Compare painting and map* to wipe between the picture and the ground.
 - **On site**: *ME* shows where you are on the chart and how far you are from each vantage point. *Line it up* ghosts the painting over your phone's camera; capture it as a then-and-now postcard.
 - **Painter's passport**: stamp all nine sites, in gold when your phone confirms you're on the spot.
-- **The works**: 130 Cape Ann paintings in public collections, filterable by painter, collection and decade, with a zoomable viewer and a color sampler.
+- **The works**: 131 Cape Ann paintings in public collections, filterable by painter, collection and decade, with a zoomable viewer and a color sampler.
 - **Paint it**: a color lab that turns any spot in a painting into a starting mix of tube colors, palettes in the spirit of each school, light through the day, tides, fog and wind, a packing list and painting prompts.
 - **Shops & studios**: a street map of every listing, with town zoom buttons and directions, plus local art-supply shops, workshops, associations, museums, galleries and annual paint-outs, each with sources. Businesses can suggest a listing through the issue form.
 - **Plan**: four painting days timed to the light.

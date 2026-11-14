@@ -6,6 +6,26 @@ checked: 'November 2026',
 
 /* sources: key -> [label, full URL] */
 src: {
+  "cam_avery": ["Cape Ann Museum, “Milton Avery (1885–1965),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/milton-avery-18851965"],
+  "cam_davis": ["Cape Ann Museum, “Stuart Davis (1892–1964),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/stuart-davis-18921964"],
+  "cam_duveneck": ["Cape Ann Museum, “Frank Duveneck (1848–1919),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/frank-duveneck-18481919"],
+  "cam_gruppe": ["Cape Ann Museum, “Emile A. Gruppé (1896–1978),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/emile-a.-gruppe-18961978"],
+  "cam_hartley": ["Cape Ann Museum, “Marsden Hartley (1877–1943),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/marsden-hartley-18771943"],
+  "cam_homer": ["Cape Ann Museum, “Winslow Homer,” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/winslow-homer-18351910"],
+  "cam_hopper": ["Cape Ann Museum, “Edward Hopper (1882–1967),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/edward-hopper-18821967"],
+  "cam_hunt": ["Cape Ann Museum, “William Morris Hunt (1824–1879),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/william-morris-hunt-18241879"],
+  "cam_kroll": ["Cape Ann Museum, “Leon Kroll (1884–1974),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/leon-kroll-18841974"],
+  "cam_lane": ["Cape Ann Museum, “Fitz Henry Lane (1804–1865),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/fitz-henry-lane-18041865"],
+  "cam_mellen": ["Cape Ann Museum, “Mary Blood Mellen (1819–1886),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/mary-blood-mellen-18191886"],
+  "cam_meyerowitz": ["Cape Ann Museum, “William Meyerowitz (1887–1981),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/william-meyerowitz-18871981"],
+  "cam_prendergast": ["Cape Ann Museum, “Maurice Prendergast,” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/maurice-prendergast-18591924"],
+  "cam_sloan": ["Cape Ann Museum, “John Sloan (1871–1951),” artists in the collection", "https://capeannmuseum.quartexcollections.com/resources/artists-in-the-collection-of-the-cape-ann-museuma-partial-list/john-sloan-18711951"],
+  "antiques": ["“The Flowering of American Impressionism in Gloucester,” The Magazine Antiques", "https://www.themagazineantiques.com/?p=29411"],
+  "jht_201": ["John Henry Twachtman Catalogue Raisonné, entry 201, Harbor View Hotel", "https://www.jhtwachtman.org/catalogue/entry.php?id=201"],
+  "pafa_box": ["Pennsylvania Academy of the Fine Arts, Charles Demuth, Box of Tricks, 1984.8", "https://pafa.org/museum/collection/item/box-tricks"],
+  "risd_demuth": ["RISD Museum, Charles Demuth, Gloucester, 39.098", "https://risdmuseum.org/art-design/collection/gloucester-39098"],
+  "moma_friedlander": ["Museum of Modern Art, Lee Friedlander, Gloucester, Massachusetts, 1981, 274.1995", "https://www.moma.org/collection/works/49854"],
+
   "cr_283": ["Mark Rothko: Works on Paper (National Gallery of Art), [Figures playing handball on the beach], 1986.56.538.a", "https://rothko.nga.gov/Detail/objects/283"],
   "cr_284": ["Mark Rothko: Works on Paper (National Gallery of Art), [Schooner at wharf], 1986.56.538.b", "https://rothko.nga.gov/Detail/objects/284"],
   "cr_314": ["Mark Rothko: Works on Paper (National Gallery of Art), [Figures with gill-net reels], 1986.43.206.b", "https://rothko.nga.gov/Detail/objects/314"],
@@ -256,9 +276,9 @@ trails: [
   time: 'A full day. Stops 4–7 are a short walk on Rocky Neck; drive between the rest.',
   legs: [[0, 3, 'drive'], [3, 7, 'walk'], [7, 10, 'drive']],
   stops: [
-  { name: 'Stage Fort Park', addr: 'Hough Avenue, Gloucester', ll: [42.6057, -70.67845], who: 'Mary Blood Mellen (1817–1886)',
-    text: 'Mellen worked beside Fitz Henry Lane, copying and sometimes sharing canvases with him [[wiki_mellen]]. Her <i>Field Beach, Stage Fort Park</i> is featured in the Cape Ann Museum’s online Lane catalogue [[fhl_home]]. Bowdoin owns her <i>Gloucester Harbor (Laying Nets)</i>, about 1870 [[bowdoin_mellen]].',
-    works: ['mellen-gloucester-harbor'] },
+  { name: 'Stage Fort Park', addr: 'Hough Avenue, Gloucester', ll: [42.6057, -70.67845], who: 'Mary Blood Mellen (1819–1886)',
+    text: 'A minister’s wife from Sterling, Massachusetts, Mellen came into Fitz Henry Lane’s world after her brother-in-law took the Universalist pulpit in Gloucester in 1855. By the middle of the decade she was working beside Lane, with free use of his drawings and at times his canvases; one painting, <i>Coast of Maine</i>, carries both their signatures [[cam_mellen]]. Her <i>Field Beach, Stage Fort Park</i>, about 1850, shows this shore and is at the Cape Ann Museum [[cam_mellen]]; Bowdoin owns her <i>Gloucester Harbor (Laying Nets)</i> [[bowdoin_mellen]].',
+    works: ['mellen-field-beach', 'mellen-gloucester-harbor'] },
   { name: 'Cape Ann Museum', addr: '27 Pleasant Street, Gloucester', ll: [42.61402, -70.66162], who: 'The collection',
     text: 'The museum owns Theresa Bernstein’s <i>Gloucester in Blue</i> (1925) [[cam_bernstein]], Nell Blaine’s <i>Wharf Studio, Gloucester</i> (1958) [[cam_blaine]] and the archive of the Folly Cove Designers [[fc_aid]]; the Rocky Neck Art Colony also credits it with Martha Walter’s <i>Rocky Neck Store and My Studio</i> (1920) [[rnat_walter]]. Ask at the desk which are on view.',
     works: ['bernstein-gloucester-in-blue', 'blaine-wharf-studio'] },
@@ -287,8 +307,8 @@ trails: [
   ] },
 
 { id: 'hopper', short: 'About four hours, walk and drive', span: '1912 to 1934', title: 'Edward Hopper’s Gloucester', kicker: 'Trail · a downtown walk, then a drive',
-  lead: 'Hopper painted Gloucester in 1912 and again in several summers from 1923, mostly in watercolor, mostly houses. Twelve of his subjects can still be found. The downtown walk passes eight of them and ends at the train station.',
-  intro: 'Street addresses follow Catherine Ryan’s catalogue <i>Edward Hopper All Around Gloucester</i> [[ryan]], with the museum records for each painting. The Cape Ann Museum also runs docent-led “Hopper’s Houses” walks from Pleasant Street [[cam_hoppertour]]. Nearly every house is a private home: look from the sidewalk.',
+  lead: 'Hopper came to Gloucester in 1912 with his friend Leon Kroll, and again in the summers of 1923, 1924, 1926 and 1928, mostly painting houses in watercolor. Twelve of his subjects can still be found. The downtown walk passes eight of them and ends at the train station.',
+  intro: 'The summers are the Cape Ann Museum’s count [[cam_hopper]]; the oil <i>Sun on Prospect Street</i> is dated 1934. Street addresses follow Catherine Ryan’s catalogue <i>Edward Hopper All Around Gloucester</i> [[ryan]], with the museum records for each painting. The Cape Ann Museum also runs docent-led “Hopper’s Houses” walks from Pleasant Street [[cam_hoppertour]]. Nearly every house is a private home: look from the sidewalk.',
   time: 'Walk: about 2 hours with stops. Drive: about 2 hours for stops 9–12.',
   legs: [[0, 8, 'walk'], [8, 12, 'drive']],
   stops: [
@@ -297,7 +317,7 @@ trails: [
   { name: 'Universalist Church', addr: '10 Church Street', ll: [42.6133, -70.66623], who: '<i>Universalist Church</i>, 1926',
     text: 'The church on Church Street [[ryan]]. The watercolor is at the Princeton University Art Museum.', works: ['hopper-universalist'] },
   { name: 'Anderson’s House', addr: '18 Western Avenue', ll: [42.61065, -70.66692], who: '<i>Anderson’s House</i>',
-    text: 'Across from the harbor on what is now Stacy Boulevard [[ryan]]. The watercolor is at the Museum of Fine Arts, Boston.', works: ['hopper-andersons'] },
+    text: 'A tall yellow Italianate house just up Western Avenue from Stacy Boulevard [[ryan]] [[cam_hopper]]. The watercolor is at the Museum of Fine Arts, Boston.', works: ['hopper-andersons'] },
   { name: 'The Fort', addr: 'Fort Square, off Commercial Street', ll: [42.60832, -70.66457], who: '<i>Italian Quarter, Gloucester</i>, 1912',
     text: 'On his first visit, in 1912, Hopper painted the fishermen’s houses of the Fort, Gloucester’s Italian neighborhood [[ryan]].', works: ['hopper-italian-quarter'] },
   { name: 'Haskell’s House', addr: '316 Main Street, at Prospect Street', ll: [42.61595, -70.65585], who: '<i>Haskell’s House</i>, 1924',
@@ -307,7 +327,7 @@ trails: [
   { name: 'Sun on Prospect Street', addr: '98–102 Prospect Street', ll: [42.61593, -70.66034], who: '<i>Sun on Prospect Street</i>, 1934',
     text: 'An oil, at the Cincinnati Art Museum [[ryan]].', works: ['hopper-prospect'] },
   { name: 'Freight cars and the box factory', addr: 'Maplewood Avenue and Cleveland Street', ll: [42.61943, -70.66763], who: '<i>Freight Cars</i> and <i>Box Factory</i>, 1928',
-    text: 'The rail yard by the station gave Hopper <i>Freight Cars, Gloucester</i>; the box factory on Cleveland Street has been torn down [[ryan]]. The station is the end of the walk, with trains back to Boston.', works: ['hopper-freight-cars', 'hopper-box-factory'] },
+    text: 'The rail yard by the station gave Hopper <i>Freight Cars, Gloucester</i>, with the steeple of St. Ann’s Church behind the cars [[cam_hopper]]; the box factory on Cleveland Street has been torn down [[ryan]]. The station is the end of the walk, with trains back to Boston.', works: ['hopper-freight-cars', 'hopper-box-factory'] },
   { name: 'The Mansard Roof', addr: '2 Clarendon Street, Rocky Neck', ll: [42.60666, -70.65874], who: '<i>The Mansard Roof</i>, 1923',
     text: 'The Brooklyn Museum bought this watercolor after its 1923 show. The house was part of Augustus Wonson’s estate [[rnat_pdf]].', works: ['hopper-mansard'] },
   { name: 'Above Cripple Cove', addr: 'East Main Street, East Gloucester', ll: [42.61505, -70.6484], approx: true, who: '<i>Gloucester Harbor</i>, 1912',
@@ -392,6 +412,8 @@ photographers: {
     text: 'Parks photographed Gloucester’s fishing families at home and went to sea with the crew of the <i>Alden</i>, who laid their nets by hand from dories. The assignment was part of a wartime project on food production [[parks]]. The photographs are in the Library of Congress.' },
   { name: 'Arthur Rothstein', life: '1915–1985', when: '1937, for the Farm Security Administration',
     text: 'Rothstein photographed the fishing boats and docks in the fall of 1937; prints are in the New York Public Library and the Library of Congress [[nypl_rothstein]].' },
+  { name: 'Lee Friedlander', life: 'born 1934', when: '1981',
+    text: 'Friedlander photographed the city in 1981; the Museum of Modern Art owns <i>Gloucester, Massachusetts</i> of that year [[moma_friedlander]].' },
   { name: 'Carl Chiarenza', life: 'born 1935', when: '1962',
     text: 'Chiarenza, later Siskind’s biographer, photographed in Gloucester as a young man; the Whitney owns his <i>Gloucester Window, Sailing Ship</i> of 1962 [[whitney_chiarenza]].' }
   ]
@@ -426,6 +448,58 @@ teachers: {
   field: ['Check the access notes on each site page: several historic viewpoints are on private land.', 'Good Harbor and Wingaersheek beaches charge for parking in summer, and non-residents must reserve.', 'Ask the Cape Ann Museum about school visits before planning a trip around its galleries.', 'Mind the tide: the harbor range averages nearly 9 feet. Keep students off wet ledges.']
 },
 
+
+/* ------------------------------------------------------------------ painters */
+painters: {
+  lead: 'Cape Ann’s painters arrived by invitation more often than by chance. A teacher brought his class, a friend found a cottage, an older painter asked two young ones to come for the summer. These are their lives on Cape Ann, and the chains that brought them.',
+  chains: [
+    { title: 'Lane’s circle', years: '1850s', steps: ['William R. G. Mellen', 'took the Universalist pulpit, 1855', 'Mary Blood Mellen', 'worked beside him', 'Fitz Henry Lane'], src: '[[cam_mellen]]' },
+    { title: 'Duveneck to Hopper', years: '1890–1923', steps: ['Frank Duveneck', 'brought, 1890s', 'John H. Twachtman', 'taught', 'Leon Kroll', 'came with, 1912', 'Edward Hopper', 'courted here, 1923', 'Josephine Nivison'], src: '[[cam_duveneck]] [[cam_kroll]] [[cam_hopper]]' },
+    { title: 'The red cottage', years: '1914–1934', steps: ['Charles Allan Winter', 'urged him to come, 1914', 'John Sloan', 'invited, 1915', 'Stuart Davis'], src: '[[cam_sloan]] [[cam_davis]]' },
+    { title: 'East Gloucester friends', years: '1919–1926', steps: ['Ellen Day Hale', 'lent a Folly Cove cottage, early 1920s', 'Theresa Bernstein and William Meyerowitz', 'hosted', 'Milton Avery', 'next-door studio, 1924', 'Sally Michel'], src: '[[cam_bernstein]] [[rnat_pdf]] [[rnat_avery]]' },
+    { title: 'Avery’s young friends', years: '1932–1945', steps: ['Milton Avery', 'invited, 1932', 'Mark Rothko, Adolph Gottlieb and Barnett Newman', 'a studio, 1944; a shared summer, 1945', 'Aaron Siskind'], src: '[[cam_avery]] [[siskind]]' }
+  ],
+  people: [
+  { id: 'lane', name: 'Fitz Henry Lane', life: '1804–1865', here: 'Born in Gloucester; painted it 1840s–1865', g: 'lane', works: ['lane-harbor-1852', 'lane-braces-rock'],
+    text: 'Gloucester’s own painter learned his trade in the lithography shops before turning to oil, and came home to paint the harbor for two decades [[cam_mellen]]. The Cape Ann Museum holds 40 of his paintings, his first known work (a watercolor of 1830), about 100 drawings and all three of his lithographed views of the town [[cam_lane]]. He worked from careful measured drawings, then painted several canvases from each; see site 4.' },
+  { id: 'mellen', name: 'Mary Blood Mellen', life: '1819–1886', here: 'Working with Lane from the mid-1850s', g: 'lane', works: ['mellen-gloucester-harbor', 'mellen-field-beach'],
+    text: 'Born in Vermont and schooled in watercolor at a girls’ academy, Mellen married a Universalist minister in 1840. When his brother took the Gloucester pulpit in 1855, she came into Lane’s orbit and was soon working beside him, free to copy his drawings and sometimes his canvases. One painting carries both signatures. The museum notes she is often called a “copyist”, and that Lane plainly respected her work [[cam_mellen]].' },
+  { id: 'hunt', name: 'William Morris Hunt', life: '1824–1879', here: 'Summer studio at Magnolia, 1870s', g: 'hunt_bricher', works: ['hunt-gloucester-harbor', 'hunt-sand-bank'],
+    text: 'Hunt brought the French Barbizon painters’ ideas to Boston and taught John La Farge and both William and Henry James. His summer studio in Magnolia drew other artists to Cape Ann, and from 1868 he opened his classes to women, many from Boston’s leading families [[cam_hunt]].' },
+  { id: 'homer', name: 'Winslow Homer', life: '1836–1910', here: 'Summers of 1873 and 1880', g: 'homer', works: ['homer-breezing-up', 'homer-eastern-point-light'],
+    text: 'Homer left the studio in Gloucester. In 1873 he painted outdoors and made himself a master of watercolor, almost to the exclusion of oil; in 1880 he boarded on Ten Pound Island in the middle of the harbor [[cam_homer]]. Both summers are on the guide’s map as sites 1 and 2.' },
+  { id: 'duveneck', name: 'Frank Duveneck', life: '1848–1919', here: 'About fifteen summers from 1890', g: 'others', works: ['duveneck-horizon', 'duveneck-braces-rock'],
+    text: 'In 1890 the Kentucky-born painter brought a summer class of students from Boston and the Cincinnati Academy, apparently the first large class of its kind in town, and he went on to paint about a hundred Gloucester pictures [[antiques]]. He drew others after him, among them Theodore Wendel, Joseph DeCamp, John W. Alexander and John Twachtman. He is said to have kept two studios, one for the morning light and one for the afternoon [[cam_duveneck]].' },
+  { id: 'twachtman', name: 'John H. Twachtman', life: '1853–1902', here: 'Summers of 1900–1902, East Gloucester', g: 'twachtman', works: ['twachtman-fishing-boats', 'twachtman-nbmaa'],
+    text: 'Twachtman spent his last summers at the Harbor View Hotel in East Gloucester, painting the boats and wharves. His view of the hotel from the end of its pier was on his easel when he died there in August 1902 [[jht_201]]; Duveneck had been painting beside him only days before [[antiques]]. Through his pupil Leon Kroll, his influence reached Edward Hopper [[cam_kroll]].' },
+  { id: 'beaux', name: 'Cecilia Beaux', life: '1855–1942', here: 'Eastern Point, mid-1880s–1942', g: 'others', works: ['beaux-half-tide'],
+    text: 'Philadelphia’s great portraitist, and from 1895 to 1915 the first woman to teach at the Pennsylvania Academy, Beaux first came with her family in the mid-1880s and stayed at the Fairview Inn. Fame cost her privacy, so in 1903 she rented a cottage on Eastern Point and by 1906 had built Green Alley, her house and studio there. Her 1930 memoir, <i>Background with Figures</i>, credits her family for planting what grew for her in Gloucester [[cam_beaux]].' },
+  { id: 'prendergast', name: 'Maurice Prendergast', life: '1858–1924', here: 'About 1907–1923', g: 'prendergast', works: ['prendergast-barnes', 'prendergast-glimpse'],
+    text: 'Prendergast made more than 2,300 paintings and drawings, many of them New England beaches. In his Gloucester watercolors a loose pencil sketch guided rather than governed the brush: he changed his mind as he went, so that figures turned into rocks, and he sharpened edges with touches of pastel [[cam_prendergast]].' },
+  { id: 'kroll', name: 'Leon Kroll', life: '1884–1974', here: '1912; Folly Cove from the 1930s', g: null, works: [],
+    text: 'Twachtman’s student at the Art Students League, Kroll found Cézanne in Paris and showed at the 1913 Armory Show [[cam_kroll]]. He brought Edward Hopper to Gloucester in 1912 [[cam_hopper]]. From the 1930s he and his wife Genevieve summered at Folly Cove near Halibut Point, bought a house there in 1944, and counted Paul Manship, Walker Hancock and Virginia Lee Burton among their friends [[cam_kroll]]. He also painted the Bass Rocks footbridge that Rothko later sketched [[cr_918]].' },
+  { id: 'hopper', name: 'Edward Hopper', life: '1882–1967', here: '1912, 1923, 1924, 1926 and 1928', g: 'modern', works: ['hopper-mansard', 'hopper-haskells-house'],
+    text: 'Hopper’s 1912 oils are solid and dark. In 1923 he courted Josephine Nivison here and, at her urging, took up watercolor; the next summer the newlyweds came back on an extended honeymoon, exploring by foot and streetcar [[cam_hopper]]. By 1928 his Gloucester sales had bought him a car [[ryan]]. The <a href="{up}trails/hopper.html">Hopper trail</a> finds twelve of his subjects.' },
+  { id: 'sloan', name: 'John Sloan', life: '1871–1951', here: 'Summers of 1914–1918', g: 'modern', works: [],
+    text: 'After the 1913 Armory Show, the Ashcan painter went looking for new ground. His friend Charles Winter urged Gloucester, and from 1914 Sloan rented a little red cottage at the head of Rocky Neck for five summers. It filled with painters: Stuart Davis, Agnes Richmond, Charles and Alice Beach Winter, Paul Cornoyer, Paul Tietjens. The Cape Ann Museum owns eight of his Gloucester pictures [[cam_sloan]]. The cottage still stands at 252 East Main Street [[rnat_pdf]].' },
+  { id: 'davis', name: 'Stuart Davis', life: '1892–1964', here: 'Summers of 1915–1934', g: 'modern', works: [],
+    text: 'Sloan invited him in 1915, and Davis called Gloucester “the place I had been looking for”. He came back for many summers through 1934, drawn to the schooners and the clutter of the docks. In time he left the easel and canvases behind and went out with only a sketchbook and pen, and in Gloucester he began combining several views and moments in one picture, the Cubist idea that runs through his later work [[cam_davis]].' },
+  { id: 'demuth', name: 'Charles Demuth', life: '1883–1935', here: 'Summer of 1919', g: 'modern', works: ['demuth-gloucester', 'demuth-box-of-tricks'],
+    text: 'In 1919 Demuth painted Gloucester’s masts, roofs and church towers outdoors, cutting them into the ruled, transparent planes that became Precisionism [[pafa_box]]. The RISD Museum’s <i>Gloucester</i> has released its image to the public domain [[risd_demuth]].' },
+  { id: 'hartley', name: 'Marsden Hartley', life: '1877–1943', here: '1920, 1931 and 1934', g: 'modern', works: [],
+    text: 'Hartley shunned the busy waterfront for Dogtown, the abandoned colonial settlement in the middle of Cape Ann, which he thought looked like a cross between Easter Island and Stonehenge. He wrote poems on the backs of some of the paintings [[cam_hartley]]. In 1931 he boarded with the Wilkens family at 9 Rocky Neck Avenue, treating the summer as a warm-up for a Guggenheim-funded trip to Mexico [[rnat_pdf]].' },
+  { id: 'bernstein', name: 'Theresa Bernstein and William Meyerowitz', life: '1890–2002 · 1887–1981', here: 'Summers from 1916 and 1919', g: 'colony', works: ['bernstein-rabbits', 'meyerowitz-town-street'],
+    text: 'Bernstein first came in 1916 on a friend’s advice. Meyerowitz, born in Russia, had paid for his training by singing in the Metropolitan Opera; the two met through the People’s Art Guild and married in 1919 [[cam_meyerowitz]]. In the early 1920s Ellen Day Hale lent them a Folly Cove cottage, and Bernstein’s <i>New England Ladies</i> (1925) records an elderberry-wine party there, guest by guest [[cam_bernstein]]. Meyerowitz’s <i>Gloucester Humoresque</i> marks the founding in 1922 of the North Shore Arts Association, which juried its shows, and the Gloucester Society of Artists, which proudly did not [[cam_meyerowitz]].' },
+  { id: 'avery', name: 'Milton Avery', life: '1885–1965', here: 'Most summers from 1920 to 1945', g: 'avery', works: ['avery-dawn'],
+    text: 'Avery’s first Gloucester pictures still owe something to Twachtman; over his Cape Ann summers the forms flattened and the color took over. He held to one rule: simplify anything, invent nothing. In 1932 he brought his young friends Gottlieb, Rothko and Barnett Newman [[cam_avery]]. The museum dates his first visit to 1920; the Rocky Neck Art Colony says 1921 [[rnat_avery]].' },
+  { id: 'rothko', name: 'Mark Rothko', life: '1903–1970', here: '1932, 1934 and 1945', g: 'avery', works: ['rothko-wharf-cam', 'rothko-handball'],
+    text: 'In 1934 Rothko and his wife, Edith Sachar, reached Gloucester before the Gottliebs and took the Calder Street house the Gottliebs had wanted [[cr_4098]]. He painted the fish wharfs from Banner Hill, the bathers, and his friends at handball; the catalogue raisonné lists 38 Gloucester sheets [[cr_search]]. In 1965 he gave the memorial address for Avery, calling him above all a great poet [[cam_avery]]. The <a href="{up}trails/rothko.html">Rothko trail</a> has every sheet you can see.' },
+  { id: 'gruppe', name: 'Emile Gruppé', life: '1896–1978', here: 'Rocky Neck from 1929', g: 'colony', works: ['gruppe-draggers'],
+    text: 'Gruppé opened the Gloucester School of Art on Rocky Neck in 1929 and ran it for thirty years. His advice to students: think of a shape first, not of a horse or a tree or a boat [[cam_gruppe]].' },
+  { id: 'blaine', name: 'Nell Blaine', life: '1922–1996', here: '1943; Rocky Neck 1954 and 1958; East Gloucester 1974–1996', g: 'later', works: ['blaine-harbor-green-cloth', 'blaine-wharf-studio'],
+    text: 'A Hans Hofmann student and a founder of New York’s Jane Street Gallery, Blaine first came in 1943 and rented Rocky Neck studios in 1954 and 1958. <i>Time</i> named her one of five leading women artists in America in 1957. Two years later polio left her in a wheelchair; she learned to paint again, and from 1974 summered at Eudora Cottage in East Gloucester, painting her garden, the ledges and the harbor [[cam_blaine]].' }
+  ]
+},
 /* ------------------------------------------------------------------ gallery */
 gallery: {
   lead: 'Paintings made at the guide’s sites by visitors and local painters. Every entry is sent in by the painter, checked by hand and published with their permission.',
@@ -451,7 +525,7 @@ pt: { lang: 'pt-PT', name: 'Português', title: 'Pintar Gloucester: guia de camp
     'coffins-beach': ['The Loaf, ao longo de Coffin’s Beach', 'Lane desenhou a vista das rochas do Loaf em agosto de 1862. Não verificámos o acesso à praia. Esteja no lugar antes do nascer do sol e pinte os primeiros vinte minutos.'],
     'eastern-point': ['Eastern Point, a olhar para a cidade', 'Frank Duveneck pintou o horizonte da cidade a partir de Eastern Point. O farol é da Guarda Costeira e está fechado. Não suba ao quebra-mar de Dog Bar quando as ondas passam por cima das pedras.'],
     'annisquam': ['Farol de Annisquam, na foz do rio', 'H. Bolton Jones pintou a praia junto ao farol. Hoje o farol vê-se da praia de Wingaersheek, do outro lado do rio, onde o estacionamento de verão tem de ser reservado.'],
-    'harbor-view': ['Wonson’s Cove, a última tela de Twachtman', 'John Twachtman pintou o Harbor View Hotel da ponta do cais do hotel; o quadro estava no cavalete quando morreu, a 4 de agosto de 1902. O hotel desapareceu; o lugar fica na Eastern Point Road, a pé desde Rocky Neck.']
+    'harbor-view': ['Wonson’s Cove, a última tela de Twachtman', 'John Twachtman pintou o Harbor View Hotel da ponta do cais do hotel; o quadro estava no cavalete quando morreu, em agosto de 1902. O hotel desapareceu; o lugar fica na Eastern Point Road, a pé desde Rocky Neck.']
   } },
 it: { lang: 'it', name: 'Italiano', title: 'Dipingere Gloucester: guida sul campo', kicker: 'In italiano',
   lead: 'Una guida gratuita per dipingere a Cape Ann, nel Massachusetts: i luoghi dove hanno lavorato i grandi pittori americani, dove guardavano e come arrivarci oggi.',
@@ -470,7 +544,7 @@ it: { lang: 'it', name: 'Italiano', title: 'Dipingere Gloucester: guida sul camp
     'coffins-beach': ['The Loaf, lungo Coffin’s Beach', 'Lane disegnò la veduta dagli scogli del Loaf nell’agosto 1862. Non abbiamo verificato l’accesso alla spiaggia. Siate sul posto prima dell’alba e dipingete i primi venti minuti.'],
     'eastern-point': ['Eastern Point, verso la città', 'Frank Duveneck dipinse il profilo della città da Eastern Point. Il faro appartiene alla Guardia Costiera ed è chiuso. Non salite sul frangiflutti di Dog Bar quando le onde superano le pietre.'],
     'annisquam': ['Il faro di Annisquam, alla foce del fiume', 'H. Bolton Jones dipinse la spiaggia accanto al faro. Oggi il faro si vede dalla spiaggia di Wingaersheek, sull’altra riva, dove d’estate il parcheggio va prenotato.'],
-    'harbor-view': ['Wonson’s Cove, l’ultima tela di Twachtman', 'John Twachtman dipinse l’Harbor View Hotel dalla punta del molo dell’albergo; il quadro era sul cavalletto quando morì, il 4 agosto 1902. L’albergo non c’è più; il luogo è in Eastern Point Road, a piedi da Rocky Neck.']
+    'harbor-view': ['Wonson’s Cove, l’ultima tela di Twachtman', 'John Twachtman dipinse l’Harbor View Hotel dalla punta del molo dell’albergo; il quadro era sul cavalletto quando morì, nell’agosto 1902. L’albergo non c’è più; il luogo è in Eastern Point Road, a piedi da Rocky Neck.']
   } }
 }
 };

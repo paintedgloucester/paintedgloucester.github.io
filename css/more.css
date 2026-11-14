@@ -318,3 +318,5 @@ body[data-view="map"] .foot{ display:none; }
 .morel a:hover{ border-color:#1F3A52; } .morel .kicker{ margin:0; }
 .morel b{ font:600 22px/1.15 'Cormorant', serif; color:#1F3A52; } .morel a > span:last-child{ font:13.5px/1.5 Inter, sans-serif; color:#5F5E58; }
 .morel-lang{ font:600 13.5px Inter, sans-serif; margin:14px 0 6px; } .morel-lang a{ display:inline-block; padding:8px 0; }
+.sec-h .sec-more{ float:right; font:600 12.5px Inter, sans-serif; letter-spacing:0; text-transform:none; color:var(--navy); text-decoration:none; border-bottom:1px solid #9DB3C6; }
+@media (max-width:600px){ .sec-h .sec-more{ float:none; display:inline-block; margin-top:4px; padding:10px 0; } }
