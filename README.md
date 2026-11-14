@@ -26,6 +26,7 @@ js/explorer.js      chart, sun, viewer, works browser
 js/more.js          home, shops on the chart, location, passport, camera, color lab
 js/guide.js         palettes, light, conditions, kit, prompts, itineraries
 js/places.js        shops, schools, galleries and events  <- most edits happen here
+js/home-trails.js   home page: trail explorer map, who-brought-whom, harbor words, today's light (reads js/trailhome.js, generated)
 js/extras.js        trails, waterfront, winter, photographers, teachers, gallery entries, Portuguese and Italian text
 img/, thumbs/       public-domain painting images (img/m/ and *.webp are smaller copies made by tools/images.py)
 fonts/              the three typefaces, subset to the characters the site uses
