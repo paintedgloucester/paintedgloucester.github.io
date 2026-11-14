@@ -46,7 +46,7 @@ svg#map.drag{ cursor:grabbing; }
 #map .sunc{ fill:var(--sun); stroke:#C9962E; stroke-width:1.2; } #map .sunc.down{ fill:#C8CFD6; stroke:#9AA6B2; }
 #map .arr{ fill:var(--sunl); } #map .arr.down{ fill:#9AA6B2; }
 .mapctl{ position:absolute; right:14px; top:14px; display:flex; flex-direction:column; gap:6px; z-index:3; }
-.mapctl button{ width:40px; height:40px; border-radius:8px; border:1px solid var(--rule); background:#fff; font:600 20px Inter, sans-serif; color:var(--navy); cursor:pointer; box-shadow:0 1px 4px rgba(0,0,0,.12); display:grid; place-items:center; }
+.mapctl button{ width:44px; height:44px; border-radius:8px; border:1px solid var(--rule); background:#fff; font:600 20px Inter, sans-serif; color:var(--navy); cursor:pointer; box-shadow:0 1px 4px rgba(0,0,0,.12); display:grid; place-items:center; }
 .mapctl button.small{ font-size:11px; letter-spacing:.04em; }
 .north{ position:absolute; right:22px; bottom:44px; text-align:center; font:600 11px Inter, sans-serif; color:var(--ink); pointer-events:none; }
 .scale{ position:absolute; left:10px; bottom:12px; background:rgba(251,248,242,.85); padding:4px 6px 5px; border-radius:4px; font:11px Inter, sans-serif; color:var(--ink); pointer-events:none; }
@@ -62,7 +62,7 @@ h1.disp{ font-size:34px; } h2.disp{ font-size:30px; }
 .lead{ font-size:18.5px; line-height:1.45; }
 .small{ font-size:15px; color:var(--muted); }
 h4{ font-family:Inter, sans-serif; font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--ochre); margin:20px 0 6px; font-weight:600; }
-.chip{ display:inline-block; font-family:Inter, sans-serif; font-size:10.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; padding:3px 8px; border-radius:3px; }
+.chip{ display:inline-block; font-family:Inter, sans-serif; font-size:11px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; padding:3px 8px; border-radius:3px; }
 .chip.documented{ background:#E1EFE6; color:#1F4D38; } .chip.approx{ background:#F6E8D6; color:#6E4316; } .chip.secondary, .chip.inferred{ background:#EEEAE2; color:#5F5E58; }
 .sitelist{ list-style:none; margin:14px 0 0; padding:0; border-top:1px solid var(--rule); }
 .sitelist li{ border-bottom:1px solid var(--rule); }
@@ -101,7 +101,7 @@ h4{ font-family:Inter, sans-serif; font-size:11.5px; letter-spacing:.1em; text-t
 .sunrow input[type=date]{ font:13px Inter, sans-serif; padding:5px 6px; border:1px solid var(--rule); border-radius:6px; background:#fff; color:var(--ink); }
 .sunrow select{ font:13px Inter, sans-serif; padding:5px 6px; border:1px solid var(--rule); border-radius:6px; background:#fff; }
 input[type=range]{ width:100%; accent-color:var(--sunl); margin:10px 0 2px; height:28px; }
-.timeaxis{ display:flex; justify-content:space-between; font:10.5px Inter, sans-serif; color:#8A877F; }
+.timeaxis{ display:flex; justify-content:space-between; font:11px Inter, sans-serif; color:#8A877F; }
 .sunread{ display:grid; grid-template-columns:auto minmax(0,1fr); gap:4px 12px; margin-top:10px; font:13.5px Inter, sans-serif; }
 .sunread .k{ color:var(--muted); } .sunread .v{ color:var(--ink); font-weight:500; }
 .sunread .big{ font-family:'Cormorant', serif; font-size:26px; font-weight:600; color:var(--navy); grid-column:1/-1; line-height:1.1; }
@@ -114,7 +114,7 @@ input[type=range]{ width:100%; accent-color:var(--sunl); margin:10px 0 2px; heig
 .pal button{ flex:1; border:0; cursor:pointer; position:relative; padding:0; }
 .pal button:hover::after, .pal button:focus::after{ content:attr(data-hex); position:absolute; bottom:100%; left:50%; transform:translateX(-50%); margin-bottom:4px; background:var(--ink); color:#fff; font:11px Inter, sans-serif; padding:2px 6px; border-radius:3px; white-space:nowrap; }
 .palk{ font:11px Inter, sans-serif; color:var(--muted); margin-top:4px; }
-sup.nr{ font:600 10.5px Inter, sans-serif; color:var(--ochre); cursor:pointer; padding:0 2px; line-height:0; }
+sup.nr{ font:600 11px Inter, sans-serif; color:var(--ochre); cursor:pointer; padding:0 2px; line-height:0; }
 sup.nr:hover{ text-decoration:underline; }
 /* ---------- works view ---------- */
 #worksview{ padding:0 0 60px; }
@@ -134,8 +134,8 @@ sup.nr:hover{ text-decoration:underline; }
 .timeline .bar{ background:#B9C7D3; border-radius:2px 2px 0 0; min-height:2px; transition:height .2s; }
 .timeline button:hover .bar{ background:#8FA6BA; }
 .timeline button.on .bar{ background:var(--ochre); }
-.timeline .yl{ font:10.5px Inter, sans-serif; color:var(--muted); text-align:center; padding-top:3px; white-space:nowrap; }
-.timeline .nc{ font:600 10px Inter, sans-serif; color:var(--navy); text-align:center; padding-bottom:2px; }
+.timeline .yl{ font:11px Inter, sans-serif; color:var(--muted); text-align:center; padding-top:3px; white-space:nowrap; }
+.timeline .nc{ font:600 11px Inter, sans-serif; color:var(--navy); text-align:center; padding-bottom:2px; }
 .wmeta{ display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; font:13px Inter, sans-serif; color:var(--muted); margin-top:8px; }
 .wmeta button{ font:500 13px Inter, sans-serif; background:none; border:0; color:var(--navy); cursor:pointer; padding:0; text-decoration:underline; }
 .grid{ max-width:1320px; margin:0 auto; padding:22px 24px; display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); gap:22px; }
@@ -150,7 +150,7 @@ sup.nr:hover{ text-decoration:underline; }
 .card .by{ font:12.5px Inter, sans-serif; color:var(--ink); margin-top:4px; }
 .card .mu{ font:12px Inter, sans-serif; color:var(--muted); margin-top:2px; }
 .card .badges{ margin-top:6px; display:flex; gap:5px; flex-wrap:wrap; }
-.badge{ font:600 9.5px Inter, sans-serif; letter-spacing:.05em; text-transform:uppercase; padding:2px 6px; border-radius:3px; background:#EEEAE2; color:#5F5E58; }
+.badge{ font:600 11px Inter, sans-serif; letter-spacing:.05em; text-transform:uppercase; padding:2px 6px; border-radius:3px; background:#EEEAE2; color:#5F5E58; }
 .badge.site{ background:#F6E8D6; color:#6E4316; }
 .empty{ text-align:center; padding:60px 20px; font-size:18px; color:var(--muted); grid-column:1/-1; }
 /* ---------- viewer ---------- */
@@ -232,7 +232,7 @@ svg.map .msbf{ fill:#1E2630; } svg.map .msbt{ font:11px Inter, sans-serif; fill:
   .grid{ grid-template-columns:repeat(2, minmax(0,1fr)); gap:12px; padding:14px; }
   .card .im{ height:130px; } .card .tt{ font-size:15.5px; }
   .wbar .in{ padding:10px 14px 8px; }
-  .timeline .yl{ font-size:9px; }
+  .timeline .yl{ font-size:11px; } .timeline .yl .s{ display:none; }
   .wbar{ position:static; }
   .achips{ flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; padding-bottom:2px; } .achips button{ flex:none; }
   .timeline{ height:64px; }
