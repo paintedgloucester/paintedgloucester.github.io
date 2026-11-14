@@ -4,8 +4,8 @@
 import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import vm from 'node:vm';
 const ROOT = process.cwd(), ORIGIN = 'https://paintedgloucester.github.io';
 const ctx = { window: {} }; vm.createContext(ctx);
-for (const f of ['data.js', 'places.js', 'guide.js']) vm.runInContext(fs.readFileSync(`js/${f}`, 'utf8'), ctx);
-const D = ctx.window.DATA, P = ctx.window.PLACES, G = ctx.window.PG_GUIDE;
+for (const f of ['data.js', 'places.js', 'guide.js', 'extras.js']) vm.runInContext(fs.readFileSync(`js/${f}`, 'utf8'), ctx);
+const D = ctx.window.DATA, P = ctx.window.PLACES, G = ctx.window.PG_GUIDE, X = ctx.window.PG_EXTRAS;
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const strip = h => String(h ?? '').replace(/<sup class="nr"[^>]*>.*?<\/sup>/g, '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const WBY = Object.fromEntries(D.works.map(w => [w.id, w]));
@@ -17,10 +17,10 @@ const today = new Date().toISOString().slice(0, 10);
 const DEFAULT_IMG = 'img/lane-braces-rock.jpg', DEFAULT_ALT = "Fitz Henry Lane, Brace's Rock, Eastern Point, Gloucester, about 1864";
 const ICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231F3A52'/%3E%3Cpath d='M8 44c10-6 16-6 24 0s14 6 24 0' stroke='%23E3B97C' stroke-width='4' fill='none'/%3E%3Ccircle cx='44' cy='20' r='7' fill='%23E3B97C'/%3E%3C/svg%3E`;
 const written = [];
-function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, type = 'website', ld, body, crumbs = [] }) {
+function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, type = 'website', ld, body, crumbs = [], lang = 'en', alt = null, head = '', tail = '' }) {
   const up = '../'.repeat(file.split('/').length - 1), url = `${ORIGIN}/${file.replace(/index\.html$/, '')}`;
   const html = `<!DOCTYPE html>
-<html lang="en">
+<html lang="${lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -38,13 +38,13 @@ function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${ORIGIN}/${image}">
 <meta name="theme-color" content="#1F3A52">
-${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n` : ''}<link rel="stylesheet" href="${up}css/fonts.css">
+${alt ? Object.entries(alt).map(([l, f]) => `<link rel="alternate" hreflang="${l}" href="${ORIGIN}/${f.replace(/index\.html$/, '')}">`).join('\n') + '\n' : ''}${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n` : ''}<link rel="stylesheet" href="${up}css/fonts.css">
 <link rel="stylesheet" href="${up}css/pages.css">
-</head>
+${head ? head(up) : ''}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><a class="brand" href="${up}./">Painted Gloucester<small>Cape Ann · Massachusetts</small></a>
-<nav aria-label="Sections"><a href="${up}#map">Map</a><a href="${up}works/">Paintings</a><a href="${up}sites/">Sites</a><a href="${up}shops.html">Shops</a><a href="${up}field-notes.html">Field notes</a><a href="${up}brief.html">Brief</a></nav></header>
+<nav aria-label="Sections"><a href="${up}#map">Map</a><a href="${up}works/">Paintings</a><a href="${up}sites/">Sites</a><a href="${up}trails/">Trails</a><a href="${up}shops.html">Shops</a><a href="${up}field-notes.html">Field notes</a><a href="${up}brief.html">Brief</a></nav></header>
 <main id="main">
 ${crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><a href="${up}./">Home</a>${crumbs.map(([n, h]) => ` <span aria-hidden="true">›</span> ${h ? `<a href="${up}${h}">${esc(n)}</a>` : `<span>${esc(n)}</span>`}`).join('')}</nav>` : ''}
 ${body(up)}
@@ -52,9 +52,10 @@ ${body(up)}
 <footer class="foot"><div class="foot-in">
  <div><b class="foot-b">Painted Gloucester</b><p>A free field guide to painting Cape Ann, Massachusetts. Listings last checked ${esc(P.checked)}.</p><p><a href="https://github.com/paintedgloucester/paintedgloucester.github.io/issues/new?template=listing.yml">Suggest a listing or send a correction ↗</a></p></div>
  <div><b class="foot-h">Explore</b><ul><li><a href="${up}./">The interactive guide</a></li><li><a href="${up}works/">All ${D.works.length} paintings</a></li><li><a href="${up}sites/">The nine sites, with directions</a></li><li><a href="${up}shops.html">Shops, studios and events</a></li><li><a href="${up}field-notes.html">Palettes, light and painting days</a></li><li><a href="${up}brief.html">The research brief</a></li></ul></div>
+ <div><b class="foot-h">More guides</b><ul><li><a href="${up}trails/">Walking and driving trails</a></li><li><a href="${up}waterfront.html">The working waterfront</a></li><li><a href="${up}winter.html">Painting in winter</a></li><li><a href="${up}photographers.html">The photographers</a></li><li><a href="${up}teachers.html">For teachers</a></li><li><a href="${up}gallery.html">Visitors’ gallery</a></li><li><a href="${up}pt/" hreflang="pt-PT" lang="pt-PT">Em português</a> · <a href="${up}it/" hreflang="it" lang="it">In italiano</a></li></ul></div>
  <div><b class="foot-h">Credits and license</b><p>Painting images are public-domain releases by the museums that hold the works, credited beside each image. Coastline: MassGIS. Place points © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p><p>Text and data © Painted Gloucester, free to reuse with credit under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="${up}LICENSE.md">License details</a>.</p></div>
 </div></footer>
-</body>
+${tail ? tail(up) : ''}</body>
 </html>
 `;
   fs.mkdirSync(path.dirname(path.join(ROOT, file)), { recursive: true }); fs.writeFileSync(path.join(ROOT, file), html); written.push(file);
@@ -80,7 +81,7 @@ ${w.img ? `<figure class="plate"><a href="${up}#work-${w.id}"><img src="${up}img
   : `<div class="plate none"><p class="k">${w.pd ? 'Image not included here' : 'Image at the museum · not openly licensed'}</p><p class="big"><i>${esc(w.t)}</i></p><a class="btn gold" href="${esc(w.url)}">View at the ${esc(mus(w))} ↗</a></div>`}
 <div class="btnrow"><a class="btn solid" href="${up}#work-${w.id}">${w.img ? 'Open in the guide: zoom and sample colors' : 'Open in the guide'}</a><a class="btn" href="${esc(w.url)}">${w.img ? 'Museum page ↗' : 'View at the museum ↗'}</a>${site ? `<a class="btn" href="${up}sites/${site.id}.html">Where it was painted (site ${site.n})</a>` : ''}</div>
 <dl class="facts"><dt>Medium</dt><dd>${esc(w.med)}</dd><dt>Collection</dt><dd>${esc(w.mus)}</dd><dt>Accession no.</dt><dd>${esc(w.acc)}</dd>${w.place ? `<dt>Place</dt><dd>${esc(w.place)}</dd>` : ''}<dt>Record checked</dt><dd>${esc(w.st)}</dd><dt>Image rights</dt><dd>${w.pd ? 'Public-domain image' + (w.img ? '' : ' (not included here)') : 'Not released for reuse by the museum, or still in copyright: see the museum page'}</dd></dl>
-${w.n && D.notes[w.n] ? `<div class="note"><b>Source · <a href="${up}brief.html#note-${w.n}">note ${w.n}</a></b> ${D.notes[w.n]}</div>` : ''}
+${w.n && D.notes[w.n] ? `<div class="note"><b>Source · <a href="${up}brief.html#note-${w.n}">note ${w.n}</a></b><p>${D.notes[w.n]}</p></div>` : ''}
 <nav class="pager" aria-label="More paintings">${prev ? `<a href="${prev.id}.html">‹ ${esc(prev.t)}<small>${esc(prev.by)}, ${esc(prev.d)}</small></a>` : '<span></span>'}${next ? `<a class="nx" href="${next.id}.html">${esc(next.t)} ›<small>${esc(next.by)}, ${esc(next.d)}</small></a>` : '<span></span>'}</nav>
 </article>` });
 });
@@ -145,6 +146,9 @@ page({ file: 'field-notes.html', title: 'Field notes: palettes, light, condition
 <section class="grp"><h2>Good manners on the shore</h2><ul>${G.manners.map(m => `<li>${esc(m)}</li>`).join('')}</ul></section>
 <section class="grp"><h2>Four painting days</h2><p class="small measure">Each day pairs a museum or supply stop with sites timed to the light. Check the access notes on each site first: several vantage points are on private land or reachable only by water.</p>${G.days.map(d => `<article class="day"><h3>${esc(d.name)}</h3><p>${esc(d.sum)}</p><ol class="steps">${d.steps.map(([tm, n, t, ref]) => { const [k, v] = (ref || '').split(':'); const link = k === 'site' ? `<a href="${up}sites/${v}.html">Site page →</a>` : k === 'place' ? `<a href="${up}shops.html#${v}">Listing →</a>` : ''; return `<li><span class="tm">${esc(tm)}</span><div><b>${esc(n)}</b><p>${esc(t)} ${link}</p></div></li>`; }).join('')}</ol></article>`).join('')}</section>` });
 
+/* ---------- trails, seasons, waterfront, photographers, teachers, gallery, translations ---------- */
+await import('./extras.mjs').then(m => m.default({ page, esc, strip, WBY, D, P, X, ORIGIN, dir, mus, SITE_OF, ctx, fs }));
+
 /* ---------- sitemap ---------- */
 const urls = ['', 'brief.html', 'Painted-Gloucester-brief.pdf', ...written.map(f => f.replace(/index\.html$/, ''))];
 fs.writeFileSync('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${ORIGIN}/${u}</loc><lastmod>${today}</lastmod></url>`).join('\n')}\n</urlset>\n`);
@@ -152,7 +156,7 @@ fs.writeFileSync('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset
 /* ---------- offline worker ---------- */
 const ls = d => fs.existsSync(d) ? fs.readdirSync(d).filter(f => !f.startsWith('.')).map(f => `${d}/${f}`) : [];
 const siteImgs = [...new Set(D.sites.flatMap(s => [s.main, ...s.comp]).filter(id => id && WBY[id].img))];
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', ...ls('css'), ...ls('js'), ...ls('fonts'), 'vendor/leaflet/leaflet.js', 'vendor/leaflet/leaflet.css', ...ls('vendor/leaflet/images'), ...ls('icons'),
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', ...ls('css'), ...ls('js').filter(f => f !== 'js/extras.js'), ...ls('fonts'), 'vendor/leaflet/leaflet.js', 'vendor/leaflet/leaflet.css', ...ls('vendor/leaflet/images'), ...ls('icons'),
   ...ls('thumbs').filter(f => f.endsWith('.webp')), ...siteImgs.map(id => `img/m/${id}.webp`), 'img/m/lane-braces-rock.webp', 'sites/index.html', 'works/index.html', 'shops.html', 'field-notes.html'];
 const uniq = [...new Set(SHELL)].filter(f => f === './' || fs.existsSync(f));
 const h = crypto.createHash('sha256'); for (const f of uniq) h.update(f).update(fs.readFileSync(f === './' ? 'index.html' : f));

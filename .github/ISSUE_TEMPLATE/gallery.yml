@@ -1,0 +1,85 @@
+name: Send a painting to the visitors' gallery
+description: Share a painting you made at one of the Painted Gloucester sites or anywhere on Cape Ann.
+title: "Gallery: "
+labels: [gallery]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sending a painting. Every entry is checked by hand before it appears on the site.
+        **This form is public.** Please don't include your address, phone number or email.
+  - type: input
+    id: credit
+    attributes:
+      label: Your name as you want it credited
+      description: A first name and initial is fine.
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title of the painting
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: When you painted it
+      placeholder: e.g. August 2026
+    validations:
+      required: true
+  - type: input
+    id: medium
+    attributes:
+      label: Medium and size
+      placeholder: e.g. Oil on panel, 9 × 12 in.
+    validations:
+      required: true
+  - type: dropdown
+    id: site
+    attributes:
+      label: Where you painted it
+      options:
+        - "Site 1: Fort Point"
+        - "Site 2: Ten Pound Island"
+        - "Site 3: Banner Hill"
+        - "Site 4: Brace's Cove"
+        - "Site 5: Norman's Woe"
+        - "Site 6: The Loaf, Coffin's Beach"
+        - "Site 7: Eastern Point"
+        - "Site 8: Annisquam Light"
+        - "Site 9: Wonson's Cove"
+        - "On one of the trails"
+        - "Somewhere else on Cape Ann"
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: Photo of the painting
+      description: Drag the photo into this box. Photograph it square-on in daylight, without glare or frame, cropped to the edges.
+    validations:
+      required: true
+  - type: textarea
+    id: about
+    attributes:
+      label: Anything you'd like to say about it (optional)
+      description: The light, the weather, what you were after. Up to a few sentences.
+  - type: textarea
+    id: alt
+    attributes:
+      label: Describe the painting in one sentence (optional)
+      description: Used as the image description for people who use screen readers.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission
+      options:
+        - label: I made this painting.
+          required: true
+        - label: I allow Painted Gloucester to show this photo on its website, credited to me. I keep the copyright.
+          required: true
+        - label: The painting does not show anyone who has not agreed to be shown.
+          required: true
+        - label: I am 18 or older, or a parent or guardian is sending this for me.
+          required: true
