@@ -1,0 +1,1129 @@
+{
+"pt": {
+"months": [
+"janeiro",
+"fevereiro",
+"março",
+"abril",
+"maio",
+"junho",
+"julho",
+"agosto",
+"setembro",
+"outubro",
+"novembro",
+"dezembro"
+],
+"days": [
+"domingo",
+"segunda-feira",
+"terça-feira",
+"quarta-feira",
+"quinta-feira",
+"sexta-feira",
+"sábado"
+],
+"rules": [
+[
+"^(Oil|Watercolor)\\. (.+)$",
+"$T1. $2"
+],
+[
+"^Opening (.+)$",
+"Abre em $T1"
+],
+[
+"^(#[0-9A-Fa-f]{6})$",
+"$1"
+],
+[
+"^Copy colour (#[0-9A-Fa-f]{6})$",
+"Copiar a cor $1"
+],
+[
+"^Tap a swatch to copy its hex code · (.+)$",
+"Toque numa amostra para copiar o código hexadecimal · $1"
+],
+[
+"^(\\d+) of (\\d+) right$",
+"$1 de $2 certas"
+],
+[
+"^(\\d+) of (\\d+)$",
+"$1 de $2"
+],
+[
+"^(\\d+)\\. (.+)$",
+"$1. $T2"
+],
+[
+"^of (\\d+) works$",
+"de $1 obras"
+],
+[
+"^All collections \\((\\d+)\\)$",
+"Todas as coleções ($1)"
+],
+[
+"^(\\d+)°, (\\d+)° above the horizon$",
+"$1°, $2° acima do horizonte"
+],
+[
+"^(\\d+)°, (\\d+)° below the horizon$",
+"$1°, $2° abaixo do horizonte"
+],
+[
+"^(\\d+)°, on the horizon$",
+"$1°, no horizonte"
+],
+[
+"^Sunrise (\\d.*|—)$",
+"Nascer do sol $T1"
+],
+[
+"^sunset (\\d.*|—)$",
+"pôr do sol $T1"
+],
+[
+"^Show (.+) on the map$",
+"Mostrar $1 no mapa"
+],
+[
+"^(\\d+) more off Cape Ann, in (.+) and (.+)\\.$",
+"Mais $1 fora de Cape Ann, em $2 e $3."
+],
+[
+"^You're (.+) away\\. Stamp again on site for the gold stamp\\.$",
+"Está a $1. Carimbe de novo no local para obter o carimbo dourado."
+],
+[
+"^You're (.+) from Gloucester$",
+"Está a $1 de Gloucester"
+],
+[
+"^Saving paintings… (\\d+)%$",
+"A guardar pinturas… $1%"
+],
+[
+"^(\\d+) images? could not be saved\\. Check your connection and try again\\.$",
+"Não foi possível guardar $1 imagem(ns). Verifique a ligação e tente de novo."
+],
+[
+"^All (\\d+) paintings are stored on this device\\. The chart, sun planner, passport and paintings now work without a signal\\. The street map on the Shops page and museum links still need a connection\\.$",
+"As $1 pinturas estão guardadas neste dispositivo. A carta, o planeador do sol, o passaporte e as pinturas funcionam agora sem rede. O mapa de ruas da página Lojas e as ligações aos museus continuam a precisar de ligação."
+],
+[
+"^Today the sun climbs to (\\d+) degrees at midday; on June 21 it reaches (\\d+) degrees\\.$",
+"Hoje o sol sobe a $1 graus ao meio-dia; a 21 de junho chega aos $2 graus."
+],
+[
+"^The sun is up, (-?\\d+)° above the horizon\\. Sunset in (\\d+) h (\\d+) m\\.$",
+"O sol está acima do horizonte, a $1°. Pôr do sol daqui a $2 h $3 min."
+],
+[
+"^Golden hour now: (\\d+) minutes of light left\\.$",
+"Hora dourada agora: restam $1 minutos de luz."
+],
+[
+"^Before sunrise\\. The sun comes up at (.+)\\.$",
+"Antes do nascer do sol. O sol nasce às $T1."
+],
+[
+"^The sun has set\\. It rises tomorrow at (.+)\\.$",
+"O sol já se pôs. Nasce amanhã às $T1."
+],
+[
+"^This stop is about ([\\d.]+) km north of the chart’s edge; the arrow shows the way\\.$",
+"Esta paragem fica cerca de $1 km a norte do limite da carta; a seta indica a direção."
+],
+[
+"^Face ([NSEW]+) \\((\\d+)°\\) toward (.+)\\. Drag the painting to match the horizon and the rocks\\.$",
+"Vire-se para $1 ($2°), em direção a $T3. Arraste a pintura para a fazer coincidir com o horizonte e as rochas."
+],
+[
+"^See it on the (.+) website$",
+"Ver no sítio de: $1"
+],
+[
+"^Drag across to wipe between (.+)'s picture and the map of where the painter stood \\(dark circle\\), the subject \\(diamond\\) and the sun at the painting's hour\\. The map looks down from above; the painting looks out along the dashed line\\.$",
+"Arraste para alternar entre o quadro de $1 e o mapa do ponto onde o pintor se colocou (círculo escuro), do motivo (losango) e do sol à hora da pintura. O mapa olha de cima; a pintura olha ao longo da linha tracejada."
+],
+[
+"^(.+), using (.+)\\.$",
+"$T1, usando $T2."
+],
+[
+"^([a-z][a-z ]+)\\?$",
+"$T1?"
+],
+[
+"^Starting mix, about ([^,]+)\\.$",
+"Mistura de partida: cerca de $T1."
+],
+[
+"^Starting mix, about ([^,]+), ([^,]+)\\.$",
+"Mistura de partida: cerca de $T1, $T2."
+],
+[
+"^Starting mix, about ([^,]+), ([^,]+), ([^,]+)\\.$",
+"Mistura de partida: cerca de $T1, $T2, $T3."
+],
+[
+"^Starting mix, about ([^,]+), ([^,]+), ([^,]+), ([^,]+)\\.$",
+"Mistura de partida: cerca de $T1, $T2, $T3, $T4."
+],
+[
+"^1 part (.+)$",
+"1 parte de $T1"
+],
+[
+"^(\\d+) parts (.+)$",
+"$1 partes de $T2"
+],
+[
+"^(\\d+) stops$",
+"$1 paragens"
+],
+[
+"^(.+), (\\d[\\d\\s/.×x¼½¾⅛⅜⅝⅞]* (?:in|cm)\\.?)$",
+"$T1, $2"
+],
+[
+"^Sun (\\d+)°, (\\d+)° up$",
+"Sol a $1°, $2° de altura"
+],
+[
+"^(\\d{4})–(\\d{4}) · (.+)$",
+"$1–$2 · $T3"
+],
+[
+"^Update · (.+)$",
+"Atualização · $T1"
+],
+[
+"^(\\[.+\\])$",
+"$1"
+],
+[
+"^Back of (\\[.+\\])$",
+"Verso de $1"
+],
+[
+"^museum gives (.+)$",
+"o museu indica $1"
+],
+[
+"^(\\d{4})s to (\\d{4})$",
+"da década de $1 a $2"
+],
+[
+"^(\\d{4}) to (\\d{4})$",
+"de $1 a $2"
+],
+[
+"^All (\\d+) stops$",
+"As $1 paragens"
+],
+[
+"^((?:ca?\\. )?\\d{4}s?)\\. ([^.]+)\\. (.+)\\.$",
+"$1. $T2. $3."
+],
+[
+"^circa (\\d.*)$",
+"cerca de $1"
+],
+[
+"^after (\\d{4})$",
+"depois de $1"
+],
+[
+"^(.+) — Painted Gloucester$",
+"$T1 — Painted Gloucester"
+],
+[
+"^note (\\d+)$",
+"nota $1"
+],
+[
+"^‹ (.+)$",
+"‹ $T1"
+],
+[
+"^(.+) ›$",
+"$T1 ›"
+],
+[
+"^(.+) →$",
+"$T1 →"
+],
+[
+"^(.+) ↗$",
+"$T1 ↗"
+],
+[
+"^(.+) ↓$",
+"$T1 ↓"
+],
+[
+"^View at the (.+)$",
+"Ver em: $1"
+],
+[
+"^Acc\\. no\\. (.+)$",
+"N.º de inventário: $1"
+],
+[
+"^Site (\\d+) of (\\d+)$",
+"Local $1 de $2"
+],
+[
+"^Site (\\d+): (.+)$",
+"Local $1: $T2"
+],
+[
+"^Site (\\d+)$",
+"Local $1"
+],
+[
+"^site (\\d+)$",
+"local $1"
+],
+[
+"^Stop (\\d+) of (\\d+)$",
+"Paragem $1 de $2"
+],
+[
+"^Stop (\\d+): (.+)$",
+"Paragem $1: $2"
+],
+[
+"^Where it was painted \\(site (\\d+)\\)$",
+"Onde foi pintado (local $1)"
+],
+[
+"^Painted at site (\\d+)$",
+"Pintado no local $1"
+],
+[
+"^(.+?) by (.+?), (.+) One of (\\d+) paintings of Cape Ann in the Painted Gloucester field guide\\.$",
+"$1, de $2, $T3 Uma das $4 pinturas de Cape Ann no guia de campo Painted Gloucester."
+],
+[
+"^(.+)\\. Painted at site (\\d+), (.+)\\.$",
+"$T1. Pintado no local $2, $T3."
+],
+[
+"^(.+)… Where (.+) stood, the direction of view, the light and directions for painting it today\\.$",
+"$1… Onde $2 se colocou, a direção do olhar, a luz e como lá chegar para pintar hoje."
+],
+[
+"^All (\\d+) paintings of Cape Ann$",
+"As $1 pinturas de Cape Ann"
+],
+[
+"^All (\\d+) paintings$",
+"As $1 pinturas"
+],
+[
+"^(\\d+) paintings of Cape Ann$",
+"$1 pinturas de Cape Ann"
+],
+[
+"^(\\d+) works$",
+"$1 obras"
+],
+[
+"^(\\d+) stops$",
+"$1 paragens"
+],
+[
+"^(\\d+) places$",
+"$1 lugares"
+],
+[
+"^(\\d+) terms$",
+"$1 termos"
+],
+[
+"^about (.+)$",
+"cerca de $1"
+],
+[
+"^early (\\d{4})s$",
+"início da década de $1"
+],
+[
+"^late (\\d{4})s$",
+"fim da década de $1"
+],
+[
+"^(\\d{4})s$",
+"década de $1"
+],
+[
+"^(\\d{4})s–(\\d{4})s$",
+"décadas de $1 a $2"
+],
+[
+"^summers of (\\d{4}) and (\\d{4})$",
+"verões de $1 e $2"
+],
+[
+"^Summers of (\\d{4}) and (\\d{4})$",
+"Verões de $1 e $2"
+],
+[
+"^Summers of (\\d{4})–(\\d{4})$",
+"Verões de $1–$2"
+],
+[
+"^Summer of (\\d{4})$",
+"Verão de $1"
+],
+[
+"^born (\\d{4})$",
+"n. $1"
+],
+[
+"^Checked (.+)$",
+"Verificado em $T1"
+],
+[
+"^Listings last checked (.+)\\.$",
+"Listagens verificadas pela última vez em $T1."
+],
+[
+"^([NSEW]{1,3}), (\\d+)°, toward (.+), (.+) away\\.$",
+"$1, $2°, em direção a $T3, a $4."
+],
+[
+"^(.+) \\((-?[\\d.]+, -?[\\d.]+)\\)\\.?$",
+"$T1 ($2)."
+],
+[
+"^([NSEW]{1,3}), (\\d+)° from true north$",
+"$1, $2° a partir do norte verdadeiro"
+],
+[
+"^(.+): about (.+) on (.+)$",
+"$T1: cerca das $T2 em $T3"
+],
+[
+"^Place: (.+)$",
+"Lugar: $T1"
+],
+[
+"^In Gloucester: (.+)$",
+"Em Gloucester: $T1"
+],
+[
+"^Painting where they painted · Site (\\d+) · (.+)$",
+"Pintar onde eles pintaram · Local $1 · $2"
+],
+[
+"^(.+): all works$",
+"$1: todas as obras"
+],
+[
+"^Gloucester photographs by (.+) in public collections$",
+"Fotografias de Gloucester de $1 em coleções públicas"
+],
+[
+"^Map of the (.+) trail$",
+"Mapa do percurso $T1"
+],
+[
+"^(.+): a trail$",
+"$T1: um percurso"
+],
+[
+"^(.+) image, via Wikimedia Commons \\((.+)\\)$",
+"imagem: $1, via Wikimedia Commons ($T2)"
+],
+[
+"^(.+) \\((.+)\\), via Wikimedia Commons$",
+"$T1 ($2), via Wikimedia Commons"
+],
+[
+"^(.+) image \\((.+)\\)$",
+"imagem: $1 ($T2)"
+],
+[
+"^Gallery photograph by a Wikimedia Commons contributor \\((.+)\\); frame cropped$",
+"fotografia de galeria de um colaborador do Wikimedia Commons ($T1); moldura recortada"
+],
+[
+"^(.+) image$",
+"imagem: $1"
+]
+]
+},
+"it": {
+"months": [
+"gennaio",
+"febbraio",
+"marzo",
+"aprile",
+"maggio",
+"giugno",
+"luglio",
+"agosto",
+"settembre",
+"ottobre",
+"novembre",
+"dicembre"
+],
+"days": [
+"domenica",
+"lunedì",
+"martedì",
+"mercoledì",
+"giovedì",
+"venerdì",
+"sabato"
+],
+"rules": [
+[
+"^(Oil|Watercolor)\\. (.+)$",
+"$T1. $2"
+],
+[
+"^Opening (.+)$",
+"Apertura: $T1"
+],
+[
+"^(#[0-9A-Fa-f]{6})$",
+"$1"
+],
+[
+"^Copy colour (#[0-9A-Fa-f]{6})$",
+"Copia il colore $1"
+],
+[
+"^Tap a swatch to copy its hex code · (.+)$",
+"Tocca un campione per copiarne il codice esadecimale · $1"
+],
+[
+"^(\\d+) of (\\d+) right$",
+"$1 su $2 giuste"
+],
+[
+"^(\\d+) of (\\d+)$",
+"$1 di $2"
+],
+[
+"^(\\d+)\\. (.+)$",
+"$1. $T2"
+],
+[
+"^of (\\d+) works$",
+"di $1 opere"
+],
+[
+"^All collections \\((\\d+)\\)$",
+"Tutte le collezioni ($1)"
+],
+[
+"^(\\d+)°, (\\d+)° above the horizon$",
+"$1°, $2° sopra l’orizzonte"
+],
+[
+"^(\\d+)°, (\\d+)° below the horizon$",
+"$1°, $2° sotto l’orizzonte"
+],
+[
+"^(\\d+)°, on the horizon$",
+"$1°, all’orizzonte"
+],
+[
+"^Sunrise (\\d.*|—)$",
+"Alba $T1"
+],
+[
+"^sunset (\\d.*|—)$",
+"tramonto $T1"
+],
+[
+"^Show (.+) on the map$",
+"Mostra $1 sulla mappa"
+],
+[
+"^(\\d+) more off Cape Ann, in (.+) and (.+)\\.$",
+"Altri $1 fuori da Cape Ann, a $2 e $3."
+],
+[
+"^You're (.+) away\\. Stamp again on site for the gold stamp\\.$",
+"Sei a $1. Timbra di nuovo sul posto per il timbro d’oro."
+],
+[
+"^You're (.+) from Gloucester$",
+"Sei a $1 da Gloucester"
+],
+[
+"^Saving paintings… (\\d+)%$",
+"Salvataggio dei dipinti… $1%"
+],
+[
+"^(\\d+) images? could not be saved\\. Check your connection and try again\\.$",
+"Impossibile salvare $1 immagine/i. Controlla la connessione e riprova."
+],
+[
+"^All (\\d+) paintings are stored on this device\\. The chart, sun planner, passport and paintings now work without a signal\\. The street map on the Shops page and museum links still need a connection\\.$",
+"Tutti i $1 dipinti sono salvati su questo dispositivo. La carta, il pianificatore del sole, il passaporto e i dipinti ora funzionano senza segnale. La mappa stradale della pagina Negozi e i link ai musei richiedono ancora una connessione."
+],
+[
+"^Today the sun climbs to (\\d+) degrees at midday; on June 21 it reaches (\\d+) degrees\\.$",
+"Oggi il sole sale a $1 gradi a mezzogiorno; il 21 giugno arriva a $2 gradi."
+],
+[
+"^The sun is up, (-?\\d+)° above the horizon\\. Sunset in (\\d+) h (\\d+) m\\.$",
+"Il sole è sopra l’orizzonte, a $1°. Tramonto tra $2 h $3 min."
+],
+[
+"^Golden hour now: (\\d+) minutes of light left\\.$",
+"Ora dorata adesso: restano $1 minuti di luce."
+],
+[
+"^Before sunrise\\. The sun comes up at (.+)\\.$",
+"Prima dell’alba. Il sole sorge alle $T1."
+],
+[
+"^The sun has set\\. It rises tomorrow at (.+)\\.$",
+"Il sole è tramontato. Sorge domani alle $T1."
+],
+[
+"^This stop is about ([\\d.]+) km north of the chart’s edge; the arrow shows the way\\.$",
+"Questa tappa è circa $1 km a nord del margine della carta; la freccia indica la direzione."
+],
+[
+"^Face ([NSEW]+) \\((\\d+)°\\) toward (.+)\\. Drag the painting to match the horizon and the rocks\\.$",
+"Guarda verso $1 ($2°), in direzione di $T3. Trascina il dipinto per farlo coincidere con l’orizzonte e gli scogli."
+],
+[
+"^See it on the (.+) website$",
+"Vedi sul sito di: $1"
+],
+[
+"^Drag across to wipe between (.+)'s picture and the map of where the painter stood \\(dark circle\\), the subject \\(diamond\\) and the sun at the painting's hour\\. The map looks down from above; the painting looks out along the dashed line\\.$",
+"Trascina per passare dal quadro di $1 alla mappa del punto in cui si mise il pittore (cerchio scuro), del soggetto (rombo) e del sole all’ora del dipinto. La mappa guarda dall’alto; il dipinto guarda lungo la linea tratteggiata."
+],
+[
+"^(.+), using (.+)\\.$",
+"$T1, usando $T2."
+],
+[
+"^([a-z][a-z ]+)\\?$",
+"$T1?"
+],
+[
+"^Starting mix, about ([^,]+)\\.$",
+"Miscela di partenza: circa $T1."
+],
+[
+"^Starting mix, about ([^,]+), ([^,]+)\\.$",
+"Miscela di partenza: circa $T1, $T2."
+],
+[
+"^Starting mix, about ([^,]+), ([^,]+), ([^,]+)\\.$",
+"Miscela di partenza: circa $T1, $T2, $T3."
+],
+[
+"^Starting mix, about ([^,]+), ([^,]+), ([^,]+), ([^,]+)\\.$",
+"Miscela di partenza: circa $T1, $T2, $T3, $T4."
+],
+[
+"^1 part (.+)$",
+"1 parte di $T1"
+],
+[
+"^(\\d+) parts (.+)$",
+"$1 parti di $T2"
+],
+[
+"^(\\d+) stops$",
+"$1 tappe"
+],
+[
+"^(.+), (\\d[\\d\\s/.×x¼½¾⅛⅜⅝⅞]* (?:in|cm)\\.?)$",
+"$T1, $2"
+],
+[
+"^Sun (\\d+)°, (\\d+)° up$",
+"Sole a $1°, $2° di altezza"
+],
+[
+"^(\\d{4})–(\\d{4}) · (.+)$",
+"$1–$2 · $T3"
+],
+[
+"^Update · (.+)$",
+"Aggiornamento · $T1"
+],
+[
+"^(\\[.+\\])$",
+"$1"
+],
+[
+"^Back of (\\[.+\\])$",
+"Verso di $1"
+],
+[
+"^museum gives (.+)$",
+"il museo indica $1"
+],
+[
+"^(\\d{4})s to (\\d{4})$",
+"dagli anni $1 al $2"
+],
+[
+"^(\\d{4}) to (\\d{4})$",
+"dal $1 al $2"
+],
+[
+"^All (\\d+) stops$",
+"Tutte le $1 tappe"
+],
+[
+"^((?:ca?\\. )?\\d{4}s?)\\. ([^.]+)\\. (.+)\\.$",
+"$1. $T2. $3."
+],
+[
+"^circa (\\d.*)$",
+"circa $1"
+],
+[
+"^after (\\d{4})$",
+"dopo il $1"
+],
+[
+"^(.+) — Painted Gloucester$",
+"$T1 — Painted Gloucester"
+],
+[
+"^note (\\d+)$",
+"nota $1"
+],
+[
+"^‹ (.+)$",
+"‹ $T1"
+],
+[
+"^(.+) ›$",
+"$T1 ›"
+],
+[
+"^(.+) →$",
+"$T1 →"
+],
+[
+"^(.+) ↗$",
+"$T1 ↗"
+],
+[
+"^(.+) ↓$",
+"$T1 ↓"
+],
+[
+"^View at the (.+)$",
+"Vedi presso: $1"
+],
+[
+"^Acc\\. no\\. (.+)$",
+"N. di inventario: $1"
+],
+[
+"^Site (\\d+) of (\\d+)$",
+"Luogo $1 di $2"
+],
+[
+"^Site (\\d+): (.+)$",
+"Luogo $1: $T2"
+],
+[
+"^Site (\\d+)$",
+"Luogo $1"
+],
+[
+"^site (\\d+)$",
+"luogo $1"
+],
+[
+"^Stop (\\d+) of (\\d+)$",
+"Tappa $1 di $2"
+],
+[
+"^Stop (\\d+): (.+)$",
+"Tappa $1: $2"
+],
+[
+"^Where it was painted \\(site (\\d+)\\)$",
+"Dove è stato dipinto (luogo $1)"
+],
+[
+"^Painted at site (\\d+)$",
+"Dipinto nel luogo $1"
+],
+[
+"^(.+?) by (.+?), (.+) One of (\\d+) paintings of Cape Ann in the Painted Gloucester field guide\\.$",
+"$1, di $2, $T3 Uno dei $4 dipinti di Cape Ann nella guida Painted Gloucester."
+],
+[
+"^(.+)\\. Painted at site (\\d+), (.+)\\.$",
+"$T1. Dipinto nel luogo $2, $T3."
+],
+[
+"^(.+)… Where (.+) stood, the direction of view, the light and directions for painting it today\\.$",
+"$1… Dove si mise $2, la direzione dello sguardo, la luce e come arrivarci per dipingere oggi."
+],
+[
+"^All (\\d+) paintings of Cape Ann$",
+"Tutti i $1 dipinti di Cape Ann"
+],
+[
+"^All (\\d+) paintings$",
+"Tutti i $1 dipinti"
+],
+[
+"^(\\d+) paintings of Cape Ann$",
+"$1 dipinti di Cape Ann"
+],
+[
+"^(\\d+) works$",
+"$1 opere"
+],
+[
+"^(\\d+) stops$",
+"$1 tappe"
+],
+[
+"^(\\d+) places$",
+"$1 luoghi"
+],
+[
+"^(\\d+) terms$",
+"$1 termini"
+],
+[
+"^about (.+)$",
+"circa $1"
+],
+[
+"^early (\\d{4})s$",
+"primi anni $1"
+],
+[
+"^late (\\d{4})s$",
+"fine anni $1"
+],
+[
+"^(\\d{4})s$",
+"anni $1"
+],
+[
+"^(\\d{4})s–(\\d{4})s$",
+"anni $1–$2"
+],
+[
+"^summers of (\\d{4}) and (\\d{4})$",
+"estati del $1 e del $2"
+],
+[
+"^Summers of (\\d{4}) and (\\d{4})$",
+"Estati del $1 e del $2"
+],
+[
+"^Summers of (\\d{4})–(\\d{4})$",
+"Estati $1–$2"
+],
+[
+"^Summer of (\\d{4})$",
+"Estate del $1"
+],
+[
+"^born (\\d{4})$",
+"n. $1"
+],
+[
+"^Checked (.+)$",
+"Verificato: $T1"
+],
+[
+"^Listings last checked (.+)\\.$",
+"Elenchi verificati l’ultima volta: $T1."
+],
+[
+"^([NSEW]{1,3}), (\\d+)°, toward (.+), (.+) away\\.$",
+"$1, $2°, verso $T3, a $4."
+],
+[
+"^(.+) \\((-?[\\d.]+, -?[\\d.]+)\\)\\.?$",
+"$T1 ($2)."
+],
+[
+"^([NSEW]{1,3}), (\\d+)° from true north$",
+"$1, $2° dal nord geografico"
+],
+[
+"^(.+): about (.+) on (.+)$",
+"$T1: verso le $T2 del $T3"
+],
+[
+"^Place: (.+)$",
+"Luogo: $T1"
+],
+[
+"^In Gloucester: (.+)$",
+"A Gloucester: $T1"
+],
+[
+"^Painting where they painted · Site (\\d+) · (.+)$",
+"Dipingere dove dipinsero · Luogo $1 · $2"
+],
+[
+"^(.+): all works$",
+"$1: tutte le opere"
+],
+[
+"^Gloucester photographs by (.+) in public collections$",
+"Fotografie di Gloucester di $1 in collezioni pubbliche"
+],
+[
+"^Map of the (.+) trail$",
+"Mappa del percorso $T1"
+],
+[
+"^(.+): a trail$",
+"$T1: un percorso"
+],
+[
+"^(.+) image, via Wikimedia Commons \\((.+)\\)$",
+"immagine: $1, via Wikimedia Commons ($T2)"
+],
+[
+"^(.+) \\((.+)\\), via Wikimedia Commons$",
+"$T1 ($2), via Wikimedia Commons"
+],
+[
+"^(.+) image \\((.+)\\)$",
+"immagine: $1 ($T2)"
+],
+[
+"^Gallery photograph by a Wikimedia Commons contributor \\((.+)\\); frame cropped$",
+"fotografia in sala di un contributore di Wikimedia Commons ($T1); cornice ritagliata"
+],
+[
+"^(.+) image$",
+"immagine: $1"
+]
+]
+},
+"keep": [
+"Painted Gloucester",
+"Stage Fort Park",
+"Norman's Woe",
+"Eastern Point",
+"Manchester-by-the-Sea",
+"Magnolia",
+"East Gloucester",
+"West Gloucester",
+"Annisquam River",
+"Annisquam Light",
+"Annisquam",
+"Rocky Neck",
+"Bass Rocks",
+"Main Street",
+"Dogtown",
+"Fort Point",
+"Ten Pound Island Light",
+"Ten Pound Island",
+"Banner Hill",
+"Brace's Rock",
+"Brace's Cove",
+"Norman's Woe Rock",
+"Two Penny Loaf",
+"Coffin's Beach",
+"Wingaersheek Beach",
+"Cape Ann Plein Air",
+"Bearskin Neck",
+"Good Harbor",
+"Smith Cove",
+"Folly Cove",
+"Lanesville",
+"Ipswich Bay",
+"Riverdale",
+"Wonson's Cove",
+"The Loaf",
+"Homer",
+"Hassam",
+"Twachtman",
+"Prendergast",
+"Hopper",
+"Lane",
+"Metcalf",
+"Duveneck",
+"Bricher",
+"Hunt",
+"Avery",
+"Gottlieb",
+"Rothko",
+"Demuth",
+"Mellen",
+"Sloan",
+"Davis",
+"Hartley",
+"Beaux",
+"Siskind",
+"Parks",
+"Rothstein",
+"Our Lady of Good Voyage",
+"Rocky Neck Guest House",
+"Atlantic Road",
+"Hough Avenue",
+"Pleasant Street",
+"Prospect Street",
+"Thatcher Road",
+"Calder Street",
+"Fort Square",
+"Harbor Loop",
+"Cape Ann",
+"Gloucester",
+"Rockport",
+"Essex",
+"Massachusetts",
+"Wikimedia Commons",
+"Fitz Henry Lane Online",
+"Cape Ann Museum",
+"NGA",
+"CC0",
+"CC BY 4.0",
+"OpenStreetMap",
+"Good Morning Gloucester",
+"North Shore Moms",
+"Alignable",
+"BBB",
+"Blick",
+"Discover Gloucester",
+"Creative Collective",
+"Idealist",
+"North Shore Kid",
+"Cape Ann Chamber",
+"Cape Ann Artisans Open Studios",
+"Motif No. 1",
+"T-Wharf",
+"Aureolin",
+"Sepia",
+"Viridian",
+"English",
+"Português",
+"Italiano",
+"Em português",
+"In italiano",
+"Guia em português",
+"Guida in italiano",
+"PDF",
+"NOAA",
+"Josephine Nivison",
+"Sally Michel",
+"Martha Walter",
+"Leon Kroll",
+"Charles Allan Winter",
+"Ellen Day Hale",
+"Barnett Newman",
+"Aaron Siskind",
+"Gordon Parks",
+"Arthur Rothstein",
+"Lee Friedlander",
+"Carl Chiarenza",
+"William R. G. Mellen",
+"Green Alley",
+"Cripple Cove",
+"Briar Neck",
+"Squam Light",
+"Wigwam Point",
+"Stacy Boulevard",
+"Babson Court",
+"Rogers Street",
+"Porter Street",
+"Maritime Gloucester",
+"Alden",
+"Western Avenue",
+"Church Street",
+"Pirates Lane",
+"Rocky Neck Avenue",
+"Eastern Point Road",
+"Barletta Park",
+"The Phillips Collection",
+"Washington, DC",
+"Farm Security Administration",
+"Museum of Modern Art",
+"Library of Congress",
+"Smithsonian American Art Museum",
+"High Museum of Art",
+"Philadelphia Museum of Art",
+"Newfields",
+"RISD Museum",
+"Syracuse University Art Museum",
+"Brooklyn Museum",
+"Providence",
+"Princeton",
+"Whitney",
+"Arkell",
+"MoMA",
+"Met",
+"Bowdoin",
+"Vassar",
+"Barnes Foundation",
+"Nelson-Atkins",
+"Christie's",
+"Museo Thyssen-Bornemisza",
+"Indianapolis Museum of Art",
+"Harn Museum of Art",
+"John Wilmerding Collection",
+"Blick Art Materials",
+"Central Square",
+"Massachusetts Avenue",
+"DEP",
+"Field Beach",
+"Reed and Gamage",
+"Bellows",
+"Tacoma",
+"Methodist Church",
+"Oyster Boats, North River",
+"Jo Hopper",
+"Walter",
+"3-4.V.Cr.01",
+"7-8.V.Co.11",
+"F.V.Co.11",
+"F.V.Cr.02",
+"Good Harbor Beach",
+"Inner Harbor",
+"Universalist Church",
+"Freight Cars",
+"Box Factory",
+"Gloucester Humoresque",
+"New England Ladies",
+"Background with Figures",
+"Winter Days",
+"Man at the Wheel",
+"Coast of Maine",
+"Church Towers, Gloucester",
+"Rocky Neck Store and My Studio",
+"Mike Mulligan and His Steam Shovel",
+"Edward Hopper All Around Gloucester",
+"Women Artists on Cape Ann, 1870–1970",
+"Gloucester Window, Sailing Ship",
+"Gloucester 16A",
+"Gloucester 16",
+"Breezing Up",
+"Ship in Fog",
+"Shipyard at Gloucester",
+"Inner Harbor, Gloucester",
+"Leaflet",
+"Local Colors",
+"Island Art & Hobby",
+"Cape Ann Art Haven",
+"Beverly",
+"Cambridge",
+"Dogtown Common"
+]
+}

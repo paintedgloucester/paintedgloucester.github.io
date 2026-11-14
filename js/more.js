@@ -181,7 +181,7 @@ function placeBody(p) {
     ${p.special && p.special.length ? `<h4>What makes it special</h4><ul class="plist">${p.special.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${p.confirm ? `<p class="confirm">${esc(p.confirm)}</p>` : ''}
     <div class="btnrow">${p.url ? `<a class="btn solid" href="${esc(p.url)}" target="_blank" rel="noopener">Website ↗</a>` : ''}<a class="btn" href="${dirUrl(p.ll)}" target="_blank" rel="noopener">Directions ↗</a></div>
-    <p class="src"><span class="chk">Checked ${esc(p.checked || PL().checked)}</span> · Source: ${p.src.map(([n, u]) => `<a href="${esc(u)}" ${u.startsWith('http') ? 'target="_blank" rel="noopener"' : ''}>${esc(n)}</a>`).join('; ')}</p>`;
+    <p class="src"><span class="chk">Checked ${esc(p.checked || PL().checked)}</span> · Source: ${p.src.map(([n, u]) => `<a translate="no" href="${esc(u)}" ${u.startsWith('http') ? 'target="_blank" rel="noopener"' : ''}>${esc(n)}</a>`).join('; ')}</p>`;
 }
 
 /* ================= panel decorations ================= */
@@ -431,7 +431,7 @@ function buildShops() {
   render('all');
   $$('#ptabs button').forEach(b => b.onclick = () => { $$('#ptabs button').forEach(x => x.classList.toggle('on', x === b)); render(b.dataset.t); });
   $('#events').innerHTML = P.events.map(e => `<div class="event"><b>${esc(e.name)}</b><span class="ew">${esc(e.when)}</span><span class="tiny">${esc(e.where)}</span><p>${esc(e.what)}</p>
-    <span class="tiny">${e.src.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join(' · ')} · <span class="chk">Checked ${esc(e.checked || P.checked)}</span></span></div>`).join('');
+    <span class="tiny">${e.src.map(([n, u]) => `<a translate="no" href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join(' · ')} · <span class="chk">Checked ${esc(e.checked || P.checked)}</span></span></div>`).join('');
   $('#suggest').href = `https://github.com/${CFG.REPO}/issues/new?template=listing.yml`;
 }
 

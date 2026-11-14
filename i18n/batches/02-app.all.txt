@@ -1,0 +1,220 @@
+A painting of Cape Ann. Who painted it is the question. ||| Uma pintura de Cape Ann. A questão é quem a pintou. ||| Un dipinto di Cape Ann. La domanda è chi l’ha dipinto.
+Choose the painter ||| Escolha o pintor ||| Scegli il pittore
+Choose a trail ||| Escolha um percurso ||| Scegli un percorso
+Stops on this trail ||| Paragens deste percurso ||| Tappe di questo percorso
+Trail overview ||| Visão geral do percurso ||| Panoramica del percorso
+About this painting ||| Sobre esta pintura ||| Su questo dipinto
+Alizarin crimson ||| Carmim de alizarina ||| Cremisi d’alizarina
+titanium white ||| branco de titânio ||| bianco di titanio
+cadmium yellow light ||| amarelo de cádmio claro ||| giallo di cadmio chiaro
+yellow ochre ||| ocre amarelo ||| ocra gialla
+raw sienna ||| terra de Siena natural ||| terra di Siena naturale
+burnt sienna ||| terra de Siena queimada ||| terra di Siena bruciata
+cadmium red light ||| vermelho de cádmio claro ||| rosso di cadmio chiaro
+alizarin crimson ||| carmim de alizarina ||| cremisi d’alizarina
+ultramarine blue ||| azul ultramarino ||| blu oltremare
+cerulean blue ||| azul cerúleo ||| blu ceruleo
+viridian ||| viridian ||| viridian
+raw umber ||| terra de sombra natural ||| terra d’ombra naturale
+ivory black ||| preto de marfim ||| nero d’avorio
+All painters ||| Todos os pintores ||| Tutti i pittori
+Back to the overview ||| Voltar à visão geral ||| Torna alla panoramica
+Clear filters ||| Limpar filtros ||| Azzera i filtri
+Close popup ||| Fechar janela ||| Chiudi il riquadro
+Close note ||| Fechar nota ||| Chiudi la nota
+Compare painting and map ⟷ ||| Comparar a pintura e o mapa ⟷ ||| Confronta dipinto e mappa ⟷
+Details ||| Detalhes ||| Dettagli
+details ||| detalhes ||| dettagli
+Drag to move the map; pinch to zoom. ||| Arraste para mover o mapa; afaste os dedos para ampliar. ||| Trascina per spostare la mappa; pizzica per ingrandire.
+Finding you… ||| A localizá-lo… ||| Ti sto localizzando…
+For you ||| Para si ||| Per te
+Full trail page, with sources ||| Página completa do percurso, com fontes ||| Pagina completa del percorso, con le fonti
+Gallery ||| Galeria ||| Galleria
+Museum ||| Museu ||| Museo
+Golden hour ||| Hora dourada ||| Ora dorata
+Image at museum ||| Imagem no museu ||| Immagine presso il museo
+Image not included ||| Imagem não incluída ||| Immagine non inclusa
+No image here ||| Sem imagem aqui ||| Nessuna immagine qui
+not included here ||| não incluída aqui ||| non inclusa qui
+Light ||| Luz ||| Luce
+Location permission was declined ||| A autorização de localização foi recusada ||| Il permesso di localizzazione è stato negato
+Could not find your location ||| Não foi possível encontrar a sua localização ||| Impossibile trovare la tua posizione
+Location is not available in this browser ||| A localização não está disponível neste navegador ||| La localizzazione non è disponibile in questo browser
+Checking where you are… ||| A verificar onde está… ||| Sto verificando dove sei…
+You are on the chart ||| Está na carta ||| Sei sulla carta
+Already stamped on site ||| Já carimbado no local ||| Già timbrato sul posto
+Stamped on site ||| Carimbado no local ||| Timbrato sul posto
+Stamped on site ✓ ||| Carimbado no local ✓ ||| Timbrato sul posto ✓
+Stamped from afar ||| Carimbado à distância ||| Timbrato da lontano
+stamp again ||| carimbar de novo ||| timbra di nuovo
+stamped on site ||| carimbado no local ||| timbrato sul posto
+stamped from afar ||| carimbado à distância ||| timbrato da lontano
+not stamped ||| não carimbado ||| non timbrato
+stamped ||| carimbados ||| timbrati
+Stamp my passport ||| Carimbar o meu passaporte ||| Timbra il mio passaporto
+Clear my passport ||| Limpar o meu passaporte ||| Azzera il mio passaporto
+Tap again to clear all stamps ||| Toque de novo para apagar todos os carimbos ||| Tocca di nuovo per cancellare tutti i timbri
+Passport complete. You have stood where they stood. ||| Passaporte completo. Colocou-se onde eles se colocaram. ||| Passaporto completo. Ti sei messo dove si misero loro.
+NOT YET STAMPED ||| AINDA SEM CARIMBO ||| NON ANCORA TIMBRATO
+FROM AFAR · ||| À DISTÂNCIA · ||| DA LONTANO ·
+No picture yet: allow the camera or use a photo ||| Ainda sem imagem: autorize a câmara ou use uma fotografia ||| Ancora nessuna immagine: consenti la fotocamera o usa una foto
+Tap the painting to sample a color ||| Toque na pintura para recolher uma cor ||| Tocca il dipinto per campionare un colore
+The camera is not available here. Tap “Use a photo” to line up a picture you took at the site. ||| A câmara não está disponível aqui. Toque em «Usar uma fotografia» para alinhar uma imagem que tirou no local. ||| La fotocamera non è disponibile qui. Tocca «Usa una foto» per allineare un’immagine scattata sul posto.
+The camera is not available in this browser. Tap “Use a photo” to use a picture you took at the site. ||| A câmara não está disponível neste navegador. Toque em «Usar uma fotografia» para usar uma imagem que tirou no local. ||| La fotocamera non è disponibile in questo browser. Tocca «Usa una foto» per usare un’immagine scattata sul posto.
+Use a photo ||| Usar uma fotografia ||| Usa una foto
+Starting the camera… ||| A iniciar a câmara… ||| Avvio della fotocamera…
+Capture ||| Capturar ||| Scatta
+Line it up ||| Alinhar ||| Allinea
+Copied ||| Copiado ||| Copiato
+Copy link ||| Copiar ligação ||| Copia il link
+Guide updated. Reload for the latest. ||| Guia atualizado. Recarregue para ver a versão mais recente. ||| Guida aggiornata. Ricarica per la versione più recente.
+Saved for offline use ✓ ||| Guardado para uso sem ligação ✓ ||| Salvato per l’uso offline ✓
+This browser cannot save the guide for offline use. ||| Este navegador não consegue guardar o guia para uso sem ligação. ||| Questo browser non può salvare la guida per l’uso offline.
+Next painting ||| Pintura seguinte ||| Dipinto successivo
+Next site ||| Local seguinte ||| Luogo successivo
+Previous site ||| Local anterior ||| Luogo precedente
+Next word ||| Palavra seguinte ||| Parola successiva
+Previous stop ||| Paragem anterior ||| Tappa precedente
+Finish: back to the overview ||| Terminar: voltar à visão geral ||| Fine: torna alla panoramica
+Start at stop 1 ||| Começar na paragem 1 ||| Parti dalla tappa 1
+No works match these filters ||| Nenhuma obra corresponde a estes filtros ||| Nessuna opera corrisponde a questi filtri
+No works match these filters. ||| Nenhuma obra corresponde a estes filtros. ||| Nessuna opera corrisponde a questi filtri.
+Not this time ||| Desta vez não ||| Non questa volta
+Not this time. ||| Desta vez não. ||| Non questa volta.
+Yes! ||| Sim! ||| Sì!
+Now ||| Agora ||| Adesso
+On the map ||| No mapa ||| Sulla mappa
+On the painters' chart ||| Na carta dos pintores ||| Sulla carta dei pittori
+Open the painting full screen ||| Abrir a pintura em ecrã inteiro ||| Apri il dipinto a schermo intero
+Open the site ||| Abrir o local ||| Apri il luogo
+Open the sun planner ||| Abrir o planeador do sol ||| Apri il pianificatore del sole
+Painted from ||| Pintado de ||| Dipinto da
+Pause ||| Pausa ||| Pausa
+Pick a name. No peeking at the caption! ||| Escolha um nome. Não vale espreitar a legenda! ||| Scegli un nome. Non sbirciare la didascalia!
+Play the trail ||| Reproduzir o percurso ||| Riproduci il percorso
+Read their lives ||| Ler as suas vidas ||| Leggi le loro vite
+Sample color ||| Recolher cor ||| Campiona il colore
+Show how far I am from here ||| Mostrar a que distância estou daqui ||| Mostra quanto sono lontano da qui
+Show on the map ↑ ||| Mostrar no mapa ↑ ||| Mostra sulla mappa ↑
+Show the whole region ||| Mostrar toda a região ||| Mostra tutta la regione
+Showing ||| A mostrar ||| In mostra
+Size ||| Tamanho ||| Dimensione
+Sources for this stop ||| Fontes desta paragem ||| Fonti di questa tappa
+Sun ||| Sol ||| Sole
+Sun at the site ||| O sol no local ||| Il sole sul luogo
+Surprise me ||| Surpreenda-me ||| Sorprendimi
+Tap to turn the card ||| Toque para virar o cartão ||| Tocca per girare la scheda
+That day ||| Nesse dia ||| Quel giorno
+The ground today ▸ ||| O terreno hoje ▸ ||| Il terreno oggi ▸
+◂ The painting ||| ◂ A pintura ||| ◂ Il dipinto
+The painting's hour ||| A hora da pintura ||| L’ora del dipinto
+The sun ||| O sol ||| Il sole
+The sun over Gloucester Harbor ||| O sol sobre o porto de Gloucester ||| Il sole sul porto di Gloucester
+The sun is below the horizon ||| O sol está abaixo do horizonte ||| Il sole è sotto l’orizzonte
+The sun is ahead of you: the scene is backlit ||| O sol está à sua frente: a cena está em contraluz ||| Il sole è davanti a te: la scena è in controluce
+The sun is behind you: the scene is lit full-face ||| O sol está atrás de si: a cena está iluminada de frente ||| Il sole è dietro di te: la scena è illuminata in pieno
+The sun is to your left and behind ||| O sol está à sua esquerda e atrás ||| Il sole è alla tua sinistra e dietro
+The sun is to your left and ahead ||| O sol está à sua esquerda e à frente ||| Il sole è alla tua sinistra e davanti
+The sun is to your right and ahead ||| O sol está à sua direita e à frente ||| Il sole è alla tua destra e davanti
+The sun is to your right and behind ||| O sol está à sua direita e atrás ||| Il sole è alla tua destra e dietro
+at that hour: to your left and ahead ||| a essa hora: à sua esquerda e à frente ||| a quell’ora: alla tua sinistra e davanti
+The vantage section of the brief ||| A secção dos pontos de vista do estudo ||| La sezione sui punti di vista del dossier
+The nine sites as a plain list, with directions ||| Os nove locais em lista simples, com indicações ||| I nove luoghi in elenco semplice, con indicazioni
+All notes in the brief ||| Todas as notas do estudo ||| Tutte le note del dossier
+Time of day ||| Hora do dia ||| Ora del giorno
+Today on the harbor ||| Hoje no porto ||| Oggi sul porto
+Try it at ||| Experimente em ||| Provalo a
+View at the museum ||| Ver no museu ||| Vedi al museo
+What are ||| O que são ||| Che cosa sono
+fish flakes ||| estendais de peixe ||| i graticci per il pesce
+gill nets ||| redes de emalhar ||| le reti da posta
+dories ||| dóris ||| i dory
+schooners ||| escunas ||| le golette
+draggers ||| arrastões ||| i pescherecci a strascico
+drydock ||| uma doca seca ||| un bacino di carenaggio
+What makes it special ||| O que o torna especial ||| Che cosa lo rende speciale
+Who came next? ||| Quem veio a seguir? ||| Chi venne dopo?
+Another chain ||| Outra cadeia ||| Un’altra catena
+Who painted this view of Cape Ann? ||| Quem pintou esta vista de Cape Ann? ||| Chi ha dipinto questa veduta di Cape Ann?
+Whole trail ||| Percurso inteiro ||| Percorso intero
+in a row ||| seguidas ||| di fila
+best ||| melhor ||| record
+low warm light until sunset ||| luz baixa e quente até ao pôr do sol ||| luce bassa e calda fino al tramonto
+noon ||| meio-dia ||| mezzogiorno
+on foot ||| a pé ||| a piedi
+by car ||| de carro ||| in auto
+marker approximate ||| marcador aproximado ||| segnaposto approssimativo
+direction of view (true north) ||| direção do olhar (norte verdadeiro) ||| direzione dello sguardo (nord geografico)
+← All nine sites ||| ← Os nove locais ||| ← Tutti e nove i luoghi
+⤢ Zoom ||| ⤢ Ampliar ||| ⤢ Ingrandisci
+further afield ||| mais longe ||| più lontano
+Atlantic Ocean ||| Oceano Atlântico ||| Oceano Atlantico
+Gloucester Harbor ||| Gloucester Harbor ||| Gloucester Harbor
+Map of the trail's stops on Cape Ann ||| Mapa das paragens do percurso em Cape Ann ||| Mappa delle tappe del percorso a Cape Ann
+Painting in winter → ||| Pintar no inverno → ||| Dipingere d’inverno →
+The working waterfront → ||| O porto de trabalho → ||| Il porto al lavoro →
+see them all on one map ||| veja-os todos num só mapa ||| guardali tutti su un’unica mappa
+Night. No direct light; the town and the water read as silhouettes against the sky. ||| Noite. Sem luz direta; a cidade e a água leem-se como silhuetas contra o céu. ||| Notte. Nessuna luce diretta; la città e l’acqua si leggono come sagome contro il cielo.
+Twilight. Soft, shadowless light; the sky carries the color. ||| Crepúsculo. Luz suave, sem sombras; é o céu que traz a cor. ||| Crepuscolo. Luce morbida, senza ombre; è il cielo a portare il colore.
+Sun on the horizon. Long shadows, warm color: the low light Lane favored for his harbor views. ||| Sol no horizonte. Sombras longas, cor quente: a luz baixa que Lane preferia para as suas vistas do porto. ||| Sole all’orizzonte. Ombre lunghe, colore caldo: la luce bassa che Lane prediligeva per le sue vedute del porto.
+Golden-hour range. Warm side-light and long shadows; colors shift quickly, so work fast. ||| Hora dourada. Luz lateral quente e sombras longas; as cores mudam depressa, por isso trabalhe rápido. ||| Ora dorata. Luce laterale calda e ombre lunghe; i colori cambiano in fretta, quindi lavora veloce.
+Mid-height sun. Clear modeling of forms; shadows shorten through the session. ||| Sol a meia altura. Modelado claro das formas; as sombras encurtam ao longo da sessão. ||| Sole a mezza altezza. Modellato chiaro delle forme; le ombre si accorciano durante la seduta.
+High sun. Short shadows and flatter, cooler light on the water. ||| Sol alto. Sombras curtas e uma luz mais plana e fria sobre a água. ||| Sole alto. Ombre corte e una luce più piatta e fredda sull’acqua.
+Left: the painting. Right: the predicted mix. Mixing is estimated; adjust by eye. ||| À esquerda: a pintura. À direita: a mistura prevista. A mistura é uma estimativa; ajuste a olho. ||| A sinistra: il dipinto. A destra: la miscela prevista. La miscela è una stima; correggi a occhio.
+Each site is tagged with how firm its standing point is: documented, area documented, secondary source, or our own suggested viewpoint. Sun positions are computed for Gloucester in local time. ||| Cada local tem uma etiqueta que indica a solidez do seu ponto de observação: documentado, zona documentada, fonte secundária ou miradouro sugerido por nós. As posições do sol são calculadas para Gloucester em hora local. ||| Ogni luogo ha un’etichetta che indica quanto è certo il punto di osservazione: documentato, zona documentata, fonte secondaria o punto di vista suggerito da noi. Le posizioni del sole sono calcolate per Gloucester in ora locale.
+Nine places on Cape Ann where a painting can be tied to a spot on the ground. Pick a number on the map, or a site below, to see the painting, where the painter stood, and where the sun is at any hour you choose. ||| Nove lugares de Cape Ann onde uma pintura pode ser associada a um ponto no terreno. Escolha um número no mapa, ou um local abaixo, para ver a pintura, onde o pintor se colocou e onde está o sol a qualquer hora que escolher. ||| Nove luoghi di Cape Ann in cui un dipinto può essere collegato a un punto sul terreno. Scegli un numero sulla mappa, o un luogo qui sotto, per vedere il dipinto, dove si mise il pittore e dov’è il sole a qualsiasi ora tu scelga.
+Check the tide table (NOAA station 8441841; mean range about 8.8 ft), reserve non-resident beach parking in summer, and paint from public ways: several historic vantage points, Banner Hill among them, are now private. The full brief has sources for all of this. ||| Consulte a tabela de marés (estação NOAA 8441841; amplitude média de cerca de 8,8 pés, 2,7 m), reserve no verão o estacionamento das praias para não residentes e pinte a partir de passagens públicas: vários pontos de vista históricos, entre eles Banner Hill, são hoje privados. O estudo completo tem fontes para tudo isto. ||| Consulta la tavola delle maree (stazione NOAA 8441841; escursione media di circa 8,8 piedi, 2,7 m), prenota in estate il parcheggio delle spiagge per i non residenti e dipingi da passaggi pubblici: diversi punti di vista storici, tra cui Banner Hill, sono oggi privati. Il dossier completo riporta le fonti di tutto questo.
+On Cape Ann today?⟦0⟧ Tap ⟦1⟧ME⟦2⟧ to see yourself on the chart. Open a site and tap ⟦3⟧Line it up⟦4⟧ to hold the painting over your camera view, then stamp your passport. Square markers are art shops and studios; ⟦5⟧see them all on one map⟦6⟧. ||| Está hoje em Cape Ann?⟦0⟧ Toque em ⟦1⟧EU⟦2⟧ para se ver na carta. Abra um local e toque em ⟦3⟧Alinhar⟦4⟧ para segurar a pintura sobre a vista da câmara e depois carimbe o passaporte. Os marcadores quadrados são lojas de arte e ateliês; ⟦5⟧veja-os todos num só mapa⟦6⟧. ||| Oggi sei a Cape Ann?⟦0⟧ Tocca ⟦1⟧IO⟦2⟧ per vederti sulla carta. Apri un luogo e tocca ⟦3⟧Allinea⟦4⟧ per tenere il dipinto sopra la vista della fotocamera, poi timbra il passaporto. I segnaposto quadrati sono negozi d’arte e atelier; ⟦5⟧guardali tutti su un’unica mappa⟦6⟧.
+All collections ||| Todas as coleções ||| Tutte le collezioni
+In the spirit of Fitz Henry Lane ||| Ao jeito de Fitz Henry Lane ||| Nello spirito di Fitz Henry Lane
+In the spirit of Winslow Homer, 1873 & 1880 ||| Ao jeito de Winslow Homer, 1873 e 1880 ||| Nello spirito di Winslow Homer, 1873 e 1880
+In the spirit of Childe Hassam and Willard Metcalf ||| Ao jeito de Childe Hassam e Willard Metcalf ||| Nello spirito di Childe Hassam e Willard Metcalf
+In the spirit of John Twachtman ||| Ao jeito de John Twachtman ||| Nello spirito di John Twachtman
+In the spirit of Maurice Prendergast ||| Ao jeito de Maurice Prendergast ||| Nello spirito di Maurice Prendergast
+In the spirit of Edward Hopper and Stuart Davis ||| Ao jeito de Edward Hopper e Stuart Davis ||| Nello spirito di Edward Hopper e Stuart Davis
+Watercolor & gouache ||| Aguarela e guache ||| Acquerello e gouache
+Oil or watercolor ||| Óleo ou aguarela ||| Olio o acquerello
+About 11 a.m. to 2 p.m. in summer ||| Das 11h às 14h, aproximadamente, no verão ||| All’incirca dalle 11 alle 14 in estate
+a four-color palette ||| uma paleta de quatro cores ||| una tavolozza di quattro colori
+a palette knife only ||| apenas uma espátula ||| solo una spatola
+one hour, start to finish ||| uma hora, do princípio ao fim ||| un’ora, dall’inizio alla fine
+a 6 × 8 inch panel ||| um painel de 6 × 8 polegadas (15 × 20 cm) ||| una tavola di 6 × 8 pollici (15 × 20 cm)
+three values only ||| apenas três valores ||| solo tre valori
+no green at all ||| nenhum verde ||| nessun verde
+a palette of earth colors ||| uma paleta de terras ||| una tavolozza di terre
+a brush wider than you'd like ||| um pincel mais largo do que gostaria ||| un pennello più largo di quanto vorresti
+Ten Pound Island from the Rocky Neck public way ||| Ten Pound Island a partir da passagem pública de Rocky Neck ||| Ten Pound Island dal passaggio pubblico di Rocky Neck
+the harbor mouth from Fort Point ||| a boca do porto a partir de Fort Point ||| l’imboccatura del porto da Fort Point
+the rocks at Brace's Cove ||| as rochas de Brace's Cove ||| gli scogli di Brace's Cove
+Motif No. 1 from the T-Wharf ||| o Motif No. 1 a partir do T-Wharf ||| il Motif No. 1 dal T-Wharf
+Smith Cove from Banner Hill ||| Smith Cove a partir de Banner Hill ||| Smith Cove da Banner Hill
+Annisquam Light from Wingaersheek Beach ||| Annisquam Light a partir de Wingaersheek Beach ||| Annisquam Light da Wingaersheek Beach
+Eastern Point Light from the breakwater ||| Eastern Point Light a partir do quebra-mar ||| Eastern Point Light dalla diga
+Norman's Woe from the western shore ||| Norman's Woe a partir da margem ocidental ||| Norman's Woe dalla riva occidentale
+at sunrise ||| ao nascer do sol ||| all’alba
+in morning fog ||| no nevoeiro da manhã ||| nella nebbia del mattino
+at low tide ||| na maré baixa ||| con la bassa marea
+at high tide ||| na maré alta ||| con l’alta marea
+on an overcast afternoon ||| numa tarde encoberta ||| in un pomeriggio coperto
+at the afterglow ||| no arrebol ||| all’ultimo bagliore
+in the first ten minutes of rain ||| nos primeiros dez minutos de chuva ||| nei primi dieci minuti di pioggia
+Gloucester, Rockport, Essex and Manchester-by-the-Sea ||| Gloucester, Rockport, Essex e Manchester-by-the-Sea ||| Gloucester, Rockport, Essex e Manchester-by-the-Sea
+Announced each year; check the organizers for dates. ||| Anunciado todos os anos; consulte os organizadores para as datas. ||| Annunciato ogni anno; consulta gli organizzatori per le date.
+Studios across Cape Ann ||| Ateliês por toda Cape Ann ||| Atelier in tutta Cape Ann
+by car, with a walk on Rocky Neck ||| de carro, com um passeio a pé em Rocky Neck ||| in auto, con una passeggiata a Rocky Neck
+a downtown walk, then a drive ||| um passeio a pé pelo centro, depois de carro ||| una passeggiata in centro, poi in auto
+Virginia Lee Burton (1909–1968) ||| Virginia Lee Burton (1909–1968) ||| Virginia Lee Burton (1909–1968)
+Hopper and Jo Nivison, 1923 ||| Hopper e Jo Nivison, 1923 ||| Hopper e Jo Nivison, 1923
+An oil, at the Cincinnati Art Museum ||| Um óleo, no Cincinnati Art Museum ||| Un olio, al Cincinnati Art Museum
+The wharfs ||| Os cais ||| I moli
+The high view ||| A vista alta ||| La veduta dall’alto
+Rothko, summer 1934 ||| Rothko, verão de 1934 ||| Rothko, estate 1934
+Fish flakes to draggers ||| Dos estendais de peixe aos arrastões ||| Dai graticci per il pesce ai pescherecci a strascico
+A harbor walk, then a short drive ||| Um passeio a pé pelo porto, depois um curto trajeto de carro ||| Una passeggiata al porto, poi un breve tragitto in auto
+Lane a native, working there 1840s–1865; Mellen his student in the 1850s ||| Lane era natural da terra e trabalhou lá da década de 1840 a 1865; Mellen foi sua aluna na década de 1850 ||| Lane era nativo e vi lavorò dagli anni 1840 al 1865; Mellen fu sua allieva negli anni 1850
+Avery from 1921; Gottlieb and Rothko with him in the 1930s ||| Avery a partir de 1921; Gottlieb e Rothko com ele na década de 1930 ||| Avery dal 1921; Gottlieb e Rothko con lui negli anni 1930
+The Phillips Collection 2026–27 schedule ||| Programa 2026–27 da Phillips Collection ||| Programma 2026–27 della Phillips Collection
+Rocky Neck programs & events ||| Programas e eventos de Rocky Neck ||| Programmi ed eventi di Rocky Neck
+November to March ||| De novembro a março ||| Da novembre a marzo
+Independent shops and nonprofits keep Cape Ann's art community going. Each listing shows the month it was last checked (most recently ⟦0⟧November 2026⟦1⟧) against the sources linked on its card. Hours change with the seasons, so call ahead. ||| Lojas independentes e organizações sem fins lucrativos mantêm viva a comunidade artística de Cape Ann. Cada registo mostra o mês em que foi verificado pela última vez (mais recentemente em ⟦0⟧novembro de 2026⟦1⟧) junto das fontes ligadas no seu cartão. Os horários mudam com as estações, por isso telefone antes. ||| Negozi indipendenti e organizzazioni non profit tengono viva la comunità artistica di Cape Ann. Ogni scheda indica il mese dell’ultima verifica (la più recente: ⟦0⟧novembre 2026⟦1⟧) sulle fonti collegate nel suo riquadro. Gli orari cambiano con le stagioni, quindi telefona prima.
+Coastline ||| Linha de costa ||| Linea di costa

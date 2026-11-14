@@ -1,6 +1,7 @@
 // Builds the plain pages (one per painting and site, plus list pages), the sitemap and the offline worker
 // from the data in js/. Run from the repository root:  node tools/build.mjs
 // The deploy workflow runs it on every push, so editing js/places.js on github.com is enough.
+import { localizeAll, langsNav, alternates, LANGS, clean } from './i18n.mjs';
 import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import vm from 'node:vm';
 const ROOT = process.cwd(), ORIGIN = 'https://paintedgloucester.github.io';
 const ctx = { window: {} }; vm.createContext(ctx);
@@ -17,11 +18,11 @@ const today = new Date().toISOString().slice(0, 10);
 const DEFAULT_IMG = 'img/lane-braces-rock.jpg', DEFAULT_ALT = "Fitz Henry Lane, Brace's Rock, Eastern Point, Gloucester, about 1864";
 const ICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231F3A52'/%3E%3Cpath d='M8 44c10-6 16-6 24 0s14 6 24 0' stroke='%23E3B97C' stroke-width='4' fill='none'/%3E%3Ccircle cx='44' cy='20' r='7' fill='%23E3B97C'/%3E%3C/svg%3E`;
 const FLAGS = {"en": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#B22234\"/><rect y=\"1.54\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"4.61\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"7.69\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"10.77\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"13.84\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"16.92\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect width=\"13\" height=\"10.77\" fill=\"#3C3B6E\"/><circle cx=\"1.60\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"4.05\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"6.50\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"8.95\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"11.40\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"2.80\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"5.25\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"7.70\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"10.15\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"1.60\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"4.05\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"6.50\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"8.95\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"11.40\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"2.80\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"5.25\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"7.70\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"10.15\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"1.60\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"4.05\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"6.50\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"8.95\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"11.40\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/></svg>", "pt": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#DA291C\"/><rect width=\"12\" height=\"20\" fill=\"#046A38\"/><circle cx=\"12\" cy=\"10\" r=\"4.4\" fill=\"#FFE900\"/><path d=\"M9.7 7.4h4.6v3.4a2.3 2.3 0 0 1-4.6 0z\" fill=\"#fff\" stroke=\"#DA291C\" stroke-width=\".8\"/></svg>", "it": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect width=\"10\" height=\"20\" fill=\"#009246\"/><rect x=\"20\" width=\"10\" height=\"20\" fill=\"#CE2B37\"/></svg>"};
-const written = [];
-function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, type = 'website', ld, body, crumbs = [], lang = 'en', alt = null, head = '', tail = '' }) {
+const written = [], pages = [];
+function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, type = 'website', ld, body, crumbs = [], head = '', tail = '' }) {
   const up = '../'.repeat(file.split('/').length - 1), url = `${ORIGIN}/${file.replace(/index\.html$/, '')}`;
   const html = `<!DOCTYPE html>
-<html lang="${lang}">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -39,13 +40,14 @@ function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${ORIGIN}/${image}">
 <meta name="theme-color" content="#1F3A52">
-${alt ? Object.entries(alt).map(([l, f]) => `<link rel="alternate" hreflang="${l}" href="${ORIGIN}/${f.replace(/index\.html$/, '')}">`).join('\n') + '\n' : ''}${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n` : ''}<link rel="stylesheet" href="${up}css/fonts.css">
+${alternates(file, ORIGIN)}
+${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n` : ''}<link rel="stylesheet" href="${up}css/fonts.css">
 <link rel="stylesheet" href="${up}css/pages.css">
 ${head ? head(up) : ''}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><a class="brand" href="${up}./">Painted Gloucester<small>Cape Ann · Massachusetts</small></a>
-<nav aria-label="Sections"><a href="${up}#map">Map</a><a href="${up}works/">Paintings</a><a href="${up}sites/">Sites</a><a href="${up}trails/">Trails</a><a href="${up}shops.html">Shops</a><a href="${up}field-notes.html">Field notes</a><a href="${up}brief.html">Brief</a></nav><nav class="langs" aria-label="Language">${[['en', 'English', FLAGS.en, lang === 'en' ? null : up + './'], ['pt-PT', 'Português', FLAGS.pt, up + 'pt/'], ['it', 'Italiano', FLAGS.it, up + 'it/']].map(([c, n, f, h]) => `<a href="${c === lang ? '#main' : h}" hreflang="${c}" lang="${c}" title="${n}"${c === lang ? ' aria-current="true"' : ''}>${f}<span class="vh">${n}</span></a>`).join('')}</nav></header>
+<nav aria-label="Sections"><a href="${up}#map">Map</a><a href="${up}works/">Paintings</a><a href="${up}sites/">Sites</a><a href="${up}trails/">Trails</a><a href="${up}shops.html">Shops</a><a href="${up}field-notes.html">Field notes</a><a href="${up}brief.html">Brief</a></nav>${langsNav(file, 'en', FLAGS)}</header>
 <main id="main">
 ${crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><a href="${up}./">Home</a>${crumbs.map(([n, h]) => ` <span aria-hidden="true">›</span> ${h ? `<a href="${up}${h}">${esc(n)}</a>` : `<span>${esc(n)}</span>`}`).join('')}</nav>` : ''}
 ${body(up)}
@@ -53,13 +55,13 @@ ${body(up)}
 <footer class="foot"><div class="foot-in">
  <div><b class="foot-b">Painted Gloucester</b><p>A free field guide to painting Cape Ann, Massachusetts. Listings last checked ${esc(P.checked)}.</p><p><a href="https://github.com/paintedgloucester/paintedgloucester.github.io/issues/new?template=listing.yml">Suggest a listing or send a correction ↗</a></p></div>
  <div><b class="foot-h">Explore</b><ul><li><a href="${up}./">The interactive guide</a></li><li><a href="${up}works/">All ${D.works.length} paintings</a></li><li><a href="${up}sites/">The nine sites, with directions</a></li><li><a href="${up}shops.html">Shops, studios and events</a></li><li><a href="${up}field-notes.html">Palettes, light and painting days</a></li><li><a href="${up}brief.html">The research brief</a></li></ul></div>
- <div><b class="foot-h">More guides</b><ul><li><a href="${up}painters.html">The painters and who brought whom</a></li><li><a href="${up}trails/">Walking and driving trails</a></li><li><a href="${up}waterfront.html">The working waterfront</a></li><li><a href="${up}winter.html">Painting in winter</a></li><li><a href="${up}photographers.html">The photographers</a></li><li><a href="${up}teachers.html">For teachers</a></li><li><a href="${up}gallery.html">Visitors’ gallery</a></li><li><a href="${up}pt/" hreflang="pt-PT" lang="pt-PT">Em português</a> · <a href="${up}it/" hreflang="it" lang="it">In italiano</a></li></ul></div>
+ <div><b class="foot-h">More guides</b><ul><li><a href="${up}painters.html">The painters and who brought whom</a></li><li><a href="${up}trails/">Walking and driving trails</a></li><li><a href="${up}waterfront.html">The working waterfront</a></li><li><a href="${up}winter.html">Painting in winter</a></li><li><a href="${up}photographers.html">The photographers</a></li><li><a href="${up}teachers.html">For teachers</a></li><li><a href="${up}gallery.html">Visitors’ gallery</a></li></ul></div>
  <div><b class="foot-h">Credits and license</b><p>Painting images are public-domain releases by the museums that hold the works, credited beside each image. Coastline: MassGIS. Place points © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p><p>Text and data © Painted Gloucester, free to reuse with credit under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="${up}LICENSE.md">License details</a>.</p></div>
 </div></footer>
 ${tail ? tail(up) : ''}</body>
 </html>
 `;
-  fs.mkdirSync(path.dirname(path.join(ROOT, file)), { recursive: true }); fs.writeFileSync(path.join(ROOT, file), html); written.push(file);
+  fs.mkdirSync(path.dirname(path.join(ROOT, file)), { recursive: true }); fs.writeFileSync(path.join(ROOT, file), html); written.push(file); pages.push({ file, html });
 }
 const chipLabel = { documented: 'Vantage documented', approx: 'Area documented · spot approximate', secondary: 'Secondary source · spot approximate', inferred: 'Modern viewpoint · our suggestion' };
 
@@ -68,7 +70,8 @@ const byDate = [...D.works].sort((a, b) => (a.y || 9999) - (b.y || 9999) || a.t.
 for (const g of fs.existsSync('works') ? fs.readdirSync('works') : []) fs.rmSync(path.join('works', g));
 byDate.forEach((w, i) => {
   const site = SITE_OF[w.id], prev = byDate[i - 1], next = byDate[i + 1];
-  const desc = `${w.t} by ${w.by}, ${w.d}. ${w.med}. ${mus(w)}.${site ? ` Painted at site ${site.n}, ${site.title}.` : ''} One of ${D.works.length} paintings of Cape Ann in the Painted Gloucester field guide.`;
+  const dot = v => v.replace(/\.+$/, '') + '.';
+  const desc = `${w.t} by ${w.by}, ${w.d}. ${dot(w.med)} ${dot(mus(w))}${site ? ` Painted at site ${site.n}, ${site.title}.` : ''} One of ${D.works.length} paintings of Cape Ann in the Painted Gloucester field guide.`;
   page({ file: `works/${w.id}.html`, title: `${w.t}, ${w.by} (${w.d})`, desc, type: 'article',
     image: w.img ? `img/${w.id}.jpg` : DEFAULT_IMG, imageAlt: w.img ? `${w.by}, ${w.t}, ${w.d}` : DEFAULT_ALT,
     crumbs: [['Paintings', 'works/'], [w.t]],
@@ -82,7 +85,7 @@ ${w.img ? `<figure class="plate"><a href="${up}#work-${w.id}"><img src="${up}img
   : `<div class="plate none"><p class="k">${w.pd ? 'Image not included here' : 'Image at the museum · not openly licensed'}</p><p class="big"><i>${esc(w.t)}</i></p><a class="btn gold" href="${esc(w.url)}">View at the ${esc(mus(w))} ↗</a></div>`}
 <div class="btnrow"><a class="btn solid" href="${up}#work-${w.id}">${w.img ? 'Open in the guide: zoom and sample colors' : 'Open in the guide'}</a><a class="btn" href="${esc(w.url)}">${w.img ? 'Museum page ↗' : 'View at the museum ↗'}</a>${site ? `<a class="btn" href="${up}sites/${site.id}.html">Where it was painted (site ${site.n})</a>` : ''}</div>
 <dl class="facts"><dt>Medium</dt><dd>${esc(w.med)}</dd><dt>Collection</dt><dd>${esc(w.mus)}</dd><dt>Accession no.</dt><dd>${esc(w.acc)}</dd>${w.place ? `<dt>Place</dt><dd>${esc(w.place)}</dd>` : ''}<dt>Record checked</dt><dd>${esc(w.st)}</dd><dt>Image rights</dt><dd>${w.pd ? 'Public-domain image' + (w.img ? '' : ' (not included here)') : 'Not released for reuse by the museum, or still in copyright: see the museum page'}</dd></dl>
-${w.n && D.notes[w.n] ? `<div class="note"><b>Source · <a href="${up}brief.html#note-${w.n}">note ${w.n}</a></b><p>${D.notes[w.n]}</p></div>` : ''}
+${w.n && D.notes[w.n] ? `<div class="note"><b>Source · <a href="${up}brief.html#note-${w.n}">note ${w.n}</a></b><p translate="no" lang="en">${D.notes[w.n]}</p></div>` : ''}
 <nav class="pager" aria-label="More paintings">${prev ? `<a href="${prev.id}.html">‹ ${esc(prev.t)}<small>${esc(prev.by)}, ${esc(prev.d)}</small></a>` : '<span></span>'}${next ? `<a class="nx" href="${next.id}.html">${esc(next.t)} ›<small>${esc(next.by)}, ${esc(next.d)}</small></a>` : '<span></span>'}</nav>
 </article>` });
 });
@@ -132,8 +135,8 @@ page({ file: 'shops.html', title: 'Art supplies, workshops, galleries and paint-
   crumbs: [['Shops & studios']],
   body: up => `<div class="kicker">Shops &amp; studios</div><h1>Buy local, learn local</h1>
 <p class="lead measure">Independent shops and nonprofits keep Cape Ann's art community going. Each listing shows the month it was last checked against its sources. Hours change with the seasons, so call ahead. <a href="${up}#shops">See them on the street map.</a></p>
-${['Art supplies', 'Workshops & associations', 'Museums & galleries'].map(t => `<section class="grp"><h2>${esc(t)}</h2>${P.places.filter(p => TYPE[p.type] === t).map(p => `<article class="place" id="${p.id}"><h3>${esc(p.name)}</h3><p class="m">${esc(p.addr)}${p.phone ? ` · ${esc(p.phone)}` : ''}${p.far ? ' · further afield' : ''}</p><p>${esc(p.what)}</p>${p.special && p.special.length ? `<ul>${p.special.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${p.confirm ? `<p class="confirm">${esc(p.confirm)}</p>` : ''}<p class="acts">${p.url ? `<a href="${esc(p.url)}">Website ↗</a>` : ''}<a href="${dir(p.ll)}">Directions ↗</a></p><p class="src"><b>Checked ${esc(p.checked || P.checked)}</b> · Source: ${p.src.map(([n, u]) => `<a href="${esc(u.startsWith('http') ? u : up + u)}">${esc(n)}</a>`).join('; ')}</p></article>`).join('')}</section>`).join('\n')}
-<section class="grp"><h2>Paint-outs and annual events</h2>${P.events.map(e => `<article class="place"><h3>${esc(e.name)}</h3><p class="m"><b>${esc(e.when)}</b> · ${esc(e.where)}</p><p>${esc(e.what)}</p><p class="src"><b>Checked ${esc(e.checked || P.checked)}</b> · ${e.src.map(([n, u]) => `<a href="${esc(u)}">${esc(n)} ↗</a>`).join(' · ')}</p></article>`).join('')}</section>` });
+${['Art supplies', 'Workshops & associations', 'Museums & galleries'].map(t => `<section class="grp"><h2>${esc(t)}</h2>${P.places.filter(p => TYPE[p.type] === t).map(p => `<article class="place" id="${p.id}"><h3>${esc(p.name)}</h3><p class="m">${esc(p.addr)}${p.phone ? ` · ${esc(p.phone)}` : ''}${p.far ? ' · further afield' : ''}</p><p>${esc(p.what)}</p>${p.special && p.special.length ? `<ul>${p.special.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${p.confirm ? `<p class="confirm">${esc(p.confirm)}</p>` : ''}<p class="acts">${p.url ? `<a href="${esc(p.url)}">Website ↗</a>` : ''}<a href="${dir(p.ll)}">Directions ↗</a></p><p class="src"><b>Checked ${esc(p.checked || P.checked)}</b> · Source: ${p.src.map(([n, u]) => `<a translate="no" href="${esc(u.startsWith('http') ? u : up + u)}">${esc(n)}</a>`).join('; ')}</p></article>`).join('')}</section>`).join('\n')}
+<section class="grp"><h2>Paint-outs and annual events</h2>${P.events.map(e => `<article class="place"><h3>${esc(e.name)}</h3><p class="m"><b>${esc(e.when)}</b> · ${esc(e.where)}</p><p>${esc(e.what)}</p><p class="src"><b>Checked ${esc(e.checked || P.checked)}</b> · ${e.src.map(([n, u]) => `<a translate="no" href="${esc(u)}">${esc(n)} ↗</a>`).join(' · ')}</p></article>`).join('')}</section>` });
 
 /* ---------- field notes: palettes, light, conditions, kit, days ---------- */
 page({ file: 'field-notes.html', title: 'Field notes: palettes, light, conditions and four painting days', desc: 'Starter palettes in the spirit of Lane, Homer, Hassam and Twachtman, the light through the day on Cape Ann, tides, fog and wind, a packing list and four painting days timed to the light.',
@@ -150,14 +153,20 @@ page({ file: 'field-notes.html', title: 'Field notes: palettes, light, condition
 /* ---------- trails, seasons, waterfront, photographers, teachers, gallery, translations ---------- */
 await import('./extras.mjs').then(m => m.default({ page, esc, strip, WBY, D, P, X, ORIGIN, dir, mus, SITE_OF, ctx, fs }));
 
+/* ---------- translated copies ---------- */
+{ const FLAG_PT = FLAGS.pt, home = fs.readFileSync('index.html', 'utf8'), brief = fs.readFileSync('brief.html', 'utf8');
+  const rep = localizeAll([...pages, { file: 'index.html', html: home, spa: true }, { file: 'brief.html', html: brief }], { ORIGIN, FLAGS });
+  console.log('translations: ' + Object.entries(rep).map(([l, m]) => `${l} ${m.length} strings still in English`).join(', ')); }
+
 /* ---------- sitemap ---------- */
-const urls = ['', 'brief.html', 'Painted-Gloucester-brief.pdf', ...written.map(f => f.replace(/index\.html$/, ''))];
+const enUrls = ['', 'brief.html', ...written.map(f => f.replace(/index\.html$/, ''))];
+const urls = [...enUrls, 'Painted-Gloucester-brief.pdf', ...LANGS.flatMap(([d]) => enUrls.map(u => d + '/' + u))];
 fs.writeFileSync('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${ORIGIN}/${u}</loc><lastmod>${today}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 
 /* ---------- offline worker ---------- */
 const ls = d => fs.existsSync(d) ? fs.readdirSync(d).filter(f => !f.startsWith('.')).map(f => `${d}/${f}`) : [];
 const siteImgs = [...new Set(D.sites.flatMap(s => [s.main, ...s.comp]).filter(id => id && WBY[id].img))];
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', ...ls('css'), ...ls('js').filter(f => f !== 'js/extras.js'), ...ls('fonts'), 'vendor/leaflet/leaflet.js', 'vendor/leaflet/leaflet.css', ...ls('vendor/leaflet/images'), ...ls('icons'),
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', ...ls('css'), ...ls('js').filter(f => f !== 'js/extras.js' && f !== 'js/i18n.js'), ...ls('fonts'), 'vendor/leaflet/leaflet.js', 'vendor/leaflet/leaflet.css', ...ls('vendor/leaflet/images'), ...ls('icons'),
   ...ls('thumbs').filter(f => f.endsWith('.webp')), ...siteImgs.map(id => `img/m/${id}.webp`), 'img/m/lane-braces-rock.webp', 'sites/index.html', 'works/index.html', 'shops.html', 'field-notes.html'];
 const uniq = [...new Set(SHELL)].filter(f => f === './' || fs.existsSync(f));
 const h = crypto.createHash('sha256'); for (const f of uniq) h.update(f).update(fs.readFileSync(f === './' ? 'index.html' : f));
