@@ -1,0 +1,33 @@
+name: Check listing links
+
+on:
+  schedule:
+    - cron: '17 13 1 * *'   # the first of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test every link in the listings
+        run: node tools/linkcheck.mjs
+      - name: Open or update an issue if something needs attention
+        if: hashFiles('linkcheck-report.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create link-check --color B5522B --description "Monthly listing check" 2>/dev/null || true
+          n=$(gh issue list --label link-check --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --body-file linkcheck-report.md
+          else
+            gh issue create --title "Listings need a check ($(date +'%B %Y'))" --label link-check --body-file linkcheck-report.md
+          fi

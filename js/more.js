@@ -16,7 +16,10 @@ const R = Math.PI / 180;
 function dist(a, b) { const dLat = (b[0] - a[0]) * R, dLon = (b[1] - a[1]) * R, h = Math.sin(dLat / 2) ** 2 + Math.cos(a[0] * R) * Math.cos(b[0] * R) * Math.sin(dLon / 2) ** 2; return 2 * 6371000 * Math.asin(Math.sqrt(h)); }
 function brg(a, b) { const y = Math.sin((b[1] - a[1]) * R) * Math.cos(b[0] * R), x = Math.cos(a[0] * R) * Math.sin(b[0] * R) - Math.sin(a[0] * R) * Math.cos(b[0] * R) * Math.cos((b[1] - a[1]) * R); return (Math.atan2(y, x) / R + 360) % 360; }
 const fmtD = m => m < 1000 ? `${Math.round(m / 10) * 10} m (${Math.round(m * 3.28084 / 10) * 10} ft)` : `${(m / 1000).toFixed(1)} km (${(m / 1609.344).toFixed(1)} mi)`;
-const imgSrc = id => `img/${id}.jpg`, thumb = id => `thumbs/${id}.jpg`;
+const imgSrc = id => `img/m/${id}.webp`, thumb = id => `thumbs/${id}.webp`;
+/* the hero fills the screen: phones get the 1200px copy, large screens the full JPEG */
+const heroSrc = id => innerWidth * Math.min(devicePixelRatio || 1, 2) > 1500 ? `img/${id}.jpg` : imgSrc(id);
+const loadSlide = el => { if (el && el.dataset.bg) { el.style.backgroundImage = `url('${el.dataset.bg}')`; delete el.dataset.bg; } };
 const nyToday = () => { const o = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date()).map(x => [x.type, x.value])); return { y: +o.year, m: +o.month, d: +o.day, min: +o.hour * 60 + +o.minute }; };
 const dirUrl = ll => `https://www.google.com/maps/dir/?api=1&destination=${ll[0]},${ll[1]}`;
 
@@ -63,13 +66,35 @@ function avgAt(ctx, x, y, r = 3) { const d = ctx.getImageData(Math.max(0, x - r)
 /* ================= init ================= */
 PGX.init = () => {
   PG = window.PG;
-  buildHome(); buildMapLayers(); buildPaint(); buildShops(); buildPlan(); viewerSampling();
+  buildHome(); buildMapLayers(); buildPaint(); buildShops(); buildPlan(); viewerSampling(); initOffline();
   document.addEventListener('click', e => { const a = e.target.closest('[data-go-site]'); if (!a) return; e.preventDefault(); goSite(a.dataset.goSite); });
   document.addEventListener('click', e => { const a = e.target.closest('[data-shops-map]'); if (!a) return; e.preventDefault(); PG.show('shops'); PG.setHash('shops'); requestAnimationFrame(() => { initShopMap(); $('#shopmap').scrollIntoView({ block: 'center' }); }); });
   document.addEventListener('click', e => { const a = e.target.closest('[data-go-place]'); if (!a) return; e.preventDefault(); goPlace(a.dataset.goPlace); });
 };
 function goSite(id) { const s = PG.D.sites.find(x => x.id === id); if (!s) return; PG.show('map'); requestAnimationFrame(() => { PG.MAP.resize(); PG.selectSite(s, true); }); }
 function goPlace(id) { if (!PL().places.find(x => x.id === id)) return; PG.show('shops'); PG.setHash('shops'); requestAnimationFrame(() => focusPlace(id)); }
+/* ================= offline ================= */
+const OFFLINE_CACHE = 'pg-paintings';
+function initOffline() {
+  const btn = $('#offlinebtn'), msg = $('#offlinemsg'); if (!btn) return;
+  if (!('serviceWorker' in navigator) || !('caches' in window)) { btn.hidden = true; msg.textContent = 'This browser cannot save the guide for offline use.'; return; }
+  const ids = PG.D.works.filter(w => w.img).map(w => w.id), urls = ids.map(imgSrc).concat(ids.map(thumb));
+  const done = () => { btn.textContent = 'Saved for offline use ✓'; btn.disabled = true; msg.textContent = `All ${ids.length} paintings are stored on this device. The chart, sun planner, passport and paintings now work without a signal. The street map on the Shops page and museum links still need a connection.`; };
+  if (LS.get('offline', 0) === ids.length) caches.has(OFFLINE_CACHE).then(h => { if (h) done(); });
+  btn.onclick = async () => {
+    btn.disabled = true; let n = 0, bad = 0;
+    try { const c = await caches.open(OFFLINE_CACHE);
+      for (const u of urls) { try { if (!(await c.match(u))) { const r = await fetch(u); if (!r.ok) throw 0; await c.put(u, r); } } catch (e) { bad++; } n++; if (n % 4 === 0 || n === urls.length) msg.textContent = `Saving paintings… ${Math.round(n / urls.length * 100)}%`; }
+    } catch (e) { bad = urls.length; }
+    if (bad) { btn.disabled = false; msg.textContent = `${bad} image${bad === 1 ? '' : 's'} could not be saved. Check your connection and try again.`; }
+    else { LS.set('offline', ids.length); done(); }
+  };
+}
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost', '127.0.0.1'].includes(location.hostname))) {
+  addEventListener('load', () => { const had = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (had && PG) PG.toast('Guide updated. Reload for the latest.'); }); });
+}
 PGX.onShow = v => { if (v === 'home') heroPlay(true); else heroPlay(false); if (v === 'plan') renderPassport(); if (v === 'paint') labInit(); if (v === 'shops') requestAnimationFrame(initShopMap); };
 
 /* ================= home ================= */
@@ -77,7 +102,8 @@ const SLIDES = ['lane-braces-rock', 'homer-gloucester-harbor-1880', 'hassam-nort
 let slideI = 0, slideT = null;
 function buildHome() {
   const box = $('#slides'); const W = PG.WBY;
-  box.innerHTML = SLIDES.filter(id => W[id]).map((id, i) => `<div class="slide${i === 0 ? ' on' : ''}" style="background-image:url('${imgSrc(id)}')"></div>`).join('');
+  box.innerHTML = SLIDES.filter(id => W[id]).map((id, i) => `<div class="slide${i === 0 ? ' on' : ''}" data-bg="${heroSrc(id)}"></div>`).join('');
+  loadSlide(box.firstElementChild);
   setCap();
   // today's light at Fort Point
   const t = nyToday(), s0 = PG.D.sites[0], rs = SUN.riseSet(t.y, t.m, t.d, s0.V[0], s0.V[1]);
@@ -97,7 +123,8 @@ function buildHome() {
 function setCap() { const w = PG.WBY[SLIDES[slideI]]; $('#herocap').innerHTML = w ? `${esc(w.by)}, <i>${esc(w.t)}</i>, ${esc(w.d)}. ${esc(w.mus.split(' (')[0])}.` : ''; }
 function heroPlay(on) {
   clearInterval(slideT); if (!on || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  slideT = setInterval(() => { const ss = $$('#slides .slide'); ss[slideI].classList.remove('on'); slideI = (slideI + 1) % ss.length; ss[slideI].classList.add('on'); setCap(); }, 7000);
+  loadSlide($$('#slides .slide')[(slideI + 1) % SLIDES.length]);
+  slideT = setInterval(() => { const ss = $$('#slides .slide'); ss[slideI].classList.remove('on'); slideI = (slideI + 1) % ss.length; loadSlide(ss[slideI]); ss[slideI].classList.add('on'); setCap(); loadSlide(ss[(slideI + 1) % ss.length]); }, 7000);
 }
 
 /* ================= map: places + you ================= */
@@ -154,7 +181,7 @@ function placeBody(p) {
     ${p.special && p.special.length ? `<h4>What makes it special</h4><ul class="plist">${p.special.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${p.confirm ? `<p class="confirm">${esc(p.confirm)}</p>` : ''}
     <div class="btnrow">${p.url ? `<a class="btn solid" href="${esc(p.url)}" target="_blank" rel="noopener">Website ↗</a>` : ''}<a class="btn" href="${dirUrl(p.ll)}" target="_blank" rel="noopener">Directions ↗</a></div>
-    <p class="src">Source: ${p.src.map(([n, u]) => `<a href="${esc(u)}" ${u.startsWith('http') ? 'target="_blank" rel="noopener"' : ''}>${esc(n)}</a>`).join('; ')}</p>`;
+    <p class="src"><span class="chk">Checked ${esc(p.checked || PL().checked)}</span> · Source: ${p.src.map(([n, u]) => `<a href="${esc(u)}" ${u.startsWith('http') ? 'target="_blank" rel="noopener"' : ''}>${esc(n)}</a>`).join('; ')}</p>`;
 }
 
 /* ================= panel decorations ================= */
@@ -391,7 +418,7 @@ function chartPlace(id) { const p = PL().places.find(x => x.id === id); if (!p) 
 
 /* ================= shops view ================= */
 function buildShops() {
-  const P = PL(); $('#checked').textContent = P.checked;
+  const P = PL(); $$('.checked-date').forEach(n => n.textContent = P.checked);
   P.places.forEach((p, i) => p.num = i + 1);
   const render = t => { const T = { supply: 'Art supplies', school: 'Workshops & associations', museum: 'Museum', gallery: 'Gallery' };
     const list = P.places.filter(p => matchT(p, t));
@@ -404,7 +431,7 @@ function buildShops() {
   render('all');
   $$('#ptabs button').forEach(b => b.onclick = () => { $$('#ptabs button').forEach(x => x.classList.toggle('on', x === b)); render(b.dataset.t); });
   $('#events').innerHTML = P.events.map(e => `<div class="event"><b>${esc(e.name)}</b><span class="ew">${esc(e.when)}</span><span class="tiny">${esc(e.where)}</span><p>${esc(e.what)}</p>
-    <span class="tiny">${e.src.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join(' · ')}</span></div>`).join('');
+    <span class="tiny">${e.src.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join(' · ')} · <span class="chk">Checked ${esc(e.checked || P.checked)}</span></span></div>`).join('');
   $('#suggest').href = `https://github.com/${CFG.REPO}/issues/new?template=listing.yml`;
 }
 

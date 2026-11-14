@@ -15,7 +15,7 @@ A free public field guide to painting Cape Ann, Massachusetts, in the footsteps 
 
 ## How it's built
 
-Plain HTML, CSS and JavaScript with no build step. The only outside service is OpenStreetMap's street tiles on the Shops page; if they can't load, that map falls back to its own coastline. Location, photos and passport stamps never leave the visitor's browser.
+Plain HTML, CSS and JavaScript. One small script, `tools/build.mjs`, writes the plain pages, the sitemap and the offline worker from the data files; the deploy workflow runs it on every push, so editing a data file on github.com is enough. The only outside service is OpenStreetMap's street tiles on the Shops page; if they can't load, that map falls back to its own coastline. Location, photos and passport stamps never leave the visitor's browser.
 
 ```
 index.html          page shell, chart SVG and all views
@@ -26,7 +26,12 @@ js/explorer.js      chart, sun, viewer, works browser
 js/more.js          home, shops on the chart, location, passport, camera, color lab
 js/guide.js         palettes, light, conditions, kit, prompts, itineraries
 js/places.js        shops, schools, galleries and events  <- most edits happen here
-img/, thumbs/       public-domain painting images
+img/, thumbs/       public-domain painting images (img/m/ and *.webp are smaller copies made by tools/images.py)
+fonts/              the three typefaces, subset to the characters the site uses
+works/, sites/      one plain page per painting and per site (generated; do not edit by hand)
+shops.html, field-notes.html   plain list pages (generated)
+sw.js, manifest.webmanifest, icons/   offline use and Add to Home Screen
+tools/              build.mjs (pages, sitemap, sw.js), images.py (image copies), linkcheck.mjs (monthly link test)
 ```
 
 Run it locally:
@@ -37,9 +42,23 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000. The camera and location features need HTTPS or localhost.
 
+After changing a data file, run `node tools/build.mjs` to refresh the generated pages locally. After adding a painting image to `img/`, run `python3 tools/images.py` (needs Pillow) and commit the new files.
+
+## Offline use
+
+A service worker (`sw.js`) keeps the guide, the thumbnails and the nine sites' paintings on the visitor's device after the first visit. The About page has a button that saves the remaining paintings. The street map tiles and museum links still need a connection.
+
 ## Adding or correcting a listing
 
-Open an issue with the **Suggest a listing or correction** form, or edit `js/places.js`. Each place needs a `type` (`supply`, `school`, `museum` or `gallery`), an address, coordinates in `ll` (latitude, longitude) and at least one public source in `src`. Use `confirm` for anything visitors should check before travelling.
+Open an issue with the **Suggest a listing or correction** form, or edit `js/places.js`. Each place needs a `type` (`supply`, `school`, `museum` or `gallery`), an address, coordinates in `ll` (latitude, longitude), at least one public source in `src`, and a `checked` month (for example `"November 2026"`): the last time the listing was compared with its sources. Update `checked` whenever you re-verify an entry. Use `confirm` for anything visitors should check before travelling.
+
+## Keeping listings fresh
+
+On the first of each month the **Check listing links** workflow tests every link in `js/places.js` and lists any entry whose `checked` month is more than six months old. If anything needs attention it opens (or updates) an issue labelled `link-check`.
+
+## License
+
+Text and data are CC BY 4.0; code is MIT. See [LICENSE.md](LICENSE.md).
 
 ## Credits
 

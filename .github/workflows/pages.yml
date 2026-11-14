@@ -22,8 +22,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
       - name: Check the site's scripts parse
         run: for f in js/*.js; do node --check "$f" || exit 1; done
+      - name: Build the plain pages, sitemap and offline worker
+        run: node tools/build.mjs && node --check sw.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -243,3 +243,34 @@ h3.disp{ font-family:'Cormorant', serif; font-weight:600; color:var(--navy); lin
 .shopmap-bar .away{ width:100%; }
 .shopmap-bar .away:empty{ display:none; }
 .smtile{ filter:saturate(.55) sepia(.12) brightness(1.03); }
+
+/* ---------- accessibility helpers ---------- */
+.vh{ position:absolute !important; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.skip{ position:absolute; left:8px; top:-60px; z-index:100; background:#fff; color:var(--navy); font:600 14px Inter, sans-serif; padding:10px 14px; border:2px solid var(--navy); border-radius:6px; transition:top .12s; }
+.skip:focus{ top:8px; }
+main:focus{ outline:none; }
+.nojs{ max-width:760px; margin:24px auto; padding:16px 20px; background:#F6E8D6; color:#3F2A0C; font:15px/1.5 Inter, sans-serif; border-radius:4px; }
+.vtab th{ text-align:left; font:600 11px Inter, sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); padding:4px 6px 7px; border-bottom:2px solid var(--rule); }
+.maplegend .hint a{ color:var(--navy); }
+
+/* ---------- works without an image: a clear way on to the museum ---------- */
+.card.noimgcard{ cursor:default; }
+.cardin{ all:unset; box-sizing:border-box; display:flex; flex-direction:column; flex:1; cursor:pointer; text-align:left; min-width:0; }
+.cardin:focus-visible{ outline:2px solid var(--navy); outline-offset:-2px; }
+.musbtn{ display:block; margin:0 12px 12px; padding:9px 10px; text-align:center; font:600 13px Inter, sans-serif; color:#fff; background:var(--navy); border:1px solid var(--navy); border-radius:6px; }
+.musbtn:hover{ background:#2E5577; border-bottom-color:#2E5577; }
+
+/* ---------- listing freshness, offline ---------- */
+.chk{ color:#5A3812; font-weight:600; white-space:nowrap; }
+.offline{ margin:14px 0 6px; } .offline p{ margin:8px 0 0; min-height:1.4em; }
+
+/* ---------- footer ---------- */
+.foot{ background:var(--navy); color:#C9D3DC; font:13.5px/1.55 Inter, sans-serif; }
+body[data-view="map"] .foot{ display:none; }
+.foot-in{ max-width:1180px; margin:0 auto; padding:38px 24px 44px; display:grid; grid-template-columns:1.1fr .8fr 1.4fr; gap:36px; }
+.foot p{ margin:0 0 10px; } .foot ul{ list-style:none; margin:0; padding:0; } .foot li{ margin:0 0 6px; }
+.foot a{ color:#F3EDE1; border-bottom:1px solid rgba(243,237,225,.4); } .foot a:hover{ border-bottom-color:#F3EDE1; }
+.foot-b{ display:block; font:600 26px 'Cormorant', serif; color:#FBF8F2; margin-bottom:8px; }
+.foot-h{ display:block; font:600 11px Inter, sans-serif; letter-spacing:.14em; text-transform:uppercase; color:#E3B97C; margin-bottom:10px; }
+@media (max-width:820px){ .foot-in{ grid-template-columns:1fr; gap:22px; padding:28px 18px 34px; } }
+@media (max-width:520px){ .musbtn{ margin:0 8px 10px; padding:9px 4px; font-size:12px; } }

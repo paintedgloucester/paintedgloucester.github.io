@@ -1,4 +1,5 @@
-// Shops, schools, galleries and events. Each entry needs at least one public source.
+// Shops, schools, galleries and events. Each entry needs at least one public source and a `checked` month,
+// the last time someone compared the listing against its sources. Update `checked` whenever you re-verify an entry.
 window.PLACES = {
  "checked": "November 2026",
  "places": [
@@ -29,7 +30,8 @@ window.PLACES = {
      "https://goodmorninggloucester.com/2013/03/26/island-art-hobby-review-and-info-from-eileen-oliver"
     ]
    ],
-   "confirm": "Listed hours are from an older fall schedule (Mon–Sat 10–6, Sun 12–5). Call before you go."
+   "confirm": "Listed hours are from an older fall schedule (Mon–Sat 10–6, Sun 12–5). Call before you go.",
+   "checked": "November 2026"
   },
   {
    "id": "rusty-ingrid",
@@ -57,7 +59,8 @@ window.PLACES = {
      "https://thenorthshoremoms.com/?p=16528"
     ]
    ],
-   "confirm": "Sources disagree on which Bearskin Neck number is the supply shop and which is the print shop, and hours are seasonal. Check before visiting."
+   "confirm": "Sources disagree on which Bearskin Neck number is the supply shop and which is the print shop, and hours are seasonal. Check before visiting.",
+   "checked": "November 2026"
   },
   {
    "id": "art-supplies-wholesale",
@@ -85,7 +88,8 @@ window.PLACES = {
      "https://bbb.org/us/ma/salem/category/craft-supplies?page=1"
     ]
    ],
-   "confirm": "One directory gives a Marblehead address. Directory hours: Mon–Fri 9–5, Sat 10–5, closed Sunday. Confirm before you go."
+   "confirm": "One directory gives a Marblehead address. Directory hours: Mon–Fri 9–5, Sat 10–5, closed Sunday. Confirm before you go.",
+   "checked": "November 2026"
   },
   {
    "id": "blick-cambridge",
@@ -108,7 +112,8 @@ window.PLACES = {
      "https://www.dickblick.com/stores/massachusetts/cambridge"
     ]
    ],
-   "confirm": "Chain store; check the store page for current hours."
+   "confirm": "Chain store; check the store page for current hours.",
+   "checked": "November 2026"
   },
   {
    "id": "cape-ann-museum",
@@ -131,7 +136,8 @@ window.PLACES = {
      "Painted Gloucester research brief",
      "brief.html"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "id": "rockport-art-assn",
@@ -158,7 +164,8 @@ window.PLACES = {
      "Harley Bartlett workshop",
      "https://www.rockportartassn.org/harley-bartlett-the-painted-sketch-of-rockport"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "id": "north-shore-arts",
@@ -180,7 +187,8 @@ window.PLACES = {
      "Discover Gloucester listing",
      "https://discovergloucester.com/directory/north-shore-arts-association-of-gloucester/"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "id": "rocky-neck",
@@ -209,7 +217,8 @@ window.PLACES = {
      "2024 Impressionist plein-air workshop",
      "https://rockyneckartcolony.org/event/impressionist-plein-air-painting-on-rocky-neck/2024-09-11"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "id": "art-haven",
@@ -237,7 +246,8 @@ window.PLACES = {
      "https://northshorekid.com/story/art-classes-kids-art-haven"
     ]
    ],
-   "confirm": "Some listings give 20 Maplewood Ave. Check arthaven.org for the current address and schedule."
+   "confirm": "Some listings give 20 Maplewood Ave. Check arthaven.org for the current address and schedule.",
+   "checked": "November 2026"
   },
   {
    "id": "local-colors",
@@ -259,7 +269,8 @@ window.PLACES = {
      "Cape Ann Chamber listing",
      "https://business.capeannchamber.com/list/member/local-colors-artists-cooperative-26319"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "id": "montserrat",
@@ -282,7 +293,8 @@ window.PLACES = {
      "https://creativecollectivema.com/directory-the_arts/"
     ]
    ],
-   "confirm": "Check the college site for current public programs."
+   "confirm": "Check the college site for current public programs.",
+   "checked": "November 2026"
   }
  ],
  "events": [
@@ -300,7 +312,8 @@ window.PLACES = {
      "Lake.com listing",
      "https://www.lake.com/events/cape-ann-plein-air/"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "name": "Motif No. 1 Day paint-out",
@@ -320,7 +333,8 @@ window.PLACES = {
      "Good Morning Gloucester: Paint-Out call",
      "https://goodmorninggloucester.com/2026/04/10/calling-all-artists-capture-an-icon-at-cape-anns-motif-no-1-paint-out"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "name": "Paint Out on Rocky Neck",
@@ -332,7 +346,8 @@ window.PLACES = {
      "Rocky Neck programs & events",
      "https://rockyneckartcolony.org/programs-events"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   },
   {
    "name": "Cape Ann Artisans Open Studios",
@@ -344,7 +359,8 @@ window.PLACES = {
      "North of Boston: Open Studios",
      "https://northofboston.org/signature-event/cape-ann-artisans-open-studios/"
     ]
-   ]
+   ],
+   "checked": "November 2026"
   }
  ]
 };

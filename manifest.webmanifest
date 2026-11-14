@@ -1,0 +1,15 @@
+{
+  "name": "Painted Gloucester",
+  "short_name": "Painted Gloucester",
+  "description": "A free field guide to painting Cape Ann: the painters' vantage points, the sun at any hour, 115 paintings, palettes and local art shops.",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF8F2",
+  "theme_color": "#1F3A52",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

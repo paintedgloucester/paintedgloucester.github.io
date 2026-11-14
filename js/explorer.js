@@ -47,6 +47,13 @@ if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 const D = window.DATA, $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const WBY = Object.fromEntries(D.works.map(w => [w.id, w]));
+/* image sizes: thumbnails for lists, 1200px 'medium' for the page, the full JPEG only when zooming in */
+const IMG = { t: id => `thumbs/${id}.webp`, m: id => `img/m/${id}.webp`, full: id => `img/${id}.jpg` };
+const SITE_NAME = 'Painted Gloucester', BASE_TITLE = document.title;
+const VIEW_TITLE = { home: '', map: 'Map & sites', works: 'The works', paint: 'Paint it', shops: 'Shops & studios', plan: 'Plan & passport', about: 'About' };
+let curView = 'home';
+function setTitle(t) { document.title = t ? `${t} — ${SITE_NAME}` : BASE_TITLE; }
+function viewTitle() { setTitle(curView === 'map' && cur ? `Site ${cur.n}: ${cur.title}` : VIEW_TITLE[curView]); }
 const SITE_OF = {}; D.sites.forEach(s => { if (s.main) SITE_OF[s.main] = s; s.comp.forEach(c => { SITE_OF[c] = SITE_OF[c] || s; }); });
 const toast = msg => { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast.h); toast.h = setTimeout(() => t.classList.remove('on'), 1400); };
 const COMPASS = ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
@@ -64,6 +71,7 @@ const MONTHS = ['January','February','March','April','May','June','July','August
 /* ---------------- tabs / routing ---------------- */
 function show(v) {
   window.PGX?.onShow?.(v);
+  curView = v; document.body.dataset.view = v; viewTitle();
   $$('.view').forEach(x => x.classList.toggle('on', x.id === v + 'view'));
   $$('nav.tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.v === v));
   if (v === 'map') requestAnimationFrame(() => { MAP.resize(); });
@@ -209,7 +217,7 @@ function introPanel() {
   <div class="inlegend"><span><i style="width:11px;height:11px;border-radius:50%;background:var(--navy)"></i>Where the painter stood</span> &nbsp; <span><i style="width:9px;height:9px;background:var(--ochre);transform:rotate(45deg)"></i>What they painted</span> &nbsp; <span><i style="width:11px;height:11px;border-radius:50%;background:var(--sun)"></i>The sun</span> &nbsp; <span><i style="width:16px;border-top:2px dashed #B5762A;height:0"></i>Historic shoreline</span><br>Drag to move the map; pinch to zoom.</div>
   <ul class="sitelist">${D.sites.map(s => `<li><button data-s="${s.id}"><span class="num">${s.n}</span><span><span class="t">${esc(s.title)}</span><span class="a">${esc(s.artist)} · <span class="chip ${s.chip}" style="font-size:9.5px;padding:1px 5px">${esc(s.chipl)}</span></span></span></button></li>`).join('')}</ul>
   <h4>Before you go</h4><p class="small">Check the tide table (NOAA station 8441841; mean range about 8.8 ft), reserve non-resident beach parking in summer, and paint from public ways: several historic vantage points, Banner Hill among them, are now private. The full brief has sources for all of this.</p>
-  <p class="small"><a href="brief.html#vantage">Read the vantage section of the brief ↗</a></p>`;
+  <p class="small"><a href="sites/">The nine sites as a plain list, with directions</a> · <a href="brief.html#vantage">The vantage section of the brief ↗</a></p>`;
   panel.querySelectorAll('[data-s]').forEach(b => b.onclick = () => selectSite(D.sites.find(s => s.id === b.dataset.s), true));
   window.PGX?.onIntro?.();
   panel.scrollTop = 0;
@@ -217,12 +225,12 @@ function introPanel() {
 function selectSite(s, zoom) {
   if (cur) { const old = SITEG[cur.id]; old.classList.remove('sel'); old.querySelector('text.vt')?.remove(); }
   cur = s;
-  if (!s) { sunState = null; drawSel(); introPanel(); MAP.overview(); setHash(''); return; }
-  SITEG[s.id].classList.add('sel'); setHash('site-' + s.n);
+  if (!s) { sunState = null; drawSel(); introPanel(); MAP.overview(); setHash(''); viewTitle(); return; }
+  SITEG[s.id].classList.add('sel'); setHash('site-' + s.n); viewTitle();
   const w = s.main ? WBY[s.main] : WBY['twachtman-harbor-view-hotel'];
-  const img = s.main ? `<button class="pimg" data-w="${w.id}" aria-label="Open the painting full screen"><img src="img/${w.id}.jpg" alt="${esc(w.by)}, ${esc(w.t)}"><span class="zoomhint">⤢ Zoom</span></button>`
+  const img = s.main ? `<button class="pimg" data-w="${w.id}" aria-label="Open the painting full screen"><img src="${IMG.m(w.id)}" alt="${esc(w.by)}, ${esc(w.t)}, ${esc(w.d)}" decoding="async"><span class="zoomhint">⤢ Zoom</span></button>`
     : `<div class="pimg none"><div class="sans" style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#D9B07A">Image at the museum</div><div class="big">${esc(w.t)}, ${esc(w.d)}</div><a href="${w.url}" target="_blank" rel="noopener">${esc(w.mus.split(' (')[0])} ↗</a></div>`;
-  const comps = s.comp.length ? `<div class="comps">${s.comp.map(id => { const c = WBY[id]; return `<button data-w="${id}"><img src="img/${id}.jpg" alt=""><span>${esc(c.by)}, <i>${esc(c.t)}</i>, ${esc(c.d)}</span></button>`; }).join('')}</div>` : '';
+  const comps = s.comp.length ? `<div class="comps">${s.comp.map(id => { const c = WBY[id]; return `<button data-w="${id}"><img src="${IMG.t(id)}" alt="" loading="lazy" decoding="async"><span>${esc(c.by)}, <i>${esc(c.t)}</i>, ${esc(c.d)}</span></button>`; }).join('')}</div>` : '';
   const i = D.sites.indexOf(s), prev = D.sites[(i + 8) % 9], next = D.sites[(i + 1) % 9];
   panel.innerHTML = `<div class="sitenav"><button class="back">← All nine sites</button><span class="pn"><button data-go="${prev.id}" aria-label="Previous site">‹ ${prev.n}</button><button data-go="${next.id}" aria-label="Next site">${next.n} ›</button></span></div>
   <div class="kicker">Site ${s.n} · ${esc(s.artist)}</div><h2 class="disp">${esc(s.title)}</h2><span class="chip ${s.chip}">${esc(s.chipl)}</span>
@@ -291,7 +299,7 @@ function initSun(s) {
 /* ---------------- compare ---------------- */
 function openCompare(s) {
   const o = $('#compare'); const w = WBY[s.main];
-  o.innerHTML = `<button class="vclose" aria-label="Close">×</button><div class="cmpbox" id="cmpbox"><div class="layer"><img src="img/${w.id}.jpg" alt="${esc(w.t)}"></div><div class="layer top" id="cmptop">${s.svg}</div><div class="handle" id="cmph"></div></div>
+  o.innerHTML = `<button class="vclose" aria-label="Close">×</button><div class="cmpbox" id="cmpbox"><div class="layer"><img src="${IMG.m(w.id)}" alt="${esc(w.by)}, ${esc(w.t)}"></div><div class="layer top" id="cmptop">${s.svg}</div><div class="handle" id="cmph"></div></div>
    <div class="cmplab"><span>◂ The painting</span><span>The ground today ▸</span></div><div class="cmpnote">Drag across to wipe between ${esc(w.by)}'s picture and the map of where the painter stood (dark circle), the subject (diamond) and the sun at the painting's hour. The map looks down from above; the painting looks out along the dashed line.</div>`;
   o.classList.add('on'); document.body.style.overflow = 'hidden';
   const box = $('#cmpbox'), top = $('#cmptop'), h = $('#cmph');
@@ -302,6 +310,26 @@ function openCompare(s) {
 }
 function closeOverlays() { $$('.overlay').forEach(o => o.classList.remove('on')); document.body.style.overflow = ''; }
 addEventListener('keydown', e => { if (e.key === 'Escape') { closeOverlays(); $('#notepop').classList.remove('on'); } });
+(() => {
+  const FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),select,textarea,[tabindex]:not([tabindex="-1"])';
+  const visible = n => n.getClientRects().length && getComputedStyle(n).visibility !== 'hidden';
+  const open = () => $$('.overlay.on').pop();
+  const bg = () => [$('header.top'), $('main'), $('footer.foot')].filter(Boolean);
+  let last = null, was = false;
+  const sync = () => { const o = open();
+    if (o && !was) { last = document.activeElement; bg().forEach(n => n.inert = true); }
+    if (o && !o.contains(document.activeElement)) { const t = o.querySelector('.vclose') || [...o.querySelectorAll(FOCUSABLE)].find(visible); if (t) t.focus({ preventScroll: true }); }
+    if (!o && was) { bg().forEach(n => n.inert = false); viewTitle(); if (last && document.contains(last)) last.focus({ preventScroll: true }); last = null; }
+    was = !!o; };
+  const mo = new MutationObserver(sync);
+  $$('.overlay').forEach(o => mo.observe(o, { attributes: true, attributeFilter: ['class'], childList: true }));
+  addEventListener('keydown', e => { const o = open(); if (!o || e.key !== 'Tab') return;
+    const f = [...o.querySelectorAll(FOCUSABLE)].filter(visible); if (!f.length) { e.preventDefault(); return; }
+    const first = f[0], end = f[f.length - 1], a = document.activeElement;
+    if (!o.contains(a)) { e.preventDefault(); first.focus(); }
+    else if (e.shiftKey && a === first) { e.preventDefault(); end.focus(); }
+    else if (!e.shiftKey && a === end) { e.preventDefault(); first.focus(); } });
+})();
 
 /* ---------------- viewer ---------------- */
 let vlist = [], vi = 0;
@@ -315,7 +343,7 @@ function renderViewer() {
   st.querySelectorAll('img,.noimg').forEach(n => n.remove());
   $$('.vnav').forEach(b => b.style.visibility = vlist.length > 1 ? 'visible' : 'hidden');
   $('.vctl').style.display = w.img ? 'flex' : 'none';
-  if (w.img) { const im = new Image(); im.src = `img/${w.id}.jpg`; im.alt = `${w.by}, ${w.t}, ${w.d}`; im.draggable = false; st.appendChild(im); im.onload = () => fitImg(); if (im.complete) fitImg(); }
+  if (w.img) { const im = new Image(); im.src = IMG.m(w.id); im.dataset.id = w.id; im.alt = `${w.by}, ${w.t}, ${w.d}`; im.draggable = false; st.appendChild(im); im.onload = () => fitImg(); if (im.complete) fitImg(); }
   else st.insertAdjacentHTML('beforeend', `<div class="noimg"><div><div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#D9B07A">${w.pd ? 'Image not included' : 'Image at the museum · not openly licensed'}</div><div class="big"><i>${esc(w.t)}</i></div><a href="${w.url}" target="_blank" rel="noopener">See it on the ${esc(w.mus.split(' (')[0])} website ↗</a></div></div>`);
   $('#vinfo').innerHTML = `<div class="kicker">${esc(D.labels[w.g] || '')}${vlist.length > 1 ? ` · ${vi + 1} of ${vlist.length}` : ''}</div><div class="tt">${esc(w.t)}</div>
     <div style="font:15px Inter,sans-serif;margin-top:6px">${esc(w.by)}, ${esc(w.d)}</div>
@@ -324,14 +352,18 @@ function renderViewer() {
     ${w.n ? `<div class="note"><b>Source · note ${w.n}</b>${D.notes[w.n] || ''}</div>` : ''}
     ${w.cr ? `<div class="cr">Image: ${esc(w.cr)}</div>` : ''}`;
   const ts = $('#tosite'); if (ts) ts.onclick = () => { closeOverlays(); show('map'); selectSite(site, true); };
-  $('#cpl').onclick = () => { const u = location.href.split('#')[0] + '#work-' + w.id; navigator.clipboard?.writeText(u).then(() => toast('Link copied'), () => toast(u)); };
-  setHash('work-' + w.id);
+  $('#cpl').onclick = () => { const u = new URL(`works/${w.id}.html`, location.href.split('#')[0]).href; navigator.clipboard?.writeText(u).then(() => toast('Link copied'), () => toast(u)); };
+  setHash('work-' + w.id); setTitle(`${w.t}, ${w.by}`);
   window.PGX?.onViewer?.(w);
 }
 function placeImg() { const im = $('#stage img'); if (im) im.style.transform = `translate(${V.x}px,${V.y}px) scale(${V.s})`; }
 function fitImg() { const im = $('#stage img'), st = $('#stage'); if (!im || !im.naturalWidth) return; const r = st.getBoundingClientRect(), pad = 40;
   V.fit = Math.min((r.width - pad * 2) / im.naturalWidth, (r.height - pad * 2) / im.naturalHeight); V.s = V.fit; V.x = (r.width - im.naturalWidth * V.s) / 2; V.y = (r.height - im.naturalHeight * V.s) / 2; placeImg(); }
-function zoomImg(f, cx, cy) { const st = $('#stage').getBoundingClientRect(); const px = cx - st.left, py = cy - st.top; const ns = Math.max(V.fit * 0.8, Math.min(V.fit * 8, V.s * f)); f = ns / V.s; V.x = px - (px - V.x) * f; V.y = py - (py - V.y) * f; V.s = ns; placeImg(); }
+/* swap in the full-size JPEG the first time someone zooms well past the fitted size */
+function upgradeImg() { const im = $('#stage img'); if (!im || im.dataset.full || !im.naturalWidth || V.s < V.fit * 1.25) return; im.dataset.full = '1';
+  const hi = new Image(); hi.onload = () => { if ($('#stage img') !== im || !hi.naturalWidth) return; const r = im.naturalWidth / hi.naturalWidth; hi.alt = im.alt; hi.draggable = false; hi.dataset.id = im.dataset.id; hi.dataset.full = '1'; V.s *= r; V.fit *= r; im.replaceWith(hi); placeImg(); };
+  hi.src = IMG.full(im.dataset.id); }
+function zoomImg(f, cx, cy) { const st = $('#stage').getBoundingClientRect(); const px = cx - st.left, py = cy - st.top; const ns = Math.max(V.fit * 0.8, Math.min(V.fit * 8, V.s * f)); f = ns / V.s; V.x = px - (px - V.x) * f; V.y = py - (py - V.y) * f; V.s = ns; placeImg(); upgradeImg(); }
 (() => {
   const st = $('#stage'); const ptr = new Map(); let s0 = null;
   st.addEventListener('wheel', e => { e.preventDefault(); zoomImg(Math.exp(-e.deltaY * (e.ctrlKey ? 0.01 : 0.0018)), e.clientX, e.clientY); }, { passive: false });
@@ -341,7 +373,7 @@ function zoomImg(f, cx, cy) { const st = $('#stage').getBoundingClientRect(); co
     if (n.length === 1 && o.length === 1) { V.x = s0.V.x + n[0].x - o[0].x; V.y = s0.V.y + n[0].y - o[0].y; placeImg(); }
     else if (n.length >= 2 && o.length >= 2) { const d0 = Math.hypot(o[0].x - o[1].x, o[0].y - o[1].y), d1 = Math.hypot(n[0].x - n[1].x, n[0].y - n[1].y), r = st.getBoundingClientRect();
       const m0 = [(o[0].x + o[1].x) / 2 - r.left, (o[0].y + o[1].y) / 2 - r.top], m1 = [(n[0].x + n[1].x) / 2 - r.left, (n[0].y + n[1].y) / 2 - r.top];
-      const ns = Math.max(V.fit * 0.8, Math.min(V.fit * 8, s0.V.s * d1 / d0)), f = ns / s0.V.s; V.s = ns; V.x = m1[0] - (m0[0] - s0.V.x) * f; V.y = m1[1] - (m0[1] - s0.V.y) * f; placeImg(); } });
+      const ns = Math.max(V.fit * 0.8, Math.min(V.fit * 8, s0.V.s * d1 / d0)), f = ns / s0.V.s; V.s = ns; V.x = m1[0] - (m0[0] - s0.V.x) * f; V.y = m1[1] - (m0[1] - s0.V.y) * f; placeImg(); upgradeImg(); } });
   const up = e => { ptr.delete(e.pointerId); s0 = { V: { ...V }, p: new Map(ptr) }; if (!ptr.size) st.classList.remove('drag'); };
   st.addEventListener('pointerup', up); st.addEventListener('pointercancel', up);
   $('#vzin').onclick = () => { const r = st.getBoundingClientRect(); zoomImg(1.6, r.left + r.width / 2, r.top + r.height / 2); };
@@ -390,12 +422,13 @@ function renderWorks() {
   list.sort(sorters[F.sort]);
   const ids = list.map(w => w.id);
   $('#wcount').innerHTML = `Showing <b style="color:var(--ink)">${list.length}</b> of ${D.works.length} works${F.dec != null ? ` · ${F.dec}s` : ''}`;
-  $('#grid').innerHTML = list.length ? list.map(w => { const s = SITE_OF[w.id]; return `<button class="card" data-w="${w.id}">
-     ${w.img ? `<span class="im"><img src="img/${w.id}.jpg" alt="" loading="lazy"></span>` : `<span class="im none">${w.pd ? 'No image here' : 'View at the museum'}<b>${esc(w.t)}</b></span>`}
+  $('#grid').innerHTML = list.length ? list.map(w => { const s = SITE_OF[w.id]; const inner = `${w.img ? `<span class="im"><img src="${IMG.t(w.id)}" alt="${esc(w.by)}, ${esc(w.t)}" loading="lazy" decoding="async"></span>` : `<span class="im none">${w.pd ? 'No image here' : 'Image at the museum'}<b>${esc(w.t)}</b></span>`}
      <span class="tx"><span class="tt">${esc(w.t)}</span><span class="by" style="display:block">${esc(w.by)}, ${esc(w.d)}</span><span class="mu" style="display:block">${esc(museumOf(w))}</span>
-     <span class="badges">${w.pd ? '' : '<span class="badge">Image at museum</span>'}${s ? `<span class="badge site">Site ${s.n}</span>` : ''}${w.place ? `<span class="badge">${esc(w.place)}</span>` : ''}</span></span></button>`; }).join('')
+     <span class="badges">${w.pd ? '' : '<span class="badge">Image at museum</span>'}${s ? `<span class="badge site">Site ${s.n}</span>` : ''}${w.place ? `<span class="badge">${esc(w.place)}</span>` : ''}</span></span>`;
+      return w.img ? `<button class="card" data-w="${w.id}">${inner}</button>`
+        : `<div class="card noimgcard"><button class="cardin" data-w="${w.id}" aria-label="${esc(w.t)}, ${esc(w.by)}: details">${inner}</button><a class="musbtn" href="${esc(w.url)}" target="_blank" rel="noopener">View at the museum ↗<span class="vh"> (${esc(w.t)}, ${esc(museumOf(w))})</span></a></div>`; }).join('')
     : `<div class="empty">No works match these filters. <button class="btn" onclick="document.getElementById('freset').click()">Clear filters</button></div>`;
-  $$('#grid .card').forEach(b => b.onclick = () => openViewer(b.dataset.w, ids));
+  $$('#grid [data-w]').forEach(b => b.onclick = () => openViewer(b.dataset.w, ids));
 }
 
 
@@ -409,7 +442,7 @@ function route() {
   show('map'); MAP.resize();
   const m = h.match(/^site-(\d)$/); if (m) { const s = D.sites.find(x => x.n === +m[1]); MAP.overview(0); selectSite(s, true); } else MAP.overview(0);
 }
-window.PG = { D, $, $$, esc, show, selectSite, setHash, MAP, P, svg, gSel, gSites, el, NS, toast, openViewer, closeOverlays, WBY, SITE_OF, compass, fmtT, relation, panel, get cur(){ return cur; }, get sunState(){ return sunState; } };
+window.PG = { IMG, setTitle, D, $, $$, esc, show, selectSite, setHash, MAP, P, svg, gSel, gSites, el, NS, toast, openViewer, closeOverlays, WBY, SITE_OF, compass, fmtT, relation, panel, get cur(){ return cur; }, get sunState(){ return sunState; } };
 window.PGX?.init?.();
 addEventListener('hashchange', () => { if (!location.hash.startsWith('#work-')) route(); });
 requestAnimationFrame(route);
