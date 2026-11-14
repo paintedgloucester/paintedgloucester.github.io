@@ -390,7 +390,7 @@ function zoomImg(f, cx, cy) { const st = $('#stage').getBoundingClientRect(); co
 const F = { q: '', g: new Set(), mus: '', dec: null, img: false, pd: false, site: false, sort: 'date' };
 const museumOf = w => w.mus.split(' (')[0].replace(/, (Gloucester|Washington|Boston|New York|Kansas City)$/, m => m);
 function initWorks() {
-  const order = ['lane', 'homer', 'hunt_bricher', 'hassam', 'twachtman', 'prendergast', 'others', 'modern', 'colony'];
+  const order = D.artists.map(a => a.k);
   const cnt = g => D.works.filter(w => w.g === g).length;
   $('#achips').innerHTML = `<button data-g="" class="on">All painters</button>` + order.map(g => `<button data-g="${g}">${esc(D.labels[g])}<span class="c">${cnt(g)}</span></button>`).join('');
   $$('#achips button').forEach(b => b.onclick = () => { const g = b.dataset.g; if (!g) F.g.clear(); else F.g.has(g) ? F.g.delete(g) : F.g.add(g); $$('#achips button').forEach(x => x.classList.toggle('on', x.dataset.g ? F.g.has(x.dataset.g) : !F.g.size)); renderWorks(); });

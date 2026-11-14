@@ -299,6 +299,19 @@ window.PLACES = {
  ],
  "events": [
   {
+   "name": "Avery, Gottlieb & Rothko: By the Sea",
+   "when": "October 24, 2026 – January 24, 2027 (shown at the Cape Ann Museum June 30 – September 27, 2026).",
+   "where": "The Phillips Collection, Washington, DC",
+   "what": "The Cape Ann Museum's exhibition on the summers Milton Avery, Adolph Gottlieb and Mark Rothko spent painting together in Gloucester in the 1930s and 1940s, now on tour. The catalogue (Rizzoli, 2026) is edited by Eliza Rathbone.",
+   "src": [
+    [
+     "The Phillips Collection 2026–27 schedule",
+     "https://www.phillipscollection.org/press/phillips-collection-announces-2026-27-exhibition-schedule"
+    ]
+   ],
+   "checked": "November 2026"
+  },
+  {
    "name": "Cape Ann Plein Air",
    "when": "Early October, annually. 2026: October 3–11 (10th anniversary).",
    "where": "Gloucester, Rockport, Essex and Manchester-by-the-Sea",
