@@ -1,0 +1,52 @@
+232: Lane의 View of Coffin's Beach는 Two Penny Loaf에서 그렸습니다. 해변 출입과 주차 규정을 확인하세요. ⟦0⟧장소 페이지 →
+233: 하구 건너편의 Annisquam Light. 저희가 제안하는 오늘날의 전망 지점입니다. ⟦0⟧장소 페이지 →
+234: 시내에서 점심, 어린 화가와 함께라면 Cape Ann Art Haven 방문. ⟦0⟧항목 →
+235: 글로스터를 그린 여성들을 따라가는 열 개의 정류장, 1850년대 Fitz Henry Lane의 동아리에서 1950년대 Nell Blaine의 항구까지. 대부분 야외이며 무료이고, 박물관은 유일하게…
+236: 경로 · 자동차, Rocky Neck 도보 구간 포함
+237: 글로스터를 그린 여성들을 따라가는 열 개의 정류장, 1850년대 Fitz Henry Lane의 동아리에서 1950년대 Nell Blaine의 항구까지. 대부분 야외이며 무료이고, 박물관은 그들의 그림 여러 점을 한꺼번에 볼 수 있는 유일한 곳입니다.
+238: 2024년 Cape Ann Museum은 ⟦0⟧Women Artists on Cape Ann, 1870–1970⟦1⟧ 전시에서 이 역사를 정리했으며, 기획은 Martha Oaks가 맡았습니다⟦2⟧. 이 경로는 지금도 찾아갈 수 있는 장소를 따라갑니다. 경로의 여러 집은 개인 주택이니 길에서 보고 보도를 막지 마세요.
+239: 하루 종일. 4~7번 정류장은 Rocky Neck의 짧은 도보 구간이고, 나머지는 차로 이동합니다.
+240: 지도는 JavaScript가 필요합니다. 아래 모든 정류장에 주소와 길찾기 링크가 있습니다.
+241: 1⟦0⟧ 정류장 · ⟦1⟧1⟦2⟧ 대략적 위치 · ⟦3⟧⟦4⟧ 도보 경로, 순서대로(거리를 따라 이동)
+242: 매사추세츠 Sterling 출신의 목사 부인 Mellen은 1855년 시동생이 글로스터의 유니버설리스트 교회 목사가 된 뒤 Fitz Henry Lane의 세계에 들어왔습니다. 1850년대 중반에는 Lane 곁에서 작업하며 그의 소묘와 때로는 캔버스까지 자유롭게 썼고, ⟦0⟧Coast of Maine⟦1⟧에는 두 사람의 서명이 함께 있습니다⟦2⟧. 1850년경의 ⟦3⟧Field Beach, Stage Fort Park⟦4⟧는 이 해안을 그린 것으로 Cape Ann Museum에 있으며⟦5⟧, Bowdoin은 그녀의 ⟦6⟧Gloucester Harbor (Laying Nets)⟦7⟧를 소장합니다⟦8⟧.
+243: 박물관은 Theresa Bernstein의 ⟦0⟧Gloucester in Blue⟦1⟧(1925)⟦2⟧, Nell Blaine의 ⟦3⟧Wharf Studio, Gloucester⟦4⟧(1958)⟦5⟧, 그리고 Folly Cove Designers의 기록물을 소장하고 있습니다⟦6⟧. Rocky Neck Art Colony는 Martha Walter의 ⟦7⟧Rocky Neck Store and My Studio⟦8⟧(1920)⟦9⟧도 이곳 소장으로 봅니다. 어느 작품이 전시 중인지 안내 데스크에 물어보세요.
+244: 1923년 여름 Jo Nivison은 이 교회의 쌍둥이 탑을 정면에서 그린 ⟦0⟧Church Towers, Gloucester⟦1⟧를 그렸습니다. 그녀와 Edward Hopper가 이곳에서 함께 그림을 그린 여름이었고, 그녀는 그에게 수채화를 시작하라고 권했습니다⟦2⟧. 이 그림은 공공 소장품에서 찾지 못했습니다.
+245: 도보 · 거리 약 1.5km(1.0 mi)
+246: Bernstein은 1916년 처음 글로스터에 왔습니다. 그녀와 화가 William Meyerowitz는 1919년 결혼 후 이곳에 머물렀고, 1924년 East Gloucester의 Mount Pleasant Avenue에 집(개인 주택)을 사서 Milton Avery 등 친구들을 맞았습니다. 두 사람 모두 North Shore Arts Association 창립에 힘을 보탰습니다⟦0⟧.
+247: William Merritt Chase에게 배운 필라델피아의 화가 Walter는 1913년 무렵 글로스터 예술인 마을에 합류했고, 1910년대 후반부터 1920년대까지 Rocky Neck에서 작업실 겸 갤러리를 운영했습니다. 그 건물은 지금 갤러리입니다⟦0⟧.
+248: 1924년 Sally Michel은 이곳에서 Milton Avery의 옆 작업실을 빌렸습니다. 두 사람은 1926년 결혼했고, 그가 그림을 그리는 동안 그녀의 일로 가족을 부양했습니다⟦0⟧.
+249: Nell Blaine(1922–1996) · Rocky Neck Avenue, Gloucester · 대략적 위치
+250: Blaine은 1954년과 1958년에 Rocky Neck의 작업실을 빌렸고⟦0⟧, 휘트니 미술관의 ⟦1⟧Harbor and Green Cloth, II⟦2⟧는 두 번째 여름의 작품입니다⟦3⟧. 1974년부터 세상을 떠날 때까지 East Gloucester에서 여름을 보냈습니다⟦4⟧. 표시는 거리 위에 두었으며 작업실 주소는 공개되지 않았습니다.
+251: 1915년 Walter가 펜실베이니아 아카데미에 낸 작품 중에는 Bass Rocks의 붐비는 해변이 있었고, 필라델피아 비평가들은 이 글로스터 그림을 칭찬했습니다⟦0⟧. Atlantic Road를 따라 주차 공간은 부족합니다.
+252: Bernstein은 아흔 살 무렵인 1980년경에도 이 해변을 그렸습니다. 브루클린 미술관이 ⟦0⟧Rabbits, Good Harbor Beach, Gloucester⟦1⟧를 소장합니다⟦2⟧. 여름 주차는 유료입니다.
+253: Virginia Lee Burton(1909–1968) · Washington Street (Route 127), Lanesville
+254: 그림책 ⟦0⟧Mike Mulligan and His Steam Shovel⟦1⟧의 작가는 이곳에서 이웃들에게 목판 날염을 가르쳤고, 1941년 Folly Cove Designers를 세워 1969년까지 손으로 직물을 찍었습니다⟦2⟧. 판목, 직물, 기록은 Cape Ann Museum에 있습니다⟦3⟧.
+255: 초상화가 Cecilia Beaux(1855–1942)는 1906년부터 세상을 떠날 때까지 Eastern Point의 집 Green Alley에서 여름을 보냈습니다⟦0⟧. 길이 사유지라 집은 정류장에 넣지 않았습니다. 그녀의 ⟦1⟧Half-Tide, Annisquam River⟦2⟧가 안내서에 있습니다.
+256: Jane Peterson(1876–1965)은 1910~20년대에 밝고 끊어 칠한 색으로 글로스터의 거리와 부두를 그렸습니다⟦0⟧. RISD Museum이 그녀의 ⟦1⟧Gloucester Street Scene⟦2⟧를 소장합니다⟦3⟧.
+257: Hopper는 1912년 친구 Leon Kroll과 함께 글로스터에 왔고, 1923, 1924, 1926, 1928년 여름에 다시 와서 주로 집을 수채로 그렸습니다. 그가 그린 대상 중 열두 곳을 지금도 찾을 수 있습니다.…
+258: 경로 · 시내 도보 후 자동차
+259: Hopper는 1912년 친구 Leon Kroll과 함께 글로스터에 왔고, 1923, 1924, 1926, 1928년 여름에 다시 와서 주로 집을 수채로 그렸습니다. 그가 그린 대상 중 열두 곳을 지금도 찾을 수 있습니다. 시내 도보 코스는 그중 여덟 곳을 지나 기차역에서 끝납니다.
+260: 여름 횟수는 Cape Ann Museum의 집계입니다⟦0⟧. 유화 ⟦1⟧Sun on Prospect Street⟦2⟧는 1934년 작입니다. 주소는 Catherine Ryan의 도록 ⟦3⟧Edward Hopper All Around Gloucester⟦4⟧⟦5⟧를 따랐고, 각 그림의 박물관 기록과 대조했습니다. Cape Ann Museum은 Pleasant Street에서 출발하는 해설사 동행 “Hopper’s Houses” 산책도 운영합니다⟦6⟧. 거의 모든 집이 개인 주택이니 보도에서 보세요.
+261: 도보: 정류장 포함 약 2시간. 자동차: 9~12번 정류장 약 2시간.
+262: 도보 · 거리 약 4.0km(2.5 mi)
+263: 여기서 시작하세요. 이 박물관이 시내에서 Hopper에 관한 맥락을 가장 많이 갖추고 있고, 해설사 산책이 시내의 집들을 돕니다⟦0⟧.
+264: Church Street의 교회⟦0⟧. 수채화는 프린스턴 대학교 미술관에 있습니다.
+265: Stacy Boulevard에서 Western Avenue를 조금 올라간 곳의 키 큰 노란 이탈리아풍 집⟦0⟧. 수채화는 보스턴 미술관에 있습니다.
+266: 1912년 첫 방문 때 Hopper는 글로스터의 이탈리아계 동네인 the Fort의 어부 집들을 그렸습니다⟦0⟧.
+267: Main Street와 Prospect Street 모퉁이의 제2제정 양식 집⟦0⟧. 수채화는 미국 국립미술관에 있습니다.
+268: Hopper와 Jo Nivison, 1923년 · Mount Vernon Street에서
+269: Hopper는 Mount Vernon Street 15~17번지쯤에서 멀리 교회 탑을 그렸고⟦0⟧, 같은 여름 Jo Nivison은 탑을 정면에서 그렸습니다⟦1⟧.
+270: 그리고
+271: 역 옆의 화물 야적장에서 Hopper는 ⟦0⟧Freight Cars, Gloucester⟦1⟧를 그렸고, 화차 뒤로 St. Ann 교회의 첨탑이 보입니다⟦2⟧. Cleveland Street의 상자 공장은 헐렸습니다⟦3⟧. 역이 도보 코스의 끝이며, 보스턴으로 돌아가는 기차가 있습니다.
+272: 브루클린 미술관은 1923년 전시 후 이 수채화를 샀습니다. 이 집은 Augustus Wonson의 소유지에 속했습니다⟦0⟧.
+273: 1912년 · East Main Street, East Gloucester · 대략적 위치
+274: Hopper의 1912년 항구 유화는 Cripple Cove 위쪽 땅에서 그렸습니다⟦0⟧. 표시는 만이며 정확한 지점은 기록이 없습니다.
+275: 1912년 · Good Harbor Beach · 대략적 위치
+276: Good Harbor Beach 끝의 곶⟦0⟧. 표시는 해변입니다.
+277: Houses of ’Squam Light
+278: Hopper가 그린 등대와 등대지기 집들. 등대는 강 건너 Wingaersheek Beach에서 보이며, 등대지기 집은 해안경비대 숙소입니다(장소 8 참고).
+279: 1932년 Milton Avery는 뉴욕의 젊은 화가 Mark Rothko와 Adolph Gottlieb를 글로스터로 초대했습니다. 그들은 해변의 해수욕객과 항구 건너편의 부두를 그렸습니다. 여섯 개의 정류장, …에서
+280: 1932년 Milton Avery는 뉴욕의 젊은 화가 Mark Rothko와 Adolph Gottlieb를 글로스터로 초대했습니다. 그들은 해변의 해수욕객과 항구 건너편의 부두를 그렸습니다. 해변에서 생선 건조대까지 여섯 개의 정류장.
+281: 세 화가가 이곳에서 보낸 여름은 ⟦0⟧Avery, Gottlieb & Rothko: By the Sea⟦1⟧ 전시의 주제로, 2026년 Cape Ann Museum에서⟦2⟧, 2026년 10월 24일부터 2027년 1월 24일까지 워싱턴의 Phillips Collection에서 열립니다⟦3⟧. Rothko와 Gottlieb는 싼 방을 빌려 예술인 마을의 사교 생활과 거리를 두었기 때문에 남은 주소가 거의 없습니다⟦4⟧.
+282: 반나절. 3~5번 정류장은 짧은 도보 구간입니다.
+283: 2026년 8월 Christopher Rothko는 아버지의 1934년 작 ⟦0⟧Untitled (wharf, Gloucester, Massachusetts)⟦1⟧를 박물관에 기증했고, 이는 소장품 중 첫 Rothko 작품입니다⟦2⟧. Smith Cove 근처 Reed and Gamage 부두의 소금 생선 창고를 Banner Hill(5번 정류장)에서 그린 것입니다⟦3⟧.

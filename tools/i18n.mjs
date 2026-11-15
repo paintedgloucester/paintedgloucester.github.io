@@ -2,15 +2,21 @@
 // Glossaries: i18n/<lang>.json, built by tools/i18n-merge.mjs from the numbered batches in i18n/batches/.
 import fs from 'node:fs'; import path from 'node:path'; import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url); const { make } = require('../js/i18n.js');
-export const LANGS = [['pt', 'pt-PT', 'Português'], ['it', 'it', 'Italiano']];
+// [folder, hreflang / html lang, name in its own language], in the order the language menu lists them
+export const LANGS = [['es', 'es', 'Español'], ['fr', 'fr', 'Français'], ['de', 'de', 'Deutsch'], ['it', 'it', 'Italiano'], ['pt', 'pt-PT', 'Português'], ['nl', 'nl', 'Nederlands'], ['zh', 'zh-Hans', '中文（简体）'], ['ko', 'ko', '한국어']];
+const DIRS = new RegExp('^(?:' + LANGS.map(l => l[0]).join('|') + ')\\/');
 const ASSET = /^(?:css|js|img|thumbs|fonts|vendor|icons|i18n)\/|^(?:manifest\.webmanifest|LICENSE\.md|Painted-Gloucester-brief\.pdf|sw\.js)/;
 const PAGE = /^(?:(?:works|sites|trails)\/|(?:painters|waterfront|winter|photographers|teachers|gallery|shops|field-notes|brief)\.html)/;
 export const clean = f => f.replace(/index\.html$/, '');
 
+const LANGWORD = { en: 'Language', es: 'Idioma', fr: 'Langue', de: 'Sprache', it: 'Lingua', pt: 'Idioma', nl: 'Taal', zh: '语言', ko: '언어' };
+const CHOOSE = { en: 'choose a language', es: 'elegir idioma', fr: 'choisir une langue', de: 'Sprache wählen', it: 'scegli la lingua', pt: 'escolher o idioma', nl: 'kies een taal', zh: '选择语言', ko: '언어 선택' };
 export function langsNav(file, cur, FLAGS, hashHome) {
   const up = '../'.repeat(file.split('/').length - 1), toRoot = hashHome ? '' : cur === 'en' ? up : up + '../', f = clean(file) || './';
-  const item = (code, hl, name, flag, href) => `<a href="${href}" hreflang="${hl}" lang="${hl}" title="${name}"${code === cur ? ' aria-current="true"' : ''}>${flag}<span class="vh">${name}</span></a>`;
-  return `<nav class="langs" aria-label="Language" translate="no">${item('en', 'en', 'English', FLAGS.en, cur === 'en' && hashHome ? '#home' : toRoot + f)}${LANGS.map(([c, hl, n]) => item(c, hl, n, FLAGS[c], (c === cur && hashHome) ? '#home' : toRoot + c + '/' + (f === './' ? '' : f))).join('')}</nav>`;
+  const all = [['en', 'en', 'English'], ...LANGS], me = all.find(l => l[0] === cur);
+  const href = c => (c === cur && hashHome) ? '#home' : c === 'en' ? toRoot + f : toRoot + c + '/' + (f === './' ? '' : f);
+  const items = all.map(([c, hl, n]) => `<li><a href="${href(c)}" hreflang="${hl}" lang="${hl}" data-lang="${c}"${c === cur ? ' aria-current="true"' : ''}>${FLAGS[c]}<span>${n}</span></a></li>`).join('');
+  return `<nav class="langs" aria-label="${LANGWORD[cur]}" translate="no"><details><summary title="Language · Idioma · Langue · Sprache · Lingua · 语言 · 언어">${FLAGS[cur]}<span class="lc">${cur.toUpperCase()}</span><span class="vh">${me[2]}: ${CHOOSE[cur]}</span></summary><ul>${items}</ul></details></nav>`;
 }
 export function alternates(file, ORIGIN) { const f = clean(file);
   return [['en', ''], ...LANGS.map(([c, hl]) => [hl, c + '/'])].map(([hl, d]) => `<link rel="alternate" hreflang="${hl}" href="${ORIGIN}/${d}${f}">`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${ORIGIN}/${f}">`; }
@@ -25,7 +31,8 @@ export function localizeAll(pages, { ORIGIN, FLAGS }) {
       const depth = file.split('/').length - 1, rootRel = '../'.repeat(depth + 1);
       let out = T.html(html).replace(/<html lang="en"/, `<html lang="${hl}"`);
       if (spa) out = out.replace(/<head>/, '<head>\n<base href="../">\n<script>/* keep the address inside this language when the guide writes #links */(function(){["replaceState","pushState"].forEach(function(n){var o=history[n];history[n]=function(s,t,u){if(typeof u==="string"&&(u===""||u.charAt(0)==="#"))u=location.pathname+location.search+u;return o.call(history,s,t,u)}})})();</script>').replace(/\b(href)="([^"#:]+)"/g, (m, a, v) => PAGE.test(v) ? `${a}="${dir}/${v}"` : m);
-      else out = out.replace(/\b(href|src)="((?:\.\.\/)*)([^"]*)"/g, (m, a, ups, rest) => ASSET.test(rest) || /^(?:pt|it)\//.test(rest) ? `${a}="../${ups}${rest}"` : m);
+      else out = out.replace(/\b(href|src)="((?:\.\.\/)*)([^"]*)"/g, (m, a, ups, rest) => ASSET.test(rest) || DIRS.test(rest) ? `${a}="../${ups}${rest}"` : m);
+      if (!spa) out = out.replace(/href="brief\.html" hreflang="en"/g, 'href="' + '../'.repeat(depth + 1) + 'brief.html" hreflang="en"');
       const f = clean(file);
       out = out.replace(`<link rel="canonical" href="${ORIGIN}/${f}">`, `<link rel="canonical" href="${ORIGIN}/${dir}/${f}">`).replace(`<meta property="og:url" content="${ORIGIN}/${f}">`, `<meta property="og:url" content="${ORIGIN}/${dir}/${f}">`)
         .replace(/<nav class="langs"[\s\S]*?<\/nav>/, langsNav(file, dir, FLAGS, spa))

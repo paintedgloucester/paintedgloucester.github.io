@@ -456,7 +456,12 @@
 "^(.+) image$",
 "imagem: $1"
 ]
-]
+],
+"datefmt": {
+"dmy": "{d} de {m} de {y}",
+"dm": "{d} de {m}",
+"my": "{m} de {y}"
+}
 },
 "it": {
 "months": [
@@ -915,7 +920,12 @@
 "^(.+) image$",
 "immagine: $1"
 ]
-]
+],
+"datefmt": {
+"dmy": "{d} {m} {y}",
+"dm": "{d} {m}",
+"my": "{m} {y}"
+}
 },
 "keep": [
 "Painted Gloucester",
@@ -1125,5 +1135,199 @@
 "Beverly",
 "Cambridge",
 "Dogtown Common"
+],
+"es": {
+"months": [
+"enero",
+"febrero",
+"marzo",
+"abril",
+"mayo",
+"junio",
+"julio",
+"agosto",
+"septiembre",
+"octubre",
+"noviembre",
+"diciembre"
+],
+"days": [
+"domingo",
+"lunes",
+"martes",
+"miércoles",
+"jueves",
+"viernes",
+"sábado"
+],
+"datefmt": {
+"dmy": "{d} de {m} de {y}",
+"dm": "{d} de {m}",
+"my": "{m} de {y}"
+},
+"datewords": []
+},
+"fr": {
+"months": [
+"janvier",
+"février",
+"mars",
+"avril",
+"mai",
+"juin",
+"juillet",
+"août",
+"septembre",
+"octobre",
+"novembre",
+"décembre"
+],
+"days": [
+"dimanche",
+"lundi",
+"mardi",
+"mercredi",
+"jeudi",
+"vendredi",
+"samedi"
+],
+"datefmt": {
+"dmy": "{d} {m} {y}",
+"dm": "{d} {m}",
+"my": "{m} {y}"
+},
+"datewords": []
+},
+"de": {
+"months": [
+"Januar",
+"Februar",
+"März",
+"April",
+"Mai",
+"Juni",
+"Juli",
+"August",
+"September",
+"Oktober",
+"November",
+"Dezember"
+],
+"days": [
+"Sonntag",
+"Montag",
+"Dienstag",
+"Mittwoch",
+"Donnerstag",
+"Freitag",
+"Samstag"
+],
+"datefmt": {
+"dmy": "{d}. {m} {y}",
+"dm": "{d}. {m}",
+"my": "{m} {y}"
+},
+"datewords": []
+},
+"nl": {
+"months": [
+"januari",
+"februari",
+"maart",
+"april",
+"mei",
+"juni",
+"juli",
+"augustus",
+"september",
+"oktober",
+"november",
+"december"
+],
+"days": [
+"zondag",
+"maandag",
+"dinsdag",
+"woensdag",
+"donderdag",
+"vrijdag",
+"zaterdag"
+],
+"datefmt": {
+"dmy": "{d} {m} {y}",
+"dm": "{d} {m}",
+"my": "{m} {y}"
+},
+"datewords": []
+},
+"zh": {
+"months": [
+"1月",
+"2月",
+"3月",
+"4月",
+"5月",
+"6月",
+"7月",
+"8月",
+"9月",
+"10月",
+"11月",
+"12月"
+],
+"days": [
+"星期日",
+"星期一",
+"星期二",
+"星期三",
+"星期四",
+"星期五",
+"星期六"
+],
+"datefmt": {
+"dmy": "{y}年{M}月{d}日",
+"dm": "{M}月{d}日",
+"my": "{y}年{M}月"
+},
+"datewords": [
+"年",
+"月",
+"日"
 ]
+},
+"ko": {
+"months": [
+"1월",
+"2월",
+"3월",
+"4월",
+"5월",
+"6월",
+"7월",
+"8월",
+"9월",
+"10월",
+"11월",
+"12월"
+],
+"days": [
+"일요일",
+"월요일",
+"화요일",
+"수요일",
+"목요일",
+"금요일",
+"토요일"
+],
+"datefmt": {
+"dmy": "{y}년 {M}월 {d}일",
+"dm": "{M}월 {d}일",
+"my": "{y}년 {M}월"
+},
+"datewords": [
+"년",
+"월",
+"일"
+]
+}
 }

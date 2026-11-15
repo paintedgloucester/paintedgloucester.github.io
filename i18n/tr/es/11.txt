@@ -1,0 +1,466 @@
+701: En el museo
+702: William Morris Hunt y Alfred T. Bricher
+703: Hopper, Sloan, Davis, Demuth, Hartley y otros
+704: Milton Avery, Adolph Gottlieb y Mark Rothko
+705: Las colonias de Rocky Neck y Rockport
+706: Más lugares
+707: Los nueve lugares
+708: Punto de vista documentado
+709: Cómo llegar al punto de vista
+710: Punto de vista
+711: Mirando hacia
+712: Dirección de la vista
+713: Distancia al motivo
+714: La luz del pintor
+715: dos horas antes de la puesta de sol
+716: Dónde se pusieron
+717: La luz
+718: Píntelo hoy
+719: También se pintó aquí
+720: puesta de sol
+721: salida del sol
+722: Puesta de sol
+723: Salida del sol
+724: Zona documentada
+725: punto aproximado
+726: Fuente secundaria
+727: Punto de vista moderno
+728: sugerencia nuestra
+729: Centro
+730: Ayuntamiento
+731: orilla norte de la cala
+732: orilla al norte de la roca
+733: vista moderna
+734: extremo del embarcadero del hotel
+735: aprox.
+736: Emplazamiento del Harbor View Hotel
+737: Los nueve lugares de pintura, con indicaciones
+738: Mapa y lugares
+739: versión de texto
+740: Los nueve lugares de pintura
+741: Indicaciones
+742: Notas de acceso y luz
+743: En la carta
+744: Cómo se etiquetan los puntos de vista
+745: Etiqueta
+746: Qué significa
+747: Tiendas y estudios
+748: Compre aquí, aprenda aquí
+749: Material de arte
+750: Página de la tienda Blick
+751: Talleres y asociaciones
+752: Clases para adultos, incluidos talleres de acuarela al aire libre.
+753: Sitio web
+754: Ficha en Discover Gloucester
+755: Directorio de Creative Collective
+756: Museos y galerías
+757: Informe de investigación de Painted Gloucester
+758: Horario publicado
+759: 10–18 h todos los días
+760: Ficha en la Cape Ann Chamber
+761: Concursos de pintura y eventos anuales
+762: =
+763: Concurso de pintura Motif No. 1 Day
+764: Paint Out en Rocky Neck
+765: Visitas autoguiadas a estudios de artistas en activo.
+766: Píntelo
+767: Planificar
+768: Notas de campo para pintar Cape Ann
+769: Paletas
+770: Calma luminista
+771: Blanco de titanio
+772: Amarillo de Nápoles
+773: Amarillo de cadmio claro
+774: Ocre amarillo
+775: Siena natural
+776: Siena tostada
+777: Rosa permanente
+778: Azul ultramar
+779: Azul cerúleo
+780: Sombra natural
+781: Acuarela de puerto
+782: Gutagamba nueva
+783: Rosa de quinacridona
+784: Azul cobalto
+785: Azul de Prusia
+786: Blanco de China
+787: gouache
+788: Impresionismo en clave alta
+789: Amarillo limón de cadmio
+790: Amarillo de cadmio
+791: Naranja de cadmio
+792: Rojo de cadmio claro
+793: Rojo de cadmio
+794: Violeta de cobalto
+795: Puerto tonal
+796: Negro marfil
+797: con moderación
+798: Mosaico de color
+799: Amarillo limón
+800: Tono bermellón
+801: Turquesa de cobalto
+802: Verde vejiga
+803: Gouache blanco permanente
+804: Luz dura, formas sencillas
+805: Gris de Payne
+806: La luz a lo largo del día
+807: Hora azul
+808: Amanecer en la costa trasera
+809: Media mañana
+810: Hacia las 9–11 h
+811: Mediodía
+812: La hora de Lane
+813: Unas dos horas antes de la puesta de sol
+814: Puesta de sol y resplandor
+815: De la puesta de sol a 30 minutos después
+816: Niebla marina
+817: Luz de luna
+818: Noches despejadas cerca de la luna llena
+819: Condiciones de Cape Ann
+820: Las mareas cambian el cuadro
+821: Estación NOAA 8441841, Gloucester
+822: Viento del mar
+823: El granito resbala
+824: Estaciones
+825: De quién es la costa
+826: Aparcamiento
+827: Lista de equipaje
+828: Para pintar
+829: Caja de pochade o caballete ligero
+830: Paleta, espátula y pinceles
+831: Pintura: su paleta más blanco de sobra
+832: Comodidad
+833: Sombrero de ala ancha y protector solar
+834: Capas de ropa y un cortavientos, incluso en agosto
+835: Taburete plegable
+836: Agua y algo de comer
+837: Repelente de insectos para marismas y anochecer
+838: En la costa
+839: Tabla de mareas del día
+840: Calzado con agarre para el granito mojado
+841: Sombrilla o sombra para la paleta
+842: Pinzas o pulpos para los días de viento
+843: Portatablas para pinturas frescas en el viaje de vuelta
+844: Buenos modales en la costa
+845: Cuatro jornadas de pintura
+846: El puerto de Lane
+847: Tarde
+848: 2 h antes de la puesta de sol
+849: Acceso público de Rocky Neck
+850: Eastern Point y la colonia
+851: Exposiciones en el granero de Pirates Lane.
+852: Ficha
+853: Última hora de la tarde
+854: T-Wharf y Motif No. 1
+855: West Gloucester y Annisquam
+856: De vuelta a la ciudad
+857: Mujeres de Cape Ann
+858: Más rutas
+859: Paradas
+860: paradas
+861: Duración
+862: Inicio
+863: El paseo
+864: En coche
+865: La colección
+866: El estudio de Martha Walter
+867: El estudio de Sally Michel
+868: Los muelles de Rocky Neck
+869: Cecilia Beaux en Green Alley
+870: Las calles de Jane Peterson
+871: Rothko, Avery y Gottlieb
+872: La casa de Anderson
+873: The Fort
+874: La casa de Haskell
+875: Sol en Prospect Street
+876: Un óleo, en el Cincinnati Art Museum⟦0⟧.
+877: Vagones de mercancías y la fábrica de cajas
+878: Sobre Cripple Cove
+879: Tabla de obras, se desplaza en horizontal
+880: Ruta
+881: El muelle de Rothko
+882: Bañistas y frontón
+883: El estudio de Avery
+884: Todas las hojas de Gloucester que se pueden ver
+885: Título
+886: Fecha
+887: Nota
+888: Reverso de la escena de playa de arriba
+889: Posiblemente Gloucester
+890: posiblemente Gloucester
+891: Reverso de la hoja de arriba
+892: la pasarela de Bass Rocks
+893: Lugar no identificado
+894: Rothko con Aaron Siskind
+895: Las cajas de Gottlieb
+896: Avery en Eastern Point, 1943
+897: Rutas por el Gloucester pintado
+898: Un día entero en coche
+899: Unas cuatro horas, a pie y en coche
+900: Media jornada
+901: Capa
+902: el puerto en plena actividad
+903: Temporada
+904: Mapa de cinco lugares del puerto pesquero
+905: Puerto pesquero
+906: Lo que hay en las pinturas
+907: Secaderos de pescado
+908: Redes de enmalle
+909: Botes
+910: Verificado en la página. Manchester-by-the-Sea, no Gloucester
+911: =
+912: Goletas
+913: Arrastreros
+914: Dique seco
+915: Dónde verlo hoy
+916: Fishermen’s Memorial
+917: Stacy Boulevard a la altura de Babson Court
+918: Placa del salado de pescado
+919: 25 Rogers Street, esquina con Porter Street
+920: Las fotografías documentales
+921: Tabla del sol, se desplaza en horizontal
+922: Invierno
+923: , la puesta de sol más temprana, hacia el 8 de diciembre
+924: Por qué la luz es distinta
+925: Luz del día
+926: Sol de mediodía
+927: dirección de la puesta de sol
+928: Humo de mar
+929: Pintores de invierno
+930: Trabajar con frío
+931: Los fotógrafos de Gloucester: Siskind, Parks, Rothstein
+932: Fotógrafos
+933: Complemento
+934: fotografía
+935: Fotografía
+936: Colección y número
+937: Los pintores
+938: Quién vino y quién los trajo
+939: Quién trajo a quién
+940: El círculo de Lane
+941: asumió el púlpito universalista, 1855
+942: trabajó a su lado
+943: De Duveneck a Hopper
+944: trajo, década de 1890
+945: enseñó a
+946: vino con, 1912
+947: la cortejó aquí, 1923
+948: La casita roja
+949: le animó a venir, 1914
+950: invitó, 1915
+951: Amigos de East Gloucester
+952: prestó una casita en Folly Cove, principios de la década de 1920
+953: Theresa Bernstein y William Meyerowitz
+954: acogió
+955: estudio contiguo, 1924
+956: Los jóvenes amigos de Avery
+957: invitó, 1932
+958: Mark Rothko, Adolph Gottlieb y Barnett Newman
+959: un estudio, 1944; un verano compartido, 1945
+960: Estudio de verano en Magnolia, década de 1870
+961: Unos quince veranos desde 1890
+962: Eastern Point, de mediados de la década de 1880 a 1942
+963: Hacia 1907–1923
+964: 1920, 1931 y 1934
+965: 1932, 1934 y 1945
+966: Rocky Neck desde 1929
+967: Tres lecciones sobre pintar Cape Ann
+968: 3.º–4.º de primaria
+969: Dos sesiones de 45 minutos
+970: Un lugar, dos pintores
+971: Código
+972: Estándar
+973: Interpretar la intención y el significado: describir interpretaciones contrapuestas
+974: Pasos
+975: 1.º–2.º de secundaria
+976: Tres sesiones de 50 minutos
+977: ¿Dónde se pusieron?
+978: Fundamentos de bachillerato
+979: Cuatro sesiones de 55 minutos
+980: Del documental a la abstracción
+981: Antes de una salida
+982: Galería de visitantes: pinturas hechas en los lugares
+983: Pintado en los lugares
+984: Las primeras pinturas están en camino.
+985: Enviar una pintura
+986: Cómo enviar una pintura
+987: Inicio de Painted Gloucester
+988: Idioma
+989: La guía en cifras
+990: Vocabulario del puerto
+991: La luz de hoy
+992: Acercar
+993: Alejar
+994: Mostrar todos los lugares
+995: Mostrar dónde estoy
+996: Mostrar tiendas y estudios
+997: Tiendas y estudios
+998: Buscar título, pintor, museo o lugar
+999: Buscar en las obras
+1000: Ordenar
+1001: Obras por década (toque para filtrar)
+1002: Visor de pinturas
+1003: Anterior
+1004: Siguiente
+1005: Cerrar
+1006: Comparar la pintura y el mapa
+1007: Alinear la pintura con la vista
+1008: Obras
+1009: Pintar
+1010: Plan y pasaporte
+1011: Acerca de
+1012: Póngase donde
+1013: se pusieron ellos
+1014: Abrir la carta
+1015: Recorrer una ruta
+1016: Juego: ¿quién lo pintó?
+1017: pinturas
+1018: pintores
+1019: puntos de vista
+1020: rutas para recorrer
+1021: Empezar a explorar
+1022: Nueve puntos de vista en una carta dibujada a mano
+1023: En el lugar
+1024: Alinéela con la cámara
+1025: Paletas, luz y un laboratorio de color
+1026: Consiga los nueve sellos
+1027: ¿Quién lo pintó?
+1028: Rutas y complementos
+1029: Diecinueve vidas en Cape Ann.
+1030: Las abstracciones de Siskind, Gordon Parks a bordo del ⟦0⟧Alden⟦1⟧.
+1031: Tres lecciones
+1032: Primaria, secundaria y bachillerato.
+1033: Envíe una pintura que haya hecho aquí.
+1034: Sus vidas en Cape Ann
+1035: Dónde estuvo el pintor
+1036: Lo que pintaron
+1037: El sol a la hora elegida
+1038: Costa histórica
+1039: TODO
+1040: YO
+1041: TIENDAS
+1042: Ordenar: fecha
+1043: Ordenar: pintor
+1044: Ordenar: título
+1045: Ordenar: con imagen primero
+1046: Con imagen
+1047: Imagen de acceso abierto
+1048: Vinculada a un lugar
+1049: Quitar todo
+1050: Acerca de esta guía
+1051: Leer el informe completo
+1052: Descargar el PDF (55 páginas, 12 MB)
+1053: Descargar el PDF
+1054: Qué tan documentado está cada punto de vista
+1055: Etiqueta del lugar
+1056: Cómo se calcula el sol
+1057: Mapas
+1058: Imágenes y derechos
+1059: Cómo usarla
+1060: En el teléfono, en el lugar
+1061: Úsela sin cobertura
+1062: Pintar Cape Ann
+1063: Laboratorio de color
+1064: Las marcas se guardan en este navegador.
+1065: Borrarlas
+1066: Una propuesta para pintar
+1067: Otra
+1068: Todo
+1069: Lugares de pintura
+1070: Mapa de calles
+1071: Ir a
+1072: Centro de Gloucester
+1073: Toda la región
+1074: Para empresas y docentes
+1075: ¿Tiene una tienda o da clases?
+1076: Proponer una ficha o una corrección
+1077: El pasaporte del pintor
+1078: Páginas sencillas
+1079: Encajar
+1080: El informe de Painted Gloucester
+1081: Hunt y Bricher
+1082: Hunt y Bricher
+1083: Lane y Mellen
+1084: Avery, Gottlieb y Rothko
+1085: De Hopper a Avery
+1086: Añadidos de 2026
+1087: Pistas
+1088: De un vistazo
+1089: Un siglo de pintores en un mismo puerto
+1090: colecciones públicas que las conservan
+1091: pinturas de dominio público reproducidas aquí
+1092: La respuesta breve
+1093: Lo que muestra el registro
+1094: Cómo se comprobó cada entrada
+1095: conexiones
+1096: nativo; trabajó allí entre la década de 1840 y 1865
+1097: También en colecciones públicas
+1098: =
+1099: principios de la década de 1880 o de 1890
+1100: Hopper, Sloan, Davis, Hartley y Avery
+1101: En colecciones públicas
+1102: Actualización
+1103: Mellen, Demuth, el círculo de Avery, Bernstein y Blaine
+1104: Muelles del puerto interior
+1105: Pintar donde ellos pintaron
+1106: Póngase donde se pusieron
+1107: Dónde estuvo el pintor (número de lugar)
+1108: Línea histórica de pleamar
+1109: Antes de ir
+1110: Mareas
+1111: Pintar con otros
+1112: Terreno privado
+1113: Dónde sale y se pone el sol
+1114: Sale a las
+1115: Se pone a las
+1116: Leer la luz en las pinturas
+1117: del punto de vista al motivo
+1118: dirección de la vista
+1119: Paleta tomada de la pintura
+1120: Imagen en el museo
+1121: Apéndice
+1122: Pistas falsas, grabados y pistas abiertas
+1123: Pistas falsas
+1124: Cape Elizabeth (Maine), no Gloucester
+1125: (1879), no Gloucester
+1126: Otros
+1127: Grabados, no pinturas
+1128: Según Homer
+1129: Pistas abiertas, aún sin confirmar
+1130: Colonia
+1131: No buscado
+1132: De Commons
+1133: Notas
+1134: Créditos de las imágenes
+1135: Póngase en
+1136: Mire hacia
+1137: No se muestra
+1138: No encontrado
+1139: No se muestra ninguno
+1140: 1943.13.1 (del nombre del archivo de descarga de la propia imagen de la NGA; no figura en la página)
+1141: Fort Square, junto a Commercial Street
+1142: 316 Main Street, esquina con Prospect Street
+1143: Maplewood Avenue y Cleveland Street
+1144: Aguada de tinta, gouache y grafito sobre papel
+1145: Acuarela, grafito y raspado sobre papel
+1146: Acuarela y grafito sobre papel
+1147: Acuarela transparente y opaca sobre cartulina
+1148: Acuarela sobre cartulina
+1149: El Gloucester de Edward Hopper
+1150: Una pintura de Cape Ann. La pregunta es quién la pintó.
+1151: Elija al pintor
+1152: Elija una ruta
+1153: Paradas de esta ruta
+1154: Resumen de la ruta
+1155: Sobre esta pintura
+1156: Carmín de alizarina
+1157: blanco de titanio
+1158: amarillo de cadmio claro
+1159: ocre amarillo
+1160: siena natural
+1161: siena tostada
+1162: rojo de cadmio claro
+1163: carmín de alizarina
+1164: azul ultramar
+1165: azul cerúleo
+1166: verde viridiana

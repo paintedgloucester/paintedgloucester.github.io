@@ -1,0 +1,108 @@
+1: $T1. $2
+2: Ouverture : $T1
+3: $1
+4: Copier la couleur $1
+5: Touchez un échantillon pour copier son code hexadécimal · $1
+6: $1 sur $2 justes
+7: $1 sur $2
+8: $1. $T2
+9: sur $1 œuvres
+10: Toutes les collections ($1)
+11: $1°, $2° au-dessus de l’horizon
+12: $1°, $2° sous l’horizon
+13: $1°, sur l’horizon
+14: Lever du soleil $T1
+15: coucher du soleil $T1
+16: Afficher $1 sur la carte
+17: $1 de plus hors de Cape Ann, à $2 et $3.
+18: Vous êtes à $1. Tamponnez à nouveau sur place pour obtenir le tampon doré.
+19: Vous êtes à $1 de Gloucester
+20: Enregistrement des peintures… $1 %
+21: Impossible d’enregistrer $1 image(s). Vérifiez votre connexion et réessayez.
+22: Les $1 peintures sont enregistrées sur cet appareil. La carte, le planificateur solaire, le passeport et les peintures fonctionnent désormais sans réseau. Le plan des rues de la page Boutiques et les liens vers les musées nécessitent toujours une connexion.
+23: Aujourd’hui, le soleil monte à $1 degrés à midi ; le 21 juin, il atteint $2 degrés.
+24: Le soleil est levé, à $1° au-dessus de l’horizon. Coucher du soleil dans $2 h $3 min.
+25: Heure dorée : il reste $1 minutes de lumière.
+26: Avant le lever du soleil. Le soleil se lève à $T1.
+27: Le soleil est couché. Il se lève demain à $T1.
+28: Cet arrêt se trouve à environ $1 km au nord du bord de la carte ; la flèche indique la direction.
+29: Tournez-vous vers le $1 ($2°), en direction de $T3. Faites glisser la peinture pour l’aligner sur l’horizon et les rochers.
+30: La voir sur le site de : $1
+31: Faites glisser pour passer du tableau de $1 à la carte de l’endroit où se tenait le peintre (cercle foncé), du motif (losange) et du soleil à l’heure du tableau. La carte regarde d’en haut ; le tableau regarde le long de la ligne pointillée.
+32: $T1, avec $T2.
+33: $T1 ?
+34: Mélange de départ : environ $T1.
+35: Mélange de départ : environ $T1, $T2.
+36: Mélange de départ : environ $T1, $T2, $T3.
+37: Mélange de départ : environ $T1, $T2, $T3, $T4.
+38: 1 part de $T1
+39: $1 parts de $T2
+40: $1 arrêts
+41: $T1, $2
+42: Soleil à $1°, $2° de hauteur
+43: $1–$2 · $T3
+44: Mise à jour · $T1
+45: $1
+46: Verso de $1
+47: le musée indique $1
+48: des années $1 à $2
+49: de $1 à $2
+50: Les $1 arrêts
+51: $1. $T2. $3.
+52: vers $1
+53: après $1
+54: $T1 — Painted Gloucester
+55: note $1
+56: ‹ $T1
+57: $T1 ›
+58: $T1 →
+59: $T1 ↗
+60: $T1 ↓
+61: Voir sur le site de : $1
+62: N° d’inventaire : $1
+63: Site $1 sur $2
+64: Site $1 : $T2
+65: Site $1
+66: site $1
+67: Arrêt $1 sur $2
+68: Arrêt $1 : $2
+69: Où il a été peint (site $1)
+70: Peint au site $1
+71: $1, de $2, $T3 L’une des $4 peintures de Cape Ann du guide de terrain Painted Gloucester.
+72: $T1. Peint au site $2, $T3.
+73: $1… Où se tenait $2, la direction du regard, la lumière et comment s’y rendre pour le peindre aujourd’hui.
+74: Les $1 peintures de Cape Ann
+75: Les $1 peintures
+76: $1 peintures de Cape Ann
+77: $1 œuvres
+78: $1 arrêts
+79: $1 lieux
+80: $1 termes
+81: vers $1
+82: début des années $1
+83: fin des années $1
+84: années $1
+85: des années $1 aux années $2
+86: étés $1 et $2
+87: Étés $1 et $2
+88: Étés $1–$2
+89: Été $1
+90: né en $1
+91: Vérifié en $T1
+92: Fiches vérifiées pour la dernière fois en $T1.
+93: $1, $2°, en direction de $T3, à $4.
+94: $T1 ($2).
+95: $1, $2° par rapport au nord géographique
+96: $T1 : vers $T2 le $T3
+97: Lieu : $T1
+98: À Gloucester : $T1
+99: Peindre là où ils ont peint · Site $1 · $2
+100: $1 : toutes les œuvres
+101: Photographies de Gloucester de $1 dans les collections publiques
+102: Carte du circuit $T1
+103: $T1 : un circuit
+104: image : $1, via Wikimedia Commons ($T2)
+105: $T1 ($2), via Wikimedia Commons
+106: image : $1 ($T2)
+107: photographie en salle d’un contributeur de Wikimedia Commons ($T1) ; cadre recadré
+108: image : $1

@@ -1,0 +1,108 @@
+1: $T1. $2
+2: Opening: $T1
+3: $1
+4: Kleur $1 kopiëren
+5: Tik op een staal om de hexcode te kopiëren · $1
+6: $1 van $2 goed
+7: $1 van $2
+8: $1. $T2
+9: van $1 werken
+10: Alle collecties ($1)
+11: $1°, $2° boven de horizon
+12: $1°, $2° onder de horizon
+13: $1°, op de horizon
+14: Zonsopkomst $T1
+15: zonsondergang $T1
+16: $1 op de kaart tonen
+17: Nog $1 buiten Cape Ann, in $2 en $3.
+18: U bent $1 hiervandaan. Stempel opnieuw ter plekke voor de gouden stempel.
+19: U bent $1 van Gloucester
+20: Schilderijen opslaan… $1%
+21: $1 afbeelding(en) konden niet worden opgeslagen. Controleer uw verbinding en probeer het opnieuw.
+22: Alle $1 schilderijen staan op dit apparaat. De kaart, de zonneplanner, het paspoort en de schilderijen werken nu zonder bereik. De plattegrond op de pagina Winkels en de links naar musea hebben nog wel een verbinding nodig.
+23: Vandaag klimt de zon tot $1 graden rond het middaguur; op 21 juni bereikt ze $2 graden.
+24: De zon staat $1° boven de horizon. Zonsondergang over $2 u $3 min.
+25: Gouden uur: nog $1 minuten licht.
+26: Voor zonsopkomst. De zon komt op om $T1.
+27: De zon is onder. Morgen komt ze op om $T1.
+28: Deze stop ligt ongeveer $1 km ten noorden van de rand van de kaart; de pijl wijst de richting.
+29: Kijk naar het $1 ($2°), richting $T3. Sleep het schilderij tot de horizon en de rotsen samenvallen.
+30: Bekijk het op de website van: $1
+31: Sleep om te wisselen tussen het schilderij van $1 en de kaart van waar de schilder stond (donkere cirkel), het onderwerp (ruit) en de zon op het uur van het schilderij. De kaart kijkt van bovenaf; het schilderij kijkt langs de stippellijn.
+32: $T1, met $T2.
+33: $T1?
+34: Beginmenging: ongeveer $T1.
+35: Beginmenging: ongeveer $T1, $T2.
+36: Beginmenging: ongeveer $T1, $T2, $T3.
+37: Beginmenging: ongeveer $T1, $T2, $T3, $T4.
+38: 1 deel $T1
+39: $1 delen $T2
+40: $1 stops
+41: $T1, $2
+42: Zon op $1°, $2° hoog
+43: $1–$2 · $T3
+44: Bijwerking · $T1
+45: $1
+46: Achterzijde van $1
+47: het museum geeft $1
+48: van de jaren $1 tot $2
+49: van $1 tot $2
+50: Alle $1 stops
+51: $1. $T2. $3.
+52: circa $1
+53: na $1
+54: $T1 — Painted Gloucester
+55: noot $1
+56: ‹ $T1
+57: $T1 ›
+58: $T1 →
+59: $T1 ↗
+60: $T1 ↓
+61: Bekijken bij: $1
+62: Inv.nr. $1
+63: Plek $1 van $2
+64: Plek $1: $T2
+65: Plek $1
+66: plek $1
+67: Stop $1 van $2
+68: Stop $1: $2
+69: Waar het geschilderd is (plek $1)
+70: Geschilderd op plek $1
+71: $1, door $2, $T3 Een van de $4 schilderijen van Cape Ann in de veldgids Painted Gloucester.
+72: $T1. Geschilderd op plek $2, $T3.
+73: $1… Waar $2 stond, de kijkrichting, het licht en hoe u er komt om het vandaag te schilderen.
+74: Alle $1 schilderijen van Cape Ann
+75: Alle $1 schilderijen
+76: $1 schilderijen van Cape Ann
+77: $1 werken
+78: $1 stops
+79: $1 plekken
+80: $1 begrippen
+81: circa $1
+82: begin jaren $1
+83: eind jaren $1
+84: jaren $1
+85: jaren $1–$2
+86: zomers van $1 en $2
+87: Zomers van $1 en $2
+88: Zomers van $1–$2
+89: Zomer van $1
+90: geb. $1
+91: Gecontroleerd in $T1
+92: Vermeldingen laatst gecontroleerd in $T1.
+93: $1, $2°, richting $T3, op $4.
+94: $T1 ($2).
+95: $1, $2° vanaf het geografische noorden
+96: $T1: rond $T2 op $T3
+97: Plaats: $T1
+98: In Gloucester: $T1
+99: Schilderen waar zij schilderden · Plek $1 · $2
+100: $1: alle werken
+101: Foto’s van Gloucester door $1 in openbare collecties
+102: Kaart van de route $T1
+103: $T1: een route
+104: afbeelding: $1, via Wikimedia Commons ($T2)
+105: $T1 ($2), via Wikimedia Commons
+106: afbeelding: $1 ($T2)
+107: zaalfoto van een Wikimedia Commons-bijdrager ($T1); lijst bijgesneden
+108: afbeelding: $1

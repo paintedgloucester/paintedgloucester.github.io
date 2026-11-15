@@ -1,0 +1,466 @@
+701: In het museum
+702: William Morris Hunt en Alfred T. Bricher
+703: Hopper, Sloan, Davis, Demuth, Hartley en anderen
+704: Milton Avery, Adolph Gottlieb en Mark Rothko
+705: De kolonies van Rocky Neck en Rockport
+706: Meer plekken
+707: De negen plekken
+708: Standpunt gedocumenteerd
+709: Route naar het standpunt
+710: Standpunt
+711: Kijkend naar
+712: Kijkrichting
+713: Afstand tot het onderwerp
+714: Het licht van de schilder
+715: twee uur voor zonsondergang
+716: Waar ze stonden
+717: Het licht
+718: Schilder het vandaag
+719: Hier ook geschilderd
+720: zonsondergang
+721: zonsopkomst
+722: Zonsondergang
+723: Zonsopkomst
+724: Gebied gedocumenteerd
+725: plek bij benadering
+726: Secundaire bron
+727: Modern standpunt
+728: onze suggestie
+729: Centrum
+730: Stadhuis
+731: noordoever van de baai
+732: oever ten noorden van de rots
+733: modern gezicht
+734: eind van de hotelpier
+735: ca.
+736: Plaats van het Harbor View Hotel
+737: De negen schilderplekken, met routebeschrijving
+738: Kaart & plekken
+739: tekstversie
+740: De negen schilderplekken
+741: Routebeschrijving
+742: Toegang en licht
+743: Op de kaart
+744: Hoe de standpunten zijn gelabeld
+745: Label
+746: Wat het betekent
+747: Winkels & ateliers
+748: Lokaal kopen, lokaal leren
+749: Kunstbenodigdheden
+750: Winkelpagina van Blick
+751: Workshops & verenigingen
+752: Lessen voor volwassenen, waaronder workshops aquarel in de buitenlucht.
+753: Website
+754: Vermelding op Discover Gloucester
+755: Gids van het Creative Collective
+756: Musea & galeries
+757: Onderzoeksdossier van Painted Gloucester
+758: Opgegeven openingstijden
+759: dagelijks 10.00–18.00 uur
+760: Vermelding bij de Cape Ann Chamber
+761: Paint-outs en jaarlijkse evenementen
+762: =
+763: Paint-out op Motif No. 1 Day
+764: Paint Out op Rocky Neck
+765: Rondleidingen op eigen gelegenheid langs ateliers van werkende kunstenaars.
+766: Schilder het
+767: Plannen
+768: Veldnotities voor het schilderen van Cape Ann
+769: Paletten
+770: Luministische rust
+771: Titaanwit
+772: Napelsgeel
+773: Cadmiumgeel licht
+774: Gele oker
+775: Sienna naturel
+776: Gebrande sienna
+777: Permanentroze
+778: Ultramarijnblauw
+779: Ceruleumblauw
+780: Omber naturel
+781: Havenaquarel
+782: Nieuw gutta-gom
+783: Quinacridoneroze
+784: Kobaltblauw
+785: Pruisisch blauw
+786: Chinees wit
+787: gouache
+788: Licht impressionistisch palet
+789: Cadmiumcitroen
+790: Cadmiumgeel
+791: Cadmiumoranje
+792: Cadmiumrood licht
+793: Cadmiumrood
+794: Kobaltviolet
+795: Tonale haven
+796: Ivoorzwart
+797: spaarzaam
+798: Kleurenmozaïek
+799: Citroengeel
+800: Vermiljoentint
+801: Kobaltturkoois
+802: Sapgroen
+803: Permanent witte gouache
+804: Hard licht, eenvoudige vormen
+805: Paynesgrijs
+806: Het licht door de dag
+807: Blauwe uur
+808: Zonsopkomst aan de achterkust
+809: Halverwege de ochtend
+810: Rond 9 tot 11 uur
+811: Middag
+812: Het uur van Lane
+813: Ongeveer twee uur voor zonsondergang
+814: Zonsondergang en nagloed
+815: Van zonsondergang tot 30 minuten daarna
+816: Zeemist
+817: Maanlicht
+818: Heldere nachten rond volle maan
+819: Omstandigheden op Cape Ann
+820: Getijden veranderen het beeld
+821: NOAA-station 8441841, Gloucester
+822: Wind van zee
+823: Graniet is glad
+824: Seizoenen
+825: Van wie de kust is
+826: Parkeren
+827: Paklijst
+828: Schilderen
+829: Pochade-kist of lichte ezel
+830: Palet, mes en penselen
+831: Verf: uw palet plus extra wit
+832: Comfort
+833: Hoed met brede rand en zonnebrand
+834: Laagjes kleding en een windjack, ook in augustus
+835: Klapkrukje
+836: Water en iets te eten
+837: Insectenwerend middel voor kwelders en schemering
+838: Aan de kust
+839: Getijdentabel van de dag
+840: Schoenen met grip voor nat graniet
+841: Parasol of schaduw voor uw palet
+842: Klemmen of snelbinders voor winderige dagen
+843: Drager voor natte panelen op de terugweg
+844: Goede manieren aan de kust
+845: Vier schilderdagen
+846: Lanes haven
+847: Middag
+848: 2 uur voor zonsondergang
+849: Openbaar pad op Rocky Neck
+850: Eastern Point en de kolonie
+851: Tentoonstellingen in de schuur aan Pirates Lane.
+852: Vermelding
+853: Late middag
+854: T-Wharf en Motif No. 1
+855: West Gloucester en Annisquam
+856: Terug naar de stad
+857: Vrouwen van Cape Ann
+858: Meer routes
+859: Stops
+860: stops
+861: Duur
+862: Start
+863: De wandeling
+864: Met de auto
+865: De collectie
+866: Het atelier van Martha Walter
+867: Het atelier van Sally Michel
+868: De kades van Rocky Neck
+869: Cecilia Beaux in Green Alley
+870: De straten van Jane Peterson
+871: Rothko, Avery en Gottlieb
+872: Het huis van Anderson
+873: The Fort
+874: Het huis van Haskell
+875: Zon op Prospect Street
+876: Een olieverfschilderij, in het Cincinnati Art Museum⟦0⟧.
+877: Goederenwagons en de kistenfabriek
+878: Boven Cripple Cove
+879: Tabel met werken, horizontaal scrollbaar
+880: Route
+881: Rothko’s kade
+882: Badgasten en handbal
+883: Het atelier van Avery
+884: Elk Gloucester-blad dat u kunt zien
+885: Titel
+886: Datum
+887: Opmerking
+888: Achterkant van het strandtafereel hierboven
+889: Mogelijk Gloucester
+890: mogelijk Gloucester
+891: Achterkant van het blad hierboven
+892: de voetgangersbrug bij Bass Rocks
+893: Plek niet vastgesteld
+894: Rothko met Aaron Siskind
+895: Gottliebs kisten
+896: Avery op Eastern Point, 1943
+897: Routes door het geschilderde Gloucester
+898: Een hele dag met de auto
+899: Ongeveer vier uur, lopen en rijden
+900: Een halve dag
+901: Laag
+902: de haven aan het werk
+903: Seizoen
+904: Kaart van vijf plekken van de werkende haven
+905: Werkende haven
+906: Wat er op de schilderijen staat
+907: Droogrekken
+908: Staandnetten
+909: Dory’s
+910: Op de pagina geverifieerd. Manchester-by-the-Sea, niet Gloucester
+911: =
+912: Schoeners
+913: Treilers
+914: Droogdok
+915: Waar u het nu kunt zien
+916: Fishermen’s Memorial
+917: Stacy Boulevard ter hoogte van Babson Court
+918: Gedenkplaat voor het vis zouten
+919: 25 Rogers Street, hoek Porter Street
+920: De documentaire foto’s
+921: Zonnetabel, horizontaal scrollbaar
+922: Winter
+923: , de vroegste zonsondergang, rond 8 december
+924: Waarom het licht anders is
+925: Daglicht
+926: Middagzon
+927: richting van de zonsondergang
+928: Zeerook
+929: Winterschilders
+930: Werken in de kou
+931: De fotografen van Gloucester: Siskind, Parks, Rothstein
+932: Fotografen
+933: Aanvulling
+934: fotografie
+935: Foto
+936: Collectie en nummer
+937: De schilders
+938: Wie er kwam, en wie hen meebracht
+939: Wie wie meebracht
+940: De kring van Lane
+941: nam de universalistische kansel over, 1855
+942: werkte naast hem
+943: Van Duveneck tot Hopper
+944: bracht mee, jaren 1890
+945: onderwees
+946: kwam mee, 1912
+947: maakte haar hier het hof, 1923
+948: Het rode huisje
+949: spoorde hem aan te komen, 1914
+950: nodigde uit, 1915
+951: Vrienden in East Gloucester
+952: leende een huisje in Folly Cove, begin jaren 1920
+953: Theresa Bernstein en William Meyerowitz
+954: ontving
+955: atelier naast de deur, 1924
+956: Averys jonge vrienden
+957: nodigde uit, 1932
+958: Mark Rothko, Adolph Gottlieb en Barnett Newman
+959: een atelier, 1944; een gedeelde zomer, 1945
+960: Zomeratelier in Magnolia, jaren 1870
+961: Ongeveer vijftien zomers vanaf 1890
+962: Eastern Point, midden jaren 1880–1942
+963: Rond 1907–1923
+964: 1920, 1931 en 1934
+965: 1932, 1934 en 1945
+966: Rocky Neck vanaf 1929
+967: Drie lessen over het schilderen van Cape Ann
+968: Groep 5–6
+969: Twee lessen van 45 minuten
+970: Eén plek, twee schilders
+971: Code
+972: Standaard
+973: Bedoeling en betekenis interpreteren: tegengestelde interpretaties beschrijven
+974: Stappen
+975: Onderbouw (grades 7–8)
+976: Drie lessen van 50 minuten
+977: Waar stonden ze?
+978: Basiscursus bovenbouw
+979: Vier lessen van 55 minuten
+980: Van documentaire naar abstractie
+981: Voor een excursie
+982: Bezoekersgalerie: schilderijen gemaakt op de plekken
+983: Geschilderd op de plekken
+984: De eerste schilderijen zijn onderweg.
+985: Een schilderij insturen
+986: Zo stuurt u een schilderij in
+987: Startpagina van Painted Gloucester
+988: Taal
+989: De gids in cijfers
+990: Havenwoorden
+991: Het licht van vandaag
+992: Inzoomen
+993: Uitzoomen
+994: Alle plekken tonen
+995: Toon waar ik ben
+996: Winkels en ateliers tonen
+997: Winkels en ateliers
+998: Zoek titel, schilder, museum of plek
+999: Zoek in de werken
+1000: Sorteren
+1001: Werken per decennium (tik om te filteren)
+1002: Schilderijenviewer
+1003: Vorige
+1004: Volgende
+1005: Sluiten
+1006: Schilderij en kaart vergelijken
+1007: Schilderij op het uitzicht leggen
+1008: Werken
+1009: Schilderen
+1010: Plannen & paspoort
+1011: Over
+1012: Sta waar
+1013: zij stonden
+1014: Open de kaart
+1015: Loop een route
+1016: Spel: wie schilderde het?
+1017: schilderijen
+1018: schilders
+1019: standpunten
+1020: routes om te lopen
+1021: Begin met verkennen
+1022: Negen standpunten op een handgetekende kaart
+1023: Ter plekke
+1024: Leg het gelijk met uw camera
+1025: Paletten, licht en een kleurenlab
+1026: Verzamel alle negen stempels
+1027: Wie schilderde het?
+1028: Routes en aanvullingen
+1029: Negentien levens op Cape Ann.
+1030: Siskinds abstracties, Gordon Parks aan boord van de ⟦0⟧Alden⟦1⟧.
+1031: Drie lessen
+1032: Basisschool, onderbouw en bovenbouw.
+1033: Stuur een schilderij in dat u hier hebt gemaakt.
+1034: Hun levens op Cape Ann
+1035: Waar de schilder stond
+1036: Wat ze schilderden
+1037: De zon op het gekozen uur
+1038: Historische kustlijn
+1039: ALLES
+1040: IK
+1041: WINKELS
+1042: Sorteren: datum
+1043: Sorteren: schilder
+1044: Sorteren: titel
+1045: Sorteren: met afbeelding eerst
+1046: Met afbeelding
+1047: Open-access-afbeelding
+1048: Gekoppeld aan een plek
+1049: Alles wissen
+1050: Over deze gids
+1051: Lees het volledige dossier
+1052: Download de pdf (55 pagina’s, 12 MB)
+1053: Download de pdf
+1054: Hoe goed elk standpunt is gedocumenteerd
+1055: Label op de plek
+1056: Hoe de zon wordt berekend
+1057: Kaarten
+1058: Afbeeldingen en rechten
+1059: Gebruik
+1060: Op uw telefoon, ter plekke
+1061: Gebruik zonder bereik
+1062: Cape Ann schilderen
+1063: Kleurenlab
+1064: Vinkjes worden in deze browser bewaard.
+1065: Wissen
+1066: Een schilderopdracht
+1067: Nog een
+1068: Alles
+1069: Schilderplekken
+1070: Stratenkaart
+1071: Zoom naar
+1072: Centrum van Gloucester
+1073: Hele regio
+1074: Voor bedrijven en leraren
+1075: Hebt u een winkel of geeft u les?
+1076: Een vermelding of correctie voorstellen
+1077: Het schilderspaspoort
+1078: Eenvoudige pagina’s
+1079: Passend
+1080: Het Painted Gloucester-dossier
+1081: Hunt en Bricher
+1082: Hunt & Bricher
+1083: Lane & Mellen
+1084: Avery, Gottlieb & Rothko
+1085: Van Hopper tot Avery
+1086: Toevoegingen 2026
+1087: Sporen
+1088: In één oogopslag
+1089: Een eeuw schilders aan één haven
+1090: openbare collecties die ze bezitten
+1091: hier getoonde schilderijen uit het publieke domein
+1092: Het korte antwoord
+1093: Wat de bronnen laten zien
+1094: Hoe elke vermelding is gecontroleerd
+1095: verbanden
+1096: geboren in Gloucester; werkte er van de jaren 1840 tot 1865
+1097: Ook in openbare collecties
+1098: =
+1099: begin jaren 1880 of begin jaren 1890
+1100: Hopper, Sloan, Davis, Hartley en Avery
+1101: In openbare collecties
+1102: Update
+1103: Mellen, Demuth, Averys kring, Bernstein en Blaine
+1104: Kades van de binnenhaven
+1105: Schilderen waar zij schilderden
+1106: Sta waar zij stonden
+1107: Waar de schilder stond (nummer van de plek)
+1108: Historische hoogwaterlijn
+1109: Voordat u gaat
+1110: Getijden
+1111: Schilderen met anderen
+1112: Privéterrein
+1113: Waar de zon opkomt en ondergaat
+1114: Op om
+1115: Onder om
+1116: Het licht op de schilderijen lezen
+1117: van standpunt tot onderwerp
+1118: kijkrichting
+1119: Palet uit het schilderij genomen
+1120: Afbeelding bij het museum
+1121: Bijlage
+1122: Valse sporen, prenten en open sporen
+1123: Valse sporen
+1124: Cape Elizabeth (Maine), niet Gloucester
+1125: (1879), niet Gloucester
+1126: Overige
+1127: Prenten, geen schilderijen
+1128: Naar Homer
+1129: Open sporen, nog niet bevestigd
+1130: Kolonie
+1131: Niet gezocht
+1132: Uit Commons
+1133: Noten
+1134: Beeldverantwoording
+1135: Sta bij
+1136: Kijk naar
+1137: Niet getoond
+1138: Niet gevonden
+1139: Geen getoond
+1140: 1943.13.1 (uit de bestandsnaam van de eigen afbeeldingsdownload van de NGA; niet op de pagina vermeld)
+1141: Fort Square, bij Commercial Street
+1142: 316 Main Street, hoek Prospect Street
+1143: Maplewood Avenue en Cleveland Street
+1144: Inktwassing, gouache en grafiet op papier
+1145: Aquarel, grafiet en krassen op papier
+1146: Aquarel en grafiet op papier
+1147: Transparante en dekkende aquarel op tekenkarton
+1148: Aquarel op tekenkarton
+1149: Het Gloucester van Edward Hopper
+1150: Een schilderij van Cape Ann. Wie het schilderde, is de vraag.
+1151: Kies de schilder
+1152: Kies een route
+1153: Stops op deze route
+1154: Overzicht van de route
+1155: Over dit schilderij
+1156: Alizarinekarmijn
+1157: titaanwit
+1158: cadmiumgeel licht
+1159: gele oker
+1160: sienna naturel
+1161: gebrande sienna
+1162: cadmiumrood licht
+1163: alizarinekarmijn
+1164: ultramarijnblauw
+1165: ceruleumblauw
+1166: viridiaan

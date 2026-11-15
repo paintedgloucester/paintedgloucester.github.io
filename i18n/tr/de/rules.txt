@@ -1,0 +1,108 @@
+1: $T1. $2
+2: Eröffnung: $T1
+3: $1
+4: Farbe $1 kopieren
+5: Tippen Sie auf ein Farbfeld, um den Hex-Code zu kopieren · $1
+6: $1 von $2 richtig
+7: $1 von $2
+8: $1. $T2
+9: von $1 Werken
+10: Alle Sammlungen ($1)
+11: $1°, $2° über dem Horizont
+12: $1°, $2° unter dem Horizont
+13: $1°, am Horizont
+14: Sonnenaufgang $T1
+15: Sonnenuntergang $T1
+16: $1 auf der Karte zeigen
+17: $1 weitere außerhalb von Cape Ann, in $2 und $3.
+18: Sie sind $1 entfernt. Stempeln Sie vor Ort erneut, um den goldenen Stempel zu erhalten.
+19: Sie sind $1 von Gloucester entfernt
+20: Gemälde werden gespeichert … $1 %
+21: $1 Bild(er) konnten nicht gespeichert werden. Prüfen Sie die Verbindung und versuchen Sie es erneut.
+22: Alle $1 Gemälde sind auf diesem Gerät gespeichert. Karte, Sonnenplaner, Pass und Gemälde funktionieren jetzt ohne Netz. Der Stadtplan auf der Seite Läden und die Links zu den Museen brauchen weiterhin eine Verbindung.
+23: Heute steigt die Sonne mittags auf $1 Grad; am 21. Juni erreicht sie $2 Grad.
+24: Die Sonne steht $1° über dem Horizont. Sonnenuntergang in $2 h $3 min.
+25: Goldene Stunde: noch $1 Minuten Licht.
+26: Vor Sonnenaufgang. Die Sonne geht um $T1 auf.
+27: Die Sonne ist untergegangen. Sie geht morgen um $T1 auf.
+28: Diese Station liegt etwa $1 km nördlich des Kartenrands; der Pfeil zeigt die Richtung.
+29: Blicken Sie nach $1 ($2°), in Richtung $T3. Ziehen Sie das Gemälde, bis Horizont und Felsen übereinstimmen.
+30: Auf der Website ansehen: $1
+31: Ziehen Sie, um zwischen dem Bild von $1 und der Karte zu wechseln: wo der Maler stand (dunkler Kreis), das Motiv (Raute) und die Sonne zur Stunde des Gemäldes. Die Karte blickt von oben; das Gemälde blickt entlang der gestrichelten Linie.
+32: $T1, mit $T2.
+33: $T1?
+34: Ausgangsmischung: etwa $T1.
+35: Ausgangsmischung: etwa $T1, $T2.
+36: Ausgangsmischung: etwa $T1, $T2, $T3.
+37: Ausgangsmischung: etwa $T1, $T2, $T3, $T4.
+38: 1 Teil $T1
+39: $1 Teile $T2
+40: $1 Stationen
+41: $T1, $2
+42: Sonne bei $1°, $2° hoch
+43: $1–$2 · $T3
+44: Aktualisierung · $T1
+45: $1
+46: Rückseite von $1
+47: das Museum nennt $1
+48: von den $1er-Jahren bis $2
+49: von $1 bis $2
+50: Alle $1 Stationen
+51: $1. $T2. $3.
+52: um $1
+53: nach $1
+54: $T1 — Painted Gloucester
+55: Anmerkung $1
+56: ‹ $T1
+57: $T1 ›
+58: $T1 →
+59: $T1 ↗
+60: $T1 ↓
+61: Ansehen bei: $1
+62: Inventarnr.: $1
+63: Ort $1 von $2
+64: Ort $1: $T2
+65: Ort $1
+66: Ort $1
+67: Station $1 von $2
+68: Station $1: $2
+69: Wo es gemalt wurde (Ort $1)
+70: Gemalt an Ort $1
+71: $1, von $2, $T3 Eines von $4 Gemälden von Cape Ann im Feldführer Painted Gloucester.
+72: $T1. Gemalt an Ort $2, $T3.
+73: $1 … Wo $2 stand, die Blickrichtung, das Licht und der Weg, um es heute zu malen.
+74: Alle $1 Gemälde von Cape Ann
+75: Alle $1 Gemälde
+76: $1 Gemälde von Cape Ann
+77: $1 Werke
+78: $1 Stationen
+79: $1 Orte
+80: $1 Begriffe
+81: um $1
+82: frühe $1er-Jahre
+83: späte $1er-Jahre
+84: $1er-Jahre
+85: $1er- bis $2er-Jahre
+86: Sommer $1 und $2
+87: Sommer $1 und $2
+88: Sommer $1–$2
+89: Sommer $1
+90: geb. $1
+91: Geprüft im $T1
+92: Einträge zuletzt geprüft im $T1.
+93: $1, $2°, in Richtung $T3, $4 entfernt.
+94: $T1 ($2).
+95: $1, $2° von geografisch Nord
+96: $T1: gegen $T2 am $T3
+97: Ort: $T1
+98: In Gloucester: $T1
+99: Malen, wo sie malten · Ort $1 · $2
+100: $1: alle Werke
+101: Gloucester-Fotografien von $1 in öffentlichen Sammlungen
+102: Karte der Route $T1
+103: $T1: eine Route
+104: Bild: $1, über Wikimedia Commons ($T2)
+105: $T1 ($2), über Wikimedia Commons
+106: Bild: $1 ($T2)
+107: Saalfoto eines Wikimedia-Commons-Mitwirkenden ($T1); Rahmen beschnitten
+108: Bild: $1

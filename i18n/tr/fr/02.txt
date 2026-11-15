@@ -1,0 +1,76 @@
+72: Une chambre claire, ou une photo de téléphone décalquée de la même façon, remplace honnêtement aujourd’hui la méthode de Lane.
+73: Une source secondaire décrit ⟦0⟧Horizon at Gloucester⟦1⟧ comme la silhouette du port « vue d’Eastern Point ».⟦2⟧ Le repère est placé à Eastern Point Light ; l’emplacement exact n’est pas connu. Duveneck logeait au Harbor View Hotel, à East Gloucester.
+74: Depuis Eastern Point, la ville est presque plein nord, à environ 3,8 km ; le soleil est donc derrière ou à côté du peintre toute la journée, et la silhouette est toujours éclairée de face : par l’est le matin, par le sud à midi, par l’ouest en fin d’après-midi.
+75: Le phare appartient aux garde-côtes et est fermé au public.⟦0⟧ La digue Dog Bar, à côté, est une jetée de granit de 2 250 pieds (environ 690 m) : portez de bonnes chaussures et n’y allez pas quand les vagues passent par-dessus les pierres.
+76: Le premier plan de Duveneck est fait de roches et d’algues de marée basse. Calez votre séance sur la basse mer, et les flaques vous donneront son premier plan.
+77: Le titre situe le tableau à Lighthouse Beach, près d’Annisquam Light, sur Wigwam Point.⟦0⟧ L’emplacement exact de Jones n’est pas connu, et la page du musée n’a pas pu être consultée pour le vérifier. La ligne sur la carte est une variante actuelle : le phare se voit depuis Wingaersheek Beach, de l’autre côté de l’embouchure.
+78: Aucune source n’indique l’heure. Depuis Wingaersheek, on regarde le phare vers le nord : le soleil du matin l’éclaire de côté par la droite, celui de l’après-midi arrive par-dessus l’épaule gauche sur la tour.
+79: La maison du gardien est un logement des garde-côtes ; le phare se voit depuis Wingaersheek Beach.
+80: En été (de Memorial Day à Labor Day), le stationnement de la plage pour les non-résidents doit être réservé.
+81: Le sable et les roches de Jones changent avec la marée. À marée basse, l’estran s’élargit beaucoup.
+82: Twachtman peignit ⟦0⟧Harbor View Hotel⟦1⟧ « depuis le bout de la longue jetée », le ponton de l’hôtel sur Wonson's Cove, en regardant l’hôtel, avec son atelier-cottage tout à gauche. Le tableau était sur son chevalet quand il mourut sur place, en août 1902.⟦2⟧ L’hôtel se trouvait à l’actuel 21 Eastern Point Road.⟦3⟧ Le bout de la jetée est placé au milieu de l’anse.
+83: Les sources ne la décrivent pas. Regarder l’hôtel depuis l’anse, c’est regarder à peu près vers l’est ; le soleil de fin d’après-midi tomberait donc en plein sur les bâtiments, derrière le peintre.
+84: L’hôtel a disparu ; le site est l’arrêt 15 du Rocky Neck Art Trail, accessible à pied depuis Rocky Neck Avenue.
+85: Le tableau est au Nelson-Atkins Museum (33-57). Son image n’est pas reproduite ici : regardez-la sur la page du musée avant d’y aller.
+86: Une liste simple des neuf lieux de Cape Ann où une peinture peut être reliée à un point de vue : qui y a peint, où se placer, dans quelle direction regarder et comment s’y rendre.
+87: Tout ce que montre la carte, sous forme de liste : où se tenait chaque peintre, ce qu’il regardait, dans quelle direction se tourner et un lien d’itinéraire. ⟦0⟧Ouvrez la carte⟦1⟧ pour le planificateur solaire et la superposition caméra.
+88: Consultez l’annuaire des marées (station NOAA 8441841 ; marnage moyen d’environ 8,8 pieds, 2,7 m) et peignez depuis des passages publics : plusieurs points de vue historiques sont aujourd’hui des terrains privés ou accessibles seulement par l’eau. La page de chaque site donne les conditions d’accès.
+89: Placez-vous à⟦0⟧ Fort Point (42.60840, -70.66327). ⟦1⟧Tournez-vous vers⟦2⟧ le SSO, 194°, en direction de Ten Pound Island Light, à 750 m (2,460 ft).
+90: Placez-vous à⟦0⟧ Ten Pound Island (42.60187, -70.66555). ⟦1⟧Tournez-vous vers⟦2⟧ le S, 178°, en direction d’Eastern Point Light, à 2,4 km (1.5 mi).
+91: Willard Metcalf et Childe Hassam
+92: Placez-vous à⟦0⟧ Banner Hill (42.60644, -70.65084). ⟦1⟧Tournez-vous vers⟦2⟧ le NO, 311°, en direction du centre-ville (hôtel de ville), à 1,3 km (0.8 mi).
+93: Placez-vous sur la⟦0⟧ rive nord de l’anse (42.59289, -70.64994). ⟦1⟧Tournez-vous vers⟦2⟧ le SSE, 166°, en direction de Brace's Rock, à 668 m (2,190 ft).
+94: Placez-vous sur le⟦0⟧ rivage au nord du rocher (42.58434, -70.69275). ⟦1⟧Tournez-vous vers⟦2⟧ le S, 183°, en direction de Norman's Woe Rock, à 500 m (1,641 ft).
+95: Placez-vous à⟦0⟧ Two Penny Loaf (42.65491, -70.71998). ⟦1⟧Tournez-vous vers⟦2⟧ l’ENE, 58°, en direction de Coffin's Beach, à 977 m (3,206 ft).
+96: Placez-vous à⟦0⟧ Eastern Point (42.58024, -70.66448). ⟦1⟧Tournez-vous vers⟦2⟧ le N, 2°, en direction du centre-ville (hôtel de ville), à 3,8 km (2.3 mi).
+97: Placez-vous à⟦0⟧ Wingaersheek Beach (vue actuelle) (42.65008, -70.68421). ⟦1⟧Tournez-vous vers⟦2⟧ le N, 10°, en direction d’Annisquam Light, à 1,3 km (0.8 mi).
+98: Placez-vous au⟦0⟧ bout de la jetée de l’hôtel (env.) (42.60239, -70.65765). ⟦1⟧Tournez-vous vers⟦2⟧ l’E, 87°, en direction de l’emplacement du Harbor View Hotel, à 150 m (492 ft).
+99: Un catalogue raisonné, une inscription ou une étude publiée fixe l’endroit où se tenait le peintre.
+100: Les sources nomment le lieu ; le point exact est placé sur le point de rivage cartographié le plus proche.
+101: Seul un récit secondaire plus tardif situe le peintre.
+102: Aucune source ne dit où se tenait le peintre ; le repère est un point de vue public que nous suggérons.
+103: Où acheter peinture et panneaux, suivre un atelier et voir les peintures à Gloucester et Rockport, plus les rencontres annuelles de peinture. 11 fiches, chacune avec ses sources et le mois de la dernière vérification.
+104: Matériel d’art, ateliers, galeries et rencontres de peinture à Cape Ann
+105: Boutiques indépendantes et associations font vivre la communauté artistique de Cape Ann. Chaque fiche indique le mois de sa dernière vérification auprès de ses sources. Les horaires changent avec les saisons : appelez avant de venir. ⟦0⟧Voir sur le plan des rues.
+106: La boutique d’art, de loisirs créatifs et de modélisme du centre de Gloucester : peintures d’artiste, pinceaux et supports à côté des maquettes et fournitures créatives.
+107: Le comptoir de matériel d’art complet le plus proche des sites de peinture du port, à quelques pas du Cape Ann Museum.
+108: Un avis local indique que le propriétaire commande les articles que la boutique n’a pas en stock.
+109: Des cours d’art pour enfants ont eu lieu au magasin les années précédentes.
+110: Les horaires indiqués proviennent d’un ancien horaire d’automne (lun–sam 10 h–18 h, dim 12 h–17 h). Appelez avant de venir.
+111: Huile et crayon gras sur carton
+112: Aquarelle sur papier
+113: Une boutique de fournitures tenue par des artistes sur Bearskin Neck, pour débutants comme pour peintres confirmés, par les graveurs de Rusty and Ingrid Creative Company.
+114: Une promenade-croquis gratuite le samedi matin, menée par l’artiste Rusty Kinnunen, est partie de la boutique.
+115: Les sérigraphies de Cape Ann en édition limitée des propriétaires se vendent quelques portes plus loin, sur le Neck.
+116: À deux minutes à pied du Motif No. 1 et des vues du T-Wharf.
+117: Les sources ne s’accordent pas sur le numéro de Bearskin Neck de la boutique de fournitures et de celle des estampes, et les horaires sont saisonniers. Vérifiez avant de venir.
+118: Un fournisseur de longue date de matériel professionnel pour artistes sur la North Shore, qui sert aussi écoles et institutions.
+119: Traite les commandes en gros et les listes de fournitures pour écoles et cours d’art.
+120: L’arrêt le mieux fourni de la Route 1A pour les peintres qui montent en voiture de Boston à Cape Ann.
+121: Un annuaire donne une adresse à Marblehead. Horaires de l’annuaire : lun–ven 9 h–17 h, sam 10 h–17 h, fermé le dimanche. Vérifiez avant de venir.
+122: 619 Massachusetts Avenue, Cambridge, MA · plus loin
+123: Le grand magasin d’art de chaîne le plus proche, à environ une heure au sud de Gloucester. Il vaut l’arrêt pour les pigments spéciaux, les grandes toiles et les boîtes de peinture de plein air avant de monter.
+124: Grand choix de chevalets de campagne, de panneaux et de gammes professionnelles à l’huile et à l’aquarelle.
+125: Magasin de chaîne ; consultez la page du magasin pour les horaires actuels.
+126: Une association d’artistes et un musée centenaires, avec des expositions et la Cape Ann Summer School of Art.
+127: Ateliers de plein air de plusieurs jours : le programme 2026 comprenait « The Painted Sketch of Rockport » de Harley Bartlett (8–12 septembre) et l’atelier de peinture marine de Karen Blackwood (21–25 septembre).
+128: Une association d’artistes historique installée dans une grange au bord de l’eau, sur le port d’East Gloucester, fondée à l’époque de la colonie artistique.
+129: Expositions des membres, démonstrations et cours, à deux pas des lieux de peinture de Rocky Neck.
+130: L’une des plus anciennes colonies d’artistes encore actives des États-Unis : un quartier d’ateliers et de galeries sur la presqu’île d’East Gloucester, qui attira Twachtman, Hopper et Stuart Davis.
+131: Ateliers et cours pour tous niveaux, donnés par des artistes de Rocky Neck au Cultural Center. Consultez le calendrier pour le programme en cours.
+132: Coorganise un Paint Out on Rocky Neck avec Cape Ann Plein Air et Cape Ann Art Haven
+133: Le passage public de Rocky Neck regarde vers l’ouest, par-dessus le port, vers les couchers de soleil de Homer et Ten Pound Island.
+134: Un centre d’art associatif au centre-ville, avec des cours de peinture, de dessin, de poterie et de gravure pour enfants, adolescents et familles.
+135: Ateliers ouverts aux familles et cours pour tous les âges, plus une préparation au portfolio pour les élèves qui visent une école d’art.
+136: Coorganisateur du Paint Out on Rocky Neck
+137: Certaines fiches indiquent 20 Maplewood Ave. Consultez arthaven.org pour l’adresse et les horaires actuels.
+138: L’école supérieure d’art de la North Shore, avec des galeries ouvertes au public.
+139: Une ressource pour des cours de formation continue sur la route de Cape Ann.
+140: Consultez le site de l’école pour les programmes publics en cours.
+141: Siège de la plus grande collection publique de peintures et de dessins de Fitz Henry Lane, dont Ten Pound Island et The Western Shore with Norman's Woe.
+142: Voyez les toiles de Lane en vrai avant de peindre les mêmes vues du port.
+143: L’atelier de Lane se trouvait à quelques rues de là, au-dessus du port, sur Duncan's Point.
+144: Une galerie tenue par des artistes de Cape Ann, à côté d’Island Art & Hobby
+145: Voyez et achetez les œuvres de peintres qui peignent aujourd’hui ces mêmes vues.
+146: Du 24 octobre 2026 au 24 janvier 2027 (présentée au Cape Ann Museum du 30 juin au 27 septembre 2026).⟦0⟧ · The Phillips Collection, Washington, DC
+147: L’exposition du Cape Ann Museum consacrée aux étés que Milton Avery, Adolph Gottlieb et Mark Rothko passèrent à peindre ensemble à Gloucester dans les années 1930 et 1940, désormais en tournée. Le catalogue (Rizzoli, 2026) est dirigé par Eliza Rathbone.

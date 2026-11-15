@@ -1,0 +1,206 @@
+1167: sombra natural
+1168: negro marfil
+1169: Todos los pintores
+1170: Volver al resumen
+1171: Quitar filtros
+1172: Cerrar ventana
+1173: Cerrar nota
+1174: Comparar la pintura y el mapa ⟷
+1175: Detalles
+1176: detalles
+1177: Arrastre para mover el mapa; pellizque para hacer zoom.
+1178: Buscándole…
+1179: Para usted
+1180: Página completa de la ruta, con fuentes
+1181: Galería
+1182: Museo
+1183: Hora dorada
+1184: Imagen en el museo
+1185: Imagen no incluida
+1186: Aquí no hay imagen
+1187: no incluida aquí
+1188: Luz
+1189: Se denegó el permiso de ubicación
+1190: No se pudo encontrar su ubicación
+1191: La ubicación no está disponible en este navegador
+1192: Comprobando dónde está…
+1193: Está en la carta
+1194: Ya sellado en el lugar
+1195: Sellado en el lugar
+1196: Sellado en el lugar ✓
+1197: Sellado a distancia
+1198: sellar de nuevo
+1199: sellado en el lugar
+1200: sellado a distancia
+1201: sin sellar
+1202: sellado
+1203: Sellar mi pasaporte
+1204: Borrar mi pasaporte
+1205: Toque de nuevo para borrar todos los sellos
+1206: Pasaporte completo. Se ha puesto donde se pusieron ellos.
+1207: AÚN SIN SELLAR
+1208: A DISTANCIA ·
+1209: Aún no hay imagen: permita la cámara o use una foto
+1210: Toque la pintura para tomar una muestra de color
+1211: La cámara no está disponible aquí. Toque «Usar una foto» para alinear una imagen que haya tomado en el lugar.
+1212: La cámara no está disponible en este navegador. Toque «Usar una foto» para usar una imagen que haya tomado en el lugar.
+1213: Usar una foto
+1214: Iniciando la cámara…
+1215: Capturar
+1216: Alinéela
+1217: Copiado
+1218: Copiar enlace
+1219: Guía actualizada. Recargue para ver la última versión.
+1220: Guardada para usar sin conexión ✓
+1221: Este navegador no puede guardar la guía para usarla sin conexión.
+1222: Siguiente pintura
+1223: Siguiente lugar
+1224: Lugar anterior
+1225: Siguiente palabra
+1226: Parada anterior
+1227: Terminar: volver al resumen
+1228: Empezar por la parada 1
+1229: Ninguna obra coincide con estos filtros
+1230: Ninguna obra coincide con estos filtros.
+1231: Esta vez no
+1232: Esta vez no.
+1233: ¡Sí!
+1234: Ahora
+1235: En el mapa
+1236: En la carta de los pintores
+1237: Abrir la pintura a pantalla completa
+1238: Abrir el lugar
+1239: Abrir el planificador solar
+1240: Pintado desde
+1241: Pausa
+1242: Elija un nombre. ¡Sin mirar el pie de foto!
+1243: Recorrer la ruta
+1244: Leer sus vidas
+1245: Tomar muestra
+1246: Mostrar a qué distancia estoy de aquí
+1247: Mostrar en el mapa ↑
+1248: Mostrar toda la región
+1249: Mostrando
+1250: Tamaño
+1251: Fuentes de esta parada
+1252: Sol
+1253: Sol en el lugar
+1254: Sorpréndame
+1255: Toque para dar la vuelta a la tarjeta
+1256: Ese día
+1257: El terreno hoy ▸
+1258: ◂ La pintura
+1259: La hora de la pintura
+1260: El sol
+1261: El sol sobre el puerto de Gloucester
+1262: El sol está bajo el horizonte
+1263: El sol está delante de usted: la escena está a contraluz
+1264: El sol está detrás de usted: la escena está iluminada de frente
+1265: El sol está a su izquierda y por detrás
+1266: El sol está a su izquierda y por delante
+1267: El sol está a su derecha y por delante
+1268: El sol está a su derecha y por detrás
+1269: a esa hora: a su izquierda y por delante
+1270: La sección de puntos de vista del informe
+1271: Los nueve lugares en una lista sencilla, con indicaciones
+1272: Todas las notas del informe
+1273: Hora del día
+1274: Hoy en el puerto
+1275: Pruébelo en
+1276: Ver en el museo
+1277: ¿Qué son los
+1278: secaderos de pescado
+1279: redes de enmalle
+1280: botes (dories)
+1281: goletas
+1282: arrastreros
+1283: diques secos
+1284: Qué tiene de especial
+1285: ¿Quién vino después?
+1286: Otra cadena
+1287: ¿Quién pintó esta vista de Cape Ann?
+1288: Ruta completa
+1289: seguidas
+1290: récord
+1291: luz baja y cálida hasta la puesta de sol
+1292: mediodía
+1293: a pie
+1294: en coche
+1295: marcador aproximado
+1296: dirección de la vista (norte verdadero)
+1297: ← Los nueve lugares
+1298: ⤢ Zoom
+1299: más lejos
+1300: Océano Atlántico
+1301: =
+1302: Mapa de las paradas de la ruta en Cape Ann
+1303: Pintar en invierno →
+1304: El puerto pesquero →
+1305: véalas todas en un mapa
+1306: Noche. Sin luz directa; la ciudad y el agua se leen como siluetas contra el cielo.
+1307: Crepúsculo. Luz suave, sin sombras; el cielo aporta el color.
+1308: Sol en el horizonte. Sombras largas, color cálido: la luz baja que Lane prefería para sus vistas del puerto.
+1309: Franja de la hora dorada. Luz lateral cálida y sombras largas; los colores cambian deprisa, así que trabaje rápido.
+1310: Sol a media altura. Modelado claro de las formas; las sombras se acortan durante la sesión.
+1311: Sol alto. Sombras cortas y luz más plana y fría sobre el agua.
+1312: Izquierda: la pintura. Derecha: la mezcla prevista. La mezcla es una estimación; ajústela a ojo.
+1313: Cada lugar lleva una etiqueta según lo firme que sea su punto de vista: documentado, zona documentada, fuente secundaria o punto de vista sugerido por nosotros. Las posiciones del sol se calculan para Gloucester en hora local.
+1314: Nueve lugares de Cape Ann donde una pintura puede vincularse a un punto del terreno. Elija un número en el mapa, o un lugar de abajo, para ver la pintura, dónde estuvo el pintor y dónde está el sol a la hora que elija.
+1315: Consulte la tabla de mareas (estación NOAA 8441841; amplitud media de unos 8,8 pies, 2,7 m), reserve el aparcamiento de playa para no residentes en verano y pinte desde accesos públicos: varios puntos de vista históricos, entre ellos Banner Hill, son hoy privados. El informe completo tiene las fuentes de todo esto.
+1316: ¿Está hoy en Cape Ann?⟦0⟧ Toque ⟦1⟧YO⟦2⟧ para verse en la carta. Abra un lugar y toque ⟦3⟧Alinéela⟦4⟧ para superponer la pintura a la imagen de la cámara, y luego selle su pasaporte. Los marcadores cuadrados son tiendas de arte y estudios; ⟦5⟧véalos todos en un mapa⟦6⟧.
+1317: Todas las colecciones
+1318: En el espíritu de Fitz Henry Lane
+1319: En el espíritu de Winslow Homer, 1873 y 1880
+1320: En el espíritu de Childe Hassam y Willard Metcalf
+1321: En el espíritu de John Twachtman
+1322: En el espíritu de Maurice Prendergast
+1323: En el espíritu de Edward Hopper y Stuart Davis
+1324: Acuarela y gouache
+1325: Óleo o acuarela
+1326: Hacia las 11–14 h en verano
+1327: una paleta de cuatro colores
+1328: solo una espátula
+1329: una hora, de principio a fin
+1330: una tabla de 15 × 20 cm (6 × 8 pulgadas)
+1331: solo tres valores
+1332: nada de verde
+1333: una paleta de colores tierra
+1334: un pincel más ancho de lo que le gustaría
+1335: Ten Pound Island desde el acceso público de Rocky Neck
+1336: la bocana del puerto desde Fort Point
+1337: las rocas de Brace's Cove
+1338: Motif No. 1 desde el T-Wharf
+1339: Smith Cove desde Banner Hill
+1340: Annisquam Light desde Wingaersheek Beach
+1341: Eastern Point Light desde el rompeolas
+1342: Norman's Woe desde la orilla occidental
+1343: al amanecer
+1344: con niebla matinal
+1345: con la marea baja
+1346: con la marea alta
+1347: en una tarde nublada
+1348: con el resplandor tras el ocaso
+1349: en los diez primeros minutos de lluvia
+1350: Gloucester, Rockport, Essex y Manchester-by-the-Sea
+1351: Se anuncia cada año; consulte las fechas con los organizadores.
+1352: Estudios en todo Cape Ann
+1353: en coche, con un paseo por Rocky Neck
+1354: un paseo por el centro y luego en coche
+1355: =
+1356: Hopper y Jo Nivison, 1923
+1357: Un óleo, en el Cincinnati Art Museum
+1358: Los muelles
+1359: La vista alta
+1360: Rothko, verano de 1934
+1361: De los secaderos a los arrastreros
+1362: Un paseo por el puerto y luego un trayecto corto en coche
+1363: Lane, nativo, trabajó allí entre la década de 1840 y 1865; Mellen, su alumna en la década de 1850
+1364: Avery desde 1921; Gottlieb y Rothko con él en la década de 1930
+1365: Programa 2026–27 de la Phillips Collection
+1366: Programas y eventos de Rocky Neck
+1367: De noviembre a marzo
+1368: Las tiendas independientes y las organizaciones sin ánimo de lucro mantienen viva la comunidad artística de Cape Ann. Cada ficha muestra el mes en que se comprobó por última vez (la más reciente, ⟦0⟧noviembre de 2026⟦1⟧) con las fuentes enlazadas en ella. Los horarios cambian con las estaciones, así que llame antes.
+1369: Línea de costa
+1370: ← Abrir el explorador interactivo⟦0⟧ · ⟦1⟧Descargar el PDF⟦2⟧ ·
+1371: sol
+1372: sol (puesto)

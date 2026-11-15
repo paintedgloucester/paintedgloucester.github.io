@@ -16,12 +16,13 @@
     const missing = new Set();
     const EN_M = 'January February March April May June July August September October November December'.split(' ');
     const EN_D = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ');
-    const DATEWORDS = new RegExp('\\b(?:' + [...(months || []), ...(days || []), 'de', 'del', 'EST', 'EDT'].join('|') + ')\\b', 'gi');
+    const DATEWORDS = new RegExp('(?<![A-Za-z\\u00C0-\\u024F])(?:' + [...(months || []), ...(days || []), ...(dict.datewords || []), 'de', 'del', 'EST', 'EDT'].map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(?![A-Za-z\\u00C0-\\u024F])', 'gi');
     function generic(s) {
       let o = s.replace(/\b(\d{1,2}):(\d\d) ([ap])\.m\.?(?=$|[^a-z])/g, (m, h, mm, ap) => `${(+h % 12) + (ap === 'p' ? 12 : 0)}:${mm}`).replace(/\b(\d{1,2}) ([ap])\.m\.?(?=$|[^a-z])/g, (m, h, ap) => `${(+h % 12) + (ap === 'p' ? 12 : 0)}:00`);
       if (months) {
-        o = o.replace(new RegExp('\\b(' + EN_M.join('|') + ') (\\d{1,2})(?!\\d)(?:[–-](\\d{1,2}))?(?:, (\\d{4}))?', 'g'), (m, mo, d, d2, y) => { const mn = months[EN_M.indexOf(mo)]; return lang === 'it' ? `${d}${d2 ? '–' + d2 : ''} ${mn}${y ? ' ' + y : ''}` : `${d}${d2 ? '–' + d2 : ''} de ${mn}${y ? ' de ' + y : ''}`; });
-        o = o.replace(new RegExp('\\b(' + EN_M.join('|') + ')( \\d{4})?\\b', 'g'), (m, mo, y) => months[EN_M.indexOf(mo)] + (y ? (lang === 'it' ? y : ' de' + y) : ''));
+        const F = dict.datefmt || { dmy: '{d} {m} {y}', dm: '{d} {m}', my: '{m} {y}' }, put = (tpl, d, mi, y) => tpl.replace('{d}', d).replace('{m}', months[mi]).replace('{M}', String(mi + 1)).replace('{y}', y);
+        o = o.replace(new RegExp('\\b(' + EN_M.join('|') + ') (\\d{1,2})(?!\\d)(?:[–-](\\d{1,2}))?(?:, (\\d{4}))?', 'g'), (m, mo, d, d2, y) => put(y ? F.dmy : F.dm, d + (d2 ? '–' + d2 : ''), EN_M.indexOf(mo), y || ''));
+        o = o.replace(new RegExp('\\b(' + EN_M.join('|') + ')(?: (\\d{4}))?\\b', 'g'), (m, mo, y) => y ? put(F.my, '', EN_M.indexOf(mo), y) : months[EN_M.indexOf(mo)]);
         o = o.replace(new RegExp('\\b(' + EN_D.join('|') + ')\\b', 'g'), (m, d) => days[EN_D.indexOf(d)]);
       }
       return o;
@@ -153,10 +154,11 @@
   const PAGE = /^(?:(?:works|sites|trails)\/|(?:painters|waterfront|winter|photographers|teachers|gallery|shops|field-notes|brief)\.html)/;
   const links = el => { if (!based || !el.querySelectorAll) return; el.querySelectorAll('a[href]').forEach(a => { const h = a.getAttribute('href'); if (PAGE.test(h)) a.setAttribute('href', dir + '/' + h); }); };
   const blockOf = n => { let e = n.nodeType === 1 ? n : n.parentElement; while (e && e !== document.body && !window.PGI18N.BLOCK.has(e.tagName.toLowerCase())) e = e.parentElement; return e || document.body; };
+  const svgText = r => { if (!r || !r.querySelectorAll) return; r.querySelectorAll('svg text.msl, svg text.sunt').forEach(t => { const v = T.text(t.textContent, 0, true); if (v && v !== t.textContent) t.textContent = v; }); };
   const start = () => {
-    T.dom(document.body); links(document.body);
-    new MutationObserver(list => { const seen = new Set(); for (const m of list) { const b = blockOf(m.target); if (b.closest && b.closest('[translate="no"], svg')) continue; seen.add(b); }
-      const all = [...seen].filter(b => ![...seen].some(o => o !== b && o.contains(b))); all.forEach(b => { T.dom(b); links(b); }); })
+    T.dom(document.body); links(document.body); svgText(document.body);
+    new MutationObserver(list => { const seen = new Set(); for (const m of list) { const b = blockOf(m.target); if (b.closest && b.closest('svg')) { svgText(b.closest('svg').parentNode || b); continue; } if (b.closest && b.closest('[translate="no"]')) continue; seen.add(b); }
+      const all = [...seen].filter(b => ![...seen].some(o => o !== b && o.contains(b))); all.forEach(b => { T.dom(b); links(b); svgText(b); }); })
       .observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ['alt', 'title', 'aria-label', 'placeholder'] });
   };
   if (based) document.addEventListener('click', e => { if (e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey) return; const a = e.target.closest && e.target.closest('a[href^="#"]'); if (!a) return; e.preventDefault(); const h = a.getAttribute('href'); if (location.hash === h) window.dispatchEvent(new HashChangeEvent('hashchange')); else location.hash = h; });

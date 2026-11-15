@@ -1,0 +1,206 @@
+1167: omber naturel
+1168: ivoorzwart
+1169: Alle schilders
+1170: Terug naar het overzicht
+1171: Filters wissen
+1172: Venster sluiten
+1173: Noot sluiten
+1174: Schilderij en kaart vergelijken ⟷
+1175: Details
+1176: details
+1177: Sleep om de kaart te verplaatsen; knijp om te zoomen.
+1178: U wordt gezocht…
+1179: Voor u
+1180: Volledige routepagina, met bronnen
+1181: Galerie
+1182: Museum
+1183: Gouden uur
+1184: Afbeelding bij het museum
+1185: Afbeelding niet opgenomen
+1186: Hier geen afbeelding
+1187: hier niet opgenomen
+1188: Licht
+1189: Toestemming voor locatie is geweigerd
+1190: Uw locatie kon niet worden gevonden
+1191: Locatie is niet beschikbaar in deze browser
+1192: Uw locatie wordt gecontroleerd…
+1193: U bent op de kaart
+1194: Al ter plekke gestempeld
+1195: Ter plekke gestempeld
+1196: Ter plekke gestempeld ✓
+1197: Op afstand gestempeld
+1198: opnieuw stempelen
+1199: ter plekke gestempeld
+1200: op afstand gestempeld
+1201: niet gestempeld
+1202: gestempeld
+1203: Mijn paspoort stempelen
+1204: Mijn paspoort wissen
+1205: Tik nogmaals om alle stempels te wissen
+1206: Paspoort compleet. U hebt gestaan waar zij stonden.
+1207: NOG NIET GESTEMPELD
+1208: OP AFSTAND ·
+1209: Nog geen beeld: sta de camera toe of gebruik een foto
+1210: Tik op het schilderij om een kleur te meten
+1211: De camera is hier niet beschikbaar. Tik op ‘Foto gebruiken’ om een foto die u ter plekke hebt gemaakt gelijk te leggen.
+1212: De camera is niet beschikbaar in deze browser. Tik op ‘Foto gebruiken’ om een foto te gebruiken die u ter plekke hebt gemaakt.
+1213: Foto gebruiken
+1214: Camera starten…
+1215: Vastleggen
+1216: Leg het gelijk
+1217: Gekopieerd
+1218: Link kopiëren
+1219: Gids bijgewerkt. Herlaad voor de nieuwste versie.
+1220: Opgeslagen voor offline gebruik ✓
+1221: Deze browser kan de gids niet opslaan voor offline gebruik.
+1222: Volgend schilderij
+1223: Volgende plek
+1224: Vorige plek
+1225: Volgend woord
+1226: Vorige stop
+1227: Klaar: terug naar het overzicht
+1228: Begin bij stop 1
+1229: Geen werken voldoen aan deze filters
+1230: Geen werken voldoen aan deze filters.
+1231: Deze keer niet
+1232: Deze keer niet.
+1233: Ja!
+1234: Nu
+1235: Op de kaart
+1236: Op de kaart van de schilders
+1237: Open het schilderij schermvullend
+1238: Open de plek
+1239: Open de zonneplanner
+1240: Geschilderd vanaf
+1241: Pauze
+1242: Kies een naam. Niet spieken bij het onderschrift!
+1243: Speel de route af
+1244: Lees hun levens
+1245: Kleur meten
+1246: Toon hoe ver ik hier vandaan ben
+1247: Toon op de kaart ↑
+1248: Toon de hele regio
+1249: Weergave
+1250: Grootte
+1251: Bronnen voor deze stop
+1252: Zon
+1253: Zon op de plek
+1254: Verras me
+1255: Tik om de kaart om te draaien
+1256: Die dag
+1257: Het terrein nu ▸
+1258: ◂ Het schilderij
+1259: Het uur van het schilderij
+1260: De zon
+1261: De zon boven de haven van Gloucester
+1262: De zon staat onder de horizon
+1263: De zon staat voor u: de scène is in tegenlicht
+1264: De zon staat achter u: de scène is vol van voren belicht
+1265: De zon staat links achter u
+1266: De zon staat links voor u
+1267: De zon staat rechts voor u
+1268: De zon staat rechts achter u
+1269: op dat uur: links voor u
+1270: Het deel van het dossier over de standpunten
+1271: De negen plekken als eenvoudige lijst, met routebeschrijving
+1272: Alle noten in het dossier
+1273: Tijdstip
+1274: Vandaag in de haven
+1275: Probeer het bij
+1276: Bekijk bij het museum
+1277: Wat zijn
+1278: droogrekken
+1279: staandnetten
+1280: dory’s
+1281: schoeners
+1282: treilers
+1283: droogdokken
+1284: Wat het bijzonder maakt
+1285: Wie kwam daarna?
+1286: Nog een keten
+1287: Wie schilderde dit gezicht op Cape Ann?
+1288: Hele route
+1289: op rij
+1290: record
+1291: laag, warm licht tot zonsondergang
+1292: middag
+1293: te voet
+1294: met de auto
+1295: markering bij benadering
+1296: kijkrichting (ware noorden)
+1297: ← Alle negen plekken
+1298: ⤢ Zoom
+1299: verder weg
+1300: Atlantische Oceaan
+1301: =
+1302: Kaart van de stops van de route op Cape Ann
+1303: Schilderen in de winter →
+1304: De werkende haven →
+1305: bekijk ze allemaal op één kaart
+1306: Nacht. Geen direct licht; stad en water lezen als silhouetten tegen de lucht.
+1307: Schemering. Zacht, schaduwloos licht; de lucht draagt de kleur.
+1308: Zon aan de horizon. Lange schaduwen, warme kleur: het lage licht waar Lane de voorkeur aan gaf voor zijn havengezichten.
+1309: Gouden-uurbereik. Warm strijklicht en lange schaduwen; kleuren veranderen snel, dus werk vlot.
+1310: Zon op halve hoogte. Duidelijke modellering van vormen; de schaduwen worden tijdens de sessie korter.
+1311: Hoge zon. Korte schaduwen en vlakker, koeler licht op het water.
+1312: Links: het schilderij. Rechts: het voorspelde mengsel. Het mengen is een schatting; pas aan op het oog.
+1313: Elke plek heeft een label voor hoe zeker het standpunt is: gedocumenteerd, gebied gedocumenteerd, secundaire bron of een door ons voorgesteld standpunt. Zonnestanden worden berekend voor Gloucester in lokale tijd.
+1314: Negen plekken op Cape Ann waar een schilderij aan een punt in het terrein kan worden gekoppeld. Kies een nummer op de kaart, of een plek hieronder, om het schilderij te zien, waar de schilder stond en waar de zon staat op elk uur dat u kiest.
+1315: Raadpleeg de getijdentabel (NOAA-station 8441841; gemiddeld getijverschil ongeveer 8,8 voet, 2,7 m), reserveer in de zomer strandparkeren voor niet-inwoners en schilder vanaf openbare paden: verschillende historische standpunten, waaronder Banner Hill, zijn nu privé. Het volledige dossier geeft hiervoor alle bronnen.
+1316: Vandaag op Cape Ann?⟦0⟧ Tik op ⟦1⟧IK⟦2⟧ om uzelf op de kaart te zien. Open een plek en tik op ⟦3⟧Leg het gelijk⟦4⟧ om het schilderij over het camerabeeld te leggen, en stempel dan uw paspoort. Vierkante markeringen zijn kunstwinkels en ateliers; ⟦5⟧bekijk ze allemaal op één kaart⟦6⟧.
+1317: Alle collecties
+1318: In de geest van Fitz Henry Lane
+1319: In de geest van Winslow Homer, 1873 & 1880
+1320: In de geest van Childe Hassam en Willard Metcalf
+1321: In de geest van John Twachtman
+1322: In de geest van Maurice Prendergast
+1323: In de geest van Edward Hopper en Stuart Davis
+1324: Aquarel & gouache
+1325: Olieverf of aquarel
+1326: In de zomer rond 11 tot 14 uur
+1327: een palet van vier kleuren
+1328: alleen een paletmes
+1329: één uur, van begin tot eind
+1330: een paneel van 15 × 20 cm (6 × 8 inch)
+1331: slechts drie toonwaarden
+1332: helemaal geen groen
+1333: een palet van aardkleuren
+1334: een penseel breder dan u zou willen
+1335: Ten Pound Island vanaf het openbare pad op Rocky Neck
+1336: de havenmonding vanaf Fort Point
+1337: de rotsen bij Brace's Cove
+1338: Motif No. 1 vanaf de T-Wharf
+1339: Smith Cove vanaf Banner Hill
+1340: Annisquam Light vanaf Wingaersheek Beach
+1341: Eastern Point Light vanaf de golfbreker
+1342: Norman's Woe vanaf de westoever
+1343: bij zonsopkomst
+1344: in ochtendmist
+1345: bij laagwater
+1346: bij hoogwater
+1347: op een bewolkte middag
+1348: in de nagloed
+1349: in de eerste tien minuten regen
+1350: Gloucester, Rockport, Essex en Manchester-by-the-Sea
+1351: Wordt elk jaar aangekondigd; vraag de data na bij de organisatoren.
+1352: Ateliers op heel Cape Ann
+1353: met de auto, met een wandeling over Rocky Neck
+1354: een wandeling door het centrum, dan een rit
+1355: =
+1356: Hopper en Jo Nivison, 1923
+1357: Een olieverfschilderij, in het Cincinnati Art Museum
+1358: De kades
+1359: Het hoge uitzicht
+1360: Rothko, zomer 1934
+1361: Van droogrekken tot treilers
+1362: Een havenwandeling, dan een korte rit
+1363: Lane geboren in Gloucester, werkte er van de jaren 1840 tot 1865; Mellen zijn leerling in de jaren 1850
+1364: Avery vanaf 1921; Gottlieb en Rothko met hem in de jaren 1930
+1365: Programma 2026–27 van de Phillips Collection
+1366: Programma’s & evenementen op Rocky Neck
+1367: November tot maart
+1368: Onafhankelijke winkels en non-profitorganisaties houden de kunstgemeenschap van Cape Ann draaiende. Elke vermelding toont de maand waarin ze voor het laatst is gecontroleerd (het laatst ⟦0⟧november 2026⟦1⟧) aan de bronnen die op de kaart staan. Openingstijden veranderen met de seizoenen, dus bel vooraf.
+1369: Kustlijn
+1370: ← Open de interactieve verkenner⟦0⟧ · ⟦1⟧Download de pdf⟦2⟧ ·
+1371: zon
+1372: zon (onder)
