@@ -225,18 +225,22 @@ window.PLACES = {
    "type": "school",
    "name": "Cape Ann Art Haven",
    "town": "Gloucester",
-   "addr": "180B Main Street, Gloucester, MA 01930",
+   "addr": "50 Whittemore Street, Unit 2, Gloucester, MA 01930",
    "ll": [
-    42.61267,
-    -70.66186
+    42.61827,
+    -70.67661
    ],
    "phone": "978-283-3888",
-   "what": "A nonprofit community art center downtown, with painting, drawing, pottery and printmaking classes for kids, teens and families.",
+   "what": "A nonprofit community art center in Gloucester, with painting, drawing, pottery and printmaking classes for kids, teens and families.",
    "special": [
     "Family open studios and all-ages classes, plus portfolio prep for students applying to art school.",
     "Co-host of the Paint Out on Rocky Neck."
    ],
    "src": [
+    [
+     "Cape Ann Art Haven contact page",
+     "https://www.arthaven.org/contact-us"
+    ],
     [
      "Idealist organization profile",
      "https://www.idealist.org/en/nonprofit/6a41ce92b525478ea026f080b4f7f490-cape-ann-art-haven-gloucester"
@@ -246,7 +250,6 @@ window.PLACES = {
      "https://northshorekid.com/story/art-classes-kids-art-haven"
     ]
    ],
-   "confirm": "Some listings give 20 Maplewood Ave. Check arthaven.org for the current address and schedule.",
    "checked": "November 2026"
   },
   {

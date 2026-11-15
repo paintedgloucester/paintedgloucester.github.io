@@ -223,3 +223,4 @@ sun ||| sol ||| sole
 sun (set) ||| sol (posto) ||| sole (tramontato)
 Coastline: MassGIS ||| Linha de costa: MassGIS ||| Linea di costa: MassGIS
 n.d. (after 1915) ||| s.d. (depois de 1915) ||| s.d. (dopo il 1915)
+A nonprofit community art center in Gloucester, with painting, drawing, pottery and printmaking classes for kids, teens and families. ||| Um centro de arte comunitário sem fins lucrativos em Gloucester, com aulas de pintura, desenho, cerâmica e gravura para crianças, adolescentes e famílias. ||| Un centro d’arte comunitario non profit a Gloucester, con corsi di pittura, disegno, ceramica e stampa per bambini, ragazzi e famiglie.
