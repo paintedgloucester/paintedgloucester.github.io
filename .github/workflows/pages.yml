@@ -4,9 +4,14 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      since:
+        description: 'Send IndexNow every page changed since this commit (optional)'
+        required: false
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -39,4 +44,16 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Tell IndexNow search engines (Bing and others) which pages changed
         continue-on-error: true
-        run: node tools/indexnow.mjs "${{ github.event.before }}" "${{ github.sha }}"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SINCE: ${{ inputs.since }}
+        # Compare with the last deploy that succeeded, not just the previous push, so pages
+        # from a deploy that failed (GitHub sometimes returns a server error) are still sent.
+        run: |
+          base="$SINCE"
+          if [ -z "$base" ]; then
+            base=$(gh api "repos/${{ github.repository }}/actions/workflows/pages.yml/runs?branch=main&status=success&per_page=1" --jq '.workflow_runs[0].head_sha' 2>/dev/null || true)
+          fi
+          [ -z "$base" ] && base="${{ github.event.before }}"
+          echo "IndexNow: comparing $base..${{ github.sha }}"
+          node tools/indexnow.mjs "$base" "${{ github.sha }}"
