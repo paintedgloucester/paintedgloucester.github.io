@@ -57,7 +57,7 @@ ${body(up)}
  <div><b class="foot-h">More guides</b><ul><li><a href="${up}painters.html">The painters and who brought whom</a></li><li><a href="${up}trails/">Walking and driving trails</a></li><li><a href="${up}waterfront.html">The working waterfront</a></li><li><a href="${up}winter.html">Painting in winter</a></li><li><a href="${up}photographers.html">The photographers</a></li><li><a href="${up}teachers.html">For teachers</a></li><li><a href="${up}gallery.html">Visitors’ gallery</a></li></ul></div>
  <div><b class="foot-h">Credits and license</b><p>Painting images are public-domain releases by the museums that hold the works, credited beside each image. Coastline: MassGIS. Place points © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p><p>Text and data © Painted Gloucester, free to reuse with credit under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="${up}LICENSE.md">License details</a>.</p></div>
 </div></footer>
-${tail ? tail(up) : ''}<script src="${up}js/langhint.js" defer></script>
+${tail ? tail(up) : ''}<script src="${up}js/langhint.js" defer></script><script data-goatcounter="https://paintedgloucester.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
 `;
@@ -171,6 +171,8 @@ for (const f of ['index.html', 'brief.html']) { let h = fs.readFileSync(f, 'utf8
   if (f === 'index.html') h = h.replace(/<nav class="langs"[\s\S]*?<\/nav>/, langsNav(f, 'en', FLAGS, true));
   else h = h.replace(/<span class="blangs"[\s\S]*?<\/span><!--\/blangs-->|<a href="pt\/brief\.html"[\s\S]*?Italiano<\/a>/, `<span class="blangs" translate="no">${[['en', 'en', 'English'], ...LANGS].map(([c, hl, n]) => `<a href="${c === 'en' ? '' : '../'.repeat(0) + c + '/'}brief.html" hreflang="${hl}" lang="${hl}" data-lang="${c}" style="color:#F3EDE1;border-bottom:1px solid #D9B07A">${n}</a>`).join(' &nbsp;·&nbsp; ')}</span><!--/blangs-->`);
   if (!h.includes('js/langhint.js')) h = h.replace(/<\/body>/, '<script src="js/langhint.js" defer></script>\n</body>');
+  // Visit counter: GoatCounter (no cookies, no personal data). Dashboard: https://paintedgloucester.goatcounter.com
+  if (!h.includes('gc.zgo.at/count.js')) h = h.replace(/<\/body>/, '<script data-goatcounter="https://paintedgloucester.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>\n</body>');
   if (h !== o) fs.writeFileSync(f, h); }
 
 /* ---------- translated copies ---------- */
