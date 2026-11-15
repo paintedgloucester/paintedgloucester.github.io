@@ -207,3 +207,28 @@
 1373: Línea de costa: MassGIS
 1374: s. f. (después de 1915)
 1375: Un centro de arte comunitario sin ánimo de lucro en Gloucester, con clases de pintura, dibujo, cerámica y grabado para niños, adolescentes y familias.
+1376: Horario
+1377: En invierno
+1378: Horario publicado anteriormente: lunes a sábado de 10 a 18 h, domingo de 12 a 17 h.
+1379: Situación incierta. Llame antes de ir.
+1380: Los directorios no coinciden sobre si la tienda sigue abierta: algunos ya la dan por cerrada y otros siguen mostrando horario. No tiene sitio web. Llame antes de ir.
+1381: Incierto. La galería de Dock Square indica horario diario de 11 a 17 h.
+1382: El sitio web de la tienda de materiales ya no carga, y el sitio principal de la empresa solo menciona su galería de serigrafías en 15 Dock Square, Rockport (978-999-5107, abierta a diario de 11 a 17 h). Es posible que la tienda de materiales haya cerrado. Llame antes de ir.
+1383: Lunes a viernes de 9 a 17 h, sábado de 10 a 17 h, domingo cerrado (según un directorio).
+1384: El horario del directorio es para todo el año.
+1385: Abierto todo el año.
+1386: Abril a diciembre: martes a sábado de 10 a 17 h, domingo de 12 a 17 h. Entrada gratuita.
+1387: Cerrado al público de enero a marzo.
+1388: De temporada, de mayo al otoño.
+1389: Cerrado por temporada; reabre en mayo de 2027.
+1390: Cultural Center: viernes a domingo, de 12 a 17 h. Entrada gratuita.
+1391: El Cultural Center mantiene su horario de fin de semana, pero muchas galerías de Rocky Neck solo abren de mayo a octubre.
+1392: Galerías del Hardie Building: lunes a viernes de 10 a 17 h, sábado de 12 a 17 h. Entrada gratuita.
+1393: Abierto durante el curso académico; compruebe si hay pausas entre exposiciones.
+1394: Downtown Campus: martes a domingo, de 10 a 17 h, salvo aviso del museo.
+1395: El Downtown Campus abre todo el año. El campus CAM Green, en Poplar Street, es de temporada.
+1396: Horario actual: viernes y sábado de 10 a 18 h, domingo y lunes de 12 a 17 h.
+1397: Abierto todo el año; la galería indica que este horario es provisional.
+1398: Qué está abierto en invierno
+1399: Muchas galerías de Cape Ann cierran o reducen su horario de noviembre a abril. Esto es lo que indican las fichas de la guía para los meses de invierno. Los horarios cambian, así que llame antes de un viaje largo.
+1400: 619 Massachusetts Avenue, Cambridge, MA 02139 · (617) 441-6360 · más lejos

@@ -207,3 +207,28 @@
 1373: Rantaviiva: MassGIS
 1374: ei ajoitusta (1915 jälkeen)
 1375: Voittoa tavoittelematon yhteisötaidekeskus Gloucesterissa: maalauksen, piirustuksen, keramiikan ja grafiikan kursseja lapsille, nuorille ja perheille.
+1376: Aukioloajat
+1377: Talvella
+1378: Aiemmin ilmoitetut ajat: maanantaista lauantaihin klo 10–18, sunnuntaisin klo 12–17.
+1379: Tilanne epävarma. Soita ennen lähtöä.
+1380: Hakemistot ovat eri mieltä siitä, onko liike yhä auki: osa merkitsee sen nyt suljetuksi, osa näyttää yhä aukioloajat. Liikkeellä ei ole verkkosivuja. Soita ennen lähtöä.
+1381: Epävarma. Dock Squaren galleria ilmoittaa olevansa auki päivittäin klo 11–17.
+1382: Tarvikeliikkeen omat verkkosivut eivät enää aukea, ja yrityksen pääsivustolla mainitaan enää vain silkkipainogalleria osoitteessa 15 Dock Square, Rockport (978-999-5107, auki päivittäin klo 11–17). Tarvikeliike on ehkä suljettu. Soita ennen lähtöä.
+1383: Maanantaista perjantaihin klo 9–17, lauantaisin klo 10–17, sunnuntaisin suljettu (hakemiston tieto).
+1384: Hakemiston aukioloajat ovat voimassa ympäri vuoden.
+1385: Auki ympäri vuoden.
+1386: Huhtikuusta joulukuuhun: tiistaista lauantaihin klo 10–17, sunnuntaisin klo 12–17. Vapaa pääsy.
+1387: Suljettu yleisöltä tammikuusta maaliskuuhun.
+1388: Kausiluonteinen, toukokuusta syksyyn.
+1389: Suljettu kauden ajaksi; avautuu uudelleen toukokuussa 2027.
+1390: Cultural Center: perjantaista sunnuntaihin klo 12–17. Vapaa pääsy.
+1391: Cultural Center pitää viikonloppuaukiolonsa, mutta monet Rocky Neckin galleriat ovat auki vain toukokuusta lokakuuhun.
+1392: Hardie Buildingin galleriat: maanantaista perjantaihin klo 10–17, lauantaisin klo 12–17. Vapaa pääsy.
+1393: Auki lukuvuoden aikana; tarkista näyttelyiden väliset tauot.
+1394: Downtown Campus: tiistaista sunnuntaihin klo 10–17, ellei museo toisin ilmoita.
+1395: Downtown Campus on auki ympäri vuoden. Poplar Streetin CAM Green -kampus on kausiluonteinen.
+1396: Nykyiset aukioloajat: perjantaisin ja lauantaisin klo 10–18, sunnuntaisin ja maanantaisin klo 12–17.
+1397: Auki ympäri vuoden; galleria ilmoittaa nämä tilapäisiksi aukioloajoiksi.
+1398: Mikä on auki talvella
+1399: Monet Cape Annin galleriat sulkevat ovensa tai lyhentävät aukioloaikojaan marraskuusta huhtikuuhun. Tässä on, mitä oppaan tiedot kertovat talvikuukausista. Aukioloajat muuttuvat, joten soita ennen pitkää ajomatkaa.
+1400: 619 Massachusetts Avenue, Cambridge, MA 02139 · (617) 441-6360 · kauempana

@@ -178,6 +178,7 @@ function showPlace(p, zoom) {
 function placeBody(p) {
   return `<p class="addr">${esc(p.addr)}${p.phone ? ` · <span class="sel">${esc(p.phone)}</span>` : ''}</p>
     <p>${esc(p.what)}</p>
+    ${p.hours ? `<div class="hrs"><div class="hl">Hours</div><div>${esc(p.hours)}</div></div>` : ''}${p.winter ? `<div class="hrs"><div class="hl">In winter</div><div>${esc(p.winter)}</div></div>` : ''}
     ${p.special && p.special.length ? `<h4>What makes it special</h4><ul class="plist">${p.special.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${p.confirm ? `<p class="confirm">${esc(p.confirm)}</p>` : ''}
     <div class="btnrow">${p.url ? `<a class="btn solid" href="${esc(p.url)}" target="_blank" rel="noopener">Website ↗</a>` : ''}<a class="btn" href="${dirUrl(p.ll)}" target="_blank" rel="noopener">Directions ↗</a></div>

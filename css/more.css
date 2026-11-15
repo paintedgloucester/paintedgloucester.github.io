@@ -87,6 +87,7 @@ h3.disp{ font-family:'Cormorant', serif; font-weight:600; color:var(--navy); lin
 .addr{ font:13.5px Inter, sans-serif; color:var(--muted); margin:6px 0 10px; }
 .sel{ user-select:all; }
 .plist{ padding-left:20px; margin:0; } .plist li{ margin-bottom:6px; }
+.hrs{ display:flex; gap:.5em; font:13px/1.45 Inter, sans-serif; margin:.35em 0; } .hrs .hl{ flex:none; font-weight:600; color:#1F3A52; }
 .confirm{ font:13px/1.45 Inter, sans-serif; background:#F6E8D6; color:#5A3812; padding:8px 10px; border-radius:3px; }
 .src{ font:12px/1.5 Inter, sans-serif; color:var(--muted); margin:12px 0 0; }
 .src a{ color:var(--muted); }

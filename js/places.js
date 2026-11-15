@@ -22,6 +22,10 @@ window.PLACES = {
    ],
    "src": [
     [
+     "Yellow Pages listing",
+     "https://www.yellowpages.com/gloucester-ma/mip/island-art-and-hobby-466471874"
+    ],
+    [
      "Store listing (South End Arts)",
      "https://searts.org/wp/?p=1848"
     ],
@@ -30,8 +34,10 @@ window.PLACES = {
      "https://goodmorninggloucester.com/2013/03/26/island-art-hobby-review-and-info-from-eileen-oliver"
     ]
    ],
-   "confirm": "Listed hours are from an older fall schedule (Mon–Sat 10–6, Sun 12–5). Call before you go.",
-   "checked": "November 2026"
+   "confirm": "Directories disagree on whether this shop is still open: some now list it as closed, others still show hours. It has no website. Call before you go.",
+   "checked": "November 2026",
+   "hours": "Older listed hours: Monday–Saturday 10–6, Sunday 12–5.",
+   "winter": "Status uncertain. Call before you go."
   },
   {
    "id": "rusty-ingrid",
@@ -51,6 +57,10 @@ window.PLACES = {
    ],
    "src": [
     [
+     "Rusty and Ingrid: location and hours",
+     "https://www.rustyandingrid.com/contact-us"
+    ],
+    [
      "Cape Ann Chamber: Saturday Morning Sketch Walk",
      "https://business.capeannchamber.com/events/details/saturday-morning-sketch-walk-22572"
     ],
@@ -59,8 +69,9 @@ window.PLACES = {
      "https://thenorthshoremoms.com/?p=16528"
     ]
    ],
-   "confirm": "Sources disagree on which Bearskin Neck number is the supply shop and which is the print shop, and hours are seasonal. Check before visiting.",
-   "checked": "November 2026"
+   "confirm": "The supply shop's own website no longer loads, and the company's main site now lists only its screen-print gallery at 15 Dock Square, Rockport (978-999-5107, open daily 11–5). The supply shop may have closed. Call before you go.",
+   "checked": "November 2026",
+   "winter": "Uncertain. The Dock Square gallery lists daily hours of 11–5."
   },
   {
    "id": "art-supplies-wholesale",
@@ -80,6 +91,10 @@ window.PLACES = {
    ],
    "src": [
     [
+     "Leadstal listing",
+     "https://www.leadstal.com/sb/art-supplies-wholesale"
+    ],
+    [
      "Alignable listing",
      "https://www.alignable.com/beverly-ma/art-supplies-wholesale"
     ],
@@ -89,14 +104,16 @@ window.PLACES = {
     ]
    ],
    "confirm": "One directory gives a Marblehead address. Directory hours: Mon–Fri 9–5, Sat 10–5, closed Sunday. Confirm before you go.",
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "hours": "Monday–Friday 9–5, Saturday 10–5, closed Sunday (directory listing).",
+   "winter": "Directory hours are year-round."
   },
   {
    "id": "blick-cambridge",
    "type": "supply",
    "name": "Blick Art Materials, Central Square",
    "town": "Cambridge",
-   "addr": "619 Massachusetts Avenue, Cambridge, MA",
+   "addr": "619 Massachusetts Avenue, Cambridge, MA 02139",
    "ll": [
     42.36534,
     -71.10329
@@ -113,7 +130,10 @@ window.PLACES = {
     ]
    ],
    "confirm": "Chain store; check the store page for current hours.",
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "phone": "(617) 441-6360",
+   "url": "https://www.dickblick.com/stores/massachusetts/cambridge/",
+   "winter": "Open year-round."
   },
   {
    "id": "cape-ann-museum",
@@ -133,11 +153,18 @@ window.PLACES = {
    ],
    "src": [
     [
+     "Cape Ann Museum: Visit",
+     "https://www.capeannmuseum.org/visit/"
+    ],
+    [
      "Painted Gloucester research brief",
      "brief.html"
     ]
    ],
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "phone": "978-283-0455",
+   "hours": "Downtown Campus: Tuesday–Sunday, 10–5, unless the museum notes otherwise.",
+   "winter": "The Downtown Campus is open year-round. The CAM Green campus on Poplar Street is seasonal."
   },
   {
    "id": "rockport-art-assn",
@@ -157,6 +184,10 @@ window.PLACES = {
    ],
    "src": [
     [
+     "RAA&M: Plan your visit",
+     "https://www.rockportartassn.org/plan-your-visit"
+    ],
+    [
      "Cape Ann Summer School of Art",
      "https://www.rockportartassn.org/cape-ann-summer-school-of-art"
     ],
@@ -165,7 +196,10 @@ window.PLACES = {
      "https://www.rockportartassn.org/harley-bartlett-the-painted-sketch-of-rockport"
     ]
    ],
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "phone": "978-546-6604",
+   "hours": "April–December: Tuesday–Saturday 10–5, Sunday 12–5. Free admission.",
+   "winter": "Closed to the public January–March."
   },
   {
    "id": "north-shore-arts",
@@ -177,18 +211,25 @@ window.PLACES = {
     42.60931,
     -70.65191
    ],
-   "url": "https://www.northshoreartsassoc.org",
+   "url": "https://nsarts.org",
    "what": "A historic artists' association in a waterfront barn on East Gloucester's harbor, founded during the art-colony years.",
    "special": [
     "Member exhibitions, demonstrations and classes, steps from the Rocky Neck painting grounds."
    ],
    "src": [
     [
+     "NSAA: Directions, hours, contact",
+     "https://nsarts.org/explore-visit/directions-hours-contact/"
+    ],
+    [
      "Discover Gloucester listing",
      "https://discovergloucester.com/directory/north-shore-arts-association-of-gloucester/"
     ]
    ],
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "phone": "978-283-1857",
+   "hours": "Seasonal, May to the fall.",
+   "winter": "Closed for the season; reopens in May 2027."
   },
   {
    "id": "rocky-neck",
@@ -210,6 +251,14 @@ window.PLACES = {
    ],
    "src": [
     [
+     "The Cultural Center at Rocky Neck",
+     "https://www.rockyneckartcolony.org/exhibition/galleries/the-cultural-center-at-rocky-neck"
+    ],
+    [
+     "Rocky Neck: Plan your visit",
+     "https://www.rockyneckartcolony.org/about/plan-your-visit"
+    ],
+    [
      "Rocky Neck programs & events",
      "https://rockyneckartcolony.org/programs-events"
     ],
@@ -218,7 +267,9 @@ window.PLACES = {
      "https://www.rockyneckartcolony.org/program-events/workshops"
     ]
    ],
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "hours": "Cultural Center: Friday–Sunday, 12–5. Free.",
+   "winter": "The Cultural Center keeps its weekend hours, but many Rocky Neck galleries open only from May to October."
   },
   {
    "id": "art-haven",
@@ -250,7 +301,8 @@ window.PLACES = {
      "https://northshorekid.com/story/art-classes-kids-art-haven"
     ]
    ],
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "url": "https://www.arthaven.org"
   },
   {
    "id": "local-colors",
@@ -269,11 +321,19 @@ window.PLACES = {
    ],
    "src": [
     [
+     "Local Colors: About",
+     "https://www.local-colors.org/about"
+    ],
+    [
      "Cape Ann Chamber listing",
      "https://business.capeannchamber.com/list/member/local-colors-artists-cooperative-26319"
     ]
    ],
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "url": "https://www.local-colors.org",
+   "phone": "(978) 283-3996",
+   "hours": "Current hours: Friday and Saturday 10–6, Sunday and Monday 12–5.",
+   "winter": "Open year-round; the gallery lists these as temporary hours."
   },
   {
    "id": "montserrat",
@@ -285,19 +345,25 @@ window.PLACES = {
     42.55011,
     -70.87609
    ],
-   "url": "https://www.montserrat.edu",
+   "url": "https://www.montserrat.edu/exhibitions-events/galleries/",
    "what": "The North Shore's art college, with galleries open to the public.",
    "special": [
     "A resource for continuing-education classes on the way to Cape Ann."
    ],
    "src": [
     [
+     "Montserrat galleries",
+     "https://www.montserrat.edu/exhibitions-events/galleries/"
+    ],
+    [
      "Creative Collective directory",
      "https://creativecollectivema.com/directory-the_arts/"
     ]
    ],
    "confirm": "Check the college site for current public programs.",
-   "checked": "November 2026"
+   "checked": "November 2026",
+   "hours": "Hardie Building galleries: Monday–Friday 10–5, Saturday 12–5. Free.",
+   "winter": "Open during the academic year; check for breaks between exhibitions."
   }
  ],
  "events": [

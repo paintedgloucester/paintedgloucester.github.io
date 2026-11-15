@@ -61,6 +61,7 @@ sup a{ border:0; font:600 11px Inter, sans-serif; color:var(--ochre); padding:0 
 .vtab td{ border-bottom:1px solid var(--rule); padding:8px 6px; vertical-align:top; } .vtab td:first-child{ width:42%; } .vtab td:last-child{ font:13.5px/1.5 Inter, sans-serif; color:var(--muted); }
 .place, .row, .day{ padding:18px 0; border-top:1px solid var(--rule); } .grp > .place:first-of-type, .grp > .row:first-of-type{ border-top:0; }
 .place p, .row p, .day p{ margin:6px 0; } .place ul{ margin:6px 0; padding-left:22px; font-size:17.5px; }
+.hrs{ display:flex; gap:.5em; font:13.5px/1.45 Inter, sans-serif; margin:.35em 0; } .hrs .hl{ flex:none; font-weight:600; color:#1F3A52; }
 .confirm{ font:13.5px/1.45 Inter, sans-serif; background:#F6E8D6; color:#5A3812; padding:8px 10px; border-radius:3px; }
 .src{ font:12.5px/1.5 Inter, sans-serif; color:var(--muted); } .src a{ color:var(--muted); } .src b{ color:#5A3812; }
 .pals{ display:grid; grid-template-columns:repeat(auto-fill, minmax(340px, 1fr)); gap:26px 30px; margin-top:14px; }

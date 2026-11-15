@@ -207,3 +207,28 @@
 1373: Trait de côte : MassGIS
 1374: s. d. (après 1915)
 1375: Un centre d’art associatif à Gloucester, avec des cours de peinture, de dessin, de poterie et de gravure pour enfants, adolescents et familles.
+1376: Horaires
+1377: En hiver
+1378: Anciens horaires publiés : du lundi au samedi de 10 h à 18 h, le dimanche de 12 h à 17 h.
+1379: Situation incertaine. Appelez avant de vous déplacer.
+1380: Les annuaires ne s’accordent pas sur l’ouverture de la boutique : certains l’indiquent désormais comme fermée, d’autres affichent encore des horaires. Elle n’a pas de site web. Appelez avant de vous déplacer.
+1381: Incertain. La galerie de Dock Square indique une ouverture quotidienne de 11 h à 17 h.
+1382: Le site web de la boutique de fournitures ne s’affiche plus, et le site principal de l’entreprise ne mentionne plus que sa galerie de sérigraphies au 15 Dock Square, à Rockport (978-999-5107, ouverte tous les jours de 11 h à 17 h). La boutique de fournitures a peut-être fermé. Appelez avant de vous déplacer.
+1383: Du lundi au vendredi de 9 h à 17 h, le samedi de 10 h à 17 h, fermé le dimanche (selon un annuaire).
+1384: Les horaires de l’annuaire valent toute l’année.
+1385: Ouvert toute l’année.
+1386: D’avril à décembre : du mardi au samedi de 10 h à 17 h, le dimanche de 12 h à 17 h. Entrée gratuite.
+1387: Fermé au public de janvier à mars.
+1388: Saisonnier, de mai à l’automne.
+1389: Fermé pour la saison ; réouverture en mai 2027.
+1390: Cultural Center : du vendredi au dimanche, de 12 h à 17 h. Entrée gratuite.
+1391: Le Cultural Center garde ses horaires du week-end, mais de nombreuses galeries de Rocky Neck n’ouvrent que de mai à octobre.
+1392: Galeries du Hardie Building : du lundi au vendredi de 10 h à 17 h, le samedi de 12 h à 17 h. Entrée gratuite.
+1393: Ouvert pendant l’année universitaire ; vérifiez les pauses entre les expositions.
+1394: Downtown Campus : du mardi au dimanche, de 10 h à 17 h, sauf indication contraire du musée.
+1395: Le Downtown Campus est ouvert toute l’année. Le campus CAM Green, sur Poplar Street, est saisonnier.
+1396: Horaires actuels : vendredi et samedi de 10 h à 18 h, dimanche et lundi de 12 h à 17 h.
+1397: Ouvert toute l’année ; la galerie présente ces horaires comme provisoires.
+1398: Ce qui est ouvert en hiver
+1399: De nombreuses galeries de Cape Ann ferment ou réduisent leurs horaires de novembre à avril. Voici ce qu’indiquent les fiches du guide pour les mois d’hiver. Les horaires changent : appelez avant un long trajet.
+1400: 619 Massachusetts Avenue, Cambridge, MA 02139 · (617) 441-6360 · plus loin

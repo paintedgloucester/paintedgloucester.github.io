@@ -148,6 +148,8 @@ ${rows.map(r => `<tr${r.mo === 6 ? ' class="cmp"' : ''}><th scope="row">${MON[r.
 <p class="small measure">The latest sunrise is about ${hm(late.r)}, in early January (around ${MON[late.mo - 1]} ${late.d}). For any other day and place, use the sun planner on <a href="${up}#map">the chart</a>.</p>
 <h2>Sea smoke</h2><p class="measure">${N.cite(Wn.seasmoke, up)}</p>
 <h2>Winter painters</h2><p class="measure">${N.cite(Wn.painters, up)}</p>${works(Wn.works, up)}
+<h2 id="open-in-winter">What’s open in winter</h2><p class="measure">Many Cape Ann galleries close or shorten their hours from November to April. Here is what the guide’s listings say for the winter months. Hours change, so call before a long drive.</p>
+<ul class="today measure wopen">${P.places.filter(p => p.winter).map(p => `<li><div translate="no"><a href="${up}shops.html#${p.id}"><b>${esc(p.name)}</b></a> · ${esc(p.town)}</div><div>${esc(p.winter)}</div></li>`).join('')}</ul>
 <h2>Working in the cold</h2><ul class="today measure">${Wn.kit.map(k => `<li>${esc(k)}</li>`).join('')}</ul>
 ${N.list()}</article>`) });
     X._sun = { dec, jun, early };
