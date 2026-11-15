@@ -40,7 +40,7 @@ function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, 
 <meta name="twitter:image" content="${ORIGIN}/${image}">
 <meta name="theme-color" content="#1F3A52">
 ${alternates(file, ORIGIN)}
-${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n` : ''}<link rel="stylesheet" href="${up}css/fonts.css">
+${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n` : ''}${crumbs.length ? `<script type="application/ld+json" data-crumbs>${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [['Home', ''], ...crumbs.map(([n, h]) => [n, h === undefined ? file.replace(/index\.html$/, '') : h])].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: `${ORIGIN}/${h}` })) }).replace(/</g, '\\u003c')}</script>\n` : ''}<link rel="stylesheet" href="${up}css/fonts.css">
 <link rel="stylesheet" href="${up}css/pages.css">
 ${head ? head(up) : ''}</head>
 <body>
@@ -133,6 +133,17 @@ page({ file: 'sites/index.html', title: 'The nine painting sites, with direction
 const TYPE = { supply: 'Art supplies', school: 'Workshops & associations', museum: 'Museums & galleries', gallery: 'Museums & galleries' };
 page({ file: 'shops.html', title: 'Art supplies, workshops, galleries and paint-outs on Cape Ann', desc: `Where to buy paint and panels, take a workshop and see the paintings in Gloucester and Rockport, plus the annual paint-outs. ${P.places.length} listings, each with sources and the month it was last checked.`,
   crumbs: [['Shops & studios']],
+  ld: { '@context': 'https://schema.org', '@graph': [
+    ...P.places.map(p => { const m = p.addr.match(/^(.*), ([^,]+), MA(?: (\d{5}))?$/);
+      const type = { supply: 'Store', museum: 'Museum', gallery: 'ArtGallery' }[p.type] || (/College/.test(p.name) ? 'CollegeOrUniversity' : 'Organization');
+      return { '@type': type, name: p.name, description: p.what,
+        address: m ? { '@type': 'PostalAddress', streetAddress: m[1], addressLocality: m[2], addressRegion: 'MA', ...(m[3] ? { postalCode: m[3] } : {}), addressCountry: 'US' } : p.addr,
+        ...(p.ll ? { geo: { '@type': 'GeoCoordinates', latitude: p.ll[0], longitude: p.ll[1] } } : {}), ...(p.phone ? { telephone: p.phone } : {}), ...(p.url ? { url: p.url } : {}) }; }),
+    { '@type': 'ExhibitionEvent', name: 'Avery, Gottlieb & Rothko: By the Sea', startDate: '2026-10-24', endDate: '2027-01-24',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode', eventStatus: 'https://schema.org/EventScheduled',
+      description: 'The Cape Ann Museum\'s exhibition on the summers Milton Avery, Adolph Gottlieb and Mark Rothko spent painting together in Gloucester in the 1930s and 1940s.',
+      location: { '@type': 'Museum', name: 'The Phillips Collection', address: { '@type': 'PostalAddress', streetAddress: '1600 21st Street NW', addressLocality: 'Washington', addressRegion: 'DC', postalCode: '20009', addressCountry: 'US' } },
+      organizer: { '@type': 'Organization', name: 'The Phillips Collection', url: 'https://www.phillipscollection.org' }, url: 'https://www.phillipscollection.org/press/phillips-collection-announces-2026-27-exhibition-schedule' } ] },
   body: up => `<div class="kicker">Shops &amp; studios</div><h1>Buy local, learn local</h1>
 <p class="lead measure">Independent shops and nonprofits keep Cape Ann's art community going. Each listing shows the month it was last checked against its sources. Hours change with the seasons, so call ahead. <a href="${up}#shops">See them on the street map.</a></p>
 ${['Art supplies', 'Workshops & associations', 'Museums & galleries'].map(t => `<section class="grp"><h2>${esc(t)}</h2>${P.places.filter(p => TYPE[p.type] === t).map(p => `<article class="place" id="${p.id}"><h3>${esc(p.name)}</h3><p class="m">${esc(p.addr)}${p.phone ? ` · ${esc(p.phone)}` : ''}${p.far ? ' · further afield' : ''}</p><p>${esc(p.what)}</p>${p.special && p.special.length ? `<ul>${p.special.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${p.confirm ? `<p class="confirm">${esc(p.confirm)}</p>` : ''}<p class="acts">${p.url ? `<a href="${esc(p.url)}">Website ↗</a>` : ''}<a href="${dir(p.ll)}">Directions ↗</a></p><p class="src"><b>Checked ${esc(p.checked || P.checked)}</b> · Source: ${p.src.map(([n, u]) => `<a translate="no" href="${esc(u.startsWith('http') ? u : up + u)}">${esc(n)}</a>`).join('; ')}</p></article>`).join('')}</section>`).join('\n')}
@@ -169,7 +180,10 @@ for (const f of ['index.html', 'brief.html']) { let h = fs.readFileSync(f, 'utf8
 /* ---------- sitemap ---------- */
 const enUrls = ['', 'brief.html', ...written.map(f => f.replace(/index\.html$/, ''))];
 const urls = [...enUrls, 'Painted-Gloucester-brief.pdf', ...LANGS.flatMap(([d]) => enUrls.map(u => d + '/' + u))];
-fs.writeFileSync('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${ORIGIN}/${u}</loc><lastmod>${today}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+const IMG = {}; for (const w of D.works) if (w.img) IMG[`works/${w.id}.html`] = [`img/${w.id}.jpg`];
+for (const s of D.sites) { const ids = [s.main, ...s.comp].filter(id => id && WBY[id].img); if (ids.length) IMG[`sites/${s.id}.html`] = ids.map(id => `img/${id}.jpg`); }
+const imgTags = u => (IMG[u] || []).filter(f => fs.existsSync(f)).map(f => `<image:image><image:loc>${ORIGIN}/${f}</image:loc></image:image>`).join('');
+fs.writeFileSync('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.map(u => `  <url><loc>${ORIGIN}/${u}</loc><lastmod>${today}</lastmod>${imgTags(u)}</url>`).join('\n')}\n</urlset>\n`);
 
 /* ---------- offline worker ---------- */
 const ls = d => fs.existsSync(d) ? fs.readdirSync(d).filter(f => !f.startsWith('.')).map(f => `${d}/${f}`) : [];

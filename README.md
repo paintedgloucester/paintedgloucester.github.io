@@ -91,3 +91,9 @@ Every page also exists in Spanish (`es/`), French (`fr/`), German (`de/`), Itali
 - `i18n/rules.json` also holds month and day names, date formats and the list of names that stay in English. Painting titles, painters, museums, place names and the source notes are not translated.
 - After changing any English text, run `node tools/build.mjs`; `i18n/missing.json` lists strings that still have no translation (addresses and accession numbers are expected there). Add the translations, run `node tools/i18n-merge.mjs`, then build again.
 - Each page carries `hreflang` links to all ten versions, and `sitemap.xml` lists them all, so search engines show the right language. The header has a language menu, and `js/langhint.js` offers, without redirecting, the page in the reader's browser language; a choice is remembered in the browser.
+
+## Search engines
+
+- `sitemap.xml` lists every page in every language, and the public-domain painting images on the English painting and site pages.
+- Each page carries structured data (schema.org): breadcrumbs on every plain page (translated in each language), paintings as `VisualArtwork`, sites as `TouristAttraction`, trails as `TouristTrip`, the shops and organizations with their addresses, the touring exhibition as an `ExhibitionEvent`, and the painters as a list of people.
+- After each deploy, `tools/indexnow.mjs` tells the IndexNow search engines (Bing, Yandex and others) which pages changed in that push. The key file `a44ea50c6b02ca52267f9dc54747b52f.txt` at the root must stay in place.

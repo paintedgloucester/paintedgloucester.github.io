@@ -176,6 +176,11 @@ ${N.list()}</article>`) });
       desc: 'Short, sourced lives of the painters who worked in Gloucester and on Cape Ann, from Fitz Henry Lane and Mary Blood Mellen to Rothko and Nell Blaine, and the chains of teachers and friends that brought them.',
       image: first ? `img/${first.id}.jpg` : undefined, imageAlt: first ? `${first.by}, ${first.t}, ${first.d}` : undefined,
       crumbs: [['The painters']],
+      ld: { '@context': 'https://schema.org', '@type': 'ItemList', name: 'The painters of Cape Ann', url: `${ORIGIN}/painters.html`,
+        itemListElement: Pn.people.flatMap(p => { const names = p.name.split(' and '), lives = p.life.split(' · ');
+          return names.map((n, k) => { const m = (lives.length === names.length ? lives[k] : '').match(/^(\d{4})–(\d{4})$/);
+            return { '@type': 'Person', name: n, ...(m ? { birthDate: m[1], deathDate: m[2] } : {}), url: `${ORIGIN}/painters.html#p-${p.id}` }; }); })
+          .map((person, i) => ({ '@type': 'ListItem', position: i + 1, item: person })) },
       body: up => stable(`<article><div class="kicker">The painters</div><h1>Who came, and who brought them</h1>
 <p class="lead measure">${N.cite(Pn.lead, up)}</p>
 <section class="grp" aria-labelledby="chains-h"><h2 id="chains-h">Who brought whom</h2>

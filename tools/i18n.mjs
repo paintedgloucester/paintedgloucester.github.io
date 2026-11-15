@@ -34,6 +34,9 @@ export function localizeAll(pages, { ORIGIN, FLAGS }) {
       else out = out.replace(/\b(href|src)="((?:\.\.\/)*)([^"]*)"/g, (m, a, ups, rest) => ASSET.test(rest) || DIRS.test(rest) ? `${a}="../${ups}${rest}"` : m);
       if (!spa) out = out.replace(/href="brief\.html" hreflang="en"/g, 'href="' + '../'.repeat(depth + 1) + 'brief.html" hreflang="en"');
       const f = clean(file);
+      out = out.replace(/<script type="application\/ld\+json" data-crumbs>([\s\S]*?)<\/script>/, (m, j) => { const o = JSON.parse(j);
+        o.itemListElement.forEach(e => { e.name = T.text(e.name, 0, true) || e.name; e.item = e.item.replace(ORIGIN + '/', ORIGIN + '/' + dir + '/'); });
+        return `<script type="application/ld+json" data-crumbs>${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`; });
       out = out.replace(`<link rel="canonical" href="${ORIGIN}/${f}">`, `<link rel="canonical" href="${ORIGIN}/${dir}/${f}">`).replace(`<meta property="og:url" content="${ORIGIN}/${f}">`, `<meta property="og:url" content="${ORIGIN}/${dir}/${f}">`)
         .replace(/<nav class="langs"[\s\S]*?<\/nav>/, langsNav(file, dir, FLAGS, spa))
         .replace(/<\/body>/, `<script src="${spa ? '' : rootRel}i18n/${dir}.js"></script><script src="${spa ? '' : rootRel}js/i18n.js"></script>\n</body>`);

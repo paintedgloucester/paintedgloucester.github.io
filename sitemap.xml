@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://paintedgloucester.github.io/</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/brief.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/lane-cam-1847.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-thyssen-ten-pound.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-thyssen-ten-pound.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-thyssen-ten-pound.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/mellen-field-beach.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-fresh-water-cove.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-fresh-water-cove.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-fresh-water-cove.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/lane-near-reef.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-ships-in-ice.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-ten-pound-cam.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-ships-in-ice.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-ships-in-ice.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-ten-pound-cam.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-ten-pound-cam.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/lane-old-fort.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/lane-ten-pound-sunset.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-harbor-1852.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-harbor-1852.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-harbor-1852.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/lane-davis-1852.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/lane-terra-1856.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-stage-rocks.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-ship-in-fog.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-stage-fort.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-normans-woe.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-coffins-beach.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-stage-rocks.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-stage-rocks.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-ship-in-fog.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-ship-in-fog.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-stage-fort.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-stage-fort.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-normans-woe.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-normans-woe.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-coffins-beach.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-coffins-beach.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/lane-babson.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-terra-braces-cove.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/lane-braces-rock.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-terra-braces-cove.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-terra-braces-cove.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/lane-braces-rock.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-braces-rock.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/gifford-manchester.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/gifford-sketch-1865.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/mellen-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-dads-coming.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-boys-in-a-dory.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-boys-wading.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-breezing-up.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-gloucester-harbor-1873.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/gifford-sketch-1865.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/gifford-sketch-1865.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/mellen-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/mellen-gloucester-harbor.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-dads-coming.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-dads-coming.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-boys-in-a-dory.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-boys-in-a-dory.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-boys-wading.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-boys-wading.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-breezing-up.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-breezing-up.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-gloucester-harbor-1873.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-gloucester-harbor-1873.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/bricher-good-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/homer-waiting-for-dad.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/bricher-morning-cape-ann.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-three-boys-lobster-pots.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/hunt-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/bricher-morning-cape-ann.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/bricher-morning-cape-ann.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-three-boys-lobster-pots.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-three-boys-lobster-pots.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/hunt-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/hunt-gloucester-harbor.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/hunt-pine-woods.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/hunt-sand-bank.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-eastern-point-light.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-gloucester-harbor-1880.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/whitman-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/hunt-sand-bank.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/hunt-sand-bank.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-eastern-point-light.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-eastern-point-light.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-gloucester-harbor-1880.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-gloucester-harbor-1880.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/whitman-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/whitman-gloucester-harbor.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/homer-harvard-dory.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-schooners-waterboat.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/homer-green-dory.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/jones-lighthouse-beach.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/hassam-drydock.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-schooners-waterboat.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-schooners-waterboat.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/homer-green-dory.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-green-dory.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/jones-lighthouse-beach.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/jones-lighthouse-beach.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/hassam-drydock.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/hassam-drydock.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/duveneck-marine-rocks.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/duveneck-braces-rock.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/metcalf-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/metcalf-summer-day.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/duveneck-braces-rock.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/duveneck-braces-rock.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/metcalf-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/metcalf-gloucester-harbor.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/metcalf-summer-day.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/metcalf-summer-day.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/hassam-newark.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/hassam-norton.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/hassam-norton.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/hassam-norton.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/hassam-inner-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/twachtman-griswold.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/twachtman-nbmaa.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/twachtman-nbmaa.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/twachtman-nbmaa.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/wendel-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/twachtman-arkell.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/twachtman-vmfa.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/twachtman-lacma.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/lie-inner-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/twachtman-mfa.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/twachtman-fishing-boats.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/twachtman-fishing-boats.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/twachtman-fishing-boats.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/twachtman-boats.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/twachtman-harbor-view-hotel.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/beaux-half-tide.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/duveneck-horizon.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/beaux-half-tide.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/beaux-half-tide.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/works/duveneck-horizon.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/duveneck-horizon.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/duveneck-twilight.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/prendergast-wcma-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/duveneck-marine-with-rocks.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/thieme-motif.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/prendergast-nga.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/hopper-briar-neck.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/prendergast-barnes.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/prendergast-barnes.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/prendergast-barnes.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/hopper-gloucester-harbor.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/hopper-italian-quarter.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/duveneck-east-gloucester.html</loc><lastmod>2026-11-15</lastmod></url>
@@ -79,7 +79,7 @@
   <url><loc>https://paintedgloucester.github.io/works/sloan-cam.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/davis-gloucester-landscape.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/prendergast-met-annisquam.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/prendergast-glimpse.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/prendergast-glimpse.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/prendergast-glimpse.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/sloan-syracuse.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/davis-gloucester-street.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/sloan-trolley.html</loc><lastmod>2026-11-15</lastmod></url>
@@ -90,9 +90,9 @@
   <url><loc>https://paintedgloucester.github.io/works/hassam-church.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/hassam-top-cape-ann.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/prendergast-wcma-annisquam.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/demuth-box-of-tricks.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/demuth-box-of-tricks.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/demuth-box-of-tricks.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/hassam-gloucester-1919.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/works/demuth-gloucester.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/works/demuth-gloucester.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/demuth-gloucester.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/works/prendergast-wcma-bass-rocks.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/prendergast-wcma-gloucester.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/peterson-street.html</loc><lastmod>2026-11-15</lastmod></url>
@@ -134,14 +134,14 @@
   <url><loc>https://paintedgloucester.github.io/works/hibbard-rockport-winter.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/meyerowitz-town-street.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/works/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/fort-point.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/ten-pound.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/banner-hill.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/braces-cove.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/normans-woe.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/coffins-beach.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/eastern-point.html</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://paintedgloucester.github.io/sites/annisquam.html</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://paintedgloucester.github.io/sites/fort-point.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-ten-pound-cam.jpg</image:loc></image:image><image:image><image:loc>https://paintedgloucester.github.io/img/lane-ship-in-fog.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/sites/ten-pound.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/homer-eastern-point-light.jpg</image:loc></image:image><image:image><image:loc>https://paintedgloucester.github.io/img/homer-gloucester-harbor-1880.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/sites/banner-hill.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/metcalf-gloucester-harbor.jpg</image:loc></image:image><image:image><image:loc>https://paintedgloucester.github.io/img/hassam-norton.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/sites/braces-cove.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-braces-rock.jpg</image:loc></image:image><image:image><image:loc>https://paintedgloucester.github.io/img/lane-terra-braces-cove.jpg</image:loc></image:image><image:image><image:loc>https://paintedgloucester.github.io/img/duveneck-braces-rock.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/sites/normans-woe.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-normans-woe.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/sites/coffins-beach.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/lane-coffins-beach.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/sites/eastern-point.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/duveneck-horizon.jpg</image:loc></image:image></url>
+  <url><loc>https://paintedgloucester.github.io/sites/annisquam.html</loc><lastmod>2026-11-15</lastmod><image:image><image:loc>https://paintedgloucester.github.io/img/jones-lighthouse-beach.jpg</image:loc></image:image></url>
   <url><loc>https://paintedgloucester.github.io/sites/harbor-view.html</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/sites/</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://paintedgloucester.github.io/shops.html</loc><lastmod>2026-11-15</lastmod></url>

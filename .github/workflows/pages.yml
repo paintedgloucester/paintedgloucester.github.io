@@ -22,6 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -35,3 +37,6 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Tell IndexNow search engines (Bing and others) which pages changed
+        continue-on-error: true
+        run: node tools/indexnow.mjs "${{ github.event.before }}" "${{ github.sha }}"
