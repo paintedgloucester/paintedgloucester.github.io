@@ -1,0 +1,108 @@
+1: $T1. $2
+2: Avajaiset: $T1
+3: $1
+4: Kopioi väri $1
+5: Kopioi heksakoodi napauttamalla värimallia · $1
+6: $1/$2 oikein
+7: $1/$2
+8: $1. $T2
+9: / $1 teosta
+10: Kaikki kokoelmat ($1)
+11: $1°, $2° horisontin yläpuolella
+12: $1°, $2° horisontin alapuolella
+13: $1°, horisontissa
+14: Auringonnousu $T1
+15: auringonlasku $T1
+16: Näytä kartalla: $1
+17: $1 muuta Cape Annin ulkopuolella: $2 ja $3.
+18: Etäisyys: $1. Leimaa uudelleen paikan päällä, niin saat kultaisen leiman.
+19: Etäisyys Gloucesteriin: $1
+20: Tallennetaan maalauksia… $1 %
+21: Kuvia ei voitu tallentaa: $1. Tarkista yhteys ja yritä uudelleen.
+22: Kaikki $1 maalausta on tallennettu tähän laitteeseen. Kartta, aurinkosuunnittelija, passi ja maalaukset toimivat nyt ilman verkkoyhteyttä. Kauppasivun katukartta ja museolinkit tarvitsevat edelleen yhteyden.
+23: Tänään aurinko nousee keskipäivällä $1 asteen korkeuteen; 21. kesäkuuta se nousee $2 asteeseen.
+24: Aurinko on $1° horisontin yläpuolella. Auringonlaskuun $2 h $3 min.
+25: Kultainen tunti nyt: valoa on jäljellä $1 minuuttia.
+26: Ennen auringonnousua. Aurinko nousee klo $T1.
+27: Aurinko on laskenut. Huomenna se nousee klo $T1.
+28: Tämä pysähdys on noin $1 km kartan reunasta pohjoiseen; nuoli näyttää suunnan.
+29: Katso ilmansuuntaan $1 ($2°); kohde: $T3. Siirrä maalausta, kunnes horisontti ja kalliot osuvat kohdalleen.
+30: Katso verkkosivustolla: $1
+31: Vedä vaakasuunnassa vaihtaaksesi maalarin $1 kuvan ja kartan välillä. Kartalla näkyy, missä maalari seisoi (tumma ympyrä), aihe (vinoneliö) ja aurinko maalauksen hetkellä. Kartta katsoo ylhäältä; maalaus katsoo katkoviivan suuntaan.
+32: $T1. Väline: $T2.
+33: $T1?
+34: Aloitusseos, noin: $T1.
+35: Aloitusseos, noin: $T1, $T2.
+36: Aloitusseos, noin: $T1, $T2, $T3.
+37: Aloitusseos, noin: $T1, $T2, $T3, $T4.
+38: $T1: 1 osa
+39: $T2: $1 osaa
+40: $1 pysähdystä
+41: $T1, $2
+42: Aurinko $1°, $2° korkeudella
+43: $1–$2 · $T3
+44: Päivitys · $T1
+45: $1
+46: Kääntöpuoli: $1
+47: museon mukaan $1
+48: $1-luvulta vuoteen $2
+49: vuodesta $1 vuoteen $2
+50: Kaikki $1 pysähdystä
+51: $1. $T2. $3.
+52: noin $1
+53: $1 jälkeen
+54: $T1 — Painted Gloucester
+55: huomautus $1
+56: ‹ $T1
+57: $T1 ›
+58: $T1 →
+59: $T1 ↗
+60: $T1 ↓
+61: Katso: $1
+62: Inventaarionro $1
+63: Kohde $1/$2
+64: Kohde $1: $T2
+65: Kohde $1
+66: kohde $1
+67: Pysähdys $1/$2
+68: Pysähdys $1: $2
+69: Maalauspaikka (kohde $1)
+70: Maalattu kohteessa $1
+71: $1, $2, $T3 Yksi Painted Gloucester -maasto-oppaan $4 Cape Annin maalauksesta.
+72: $T1. Maalattu kohteessa $2, $T3.
+73: $1 … Missä $2 seisoi, katselusuunta, valo ja ohjeet sen maalaamiseen tänään.
+74: Kaikki $1 Cape Annin maalausta
+75: Kaikki $1 maalausta
+76: $1 Cape Annin maalausta
+77: $1 teosta
+78: $1 pysähdystä
+79: $1 paikkaa
+80: $1 termiä
+81: noin $1
+82: $1-luvun alku
+83: $1-luvun loppu
+84: $1-luku
+85: $1–$2-luku
+86: kesät $1 ja $2
+87: Kesät $1 ja $2
+88: Kesät $1–$2
+89: Kesä $1
+90: s. $1
+91: Tarkistettu: $T1
+92: Tiedot tarkistettu viimeksi: $T1.
+93: $1, $2°, kohde: $T3, etäisyys $4.
+94: $T1 ($2).
+95: $1, $2° todellisesta pohjoisesta
+96: $T1: noin $T2, $T3
+97: Paikka: $T1
+98: Gloucesterissa: $T1
+99: Maalaa siellä, missä he maalasivat · Kohde $1 · $2
+100: $1: kaikki teokset
+101: Taiteilijan $1 Gloucester-valokuvat julkisissa kokoelmissa
+102: Reittikartta: $T1
+103: $T1: reitti
+104: Kuva: $1, Wikimedia Commonsin kautta ($T2)
+105: $T1 ($2), Wikimedia Commonsin kautta
+106: Kuva: $1 ($T2)
+107: Gallerian valokuva, Wikimedia Commonsin käyttäjä ($T1); kehys rajattu
+108: Kuva: $1

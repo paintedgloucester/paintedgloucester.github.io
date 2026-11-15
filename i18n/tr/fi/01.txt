@@ -1,0 +1,71 @@
+1: Kuva museossa · ei avoimesti lisensoitu
+2: Museo ei ole julkaissut kuvaa uudelleenkäyttöön, tai teos on yhä tekijänoikeuden alainen: katso museon sivu
+3: Ilmainen maasto-opas Cape Annin maalaamiseen Massachusettsissa. Tiedot tarkistettu viimeksi marraskuussa 2026.
+4: Maalausten kuvat ovat teokset omistavien museoiden julkaisemia vapaita (public domain) kuvia, ja lähde mainitaan jokaisen kuvan vieressä. Rantaviiva: MassGIS. Paikkapisteet © ⟦0⟧OpenStreetMapin tekijät⟦1⟧.
+5: Teksti ja aineisto © Painted Gloucester, vapaasti käytettävissä lähde mainiten ⟦0⟧CC BY 4.0⟦1⟧ -lisenssillä. ⟦2⟧Lisenssin tiedot⟦3⟧.
+6: Avaa oppaassa: suurenna ja poimi värejä
+7: Tarkistettu tietoaineistosta (huutokauppatieto). Manchester-by-the-Sea, Gloucesterin naapurissa, ei Gloucester
+8: Pohjana kangas (NGA:n sivulla ei mainita tekniikkaa)
+9: Tarkistettu sivulta: nimi, ajoitus ja näytteilläolo (sali M68). NGA:n sivu ei mainitse Gloucesteria
+10: Tarkistettu sivulta. Gloucester-aihe, jota muokattiin 1875, ei tehty Gloucesterissa
+11: Tarkistettu sivulta. Maalattu Kettle Covessa; katso huomautus sijainnista
+12: Tarkistettu tietoaineistosta (Princetonin kokoelmatiedot). Gloucesterin majakka, ei Prouts Neck
+13: Tarkistettu sivulta. Sijoitus Gloucesteriin MFA:n vuoden 2025 artikkelin mukaan
+14: Tarkistettu tietoaineistosta (toissijaiset lähteet; Meadin omaa sivua ei tavoitettu)
+15: Tarkistettu tietoaineistosta (toissijaiset lähteet; Nortonin omaa sivua ei tavoitettu)
+16: Osittain tarkistettu (tekniikka Google Arts & Culturen mukaan)
+17: Tarkistettu tietoaineistosta (teosluettelo, OP.1411); talletus, ei museon omaisuutta
+18: Tarkistettu sivulta. LACMA tunnistaa sen Gloucesteriksi tyylin perusteella
+19: Öljy ja liitu levylle, 13 × 9 in
+20: Osittain tarkistettu (mainittu museon taiteilijasivulla; ajoitus ja tekniikka gallerian valokuvan kuvatekstistä)
+21: Tarkistettu sivulta · näytteillä, sali 12 · public domain
+22: Tarkistettu sivulta · Met ei merkitse sitä public domainiksi
+23: ei tunnettuja tekijänoikeusrajoituksia
+24: Tussilaveeraus, guassi ja grafiitti paperille, 16 × 20 in.
+25: 1926 museon mukaan (merkintä ”Gloucester 1923”)
+26: Tarkistettu tietoaineistosta (MoMA:n avoin data; sivu ei latautunut)
+27: Akvarelli paperille, 15 13/16 × 22 1/2 in
+28: Akvarelli paperille, 15 1/4 × 11 3/8 in
+29: Akvarelli, grafiitti ja raaputus paperille, 22 3/8 × 15 5/16 in.
+30: Akvarelli ja grafiitti paperille, 15 1/4 × 11 3/8 in.
+31: Läpikuultava ja peittävä akvarelli askartelukartongille, 12 5/16 × 15 in.
+32: Akvarelli askartelukartongille, 12 1/4 × 14 15/16 in.
+33: Tarkistettu tietoaineistosta (Rothkon teosluettelo, Cape Ann Museumin tieto)
+34: ei ajoitusta (taiteilijaluettelon mukaan n. 1942)
+35: ei ajoitusta (taiteilijaluettelon mukaan n. 1942). Öljy. New Britain Museum of American Art
+36: Kaikki Painted Gloucester -oppaan maalaukset vuosilta 1847–1980: nimi, maalari, ajoitus ja museo, jossa teos on, sekä oma sivu jokaiselle teokselle.
+37: Kaikki oppaan teokset maalareittain sekä kokoelma, jossa kukin on. 42 teosta näytetään public domain -kuvina; muut linkittävät museon omalle sivulle. ⟦0⟧Suodata ja hae niitä interaktiivisessa oppaassa⟦1⟧ tai lue ⟦2⟧maalarien elämästä Cape Annilla⟦3⟧.
+38: Lane paikkakuntalainen, työskenteli siellä 1840-luvulta vuoteen 1865; Mellen hänen oppilaansa 1850-luvulla · 21 teosta
+39: Metcalf, Duveneck, Beaux, Bolton Jones, Whitman, Wendel ja Gifford
+40: Avery vuodesta 1921; Gottlieb ja Rothko hänen kanssaan 1930-luvulla · 9 teosta
+41: Avaa kartalla: aurinkosuunnittelija ja kamera
+42: Lanen teosluettelo tunnistaa teoksen ⟦0⟧Ten Pound Island, Gloucester⟦1⟧ etualan George Rogersin laituriksi Fort Pointissa; saari on keskellä ja Eastern Point taustalla. Erik Ronnberg kohdisti katselupaikan satamakomission vuoden 1865 merikartalle.⟦2⟧ Teoksen ⟦3⟧Ship in Fog⟦4⟧ kohdalla luettelo sijoittaa Lanen väylälle ”aivan Fort Pointin edustalle”.⟦5⟧ Vuoden 1847 Thyssen-maalaus on tehty hieman korkeammalta ja kauempaa, Duncan's Pointin läheltä.
+43: Teosluettelo kuvaa teoksen ⟦0⟧Ten Pound Island⟦1⟧ valoa ”loppukesän iltapäivän usvaiseksi valoksi” aprikoosin sävyissä.⟦2⟧ ⟦3⟧Ship in Fog⟦4⟧ on varhainen aamu, jolloin kesäinen merisumu hälvenee vaiheittain.
+44: Saaren ja sataman suun ääriviivat ovat ennallaan, mutta Fort Pointin 1850-luvun laiturit ovat poissa, ja Lanen maalaama torni (1821) korvattiin vuonna 1881.
+45: Emme voineet varmistaa yleistä pääsyä rantaan itse Fort Pointissa. Ten Pound Island näkyy veden yli myös Rocky Neckin yleiseltä kulkutieltä.
+46: Lanen tunnelmaa varten mene elokuun lopulla, noin kaksi tuntia ennen auringonlaskua; sumukuvaa varten tyynenä kesä- tai heinäkuun aamuna.
+47: Kesällä 1880 Homer asui Ten Pound Islandilla majakanvartija Oliver Merrillin luona.⟦0⟧⟦1⟧ Princeton sijoittaa teoksen ⟦2⟧Eastern Point Light⟦3⟧ sarjaan, jonka ”Homer maalasi Ten Pound Islandilla”.⟦4⟧ Missä kohtaa saarta hän istui, ei ole tiedossa; kartan viiva kulkee saaren majakalta Eastern Pointin majakalle, lähes suoraan etelään.
+48: Eastern Point Light⟦0⟧ on kuutamoyö: taivas nopein sinisin laveerauksin, täysikuu ”raaputettu esiin”, vesi täplitetty siveltimen perällä uurtamalla.⟦1⟧ Useimmat sarjan teokset ovat auringonlaskuja läntisen rannan yllä;⟦2⟧ elokuun alussa aurinko laskee länsiluoteeseen, maalarin oikealle puolelle, kun hän katsoo sataman suulle.
+49: Saari on Gloucesterin kaupungin omistuksessa, ja kaupunki ylläpitää kävelypolkuja majakalle; yksityiset veneilijät voivat rantautua, mutta laituria ei ole. Itse torni on rannikkovartioston omaisuutta ja suljettu.
+50: Ilman venettä maalaa saari ja Homerin auringonlaskut Rocky Neckin yleiseltä kulkutieltä, katsoen satamaa länteen.
+51: Homerin menetelmä vuonna 1880 MFA:n mukaan: anna värin imeytyä paperiin, imeytä se pois ja levitä päälle paksuja peittäviä vetoja.
+52: Kohde 3/9 · Willard Metcalf ja Childe Hassam
+53: Banner Hill on Smith Coven yläpuolinen harjanne, jolta ”monet Gloucesterin merkittävimmistä amerikkalaisista impressionistisista maisemista maalattiin”.⟦0⟧ Metcalfin ⟦1⟧Gloucester Harbor⟦2⟧ ”maalattiin Banner Hilliltä länteen katsoen”; Hassamin vuoden 1899 näkymä otettiin samalta mäeltä, ”hieman vasemmalta” Duveneckin paikasta katsottuna.⟦3⟧⟦4⟧ Merkki on mäen tiellä (OpenStreetMap); tarkkoja paikkoja ei ole kirjattu.
+54: Metcalf maalasi ”aamuaurinko taiteilijan selän takana”, joten sataman toisella puolella oleva kaupunki on valaistu suoraan edestä.⟦0⟧ Elokuun alussa kello 9 aurinko on idässä noin 36° korkeudella, keskustaan päin katsovan maalarin takana oikealla.
+55: Banner Hillin näköalapaikka on nyt yksityisomaisuutta eikä avoin yleisölle; näkymän voi katsoa tieltä.
+56: Mene aamulla. Iltapäivällä kaupunki on vastavalossa ja satama häikäisee.
+57: Rocky Neckin taidepolku merkitsee tämän ja muut historialliset maalauspaikat.
+58: Lanen pohjapiirustuksessa lukee ”Brace's Rock, Eastern Point / F.H. Lane del. / Aug. 1863”, ja siinä luetellaan viisi ostajaa sen pohjalta tehdyille maalauksille. Luettelon mukaan hän piirsi ”poukaman pohjoispuolen rannikolta”, ei hiekkarannalta.⟦0⟧ Merkki on poukaman pohjoispuolen lähin rantapiste (MassGIS); tarkkaa paikkaa ei ole kirjattu. Duveneck maalasi saman kallion noin 1893.⟦1⟧ Merkiltä kallio on etelä-kaakossa; koska Terra Foundation kuvaa Lanen näkymää itään poukaman yli, hän saattoi seistä kauempana lännessä rantaa pitkin.
+59: Terra Foundation kuvaa näkymää itään poukaman yli, ja ”näkymätön aurinko lännessä” värjää kaukaiset kalliot vaaleanpunaisiksi etualan ollessa varjossa: myöhäinen iltapäivä.⟦0⟧ Yhdessä versiossa on syksyn lehvästö, joten Lane vaihteli vuodenaikaa.
+60: Lanen aikaan poukama kuului yksityiseen Niles Farmiin, ja sen ja sataman välissä oli Niles Pond.⟦0⟧ Emme voineet varmistaa yleistä pääsyä rantaan nykyään.
+61: Mene myöhään iltapäivällä aurinko selän takana ja katso, kuinka kaukaiset kalliot lämpenevät viimeisen tunnin aikana.
+62: Lane työskenteli mitatun piirustuksen pohjalta ja maalasi siitä useita lähes samanlaisia kankaita. Tee piirustus paikan päällä ja maalaus kotona.
+63: Lane ”piirsi kallion rannalta etelään katsoen” vuonna 1861 siirtoa varten ruudutetulle piirustukselle; vene ajelehtii poukamassa aivan kallion pohjoispuolella. Teosluettelossa on katselupaikkakartta.⟦0⟧ Merkki on poukaman pohjoispuolen lähin rantapiste (MassGIS).
+64: Eräs sanomalehti kutsui sitä vuonna 1862 ”auringonlaskukohtaukseksi”: taivas vaihtuu vasemman yläkulman purppurasta oikean puolen kuparinkeltaiseen, varhaisen hämärän valoon.⟦0⟧ Etelään katsottaessa laskeva aurinko on oikealla (lännessä), juuri siellä, minne Lane maalasi taivaan kirkkaimman kohdan.
+65: Kallio on muutaman sadan jalan päässä rannasta, ja sinne pääsee kallioita pitkin laskuveden aikaan; nousuveden aikaan se on saari.⟦0⟧ Pidä vuorovesi mielessä: sataman vuorovesiero on keskimäärin lähes 9 jalkaa (2,7 m).
+66: OpenStreetMapissa tällä rannalla näkyy Normans Woe Wildlife Sanctuary; emme tarkistaneet sen kulkusääntöjä.
+67: Mene viimeiseksi puoleksi tunniksi ennen auringonlaskua ja pidä taivas oikealla lämpimänä ja vasemmalla ylhäällä viileänä, kuten Lane.
+68: Kankaan takana lukee ”View of Coffin's Beach, from the rocks at the Loaf, after a sketch taken, August, 1862.” Ronnberg piirsi katselupaikan karttaan, ja MFA:n henkilökunta päätteli, että Lane käytti camera lucidaa ja levensi sitten näkymää maalauksessa.
+69: Aamunkoitto: vuoden 1862 ilmoituksen mukaan aurinko on juuri nousemassa kukkuloiden takaa vaaleanpunaisesta siniseen vaihtuvassa valossa.⟦0⟧ Elokuun alussa aurinko nousee itäkoillisesta lähes suoraan katselulinjaa pitkin, joten näkymä on vastavalossa.
+70: Two Penny Loaf on merkitty luonnonsuojelualueeksi (OpenStreetMap); emme tarkistaneet pääsyä Coffin's Beachille.
+71: Ole paikalla ennen auringonnousua (klo 5.34 1. elokuuta 2027) ja maalaa ensimmäiset 20 minuuttia.

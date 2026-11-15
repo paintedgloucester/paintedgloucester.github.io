@@ -1,0 +1,47 @@
+440: Edward Hopperin Gloucester: 12 pysähdyksen reitti
+441: Rothko, Avery ja Gottlieb: 6 pysähdyksen reitti
+442: Heidän elämänsä Cape Annilla sekä opettajat ja ystävät, jotka johdattivat yhdestä seuraavaan
+443: Kalankuivaustelineet, doryt, kuunarit ja verkot maalauksissa
+444: Matala aurinko, merisavu ja auringon ajat kuukausittain
+445: Siirrä vetämällä · zoomaa vierittämällä tai nipistämällä
+446: Yhdeksän kohdetta luettelona reittiohjeineen
+447: Ilmainen julkinen opas maalareille, opiskelijoille ja vierailijoille sekä liikkeille, kouluille ja gallerioille, jotka pitävät Cape Annin taideyhteisön elävänä. Se syntyi tutkimusraportista, joka käsittelee amerikkalaisten maalarien näkymiä Gloucesterista Massachusettsissa: 131 teosta julkisissa kokoelmissa, joista 42 näytetään public domain -kuvina, ja yhdeksän paikkaa, joissa maalaus voidaan sitoa seisomapaikkaan maastossa.
+448: Auringon sijainti lasketaan NOAA:n auringon sijaintikaavoilla maalarin seisomapaikalle Gloucesterin paikallisessa ajassa (itäinen aika, kesäaika huomioidaan automaattisesti). Auringonnousu ja -lasku ovat hetkiä, jolloin auringon yläreuna koskettaa horisonttia, valon taittuminen huomioiden. Tulokset vastaavat raportin vuoden 2027 taulukoita minuutin tarkkuudella. Maastoa, rakennuksia ja puita ei mallinneta, joten mäki tai rantamuuri voi peittää matalan auringon aiemmin kuin näytetään.
+449: Rantaviiva MassGIS:stä (vuoden 2020 väestönlaskennan kuntarajat); ruskea katkoviiva on MassGIS:n historiallinen nousuveden raja, joka näyttää rannan ennen täyttöjä. Paikkapisteet OpenStreetMapista. Etäisyydet ja suuntimat ovat isoympyrälukemia todellisesta pohjoisesta.
+450: Vain public domain -kuvia julkaistaan, ja jokaisen lähde mainitaan katseluohjelmassa. Tekijänoikeuden alaiset teokset tai teokset, joiden kuvaa museo ei julkaise, luetellaan linkillä museon omalle sivulle. Jokainen teos linkittää kokoelmatietoonsa; numeroidut huomautukset avaavat täydellisen lähdeviitteen.
+451: Siirrä karttaa vetämällä tai nipistämällä; zoomaa vierittämällä tai painikkeilla + ja −. Valitse kohde nähdäksesi näkölinjan, ja siirrä sitten ajan liukusäädintä tai vaihda päivää nähdäksesi auringon liikkuvan. Avaa mikä tahansa maalaus koko näytölle ja nipistä tai vieritä katsoaksesi tarkemmin. Jokaisella kohteella ja maalauksella on oma linkkinsä, joten voit jakaa juuri sen, mitä katsot.
+452: Salli sijainti nähdäksesi, missä olet kartalla ja kuinka kaukana olet kustakin katselupaikasta, ja leimataksesi passisi paikan päällä. Salli kamera kohdistaaksesi maalauksen todelliseen näkymään ja tehdäksesi ennen–nyt-postikortin. Mikään ei lähde puhelimestasi: sijainti, kuvat ja passin leimat jäävät selaimeesi.
+453: Ensimmäisen käynnin jälkeen kartta, aurinkosuunnittelija, passi ja yhdeksän kohteen maalaukset tallentuvat laitteellesi, joten opas aukeaa ilman yhteyttä. Tallenna ennen rannalle lähtöä myös loput maalaukset. Valitse puhelimessa selaimen jako- tai valikkopainikkeesta ⟦0⟧Lisää kotivalikkoon⟦1⟧, niin opas pysyy sovelluksena.
+454: Tallenna kaikki maalaukset offline-käyttöön (noin 3 Mt)
+455: Jokaisessa kohteessa näkyy kuukausi, jolloin se viimeksi tarkistettiin kortissa linkitetyistä julkisista lähteistä. Linkit testataan automaattisesti kuukausittain. Aukioloajat vaihtelevat vuodenajan mukaan, joten soita etukäteen. Yritykset ja yhteisöt voivat pyytää lisäystä tai korjausta Liikkeet ja ateljeet -sivun lomakkeella.
+456: Lähteet ja täydelliset lähdeviitteet ovat raportissa. Maalausten kuvat ovat public domain -julkaisuja, ja lähde mainitaan katseluohjelmassa.
+457: Aloituspaletit kunkin koulukunnan hengessä, värilaboratorio, valo päivän mittaan ja mitä vuorovesi, sumu ja tuuli tekevät tällä rannikolla. Pigmenttiluettelot ovat käytännön ehdotuksia nykypäivän tuubiväreiksi, eivät tieto siitä, mitä kukin maalari käytti.
+458: Napauta mitä tahansa kohtaa maalauksessa. Laboratorio ottaa värinäytteen ja löytää aloitusseoksen enintään kolmesta tuubiväristä ja valkoisesta.
+459: Itsenäiset liikkeet ja voittoa tavoittelemattomat yhteisöt pitävät Cape Annin taideyhteisön elävänä. Jokaisessa kohteessa näkyy kuukausi, jolloin se viimeksi tarkistettiin kortissa linkitetyistä lähteistä (viimeksi ⟦0⟧⟦1⟧). Aukioloajat vaihtelevat vuodenajan mukaan, joten soita etukäteen.
+460: Tämä opas on ilmainen ja sitä ylläpidetään avoimesti. Jos jokin tieto on väärin tai liikkeesi, ateljeesi, galleriasi tai kurssisi kuuluu tänne, lähetä se. Tiedot lisätään, kun ne on tarkistettu julkisesta lähteestä.
+461: Leimaa jokainen yhdeksästä katselupaikasta. Seiso 250 metrin säteellä paikasta, niin puhelimesi leimaa sen ⟦0⟧paikan päällä⟦1⟧; muualta voit silti leimata sen ⟦2⟧etänä⟦3⟧. Leimat jäävät tähän selaimeen.
+462: Ilmainen maasto-opas Cape Annin maalaamiseen Massachusettsissa. Liikkeiden, ateljeiden ja tapahtumien tiedot tarkistettu viimeksi ⟦0⟧marraskuussa 2026⟦1⟧; aukioloajat vaihtelevat vuodenajan mukaan, joten soita etukäteen.
+463: Maalausten kuvat ovat teokset omistavien museoiden public domain -julkaisuja, ja lähde mainitaan jokaisen kuvan vieressä. Rantaviiva ja historiallinen ranta: MassGIS ja Massachusetts Office of Coastal Zone Management. Katukartta ja paikkapisteet © ⟦0⟧OpenStreetMapin tekijät⟦1⟧. Auringon sijainnit: NOAA:n aurinkokaavat.
+464: Tutkimusraportti Fitz Henry Lanen, Winslow Homerin, Childe Hassamin, John Twachtmanin ja muiden Gloucesteria ja Cape Annia kuvaavista maalauksista: missä kukin teos on, lähteineen ja huomautuksineen.
+465: Lanen, Homerin, Hassamin, Twachtmanin ja muiden maalaukset Gloucesterista ja Cape Annista: missä kukin teos on ja missä maalarit seisoivat, lähteineen ja huomautuksineen.
+466: Painted Gloucester -raportti — amerikkalaisten maalarien maalaukset Gloucesterista Massachusettsista
+467: ← Avaa interaktiivinen opas⟦0⟧ · ⟦1⟧Lataa PDF⟦2⟧ · ⟦3⟧Português⟦4⟧ · ⟦5⟧Italiano
+468: Tutkimusraportti · marraskuu 2026 · kolmas painos
+469: Mitkä suuret amerikkalaiset maalarit työskentelivät Gloucesterissa ja Cape Annilla Massachusettsissa, ja missä heidän kuvansa ovat nykyään
+470: Fitz Henry Lanen 1840-luvun satamasta Rothkon laitureihin ja Nell Blainen Rocky Neckiin Gloucester ja Cape Ann houkuttelivat maalareita yli sadan vuoden ajan. Tämä raportti luetteloi heidän kuvansa, kertoo missä kukin on ja merkitsee kartalle yhdeksän paikkaa, joissa voit seistä siellä, missä he seisoivat.
+471: luetteloitua Gloucesterin ja Cape Annin teosta, 35 maalarilta
+472: kohdetta, joissa maalaus on sidottu maalarin seisomapaikkaan
+473: Kuka maalasi Gloucesteria ja Cape Annia ja milloin
+474: Jokainen palkki ulottuu maalarin varhaisimmasta myöhäisimpään ajoitettuun teokseen tässä raportissa; ajoittamattomat teokset jätetään pois. Tummemmat palkit merkitsevät yhdeksän kartalle merkityn kohteen maalareita.
+475: Gloucesterin oma maalari Fitz Henry Lane maalasi satamaansa 1840-luvulta kuolemaansa vuonna 1865, ja Mary Blood Mellen työskenteli hänen rinnallaan. Winslow Homer vietti täällä kesät 1873 ja 1880; hänen öljymaalauksensa ovat National Gallery of Artissa ja Nelson-Atkins Museum of Artissa ja akvarellinsa Metissä, Museum of Fine Artsissa Bostonissa, Philadelphia Museum of Artissa, Princetonissa ja muualla.⟦0⟧ Childe Hassamin noin vuoden 1899 satamanäkymät ovat Norton Museum of Artissa ja Newark Museumissa ja hänen vuosien 1918–19 kuvansa Metissä, PAFA:ssa ja Harnissa.
+476: Hunt ja Bricher tulivat 1870-luvulla; Twachtman, Metcalf, Duveneck, Beaux ja Prendergast vuosisadan vaihteessa; sitten Hopper, Sloan, Davis, Demuth ja Hartley, Milton Avery sekä nuoret Mark Rothko ja Adolph Gottlieb ja Rocky Neckin ja Rockportin taiteilijasiirtokunnat. Tämä raportti luetteloi 131 heidän Gloucesterin ja Cape Annin teostaan 35 maalarilta, lähes kaikki 48 julkisessa kokoelmassa. Marraskuun 2026 päivitys lisää kuusitoista teosta: Mary Blood Mellen, Charles Demuth, Mark Rothko, Theresa Bernstein, Nell Blaine, Max Kuehne ja Earl Horter.
+477: Omistajan oma teossivu avattiin, ja nimi, ajoitus, tekniikka ja inventaarionumero saatiin siitä.
+478: Tieto saatiin museon avoimesta datasta, teosluettelosta (Fitz Henry Lane Online, Twachtmanin luettelo) tai muusta luotettavasta tietolähteestä; itse teossivua ei avattu.
+479: Tieto tavoitettiin, mutta keskeisiä kenttiä puuttui tai lähteet ovat ristiriidassa.
+480: Löytyi vain hakutuloksesta, koostesivustolta tai sivulta, joka ei latautunut. Jätetty pois luettelosta ja lueteltu avoimina johtolankoina.
+481: Neljä asiaa, jotka kannattaa tarkistaa ennen tähän luottamista
+482: Hassamin ⟦0⟧Gloucester Harbor⟦1⟧ (n. 1899).⟦2⟧ Toissijaiset tiedot sijoittavat sen Norton Museum of Artiin (53.77); Nortonin omaa sivua ei tavoitettu. Montgomery Museumin samannimisellä tiedolla ei ole vahvistettua taiteilijaa.
+483: Homerin ⟦0⟧Breezing Up⟦1⟧.⟦2⟧ NGA:n sivu ei mainitse Gloucesteria eikä näytä inventaarionumeroa, vaikka sen oma kuvatiedosto on nimetty laajasti siteeratulla numerolla 1943.13.1.
+484: Homer Smith Collegessa.⟦0⟧ Eräs toissijainen luettelo antaa Smithille teoksen ⟦1⟧Shipyard at Gloucester⟦2⟧ vuodelta 1871, kaksi vuotta ennen Homerin ensimmäistä dokumentoitua Gloucesterin kesää.
+485: Twachtman, joka ei ole Gloucester.⟦0⟧ Detroit Institute of Artsin pastelli ⟦1⟧Gloucester Harbor⟦2⟧ on Twachtmanin teosluettelon mukaan Newportin näkymä vuodelta 1889, joten se jätetään pois.
+486: Maalarit löysivät Cape Annin harvoin sattumalta. Opettaja toi luokkansa, ystävä löysi mökin, vanhempi maalari kutsui nuorempia kesäksi. Lue jokainen ketju vasemmalta oikealle.

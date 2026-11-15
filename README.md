@@ -82,12 +82,12 @@ Painters send work through the [gallery form](https://github.com/paintedgloucest
 
 ## Translations
 
-Every page also exists in Spanish (`es/`), French (`fr/`), German (`de/`), Italian (`it/`), Portuguese (`pt/`, European), Dutch (`nl/`), Simplified Chinese (`zh/`) and Korean (`ko/`). The copies are written by `tools/build.mjs` through `tools/i18n.mjs`; nothing in those folders is edited by hand.
+Every page also exists in Spanish (`es/`), French (`fr/`), German (`de/`), Italian (`it/`), Portuguese (`pt/`, European), Dutch (`nl/`), Finnish (`fi/`), Simplified Chinese (`zh/`) and Korean (`ko/`). The copies are written by `tools/build.mjs` through `tools/i18n.mjs`; nothing in those folders is edited by hand.
 
 - `js/i18n.js` is the translator. The build uses it on each English page, and the translated pages load it again so that text drawn by scripts (the chart, sun planner, quiz, color lab) is translated too.
 - `i18n/master.json` is the numbered list of every English string. New strings are only ever appended, so the numbers never change.
-- Spanish, French, German, Dutch, Chinese and Korean live in `i18n/tr/<lang>/`: one line per string, `N: translation` (`N: =` keeps the English), plus `rules.txt` for the patterns in `i18n/rules.json` (dates, counts, templated text).
+- Spanish, French, German, Dutch, Finnish, Chinese and Korean live in `i18n/tr/<lang>/`: one line per string, `N: translation` (`N: =` keeps the English), plus `rules.txt` for the patterns in `i18n/rules.json` (dates, counts, templated text).
 - Portuguese and Italian live in `i18n/batches/`: `NN.en.json` with `NN.tr.txt` (`Portuguese ||| Italian`) and `*.all.txt` files (`English ||| Portuguese ||| Italian`). A new English string is added to master by adding it to a `*.all.txt` file.
 - `i18n/rules.json` also holds month and day names, date formats and the list of names that stay in English. Painting titles, painters, museums, place names and the source notes are not translated.
 - After changing any English text, run `node tools/build.mjs`; `i18n/missing.json` lists strings that still have no translation (addresses and accession numbers are expected there). Add the translations, run `node tools/i18n-merge.mjs`, then build again.
-- Each page carries `hreflang` links to all nine versions, and `sitemap.xml` lists them all, so search engines show the right language. The header has a language menu, and `js/langhint.js` offers, without redirecting, the page in the reader's browser language; a choice is remembered in the browser.
+- Each page carries `hreflang` links to all ten versions, and `sitemap.xml` lists them all, so search engines show the right language. The header has a language menu, and `js/langhint.js` offers, without redirecting, the page in the reader's browser language; a choice is remembered in the browser.

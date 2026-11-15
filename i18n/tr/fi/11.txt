@@ -1,0 +1,466 @@
+701: Museossa
+702: William Morris Hunt ja Alfred T. Bricher
+703: Hopper, Sloan, Davis, Demuth, Hartley ja muut
+704: Milton Avery, Adolph Gottlieb ja Mark Rothko
+705: Rocky Neckin ja Rockportin taiteilijasiirtokunnat
+706: Lisää kohteita
+707: Yhdeksän kohdetta
+708: Katselupaikka dokumentoitu
+709: Reittiohjeet seisomapaikalle
+710: Seisomapaikka
+711: Katsoo kohti
+712: Katselusuunta
+713: Etäisyys aiheeseen
+714: Maalarin valo
+715: kaksi tuntia ennen auringonlaskua
+716: Missä he seisoivat
+717: Valo
+718: Maalaa se tänään
+719: Täällä maalattiin myös
+720: auringonlasku
+721: auringonnousu
+722: Auringonlasku
+723: Auringonnousu
+724: Alue dokumentoitu
+725: paikka likimääräinen
+726: Toissijainen lähde
+727: Nykyaikainen näköalapaikka
+728: meidän ehdotuksemme
+729: Keskusta
+730: Kaupungintalo
+731: poukaman pohjoisranta
+732: kallion pohjoispuolinen ranta
+733: nykyaikainen näkymä
+734: hotellin laiturin pää
+735: n.
+736: Harbor View Hotelin paikka
+737: Yhdeksän maalauskohdetta reittiohjeineen
+738: Kartta ja kohteet
+739: tekstiversio
+740: Yhdeksän maalauskohdetta
+741: Reittiohjeet
+742: Kulkuohjeet ja valo
+743: Kartalla
+744: Miten katselupaikat on merkitty
+745: Tunniste
+746: Mitä se tarkoittaa
+747: Liikkeet ja ateljeet
+748: Osta paikallisesti, opi paikallisesti
+749: Taidetarvikkeet
+750: Blickin myymäläsivu
+751: Kurssit ja yhdistykset
+752: Aikuisten kursseja, myös akvarellin ulkomaalauskursseja.
+753: Verkkosivusto
+754: Discover Gloucester -tiedot
+755: Creative Collectiven hakemisto
+756: Museot ja galleriat
+757: Painted Gloucesterin tutkimusraportti
+758: Ilmoitetut aukioloajat
+759: päivittäin 10–18
+760: Cape Ann Chamberin tiedot
+761: Ulkomaalaustapahtumat ja vuosittaiset tapahtumat
+762: =
+763: Motif No. 1 Dayn ulkomaalaustapahtuma
+764: Paint Out Rocky Neckillä
+765: Omatoimisia kierroksia työskentelevien taiteilijoiden ateljeissa.
+766: Maalaa
+767: Suunnittele
+768: Maastomuistiinpanot Cape Annin maalaamiseen
+769: Paletit
+770: Luministinen tyyneys
+771: Titaanivalkoinen
+772: Napolinkeltainen
+773: Vaalea kadmiuminkeltainen
+774: Keltainen okra
+775: Raaka sienna
+776: Poltettu sienna
+777: Kestävä roosa
+778: Ultramariininsininen
+779: Taivaansininen (cerulean)
+780: Raaka umbra
+781: Satama-akvarelli
+782: Uusi gummigutti
+783: Kinakridoniroosa
+784: Kobolttisininen
+785: Preussinsininen
+786: Kiinanvalkoinen
+787: guassi
+788: Vaalea impressionistinen
+789: Kadmiumsitruuna
+790: Kadmiuminkeltainen
+791: Kadmiumoranssi
+792: Vaalea kadmiuminpunainen
+793: Kadmiuminpunainen
+794: Kobolttivioletti
+795: Sävyjen satama
+796: Norsunluunmusta
+797: säästeliäästi
+798: Värimosaiikki
+799: Sitruunankeltainen
+800: Vermiljoonan sävy
+801: Kobolttiturkoosi
+802: Mahlanvihreä
+803: Kestävä valkoinen guassi
+804: Kova valo, yksinkertaiset muodot
+805: Paynen harmaa
+806: Valo päivän mittaan
+807: Sininen hetki
+808: Auringonnousu takarannalla
+809: Aamupäivä
+810: Noin klo 9–11
+811: Keskipäivä
+812: Lanen hetki
+813: Noin kaksi tuntia ennen auringonlaskua
+814: Auringonlasku ja jälkihehku
+815: Auringonlaskusta 30 minuuttia eteenpäin
+816: Merisumu
+817: Kuutamo
+818: Kirkkaat yöt täysikuun aikaan
+819: Cape Annin olosuhteet
+820: Vuorovesi muuttaa kuvan
+821: NOAA-asema 8441841, Gloucester
+822: Tuuli mereltä
+823: Graniitti on liukasta
+824: Vuodenajat
+825: Kenen ranta on
+826: Pysäköinti
+827: Pakkauslista
+828: Maalaaminen
+829: Pochade-laatikko tai kevyt maalausteline
+830: Paletti, palettiveitsi ja siveltimet
+831: Värit: oma palettisi ja ylimääräistä valkoista
+832: Mukavuus
+833: Leveälierinen hattu ja aurinkovoide
+834: Kerroksia ja tuulitakki, elokuussakin
+835: Kokoontaitettava jakkara
+836: Vettä ja välipala
+837: Hyttyskarkote suolle ja iltahämärään
+838: Rannalla
+839: Päivän vuorovesitaulukko
+840: Kengät, jotka pitävät märällä graniitilla
+841: Sateenvarjo tai varjo paletille
+842: Klipsejä tai kuminauhoja tuulisiin päiviin
+843: Märkien levyjen kantoteline kotimatkalle
+844: Hyvät tavat rannalla
+845: Neljä maalauspäivää
+846: Lanen satama
+847: Iltapäivä
+848: 2 h ennen auringonlaskua
+849: Rocky Neckin yleinen kulkutie
+850: Eastern Point ja taiteilijasiirtokunta
+851: Näyttelyitä Pirates Lanen ladossa.
+852: Tiedot
+853: Myöhäinen iltapäivä
+854: T-Wharf ja Motif No. 1
+855: West Gloucester ja Annisquam
+856: Takaisin kaupunkiin
+857: Cape Annin naiset
+858: Lisää reittejä
+859: Pysähdykset
+860: pysähdystä
+861: Aika
+862: Lähtö
+863: Kävely
+864: Autolla
+865: Kokoelma
+866: Martha Walterin ateljee
+867: Sally Michelin ateljee
+868: Rocky Neckin laiturit
+869: Cecilia Beaux Green Alleyssa
+870: Jane Petersonin kadut
+871: Rothko, Avery ja Gottlieb
+872: Andersonin talo
+873: The Fort
+874: Haskellin talo
+875: Aurinko Prospect Streetillä
+876: Öljymaalaus Cincinnati Art Museumissa⟦0⟧.
+877: Tavaravaunut ja laatikkotehdas
+878: Cripple Coven yllä
+879: Teostaulukko, vierittyy sivuttain
+880: Reitti
+881: Rothkon laituri
+882: Uimarit ja käsipallo
+883: Averyn ateljee
+884: Jokainen Gloucesterin arkki, jonka voi nähdä
+885: Nimi
+886: Ajoitus
+887: Huomautus
+888: Yllä olevan rantakohtauksen kääntöpuoli
+889: Mahdollisesti Gloucester
+890: mahdollisesti Gloucester
+891: Yllä olevan arkin kääntöpuoli
+892: Bass Rocksin kävelysilta
+893: Paikkaa ei tunnistettu
+894: Rothko ja Aaron Siskind
+895: Gottliebin laatikot
+896: Avery Eastern Pointissa, 1943
+897: Reittejä maalattuun Gloucesteriin
+898: Koko päivä autolla
+899: Noin neljä tuntia, kävellen ja autolla
+900: Puoli päivää
+901: Taso
+902: satama työssä
+903: Kausi
+904: Viiden työn sataman paikan kartta
+905: Työn satama
+906: Mitä maalauksissa on
+907: Kalankuivaustelineet
+908: Seisovat verkot
+909: Doryt
+910: Tarkistettu sivulta. Manchester-by-the-Sea, ei Gloucester
+911: =
+912: Kuunarit
+913: Troolarit
+914: Kuivatelakka
+915: Missä sen näkee tänään
+916: Fishermen’s Memorial
+917: Stacy Boulevard Babson Courtin kohdalla
+918: Kalan suolauksen muistolaatta
+919: 25 Rogers Street, Porter Streetin kulmassa
+920: Dokumentaariset valokuvat
+921: Aurinkotaulukko, vierittyy sivuttain
+922: Talvi
+923: , vuoden aikaisin auringonlasku, noin 8. joulukuuta
+924: Miksi valo on erilaista
+925: Päivänvalo
+926: Keskipäivän aurinko
+927: auringonlaskun suunta
+928: Merisavu
+929: Talven maalarit
+930: Työskentely kylmässä
+931: Gloucesterin valokuvaajat: Siskind, Parks, Rothstein
+932: Valokuvaajat
+933: Täydennys
+934: valokuvaus
+935: Valokuva
+936: Kokoelma ja numero
+937: Maalarit
+938: Kuka tuli ja kuka heidät toi
+939: Kuka toi kenet
+940: Lanen piiri
+941: sai universalistisen saarnatuolin, 1855
+942: työskenteli hänen rinnallaan
+943: Duveneckista Hopperiin
+944: toi, 1890-luku
+945: opetti
+946: tuli yhdessä, 1912
+947: seurusteli täällä, 1923
+948: Punainen mökki
+949: kehotti tulemaan, 1914
+950: kutsui, 1915
+951: East Gloucesterin ystävät
+952: lainasi mökin Folly Covesta, 1920-luvun alku
+953: Theresa Bernstein ja William Meyerowitz
+954: isännöi
+955: naapuriateljee, 1924
+956: Averyn nuoret ystävät
+957: kutsui, 1932
+958: Mark Rothko, Adolph Gottlieb ja Barnett Newman
+959: ateljee, 1944; yhteinen kesä, 1945
+960: Kesäateljee Magnoliassa, 1870-luku
+961: Noin viisitoista kesää vuodesta 1890
+962: Eastern Point, 1880-luvun puolivälistä vuoteen 1942
+963: Noin 1907–1923
+964: 1920, 1931 ja 1934
+965: 1932, 1934 ja 1945
+966: Rocky Neck vuodesta 1929
+967: Kolme tuntia Cape Annin maalaamisesta
+968: Luokat 3–4
+969: Kaksi 45 minuutin tuntia
+970: Sama paikka, kaksi maalaria
+971: Koodi
+972: Tavoite
+973: Tarkoituksen ja merkityksen tulkinta: vastakkaisten tulkintojen kuvaaminen
+974: Vaiheet
+975: Luokat 7–8
+976: Kolme 50 minuutin tuntia
+977: Missä he seisoivat?
+978: Lukion perusopinnot
+979: Neljä 55 minuutin tuntia
+980: Dokumentista abstraktioon
+981: Ennen retkeä
+982: Vierailijoiden galleria: kohteissa tehdyt maalaukset
+983: Maalattu kohteissa
+984: Ensimmäiset maalaukset ovat tulossa.
+985: Lähetä maalaus
+986: Näin lähetät maalauksen
+987: Painted Gloucesterin etusivu
+988: Kieli
+989: Opas lukuina
+990: Sataman sanasto
+991: Tämän päivän valo
+992: Lähennä
+993: Loitonna
+994: Näytä kaikki kohteet
+995: Näytä sijaintini
+996: Näytä liikkeet ja ateljeet
+997: Liikkeet ja ateljeet
+998: Hae nimeä, maalaria, museota tai paikkaa
+999: Hae teoksista
+1000: Lajittele
+1001: Teokset vuosikymmenittäin (suodata napauttamalla)
+1002: Maalausten katseluohjelma
+1003: Edellinen
+1004: Seuraava
+1005: Sulje
+1006: Vertaa maalausta ja karttaa
+1007: Kohdista maalaus näkymään
+1008: Teokset
+1009: Maalaa
+1010: Suunnitelma ja passi
+1011: Tietoja
+1012: Seiso siellä,
+1013: missä he seisoivat
+1014: Avaa kartta
+1015: Kulje reitti
+1016: Peli: kuka sen maalasi?
+1017: maalausta
+1018: maalaria
+1019: seisomapaikkaa
+1020: kuljettavaa reittiä
+1021: Aloita tutustuminen
+1022: Yhdeksän katselupaikkaa käsin piirretyllä kartalla
+1023: Paikan päällä
+1024: Kohdista se kameralla
+1025: Paletit, valo ja värilaboratorio
+1026: Kerää kaikki yhdeksän leimaa
+1027: Kuka sen maalasi?
+1028: Reitit ja täydennykset
+1029: Yhdeksäntoista elämää Cape Annilla.
+1030: Siskindin abstraktiot, Gordon Parks aluksella ⟦0⟧Alden⟦1⟧.
+1031: Kolme tuntia
+1032: Luokat 3–4, 7–8 ja lukio.
+1033: Lähetä täällä tekemäsi maalaus.
+1034: Heidän elämänsä Cape Annilla
+1035: Missä maalari seisoi
+1036: Mitä he maalasivat
+1037: Aurinko valitsemanasi aikana
+1038: Historiallinen rantaviiva
+1039: KAIKKI
+1040: MINÄ
+1041: LIIKKEET
+1042: Lajittele: ajoitus
+1043: Lajittele: maalari
+1044: Lajittele: nimi
+1045: Lajittele: kuvalliset ensin
+1046: Kuvalliset
+1047: Avoimen käytön kuva
+1048: Sidottu kohteeseen
+1049: Tyhjennä kaikki
+1050: Tietoja tästä oppaasta
+1051: Lue koko raportti
+1052: Lataa PDF (55 sivua, 12 Mt)
+1053: Lataa PDF
+1054: Kuinka vahvasti kukin katselupaikka on dokumentoitu
+1055: Kohteen tunniste
+1056: Miten aurinko lasketaan
+1057: Kartat
+1058: Kuvat ja oikeudet
+1059: Käyttö
+1060: Puhelimella, paikan päällä
+1061: Käytä ilman verkkoa
+1062: Cape Annin maalaaminen
+1063: Värilaboratorio
+1064: Valinnat tallennetaan tähän selaimeen.
+1065: Tyhjennä ne
+1066: Maalausehdotus
+1067: Uusi ehdotus
+1068: Kaikki
+1069: Maalauskohteet
+1070: Katukartta
+1071: Siirry
+1072: Gloucesterin keskusta
+1073: Koko alue
+1074: Yrityksille ja opettajille
+1075: Onko sinulla liike tai pidätkö kursseja?
+1076: Ehdota kohdetta tai korjausta
+1077: Maalarin passi
+1078: Tavalliset sivut
+1079: Sovita
+1080: Painted Gloucester -raportti
+1081: Hunt ja Bricher
+1082: Hunt ja Bricher
+1083: Lane ja Mellen
+1084: Avery, Gottlieb ja Rothko
+1085: Hopperista Averyyn
+1086: Lisäykset 2026
+1087: Johtolangat
+1088: Yhdellä silmäyksellä
+1089: Vuosisata maalareita yhdessä satamassa
+1090: julkista kokoelmaa, joissa ne ovat
+1091: tässä julkaistua public domain -maalausta
+1092: Lyhyt vastaus
+1093: Mitä aineisto näyttää
+1094: Miten kukin tieto tarkistettiin
+1095: yhteydet
+1096: paikkakuntalainen; työskenteli siellä 1840-luvulta vuoteen 1865
+1097: Myös julkisissa kokoelmissa
+1098: =
+1099: 1880-luvun tai 1890-luvun alku
+1100: Hopper, Sloan, Davis, Hartley ja Avery
+1101: Julkisissa kokoelmissa
+1102: Päivitys
+1103: Mellen, Demuth, Averyn piiri, Bernstein ja Blaine
+1104: Sisäsataman laiturit
+1105: Maalaa siellä, missä he maalasivat
+1106: Seiso siellä, missä he seisoivat
+1107: Missä maalari seisoi (kohteen numero)
+1108: Historiallinen nousuveden raja
+1109: Ennen lähtöä
+1110: Vuorovesi
+1111: Maalaaminen muiden kanssa
+1112: Yksityismaa
+1113: Missä aurinko nousee ja laskee
+1114: Nousee klo
+1115: Laskee klo
+1116: Valon lukeminen maalauksista
+1117: katselupaikasta aiheeseen
+1118: katselusuunta
+1119: Maalauksesta poimittu paletti
+1120: Kuva museossa
+1121: Liite
+1122: Väärät johtolangat, grafiikka ja avoimet johtolangat
+1123: Väärät johtolangat
+1124: Cape Elizabeth, Maine, ei Gloucester
+1125: (1879), ei Gloucester
+1126: Muut
+1127: Grafiikkaa, ei maalauksia
+1128: Homerin mukaan
+1129: Avoimet johtolangat, ei vielä vahvistettu
+1130: Siirtokunta
+1131: Ei haettu
+1132: Commonsista
+1133: Huomautukset
+1134: Kuvien lähteet
+1135: Seiso paikassa
+1136: Katso suuntaan
+1137: Ei näytetä
+1138: Ei löytynyt
+1139: Ei näytetä
+1140: 1943.13.1 (NGA:n oman kuvan latauksen tiedostonimestä; ei näy sivulla)
+1141: Fort Square, Commercial Streetin varrella
+1142: 316 Main Street, Prospect Streetin kulmassa
+1143: Maplewood Avenue ja Cleveland Street
+1144: Tussilaveeraus, guassi ja grafiitti paperille
+1145: Akvarelli, grafiitti ja raaputus paperille
+1146: Akvarelli ja grafiitti paperille
+1147: Läpikuultava ja peittävä akvarelli askartelukartongille
+1148: Akvarelli askartelukartongille
+1149: Edward Hopperin Gloucester
+1150: Maalaus Cape Annista. Kysymys on, kuka sen maalasi.
+1151: Valitse maalari
+1152: Valitse reitti
+1153: Tämän reitin pysähdykset
+1154: Reitin yleiskatsaus
+1155: Tietoja tästä maalauksesta
+1156: Alitsariinikarmiini
+1157: titaanivalkoinen
+1158: vaalea kadmiuminkeltainen
+1159: keltainen okra
+1160: raaka sienna
+1161: poltettu sienna
+1162: vaalea kadmiuminpunainen
+1163: alitsariinikarmiini
+1164: ultramariininsininen
+1165: taivaansininen
+1166: viridiaaninvihreä

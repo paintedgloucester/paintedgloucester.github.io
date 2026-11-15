@@ -189,4 +189,4 @@ a.cn:hover{ background:#DCE6EE; border-color:var(--navy); }
 @media (max-width:820px){ header.top .langs{ order:2; margin-left:auto; } header.top nav{ order:3; flex-basis:100%; margin-left:-8px; } .langs summary{ height:44px; } }
 @media print{ .langs{ display:none; } }
 .langs details:not([open]) > ul{ display:none; }
-@media (pointer:coarse), (max-width:820px){ :lang(zh) .crumbs a, :lang(ko) .crumbs a{ min-width:44px; text-align:center; } }
+@media (pointer:coarse), (max-width:820px){ :lang(zh) .crumbs a, :lang(ko) .crumbs a, :lang(fi) .crumbs a{ min-width:44px; min-height:44px; text-align:center; } }

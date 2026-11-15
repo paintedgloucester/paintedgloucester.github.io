@@ -204,3 +204,5 @@
 1370: ← Ouvrir l’explorateur interactif⟦0⟧ · ⟦1⟧Télécharger le PDF⟦2⟧ ·
 1371: soleil
 1372: soleil (couché)
+1373: Trait de côte : MassGIS
+1374: s. d. (après 1915)

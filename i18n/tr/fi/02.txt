@@ -1,0 +1,76 @@
+72: Camera lucida tai samalla tavalla jäljennetty puhelinkuva on kelpo nykyaikainen korvike Lanen menetelmälle.
+73: Eräs toissijainen lähde kuvaa teosta ⟦0⟧Horizon at Gloucester⟦1⟧ sataman siluetiksi ”Eastern Pointista”.⟦2⟧ Merkki on Eastern Pointin majakalla; tarkkaa paikkaa ei ole kirjattu. Duveneck asui East Gloucesterin Harbor View Hotelissa.
+74: Eastern Pointista kaupunki on lähes suoraan pohjoisessa, noin 3,8 km:n päässä, joten aurinko on koko päivän maalarin takana tai sivulla ja siluetti on aina valaistu edestä: aamulla idästä, keskipäivällä etelästä, myöhään iltapäivällä lännestä.
+75: Majakka on rannikkovartioston omaisuutta ja suljettu yleisöltä.⟦0⟧ Sen vieressä oleva Dog Bar Breakwater on 2 250 jalan (690 m) graniittiaallonmurtaja: käytä tukevia kenkiä äläkä mene sille, kun aallot lyövät kivien yli.
+76: Duveneckin etuala on laskuveden paljastamaa kalliota ja levää. Ajoita maalaus laskuveteen, niin vuorovesialtaat antavat sinulle hänen etualansa.
+77: Nimi sijoittaa kuvan Lighthouse Beachille Annisquamin majakan viereen Wigwam Pointiin.⟦0⟧ Jonesin tarkkaa paikkaa ei ole kirjattu, eikä museon sivulta voitu tarkistaa sitä. Kartan viiva on nykyaikainen vaihtoehto: majakan näkee Wingaersheek Beachilta joensuun toiselta puolelta.
+78: Mikään lähde ei kerro vuorokaudenaikaa. Wingaersheekiltä katsot majakkaa pohjoiseen: aamuaurinko valaisee sivulta oikealta, ja iltapäivän aurinko paistaa vasemman olkasi yli torniin.
+79: Majakanvartijan talo on rannikkovartioston asuntona; majakkaa voi katsella Wingaersheek Beachilta.
+80: Muiden kuin paikallisten asukkaiden on varattava rantapysäköinti kesällä (Memorial Daysta Labor Dayhin).
+81: Jonesin hiekka ja kalliot muuttuvat vuoroveden mukana. Laskuveden aikaan matalikot levenevät täällä huomattavasti.
+82: Twachtman maalasi teoksen ⟦0⟧Harbor View Hotel⟦1⟧ ”pitkän laiturin päästä”, hotellin ponttonilta Wonson's Covessa, katsoen takaisin hotelliin; hänen mökkiateljeensa näkyy äärimmäisenä vasemmalla. Maalaus oli hänen telineellään, kun hän kuoli siellä elokuussa 1902.⟦2⟧ Hotelli sijaitsi nykyisessä osoitteessa 21 Eastern Point Road.⟦3⟧ Laiturin pää on sijoitettu poukaman keskelle.
+83: Lähteissä ei kuvata. Poukamasta hotelliin päin katsottaessa näkymä on suunnilleen itään, joten myöhäisen iltapäivän aurinko valaisisi rakennukset täysin maalarin takaa.
+84: Hotellia ei enää ole; paikka on Rocky Neckin taidepolun pysähdys 15, jonne pääsee kävellen Rocky Neck Avenuelta.
+85: Maalaus on Nelson-Atkins Museumissa (33-57). Sen kuvaa ei näytetä tässä, joten katso se museon sivulta ennen lähtöä.
+86: Pelkistetty luettelo yhdeksästä Cape Annin paikasta, joissa maalaus voidaan sitoa seisomapaikkaan: kuka siellä maalasi, missä seisoa, mihin katsoa ja miten sinne pääsee.
+87: Kaikki kartan sisältö luettelona: missä kukin maalari seisoi, mitä hän katsoi, mihin suuntaan katsoa ja linkki reittiohjeisiin. ⟦0⟧Avaa kartta⟦1⟧, niin saat aurinkosuunnittelijan ja kameranäkymän.
+88: Tarkista vuorovesitaulukko (NOAA-asema 8441841; keskimääräinen vuorovesiero noin 8,8 jalkaa, 2,7 m) ja maalaa yleisiltä kulkuteiltä: useat historialliset näköalapaikat ovat nyt yksityismaata tai saavutettavissa vain veden kautta. Kunkin kohteen sivulla on kulkuohjeet.
+89: Seiso paikassa⟦0⟧ Fort Point (42.60840, -70.66327). ⟦1⟧Katso suuntaan⟦2⟧ SSW, 194°, kohde: Ten Pound Island Light, etäisyys 750 m (2 460 ft).
+90: Seiso paikassa⟦0⟧ Ten Pound Island (42.60187, -70.66555). ⟦1⟧Katso suuntaan⟦2⟧ S, 178°, kohde: Eastern Point Light, etäisyys 2,4 km (1,5 mi).
+91: Willard Metcalf ja Childe Hassam
+92: Seiso paikassa⟦0⟧ Banner Hill (42.60644, -70.65084). ⟦1⟧Katso suuntaan⟦2⟧ NW, 311°, kohde: keskusta (kaupungintalo), etäisyys 1,3 km (0,8 mi).
+93: Seiso paikassa⟦0⟧ poukaman pohjoisranta (42.59289, -70.64994). ⟦1⟧Katso suuntaan⟦2⟧ SSE, 166°, kohde: Brace's Rock, etäisyys 668 m (2 190 ft).
+94: Seiso paikassa⟦0⟧ kallion pohjoispuolinen ranta (42.58434, -70.69275). ⟦1⟧Katso suuntaan⟦2⟧ S, 183°, kohde: Norman's Woe Rock, etäisyys 500 m (1 641 ft).
+95: Seiso paikassa⟦0⟧ Two Penny Loaf (42.65491, -70.71998). ⟦1⟧Katso suuntaan⟦2⟧ ENE, 58°, kohde: Coffin's Beach, etäisyys 977 m (3 206 ft).
+96: Seiso paikassa⟦0⟧ Eastern Point (42.58024, -70.66448). ⟦1⟧Katso suuntaan⟦2⟧ N, 2°, kohde: keskusta (kaupungintalo), etäisyys 3,8 km (2,3 mi).
+97: Seiso paikassa⟦0⟧ Wingaersheek Beach (nykyaikainen näkymä) (42.65008, -70.68421). ⟦1⟧Katso suuntaan⟦2⟧ N, 10°, kohde: Annisquam Light, etäisyys 1,3 km (0,8 mi).
+98: Seiso paikassa⟦0⟧ hotellin laiturin pää (n.) (42.60239, -70.65765). ⟦1⟧Katso suuntaan⟦2⟧ E, 87°, kohde: Harbor View Hotelin paikka, etäisyys 150 m (492 ft).
+99: Teosluettelo, merkintä tai julkaistu tutkimus määrittää, missä maalari seisoi.
+100: Lähteet nimeävät paikan; tarkka kohta on sijoitettu lähimpään kartoitettuun rantapisteeseen.
+101: Vain myöhempi toissijainen kertomus sijoittaa maalarin.
+102: Mikään lähde ei kerro, missä maalari seisoi; merkki on ehdottamamme yleinen näköalapaikka.
+103: Mistä ostaa värejä ja maalauslevyjä, missä osallistua kurssille ja nähdä maalauksia Gloucesterissa ja Rockportissa, sekä vuotuiset ulkomaalaustapahtumat. 11 kohdetta, jokaisella lähteet ja viimeisimmän tarkistuksen kuukausi.
+104: Taidetarvikkeet, kurssit, galleriat ja ulkomaalaustapahtumat Cape Annilla
+105: Itsenäiset liikkeet ja voittoa tavoittelemattomat yhteisöt pitävät Cape Annin taideyhteisön elävänä. Jokaisessa kohteessa näkyy kuukausi, jolloin se viimeksi tarkistettiin lähteistä. Aukioloajat vaihtelevat vuodenajan mukaan, joten soita etukäteen. ⟦0⟧Katso ne katukartalla.
+106: Gloucesterin keskustan yhdistetty taide-, käsityö- ja harrasteliike: taiteilijavärejä, siveltimiä ja maalauspohjia pienoismallisarjojen ja askartelutarvikkeiden ohella.
+107: Täydellisin taidetarvikevalikoima lähimpänä sataman maalauspaikkoja, lyhyen kävelymatkan päässä Cape Ann Museumista.
+108: Paikallisen arvion mukaan omistaja tilaa tuotteita, joita liikkeessä ei ole valikoimassa.
+109: Liikkeessä on aiempina vuosina järjestetty lasten taidekursseja.
+110: Mainitut aukioloajat ovat vanhemmasta syksyn aikataulusta (ma–la 10–18, su 12–17). Soita ennen kuin lähdet.
+111: Öljy ja liitu levylle
+112: Akvarelli paperille
+113: Taiteilijoiden pitämä tarvikeliike Bearskin Neckillä, valikoimaa sekä aloittelijoille että ammattimaalareille; taustalla Rusty and Ingrid Creative Companyn grafiikantekijät.
+114: Liikkeestä on lähtenyt taiteilija Rusty Kinnusen vetämä ilmainen lauantaiaamun luonnoskävely.
+115: Omistajien numeroituja Cape Ann -aiheisia silkkipainotöitä myydään muutaman oven päässä Neckillä.
+116: Kahden minuutin kävelymatka Motif No. 1:n ja T-Wharfin näkymille.
+117: Lähteet ovat eri mieltä siitä, mikä Bearskin Neckin numero on tarvikeliike ja mikä vedosliike, ja aukioloajat ovat kausittaisia. Tarkista ennen käyntiä.
+118: Pitkäaikainen North Shoren ammattitaiteilijatarvikkeiden toimittaja, joka palvelee myös kouluja ja laitoksia.
+119: Hoitaa suurtilaukset sekä koulujen ja taidekurssien tarvikeluettelot.
+120: Route 1A:n parhaiten varustettu pysähdyspaikka Bostonista Cape Annille ajaville maalareille.
+121: Eräässä hakemistossa on Marbleheadin osoite. Hakemiston aukioloajat: ma–pe 9–17, la 10–17, sunnuntaisin suljettu. Varmista ennen lähtöä.
+122: 619 Massachusetts Avenue, Cambridge, MA · kauempana
+123: Lähin suuri taidetarvikeketjun myymälä, noin tunnin ajomatkan päässä Gloucesterista etelään. Kannattaa pysähtyä ennen ajoa pohjoiseen erikoispigmenttien, suurten kankaiden ja pochade-laatikoiden vuoksi.
+124: Laaja valikoima ulkomaalaustelineitä, maalauslevyjä sekä ammattitason öljy- ja akvarellisarjoja.
+125: Ketjumyymälä; katso ajantasaiset aukioloajat myymälän sivulta.
+126: Satavuotias taiteilijayhdistys ja museo, jolla on näyttelyitä ja Cape Ann Summer School of Art.
+127: Monipäiväisiä ulkomaalauskursseja: vuoden 2026 ohjelmassa olivat Harley Bartlettin ”The Painted Sketch of Rockport” (8.–12.9.) ja Karen Blackwoodin merimaalauskurssi (21.–25.9.).
+128: Historiallinen taiteilijayhdistys rantavajassa East Gloucesterin satamassa, perustettu taiteilijasiirtokunnan vuosina.
+129: Jäsennäyttelyitä, demonstraatioita ja kursseja muutaman askeleen päässä Rocky Neckin maalausmaastosta.
+130: Yksi Amerikan vanhimmista yhä toimivista taiteilijasiirtokunnista: ateljeiden ja gallerioiden kortteli East Gloucesterin niemellä, joka houkutteli Twachtmanin, Hopperin ja Stuart Davisin.
+131: Kursseja kaikille taitotasoille, opettajina Rocky Neckin työskentelevät taiteilijat Cultural Centerissä. Katso kalenterista, mitä on meneillään.
+132: Järjestää yhdessä Cape Ann Plein Airin ja Cape Ann Art Havenin kanssa Paint Outin Rocky Neckillä
+133: Rocky Neckin yleiseltä kulkutieltä näkee lännessä sataman yli Homerin auringonlaskut ja Ten Pound Islandin.
+134: Voittoa tavoittelematon yhteisötaidekeskus keskustassa: maalauksen, piirustuksen, keramiikan ja grafiikan kursseja lapsille, nuorille ja perheille.
+135: Perheiden avoimia ateljeepäiviä ja kaikenikäisten kursseja sekä portfolion valmistelua taidekouluun hakeville.
+136: Rocky Neckin Paint Outin toinen järjestäjä
+137: Joissakin tiedoissa osoite on 20 Maplewood Ave. Tarkista ajantasainen osoite ja aikataulu osoitteesta arthaven.org.
+138: North Shoren taidekorkeakoulu, jonka galleriat ovat avoinna yleisölle.
+139: Täydennyskoulutuskursseja matkan varrella Cape Annille.
+140: Katso korkeakoulun sivustolta ajankohtaiset yleisöohjelmat.
+141: Fitz Henry Lanen maalausten ja piirustusten suurimman julkisen kokoelman koti, mukana Ten Pound Island ja The Western Shore with Norman's Woe.
+142: Katso Lanen kankaat omin silmin ennen kuin maalaat samoja satamanäkymiä.
+143: Lanen oma ateljee oli muutaman korttelin päässä sataman yllä Duncan's Pointissa.
+144: Cape Annin taiteilijoiden ylläpitämä galleria Island Art & Hobbyn vieressä
+145: Katso ja osta töitä maalareilta, jotka maalaavat samoja näkymiä tänään.
+146: 24.10.2026–24.1.2027 (esillä Cape Ann Museumissa 30.6.–27.9.2026).⟦0⟧ · The Phillips Collection, Washington, DC
+147: Cape Ann Museumin näyttely kesistä, jotka Milton Avery, Adolph Gottlieb ja Mark Rothko viettivät maalaten yhdessä Gloucesterissa 1930- ja 1940-luvuilla, nyt kiertueella. Luettelon (Rizzoli, 2026) on toimittanut Eliza Rathbone.

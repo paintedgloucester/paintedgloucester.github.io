@@ -221,3 +221,5 @@ Coastline ||| Linha de costa ||| Linea di costa
 ← Open the interactive explorer⟦0⟧ · ⟦1⟧Download the PDF⟦2⟧ · ||| ← Abrir o explorador interativo⟦0⟧ · ⟦1⟧Descarregar o PDF (em inglês)⟦2⟧ · ||| ← Apri l’esploratore interattivo⟦0⟧ · ⟦1⟧Scarica il PDF (in inglese)⟦2⟧ ·
 sun ||| sol ||| sole
 sun (set) ||| sol (posto) ||| sole (tramontato)
+Coastline: MassGIS ||| Linha de costa: MassGIS ||| Linea di costa: MassGIS
+n.d. (after 1915) ||| s.d. (depois de 1915) ||| s.d. (dopo il 1915)

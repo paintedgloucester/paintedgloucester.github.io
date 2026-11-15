@@ -204,3 +204,5 @@
 1370: ← Den interaktiven Explorer öffnen⟦0⟧ · ⟦1⟧PDF herunterladen⟦2⟧ ·
 1371: Sonne
 1372: Sonne (untergegangen)
+1373: Küstenlinie: MassGIS
+1374: o. D. (nach 1915)

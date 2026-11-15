@@ -1,0 +1,208 @@
+1167: raaka umbra
+1168: norsunluunmusta
+1169: Kaikki maalarit
+1170: Takaisin yleiskatsaukseen
+1171: Tyhjennä suodattimet
+1172: Sulje ikkuna
+1173: Sulje huomautus
+1174: Vertaa maalausta ja karttaa ⟷
+1175: Tiedot
+1176: tiedot
+1177: Siirrä karttaa vetämällä; zoomaa nipistämällä.
+1178: Haetaan sijaintia…
+1179: Sinulle
+1180: Koko reittisivu lähteineen
+1181: Galleria
+1182: Museo
+1183: Kultainen tunti
+1184: Kuva museossa
+1185: Kuvaa ei sisällytetty
+1186: Ei kuvaa tässä
+1187: ei sisällytetty tähän
+1188: Valo
+1189: Sijaintilupa evättiin
+1190: Sijaintiasi ei löytynyt
+1191: Sijainti ei ole käytettävissä tässä selaimessa
+1192: Tarkistetaan sijaintiasi…
+1193: Olet kartalla
+1194: Jo leimattu paikan päällä
+1195: Leimattu paikan päällä
+1196: Leimattu paikan päällä ✓
+1197: Leimattu etänä
+1198: leimaa uudelleen
+1199: leimattu paikan päällä
+1200: leimattu etänä
+1201: ei leimattu
+1202: leimattu
+1203: Leimaa passini
+1204: Tyhjennä passini
+1205: Napauta uudelleen tyhjentääksesi kaikki leimat
+1206: Passi täynnä. Olet seissyt siellä, missä he seisoivat.
+1207: EI VIELÄ LEIMATTU
+1208: ETÄNÄ ·
+1209: Ei vielä kuvaa: salli kamera tai käytä valokuvaa
+1210: Napauta maalausta ottaaksesi värinäytteen
+1211: Kamera ei ole käytettävissä täällä. Napauta ”Käytä valokuvaa” kohdistaaksesi paikan päällä ottamasi kuvan.
+1212: Kamera ei ole käytettävissä tässä selaimessa. Napauta ”Käytä valokuvaa” käyttääksesi paikan päällä ottamaasi kuvaa.
+1213: Käytä valokuvaa
+1214: Käynnistetään kameraa…
+1215: Ota kuva
+1216: Kohdista
+1217: Kopioitu
+1218: Kopioi linkki
+1219: Opas päivitetty. Lataa sivu uudelleen saadaksesi uusimman version.
+1220: Tallennettu offline-käyttöön ✓
+1221: Tämä selain ei voi tallentaa opasta offline-käyttöön.
+1222: Seuraava maalaus
+1223: Seuraava kohde
+1224: Edellinen kohde
+1225: Seuraava sana
+1226: Edellinen pysähdys
+1227: Valmis: takaisin yleiskatsaukseen
+1228: Aloita pysähdyksestä 1
+1229: Mikään teos ei vastaa näitä suodattimia
+1230: Mikään teos ei vastaa näitä suodattimia.
+1231: Ei tällä kertaa
+1232: Ei tällä kertaa.
+1233: Kyllä!
+1234: Nyt
+1235: Kartalla
+1236: Maalarien kartalla
+1237: Avaa maalaus koko näytölle
+1238: Avaa kohde
+1239: Avaa aurinkosuunnittelija
+1240: Maalattu paikasta
+1241: Tauko
+1242: Valitse nimi. Älä kurki kuvatekstiä!
+1243: Toista reitti
+1244: Lue heidän elämästään
+1245: Ota värinäyte
+1246: Näytä, kuinka kaukana olen täältä
+1247: Näytä kartalla ↑
+1248: Näytä koko alue
+1249: Näytetään
+1250: Koko
+1251: Tämän pysähdyksen lähteet
+1252: Aurinko
+1253: Aurinko kohteessa
+1254: Yllätä minut
+1255: Käännä kortti napauttamalla
+1256: Sinä päivänä
+1257: Maasto tänään ▸
+1258: ◂ Maalaus
+1259: Maalauksen hetki
+1260: Aurinko
+1261: Aurinko Gloucesterin sataman yllä
+1262: Aurinko on horisontin alapuolella
+1263: Aurinko on edessäsi: näkymä on vastavalossa
+1264: Aurinko on takanasi: näkymä on valaistu suoraan edestä
+1265: Aurinko on vasemmalla takanasi
+1266: Aurinko on vasemmalla edessäsi
+1267: Aurinko on oikealla edessäsi
+1268: Aurinko on oikealla takanasi
+1269: tuolloin: vasemmalla edessä
+1270: Raportin katselupaikkaosio
+1271: Yhdeksän kohdetta pelkkänä luettelona reittiohjeineen
+1272: Kaikki raportin huomautukset
+1273: Vuorokaudenaika
+1274: Tänään satamassa
+1275: Kokeile täällä:
+1276: Katso museossa
+1277: Mitä ovat
+1278: kalankuivaustelineet
+1279: seisovat verkot
+1280: doryt
+1281: kuunarit
+1282: troolarit
+1283: kuivatelakat
+1284: Mikä tekee siitä erityisen
+1285: Kuka tuli seuraavaksi?
+1286: Toinen ketju
+1287: Kuka maalasi tämän näkymän Cape Annilta?
+1288: Koko reitti
+1289: peräkkäin
+1290: paras
+1291: matala lämmin valo auringonlaskuun asti
+1292: keskipäivä
+1293: kävellen
+1294: autolla
+1295: merkki likimääräinen
+1296: katselusuunta (todellinen pohjoinen)
+1297: ← Kaikki yhdeksän kohdetta
+1298: ⤢ Suurenna
+1299: kauempana
+1300: Atlantin valtameri
+1301: =
+1302: Kartta reitin pysähdyksistä Cape Annilla
+1303: Maalaaminen talvella →
+1304: Työn satama →
+1305: katso kaikki yhdellä kartalla
+1306: Yö. Ei suoraa valoa; kaupunki ja vesi erottuvat siluetteina taivasta vasten.
+1307: Hämärä. Pehmeä, varjoton valo; taivas kantaa värin.
+1308: Aurinko horisontissa. Pitkät varjot, lämmin väri: matala valo, jota Lane suosi satamanäkymissään.
+1309: Kultaisen tunnin alue. Lämmin sivuvalo ja pitkät varjot; värit muuttuvat nopeasti, joten työskentele ripeästi.
+1310: Aurinko puolivälissä. Muodot erottuvat selvästi; varjot lyhenevät maalauskerran aikana.
+1311: Korkea aurinko. Lyhyet varjot ja litteämpi, viileämpi valo vedessä.
+1312: Vasemmalla maalaus, oikealla ennustettu seos. Seos on arvio; säädä silmämääräisesti.
+1313: Jokaisella kohteella on tunniste sen mukaan, kuinka varma sen seisomapaikka on: dokumentoitu, alue dokumentoitu, toissijainen lähde tai meidän ehdottamamme katselupaikka. Auringon sijainnit lasketaan Gloucesterille paikallisessa ajassa.
+1314: Yhdeksän paikkaa Cape Annilla, joissa maalaus voidaan sitoa kohtaan maastossa. Valitse numero kartalta tai kohde alta nähdäksesi maalauksen, maalarin seisomapaikan ja auringon sijainnin valitsemanasi aikana.
+1315: Tarkista vuorovesitaulukko (NOAA-asema 8441841; keskimääräinen vuorovesiero noin 8,8 jalkaa, 2,7 m), varaa kesällä muiden kuin paikallisten rantapysäköinti ja maalaa yleisiltä kulkuteiltä: useat historialliset katselupaikat, Banner Hill muiden muassa, ovat nyt yksityisiä. Koko raportissa on kaiken tämän lähteet.
+1316: Oletko tänään Cape Annilla?⟦0⟧ Napauta ⟦1⟧MINÄ⟦2⟧ nähdäksesi itsesi kartalla. Avaa kohde ja napauta ⟦3⟧Kohdista⟦4⟧ pitääksesi maalausta kameranäkymän päällä, ja leimaa sitten passisi. Neliömerkit ovat taidetarvikeliikkeitä ja ateljeita; ⟦5⟧katso kaikki yhdellä kartalla⟦6⟧.
+1317: Kaikki kokoelmat
+1318: Fitz Henry Lanen hengessä
+1319: Winslow Homerin hengessä, 1873 ja 1880
+1320: Childe Hassamin ja Willard Metcalfin hengessä
+1321: John Twachtmanin hengessä
+1322: Maurice Prendergastin hengessä
+1323: Edward Hopperin ja Stuart Davisin hengessä
+1324: Akvarelli ja guassi
+1325: Öljy tai akvarelli
+1326: Kesällä noin klo 11–14
+1327: nelivärinen paletti
+1328: pelkkä palettiveitsi
+1329: yksi tunti alusta loppuun
+1330: 15 × 20 cm:n (6 × 8 tuuman) levy
+1331: vain kolme sävyarvoa
+1332: ei lainkaan vihreää
+1333: maavärien paletti
+1334: leveämpi sivellin kuin haluaisit
+1335: Ten Pound Island Rocky Neckin yleiseltä kulkutieltä
+1336: sataman suu Fort Pointista
+1337: Brace's Coven kalliot
+1338: Motif No. 1 T-Wharfilta
+1339: Smith Cove Banner Hilliltä
+1340: Annisquamin majakka Wingaersheek Beachilta
+1341: Eastern Pointin majakka aallonmurtajalta
+1342: Norman's Woe läntiseltä rannalta
+1343: auringonnousussa
+1344: aamusumussa
+1345: laskuveden aikaan
+1346: nousuveden aikaan
+1347: pilvisenä iltapäivänä
+1348: jälkihehkussa
+1349: sateen kymmenenä ensimmäisenä minuuttina
+1350: Gloucester, Rockport, Essex ja Manchester-by-the-Sea
+1351: Ilmoitetaan vuosittain; tarkista päivämäärät järjestäjiltä.
+1352: Ateljeita eri puolilla Cape Annia
+1353: autolla, kävely Rocky Neckillä
+1354: kävely keskustassa, sitten ajomatka
+1355: =
+1356: Hopper ja Jo Nivison, 1923
+1357: Öljymaalaus Cincinnati Art Museumissa
+1358: Laiturit
+1359: Näkymä ylhäältä
+1360: Rothko, kesä 1934
+1361: Kalankuivaustelineistä troolareihin
+1362: Kävely satamassa, sitten lyhyt ajomatka
+1363: Lane paikkakuntalainen, työskenteli siellä 1840-luvulta vuoteen 1865; Mellen hänen oppilaansa 1850-luvulla
+1364: Avery vuodesta 1921; Gottlieb ja Rothko hänen kanssaan 1930-luvulla
+1365: Phillips Collectionin ohjelma 2026–27
+1366: Rocky Neckin ohjelmat ja tapahtumat
+1367: Marraskuusta maaliskuuhun
+1368: Itsenäiset liikkeet ja voittoa tavoittelemattomat yhteisöt pitävät Cape Annin taideyhteisön elävänä. Jokaisessa kohteessa näkyy kuukausi, jolloin se viimeksi tarkistettiin kortissa linkitetyistä lähteistä (viimeksi ⟦0⟧marraskuussa 2026⟦1⟧). Aukioloajat vaihtelevat vuodenajan mukaan, joten soita etukäteen.
+1369: Rantaviiva
+1370: ← Avaa interaktiivinen opas⟦0⟧ · ⟦1⟧Lataa PDF⟦2⟧ ·
+1371: aurinko
+1372: aurinko (laskenut)
+1373: Rantaviiva: MassGIS
+1374: ei ajoitusta (1915 jälkeen)

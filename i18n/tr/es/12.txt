@@ -204,3 +204,5 @@
 1370: ← Abrir el explorador interactivo⟦0⟧ · ⟦1⟧Descargar el PDF⟦2⟧ ·
 1371: sol
 1372: sol (puesto)
+1373: Línea de costa: MassGIS
+1374: s. f. (después de 1915)

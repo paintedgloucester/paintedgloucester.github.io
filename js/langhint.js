@@ -19,6 +19,7 @@
     it: ['Questa pagina è disponibile anche in italiano.', 'Leggi in italiano', 'No, grazie'],
     pt: ['Esta página também existe em português.', 'Ler em português', 'Não, obrigado'],
     nl: ['Deze pagina is ook in het Nederlands.', 'Lees in het Nederlands', 'Nee, bedankt'],
+    fi: ['Tämä sivu on saatavilla myös suomeksi.', 'Lue suomeksi', 'Ei kiitos'],
     zh: ['本页面也有中文版本。', '阅读中文版', '不用了'],
     ko: ['이 페이지는 한국어로도 볼 수 있습니다.', '한국어로 보기', '괜찮습니다']
   };
