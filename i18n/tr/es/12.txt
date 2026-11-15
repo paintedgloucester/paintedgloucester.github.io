@@ -232,3 +232,4 @@
 1398: Qué está abierto en invierno
 1399: Muchas galerías de Cape Ann cierran o reducen su horario de noviembre a abril. Esto es lo que indican las fichas de la guía para los meses de invierno. Los horarios cambian, así que llame antes de un viaje largo.
 1400: 619 Massachusetts Avenue, Cambridge, MA 02139 · (617) 441-6360 · más lejos
+1401: Mapa imprimible de los nueve lugares (PDF, una página; en inglés)

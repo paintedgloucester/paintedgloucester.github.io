@@ -5,7 +5,7 @@ const require = createRequire(import.meta.url); const { make } = require('../js/
 // [folder, hreflang / html lang, name in its own language], in the order the language menu lists them
 export const LANGS = [['es', 'es', 'Español'], ['fr', 'fr', 'Français'], ['de', 'de', 'Deutsch'], ['it', 'it', 'Italiano'], ['pt', 'pt-PT', 'Português'], ['nl', 'nl', 'Nederlands'], ['fi', 'fi', 'Suomi'], ['zh', 'zh-Hans', '中文（简体）'], ['ko', 'ko', '한국어']];
 const DIRS = new RegExp('^(?:' + LANGS.map(l => l[0]).join('|') + ')\\/');
-const ASSET = /^(?:css|js|img|thumbs|fonts|vendor|icons|i18n)\/|^(?:manifest\.webmanifest|LICENSE\.md|Painted-Gloucester-brief\.pdf|sw\.js)/;
+const ASSET = /^(?:css|js|img|thumbs|fonts|vendor|icons|i18n|print)\/|^(?:manifest\.webmanifest|LICENSE\.md|Painted-Gloucester-brief\.pdf|sw\.js)/;
 const PAGE = /^(?:(?:works|sites|trails)\/|(?:painters|waterfront|winter|photographers|teachers|gallery|shops|field-notes|brief)\.html)/;
 export const clean = f => f.replace(/index\.html$/, '');
 

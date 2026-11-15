@@ -123,6 +123,7 @@ page({ file: 'sites/index.html', title: 'The nine painting sites, with direction
   body: up => `<div class="kicker">Map &amp; sites · text version</div><h1>The nine painting sites</h1>
 <p class="lead measure">Everything the chart shows, as a list: where each painter stood, what they were looking at, which way to face and a directions link. <a href="${up}#map">Open the chart</a> for the sun planner and the camera overlay.</p>
 <p class="small measure">Check the tide table (NOAA station 8441841; mean range about 8.8 ft) and paint from public ways: several historic vantage points are now private land or reachable only by water. Each site's page has the access notes.</p>
+<p class="measure"><a class="btn" href="${up}print/Painted-Gloucester-map.pdf">Printable chart of the nine sites (PDF, one page)</a></p>
 <ol class="sitelist">${D.sites.map(s => { const w = s.main ? WBY[s.main] : null; return `<li><span class="num" aria-hidden="true">${s.n}</span><div><h2><a href="${s.id}.html">${esc(s.title)}</a></h2><p class="m">${esc(s.artist)}${w ? `, <i>${esc(w.t)}</i>, ${esc(w.d)}` : ''} · <span class="chip ${s.chip}">${esc(s.chipl)}</span></p>
 <p><b>Stand at</b> ${esc(s.V[2])} (${s.V[0].toFixed(5)}, ${s.V[1].toFixed(5)}). <b>Face</b> ${esc(s.compass)}, ${Math.round(s.bearing)}°, toward ${esc(s.S[2])}, ${esc(s.dist)} away.</p>
 <p class="acts"><a href="${dir(s.V)}">Directions ↗</a><a href="${s.id}.html">Access notes and light</a><a href="${up}#site-${s.n}">On the chart</a></p></div></li>`; }).join('')}</ol>
@@ -179,7 +180,7 @@ for (const f of ['index.html', 'brief.html']) { let h = fs.readFileSync(f, 'utf8
 
 /* ---------- sitemap ---------- */
 const enUrls = ['', 'brief.html', ...written.map(f => f.replace(/index\.html$/, ''))];
-const urls = [...enUrls, 'Painted-Gloucester-brief.pdf', ...LANGS.flatMap(([d]) => enUrls.map(u => d + '/' + u))];
+const urls = [...enUrls, 'Painted-Gloucester-brief.pdf', 'print/Painted-Gloucester-map.pdf', ...LANGS.flatMap(([d]) => enUrls.map(u => d + '/' + u))];
 const IMG = {}; for (const w of D.works) if (w.img) IMG[`works/${w.id}.html`] = [`img/${w.id}.jpg`];
 for (const s of D.sites) { const ids = [s.main, ...s.comp].filter(id => id && WBY[id].img); if (ids.length) IMG[`sites/${s.id}.html`] = ids.map(id => `img/${id}.jpg`); }
 const imgTags = u => (IMG[u] || []).filter(f => fs.existsSync(f)).map(f => `<image:image><image:loc>${ORIGIN}/${f}</image:loc></image:image>`).join('');

@@ -92,6 +92,10 @@ Every page also exists in Spanish (`es/`), French (`fr/`), German (`de/`), Itali
 - After changing any English text, run `node tools/build.mjs`; `i18n/missing.json` lists strings that still have no translation (addresses and accession numbers are expected there). Add the translations, run `node tools/i18n-merge.mjs`, then build again.
 - Each page carries `hreflang` links to all ten versions, and `sitemap.xml` lists them all, so search engines show the right language. The header has a language menu, and `js/langhint.js` offers, without redirecting, the page in the reader's browser language; a choice is remembered in the browser.
 
+## Printable chart
+
+`print/Painted-Gloucester-map.pdf` is a one-page, letter-size chart of the nine sites with where to stand today and when to go, linked from the sites list. It is built from `js/data.js` and `js/coast.js`; the short "Stand" and "Light" notes live in `tools/printmap.mjs`. To rebuild after changing a site: `node tools/printmap.mjs`, then (with the local server on port 8765) `python3 tools/printmap.py`. The QR code needs `pip install segno`; check that it still scans before publishing.
+
 ## Search engines
 
 - `sitemap.xml` lists every page in every language, and the public-domain painting images on the English painting and site pages.

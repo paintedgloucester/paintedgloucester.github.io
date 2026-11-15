@@ -232,3 +232,4 @@
 1398: Mikä on auki talvella
 1399: Monet Cape Annin galleriat sulkevat ovensa tai lyhentävät aukioloaikojaan marraskuusta huhtikuuhun. Tässä on, mitä oppaan tiedot kertovat talvikuukausista. Aukioloajat muuttuvat, joten soita ennen pitkää ajomatkaa.
 1400: 619 Massachusetts Avenue, Cambridge, MA 02139 · (617) 441-6360 · kauempana
+1401: Tulostettava kartta yhdeksästä paikasta (PDF, yksi sivu; englanniksi)
