@@ -96,6 +96,10 @@ Every page also exists in Spanish (`es/`), French (`fr/`), German (`de/`), Itali
 
 `print/Painted-Gloucester-map.pdf` is a one-page, letter-size chart of the nine sites with where to stand today and when to go, linked from the sites list. It is built from `js/data.js` and `js/coast.js`; the short "Stand" and "Light" notes live in `tools/printmap.mjs`. To rebuild after changing a site: `node tools/printmap.mjs`, then (with the local server on port 8765) `python3 tools/printmap.py`. The QR code needs `pip install segno`; check that it still scans before publishing.
 
+## Visit counter
+
+Every page loads GoatCounter (no cookies, no personal data); see the dashboard at https://paintedgloucester.goatcounter.com. The tag is added by `tools/build.mjs` to generated pages and to `index.html` and `brief.html`. Flyer and map QR codes carry `utm_medium=flyer|card|map`, so print visits show separately.
+
 ## Search engines
 
 - `sitemap.xml` lists every page in every language, and the public-domain painting images on the English painting and site pages.
