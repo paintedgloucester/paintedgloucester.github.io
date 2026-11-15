@@ -127,10 +127,10 @@ window.PG_GUIDE = {
       ]
     },
     {
-      name:"Rockport", img:"twachtman-fishing-boats", sum:"Rockport's harbor, Motif No. 1 and the town's art association, with an artist-run supply shop on Bearskin Neck.",
+      name:"Rockport", img:"twachtman-fishing-boats", sum:"Rockport's harbor, Motif No. 1 and the town's art association, with the Rusty and Ingrid screen-print studio on Dock Square.",
       steps:[
         ["Sunrise","T-Wharf and Motif No. 1","The inner harbor at first light, before the crowds.","event:Motif No. 1 Day paint-out"],
-        ["10:30 a.m.","Rusty and Ingrid Art & Supply","Supplies on Bearskin Neck; ask about the Saturday sketch walk.","place:rusty-ingrid"],
+        ["10:30 a.m.","Rusty and Ingrid Screen Prints","Watch Cape Ann screen prints being made at the studio on Dock Square.","place:rusty-ingrid"],
         ["1:00 p.m.","Rockport Art Association & Museum","Exhibitions and the Cape Ann Summer School of Art workshop schedule.","place:rockport-art-assn"],
         ["Afternoon","Bearskin Neck","Paint the harbor and the granite breakwater from the end of the Neck.",""]
       ]

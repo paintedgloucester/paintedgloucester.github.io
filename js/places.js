@@ -41,37 +41,30 @@ window.PLACES = {
   },
   {
    "id": "rusty-ingrid",
-   "type": "supply",
-   "name": "Rusty and Ingrid Art & Supply",
+   "type": "gallery",
+   "name": "Rusty and Ingrid Screen Prints",
    "town": "Rockport",
-   "addr": "18 Bearskin Neck, Rockport, MA 01966",
+   "addr": "15 Dock Square, Rockport, MA 01966",
    "ll": [
-    42.65939,
-    -70.61634
+    42.65879,
+    -70.6168
    ],
-   "what": "An artist-run supply shop on Bearskin Neck, stocked for beginners and working painters, from the printmakers behind Rusty and Ingrid Creative Company.",
+   "phone": "(978) 999-5107",
+   "url": "https://www.rustyandingrid.com",
+   "what": "The studio and gallery of artists Rusty and Ingrid Kinnunen, who hand-print limited-edition screen prints of Cape Ann and New England on site.",
    "special": [
-    "A free Saturday-morning sketch walk led by artist Rusty Kinnunen has started from the shop.",
-    "The owners' limited-edition screen prints of Cape Ann are sold a few doors away on the Neck.",
+    "You can watch prints being made in the studio.",
     "Two minutes' walk from Motif No. 1 and the T-Wharf views."
    ],
+   "hours": "November: weekends 11–5, weekdays by chance. Check the website for other months.",
+   "winter": "Weekend hours in November; check the website before a winter visit.",
    "src": [
     [
      "Rusty and Ingrid: location and hours",
      "https://www.rustyandingrid.com/contact-us"
-    ],
-    [
-     "Cape Ann Chamber: Saturday Morning Sketch Walk",
-     "https://business.capeannchamber.com/events/details/saturday-morning-sketch-walk-22572"
-    ],
-    [
-     "North Shore Moms shop profile",
-     "https://thenorthshoremoms.com/?p=16528"
     ]
    ],
-   "confirm": "The supply shop's own website no longer loads, and the company's main site now lists only its screen-print gallery at 15 Dock Square, Rockport (978-999-5107, open daily 11–5). The supply shop may have closed. Call before you go.",
-   "checked": "November 2026",
-   "winter": "Uncertain. The Dock Square gallery lists daily hours of 11–5."
+   "checked": "November 2026"
   },
   {
    "id": "art-supplies-wholesale",
