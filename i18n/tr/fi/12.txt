@@ -240,3 +240,4 @@
 1406: Ateljeessa voi katsoa, miten vedokset tehdään.
 1407: Rockportin satama, Motif No. 1 ja kaupungin taiteilijayhdistys sekä Rustyn ja Ingridin silkkipainoateljee Dock Squarella.
 1408: Katso, miten Cape Annin silkkipainoja tehdään Dock Squaren ateljeessa.
+1664: Lane maalasi jäätyneen sataman 1850-luvulla. Rockportissa opettanut Aldro Hibbard maalasi sen lumen alla; Museum of Fine Arts osti hänen teoksensa ⟦0⟧Winter Days⟦1⟧ vuonna 1920⟦2⟧, ja Smithsonian American Art Museum omistaa hänen teoksensa ⟦3⟧Rockport in Winter⟦4⟧ (noin 1940)⟦5⟧.

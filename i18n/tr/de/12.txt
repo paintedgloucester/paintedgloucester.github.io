@@ -240,3 +240,4 @@
 1406: Im Atelier kann man beim Drucken zuschauen.
 1407: Rockports Hafen, Motif No. 1 und der Kunstverein der Stadt, dazu das Siebdruckatelier von Rusty und Ingrid am Dock Square.
 1408: Im Atelier am Dock Square beim Drucken von Cape-Ann-Siebdrucken zuschauen.
+1664: Lane malte den zugefrorenen Hafen in den 1850er Jahren. Aldro Hibbard, der in Rockport unterrichtete, malte ihn im Schnee; das Museum of Fine Arts kaufte 1920 sein ⟦0⟧Winter Days⟦1⟧⟦2⟧, und das Smithsonian American Art Museum besitzt sein ⟦3⟧Rockport in Winter⟦4⟧ (um 1940)⟦5⟧.

@@ -240,3 +240,4 @@
 1406: 작업실에서 판화를 찍는 모습을 볼 수 있습니다.
 1407: Rockport 항구, Motif No. 1, 마을의 미술 협회, 그리고 Dock Square에 있는 Rusty와 Ingrid의 실크스크린 작업실.
 1408: Dock Square 작업실에서 Cape Ann 실크스크린 판화를 찍는 모습을 보세요.
+1664: Lane은 1850년대에 얼어붙은 항구를 그렸습니다. Rockport에서 가르친 Aldro Hibbard는 눈 덮인 항구를 그렸는데, 보스턴 미술관이 1920년 그의 ⟦0⟧Winter Days⟦1⟧를 구입했고⟦2⟧, 스미소니언 미국 미술관이 그의 ⟦3⟧Rockport in Winter⟦4⟧(1940년경)를 소장하고 있습니다⟦5⟧.

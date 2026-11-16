@@ -240,3 +240,4 @@
 1406: In het atelier kun je zien hoe de zeefdrukken worden gemaakt.
 1407: De haven van Rockport, Motif No. 1 en de kunstvereniging van het stadje, met het zeefdrukatelier van Rusty en Ingrid aan Dock Square.
 1408: Kijk hoe zeefdrukken van Cape Ann worden gemaakt in het atelier aan Dock Square.
+1664: Lane schilderde de bevroren haven in de jaren 1850. Aldro Hibbard, die in Rockport lesgaf, schilderde haar onder de sneeuw; het Museum of Fine Arts kocht zijn ⟦0⟧Winter Days⟦1⟧ in 1920⟦2⟧, en het Smithsonian American Art Museum bezit zijn ⟦3⟧Rockport in Winter⟦4⟧ (rond 1940)⟦5⟧.

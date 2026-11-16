@@ -47,11 +47,11 @@ src: {
   ],
   "rnat_hopper": [
    "Rocky Neck Historic Art Trail, “Edward Hopper’s Mansard Roof House”",
-   "https://trail.rockyneckartcolony.org/index.php/edward-hoppers-mansard-roof-house"
+   "https://www.rockyneckartcolony.org/program-events/art-trail/12-edward-hoppers-mansard-roof-house"
   ],
   "rnat_avery": [
    "Rocky Neck Historic Art Trail, “Studios of Leonard Craske and Milton Avery”",
-   "https://trail.rockyneckartcolony.org/index.php/studios-of-leonard-craske-and-milton-avery"
+   "https://www.rockyneckartcolony.org/program-events/art-trail/11-studios-of-leonard-craske-and-milton-avery"
   ],
   "women2024": [
    "Berkshire Fine Arts, review of “Women Artists on Cape Ann: 1870–1970,” Cape Ann Museum, July 13–September 29, 2024",
@@ -235,8 +235,8 @@ src: {
    "https://en.wikipedia.org/wiki/Aldro_Hibbard"
   ],
   "saam_hibbard": [
-   "Smithsonian American Art Museum, Aldro T. Hibbard, Rockport Winter, 1969.122",
-   "https://dashboard.si.edu/object/rockport-winter:saam_1969.122"
+   "Smithsonian American Art Museum, Aldro T. Hibbard, Rockport in Winter, 1969.122",
+   "https://americanart.si.edu/artwork/rockport-winter-10468"
   ],
   "fhl_ice": [
    "Fitz Henry Lane Online (Cape Ann Museum), catalogue",
@@ -655,7 +655,7 @@ waterfront: {
 winter: {
   lead: 'Most painters leave Cape Ann in October. They miss the year’s lowest, warmest light, the empty beaches and, on the coldest mornings, sea smoke over the harbor.',
   seasmoke: 'Sea smoke forms when very cold air moves over water that is much warmer than it, usually when the air is below about 10°F. The water evaporates and condenses at once into fog that rises in columns [[seasmoke]]. Look for it on the first still, clear morning after an Arctic cold front, just after sunrise, from Stacy Boulevard or the Rocky Neck causeway.',
-  painters: 'Lane painted the harbor frozen in the 1850s. Aldro Hibbard, who taught in Rockport, painted it under snow; the Museum of Fine Arts bought his <i>Winter Days</i> in 1920 [[vose_hibbard]], and the Smithsonian American Art Museum owns his <i>Rockport Winter</i> [[saam_hibbard]].',
+  painters: 'Lane painted the harbor frozen in the 1850s. Aldro Hibbard, who taught in Rockport, painted it under snow; the Museum of Fine Arts bought his <i>Winter Days</i> in 1920 [[vose_hibbard]], and the Smithsonian American Art Museum owns his <i>Rockport in Winter</i> (about 1940) [[saam_hibbard]].',
   works: ['lane-ships-in-ice', 'hibbard-rockport-winter'],
   kit: ['Oil paint keeps working in the cold; watercolor and acrylic freeze. If you use water media, work small and fast and keep the water in a vacuum flask.', 'Paint from the car on the worst days. Several historic views are close to public parking, among them Stacy Boulevard and Rocky Neck.', 'Fingerless gloves under mittens, two pairs of socks and a foam pad to stand on.', 'Ice makes the granite ledges and the Dog Bar Breakwater dangerous. Stay off them when they are wet or frozen.', '__SUNSET__']
 },

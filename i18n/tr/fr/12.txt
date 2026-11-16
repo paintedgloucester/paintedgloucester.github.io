@@ -240,3 +240,4 @@
 1406: On peut regarder les sérigraphies se faire dans l’atelier.
 1407: Le port de Rockport, Motif No. 1 et l’association artistique de la ville, avec l’atelier de sérigraphie de Rusty et Ingrid sur Dock Square.
 1408: Regardez des sérigraphies de Cape Ann se faire dans l’atelier de Dock Square.
+1664: Lane peignit le port gelé dans les années 1850. Aldro Hibbard, qui enseignait à Rockport, le peignit sous la neige ; le Museum of Fine Arts acheta son ⟦0⟧Winter Days⟦1⟧ en 1920⟦2⟧, et le Smithsonian American Art Museum possède son ⟦3⟧Rockport in Winter⟦4⟧ (vers 1940)⟦5⟧.
