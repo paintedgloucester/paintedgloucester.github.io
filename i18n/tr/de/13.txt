@@ -250,3 +250,6 @@
 1658: Das schmale, V-förmige Heckbrett des Dory.
 1659: Ein Hafenarbeiter, der im Hafen von Gloucester die Schiffe entlädt.
 1660: Ein breitkrempiger, wasserdichter Ölzeughut für schlechtes Wetter.
+1661: Innenstadt (Rathaus)
+1662: Wingaersheek Beach (heutige Ansicht)
+1663: Ende des Hotelstegs (ca.)

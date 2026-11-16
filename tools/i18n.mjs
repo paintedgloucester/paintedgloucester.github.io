@@ -33,6 +33,14 @@ export function localizeAll(pages, { ORIGIN, FLAGS }) {
       if (spa) out = out.replace(/<head>/, '<head>\n<base href="../">\n<script>/* keep the address inside this language when the guide writes #links */(function(){["replaceState","pushState"].forEach(function(n){var o=history[n];history[n]=function(s,t,u){if(typeof u==="string"&&(u===""||u.charAt(0)==="#"))u=location.pathname+location.search+u;return o.call(history,s,t,u)}})})();</script>').replace(/\b(href)="([^"#:]+)"/g, (m, a, v) => PAGE.test(v) ? `${a}="${dir}/${v}"` : m);
       else out = out.replace(/\b(href|src)="((?:\.\.\/)*)([^"]*)"/g, (m, a, ups, rest) => ASSET.test(rest) || DIRS.test(rest) ? `${a}="../${ups}${rest}"` : m);
       if (!spa) out = out.replace(/href="brief\.html" hreflang="en"/g, 'href="' + '../'.repeat(depth + 1) + 'brief.html" hreflang="en"');
+      // the brief's PDF: each language links its own printing when there is one (tools/pdf.py <lang>)
+      const pdf = `Painted-Gloucester-brief-${dir}.pdf`;
+      if (fs.existsSync(path.join(dir, pdf))) {
+        out = out.replace(/href="(?:\.\.\/)*Painted-Gloucester-brief\.pdf"/g, `href="${spa ? dir + '/' : '../'.repeat(depth)}${pdf}"`);
+        // the download button gives the page count and size of the English file: give this one's
+        const buf = fs.readFileSync(path.join(dir, pdf)), pages = (buf.toString('latin1').match(/\/Type\s*\/Page[^s]/g) || []).length, mb = Math.round(buf.length / 1e6);
+        out = out.replace(new RegExp(`(href="[^"]*${pdf}" download>[^<]*?)\\b55\\b([^<]*?)\\b12\\b`), `$1${pages}$2${mb}`);
+      }
       const f = clean(file);
       out = out.replace(/<script type="application\/ld\+json" data-crumbs>([\s\S]*?)<\/script>/, (m, j) => { const o = JSON.parse(j);
         o.itemListElement.forEach(e => { e.name = T.text(e.name, 0, true) || e.name; e.item = e.item.replace(ORIGIN + '/', ORIGIN + '/' + dir + '/'); });

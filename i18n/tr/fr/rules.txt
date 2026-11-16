@@ -59,7 +59,7 @@
 59: $T1 ↗
 60: $T1 ↓
 61: Voir sur le site de : $1
-62: N° d’inventaire : $1
+62: N° d’inventaire : $T1
 63: Site $1 sur $2
 64: Site $1 : $T2
 65: Site $1

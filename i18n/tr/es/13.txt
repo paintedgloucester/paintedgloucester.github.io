@@ -250,3 +250,6 @@
 1658: La estrecha tabla de popa en forma de V del dory.
 1659: Un trabajador portuario que descarga las embarcaciones en el puerto de Gloucester.
 1660: Un sombrero de hule impermeable, de ala ancha, para el mal tiempo.
+1661: Centro (Ayuntamiento)
+1662: Wingaersheek Beach (vista actual)
+1663: extremo del muelle del hotel (aprox.)

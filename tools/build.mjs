@@ -182,7 +182,7 @@ for (const f of ['index.html', 'brief.html']) { let h = fs.readFileSync(f, 'utf8
 
 /* ---------- sitemap ---------- */
 const enUrls = ['', 'brief.html', ...written.map(f => f.replace(/index\.html$/, ''))];
-const urls = [...enUrls, 'Painted-Gloucester-brief.pdf', 'print/Painted-Gloucester-map.pdf', ...LANGS.flatMap(([d]) => enUrls.map(u => d + '/' + u))];
+const urls = [...enUrls, 'Painted-Gloucester-brief.pdf', 'print/Painted-Gloucester-map.pdf', ...LANGS.flatMap(([d]) => [...enUrls.map(u => d + '/' + u), ...(fs.existsSync(`${d}/Painted-Gloucester-brief-${d}.pdf`) ? [`${d}/Painted-Gloucester-brief-${d}.pdf`] : [])])];
 const IMG = {}; for (const w of D.works) if (w.img) IMG[`works/${w.id}.html`] = [`img/${w.id}.jpg`];
 for (const s of D.sites) { const ids = [s.main, ...s.comp].filter(id => id && WBY[id].img); if (ids.length) IMG[`sites/${s.id}.html`] = ids.map(id => `img/${id}.jpg`); }
 const imgTags = u => (IMG[u] || []).filter(f => fs.existsSync(f)).map(f => `<image:image><image:loc>${ORIGIN}/${f}</image:loc></image:image>`).join('');

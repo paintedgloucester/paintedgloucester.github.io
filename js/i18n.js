@@ -154,9 +154,15 @@
   const PAGE = /^(?:(?:works|sites|trails)\/|(?:painters|waterfront|winter|photographers|teachers|gallery|shops|field-notes|brief)\.html)/;
   const links = el => { if (!based || !el.querySelectorAll) return; el.querySelectorAll('a[href]').forEach(a => { const h = a.getAttribute('href'); if (PAGE.test(h)) a.setAttribute('href', dir + '/' + h); }); };
   const blockOf = n => { let e = n.nodeType === 1 ? n : n.parentElement; while (e && e !== document.body && !window.PGI18N.BLOCK.has(e.tagName.toLowerCase())) e = e.parentElement; return e || document.body; };
-  const svgText = r => { if (!r || !r.querySelectorAll) return; r.querySelectorAll('svg text.msl, svg text.sunt').forEach(t => { const v = T.text(t.textContent, 0, true); if (v && v !== t.textContent) t.textContent = v; }); };
+  const svgText = r => { if (!r || !r.querySelectorAll) return; r.querySelectorAll('svg text.msl, svg text.sunt, svg text.mlab, svg text.mwater').forEach(t => { const v = T.text(t.textContent, 0, true); if (v && v !== t.textContent) { t.textContent = v; fit(t); } }); };
+  // a translated map label can be longer than the English one: slide it back inside the drawing
+  const fit = t => { try { const s = t.ownerSVGElement, vb = s && s.viewBox && s.viewBox.baseVal; if (!vb || !vb.width) return; let b = t.getBBox(); if (!b.width) return; const x = parseFloat(t.getAttribute('x')) || 0, pad = 3, a = t.getAttribute('text-anchor') || 'start';
+    // too long for the room on its side of the marker: set it a little smaller rather than slide it over the marker
+    const room = a === 'end' ? x - vb.x - pad : a === 'middle' ? 2 * Math.min(x - vb.x, vb.x + vb.width - x) - 2 * pad : vb.x + vb.width - pad - x;
+    if (room > 0 && b.width > room) { const f = parseFloat(getComputedStyle(t).fontSize); t.style.fontSize = (f * Math.max(.72, room / b.width)).toFixed(2) + 'px'; b = t.getBBox(); }
+    let dx = 0; if (b.x + b.width > vb.x + vb.width - pad) dx = (vb.x + vb.width - pad) - (b.x + b.width); if (b.x + dx < vb.x + pad) dx = (vb.x + pad) - b.x; if (dx) t.setAttribute('x', (x + dx).toFixed(1)); } catch (e) {} };
   const start = () => {
-    T.dom(document.body); links(document.body); svgText(document.body);
+    T.dom(document.body); links(document.body); svgText(document.body); if (document.fonts) document.fonts.ready.then(() => document.querySelectorAll('svg text.msl, svg text.sunt, svg text.mlab, svg text.mwater').forEach(fit));
     new MutationObserver(list => { const seen = new Set(); for (const m of list) { const b = blockOf(m.target); if (b.closest && b.closest('svg')) { svgText(b.closest('svg').parentNode || b); continue; } if (b.closest && b.closest('[translate="no"]')) continue; seen.add(b); }
       const all = [...seen].filter(b => ![...seen].some(o => o !== b && o.contains(b))); all.forEach(b => { T.dom(b); links(b); svgText(b); }); })
       .observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ['alt', 'title', 'aria-label', 'placeholder'] });

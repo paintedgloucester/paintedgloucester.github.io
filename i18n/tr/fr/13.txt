@@ -250,3 +250,6 @@
 1658: L’étroite planche arrière en forme de V du doris.
 1659: Un docker qui décharge les bateaux dans le port de Gloucester.
 1660: Un chapeau ciré imperméable à large bord pour le gros temps.
+1661: Centre-ville (hôtel de ville)
+1662: Wingaersheek Beach (vue actuelle)
+1663: bout de la jetée de l’hôtel (approx.)

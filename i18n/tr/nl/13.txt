@@ -250,3 +250,6 @@
 1658: De smalle, V-vormige spiegelplank van de dory.
 1659: Een havenarbeider die schepen lost in de haven van Gloucester.
 1660: Een breedgerande, waterdichte geoliede hoed voor slecht weer.
+1661: Centrum (stadhuis)
+1662: Wingaersheek Beach (huidig uitzicht)
+1663: einde van de hotelsteiger (ca.)

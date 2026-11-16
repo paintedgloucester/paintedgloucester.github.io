@@ -29,6 +29,7 @@
   for (var i = 0; i < langs.length; i++) { var c = base(langs[i]); if (c === page) return; if (alt[c] && TEXT[c]) { want = c; break; } }
   if (!want) return;
   var t = TEXT[want], bar = document.createElement('div');
+  bar.className = 'langhint'; if (!document.getElementById('langhint-print')) { var ps = document.createElement('style'); ps.id = 'langhint-print'; ps.textContent = '@media print{.langhint{display:none!important}}'; document.head.appendChild(ps); }
   bar.setAttribute('role', 'region'); bar.setAttribute('aria-label', t[0]); bar.setAttribute('lang', want); bar.setAttribute('translate', 'no');
   bar.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:5000;max-width:560px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:12px 14px;background:#1F3A52;color:#F3EDE1;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.3);font:15px/1.35 Inter,system-ui,sans-serif';
   var msg = document.createElement('span'); msg.textContent = t[0]; msg.style.cssText = 'flex:1 1 220px';

@@ -250,3 +250,6 @@
 1658: Doryn kapea, V-muotoinen peräpeili.
 1659: Satamatyöntekijä, joka purkaa aluksia Gloucesterin satamassa.
 1660: Leveälierinen, vedenpitävä öljytty hattu huonoon säähän.
+1661: Keskusta (kaupungintalo)
+1662: Wingaersheek Beach (nykyinen näkymä)
+1663: hotellin laiturin pää (noin)

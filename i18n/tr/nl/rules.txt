@@ -59,7 +59,7 @@
 59: $T1 ↗
 60: $T1 ↓
 61: Bekijken bij: $1
-62: Inv.nr. $1
+62: Inv.nr. $T1
 63: Plek $1 van $2
 64: Plek $1: $T2
 65: Plek $1

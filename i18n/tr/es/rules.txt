@@ -59,7 +59,7 @@
 59: $T1 ↗
 60: $T1 ↓
 61: Ver en: $1
-62: N.º de inventario: $1
+62: N.º de inventario: $T1
 63: Lugar $1 de $2
 64: Lugar $1: $T2
 65: Lugar $1

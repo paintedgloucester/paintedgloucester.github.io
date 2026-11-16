@@ -270,7 +270,7 @@
    ],
    [
     "^Acc\\. no\\. (.+)$",
-    "N.º de inventário: $1"
+    "N.º de inventário: $T1"
    ],
    [
     "^Site (\\d+) of (\\d+)$",
@@ -734,7 +734,7 @@
    ],
    [
     "^Acc\\. no\\. (.+)$",
-    "N. di inventario: $1"
+    "N. di inventario: $T1"
    ],
    [
     "^Site (\\d+) of (\\d+)$",
