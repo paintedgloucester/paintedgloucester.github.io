@@ -1,0 +1,252 @@
+1409: Työsataman sanasto aluksista ja niiden takilasta suolaukseen, palkkaan ja tapoihin, ja jokaiselle sanalle lähde. Kuvalliset sanat näkyvät tämän sivuston maalauksissa.
+1410: Alukset
+1411: Takila ja kansi
+1412: Dory ja sen varusteet
+1413: Kalastusalueet, siimat ja verkot
+1414: Saalis ja suolaus
+1415: Laiturit ja satama
+1416: Elämä ja palkka laivalla
+1417: Tavat, kilpailut ja muisto
+1418: Siirtokuntien työvene (shallop)
+1419: Pieni siirtomaa-ajan työvene, monien Uuden-Englannin kalastusalusten esi-isä; niihin kuuluvat Chebacco boat, dogbody ja pinky⟦0⟧.
+1420: =
+1421: Tukevasti rakennettu kaksimastoinen kalastusvene, joka kehittyi shallopista Chebaccon seurakunnassa, siinä Ipswichin osassa, josta tuli Essexin kaupunki vuonna 1819. Nimi oli käytössä 1700-luvun jälkipuoliskolla⟦0⟧.
+1422: =
+1423: Chebacco boatin peräpeilillinen muunnelma. Nimen alkuperä on nykyään unohtunut⟦0⟧.
+1424: =
+1425: Kuunariksi takiloitu kalastusalus, joka polveutui Chebacco boatista 1700-luvun lopulla. Nimi viittaa sen kapeaan ”pink”-perään, hollannin sanasta, joka tarkoittaa puristettua⟦0⟧.
+1426: =
+1427: Chebacco boat, joka muutettiin kuunariksi lisäämällä keulapuu ja halkaisija⟦0⟧. Gloucesterin kalastuksen aikajanassa mainitaan vuonna 1816 makrillinpyyntiin rakennetut, vähintään 30 tonnin jiggerit⟦1⟧.
+1428: =
+1429: 1840-luvun uusi kalastuskuunari: pitkä runko, suora köli, terävä kurvi ja ensimmäinen viite koveraan, leikkaavaan keulaan⟦0⟧. Lanen ⟦1⟧Ships in Ice off Ten Pound Island⟦2⟧ näyttää kalastuskuunareita, joilla on sharpshooterien ja klippereiden hoikemmat rungot⟦3⟧.
+1430: Klipperikuunari
+1431: Nopea kalastuskuunari: molemmista päistä terävä, matala, leveä ja liian suurella purjepinnalla. Ensimmäinen gloucesterilaisten omistama klipperi rakennettiin Essexissä vuonna 1850⟦0⟧; vuoden 1877 ⟦1⟧Smuggler⟦2⟧ oli yksi niistä⟦3⟧.
+1432: Suoravannaskuunari
+1433: Dennison J. Lawlorin suunnitelma, jossa on pystysuora keulavannas ja syvempi, vakaampi runko kuin klippereissä. Kalastuskomission tutkimuskuunari ⟦0⟧Grampus⟦1⟧, joka laskettiin vesille vuonna 1885, auttoi vakiinnuttamaan uuden mallin⟦2⟧.
+1434: =
+1435: Kuunareita, jotka on nimetty esikuvansa ⟦0⟧Fredonian⟦1⟧ mukaan: sirokeulainen, väljempi keulakansi ja Gloucestermanille tyypillinen pyöristetty perä⟦2⟧.
+1436: =
+1437: Kuunari ilman keulapuuta⟦0⟧. Ensimmäinen rakennettiin Essexissä vuonna 1902, jotta kalastajien työ olisi turvallisempaa⟦1⟧; Joseph Garland lukee tyypin viimeisten klassisten Gloucester-kuunarien joukkoon⟦2⟧.
+1438: =
+1439: Gloucesterin klassinen kalastuskuunari 1800-luvun lopulta. Se rakennettiin kovan kilpailun ammattiin ilman moottoria ja sitä purjehdittiin kovaa, koska nopeus kotimatkalla merkitsi menestystä⟦0⟧.
+1440: Kolmimastokuunari (tern)
+1441: Kuunari, jossa on kolme mastoa
+1442: =
+1443: Kuunari, joka kalasti Georges Bankilla. Gloucesterissa nimeä käytettiin jo 1850-luvulla⟦0⟧.
+1444: =
+1445: Kuunari, joka purjehti Gloucesterista Newfoundlandin Grand Banksille turskaa pyytämään. Kiplingin ⟦0⟧Captains Courageous⟦1⟧ (1897) kuvaa tarkasti heidän elämäänsä⟦2⟧.
+1446: Apumoottorialus
+1447: Purjealus, jossa on myös moottori. Gloucesterin ensimmäinen apumoottorilla varustettu kalastusalus tuli vuonna 1900, ja 1920-luvulla laivasto alkoi siirtyä moottoreihin, enimmäkseen dieseleihin⟦0⟧.
+1448: Rannikkokuunari
+1449: Mikä tahansa kauppakuunari, joka kuljetti lastia rannikon satamasta toiseen⟦0⟧.
+1450: Pakettilaiva
+1451: Alus, joka kuljetti matkustajia ja arvokkaampaa tavaraa tiettyjen satamien välillä säännöllisen aikataulun mukaan. Pakettislupit olivat tyylikkäimpiä⟦0⟧.
+1452: Kivislupi
+1453: Raskaasti rakennettu, koristelematon slupi, joka kuljetti graniittilohkareita Cape Annin louhosten laitureilta muihin satamiin⟦0⟧.
+1454: Puoliprikki
+1455: Uuden-Englannin nimitys kuunariprikille: raakapurjeet vain keulamastossa, isomastossa mesaanipurje ja kahvelipurjeen yläpurje. Se oli rannikkoliikenteen yleisin prikki⟦0⟧.
+1456: Suola-alus
+1457: Laiva tai parkki, joka toi Gloucesteriin suolaa kalan suolaamiseen. Täydessä lastissa liian syvä laitureille, joten sitä kevennettiin ensin osittain ankkurissa⟦0⟧.
+1458: Proomu (lighter)
+1459: Pieni alus, joka ottaa lastia syvässä olevalta laivalta, jotta se pääsee laituriin. Gloucesterissa suuri osa tästä ”keventämisestä” tehtiin Streamissa⟦0⟧.
+1460: =
+1461: Kuunarin oma vene, yleensä enintään kuusi metriä pitkä, pyöreäpohjainen ja peräpeilillinen, ripustettuna perän taaveteihin⟦0⟧. Merellä se oli pelastusvene, satamassa se vei kapteenin ja miehistön maihin⟦1⟧. Lane maalasi sellaisen jäätyneenä sataman jäähän⟦2⟧.
+1462: =
+1463: Vene, jota kuljetettiin kuunarin perätaaveteissa ja jolla tuotiin rommi- ja melassitynnyreitä rannalta⟦0⟧.
+1464: =
+1465: Doryn suurempi ja leveämpi sukulainen, jota käytettiin kookkaisiin rannikkovälineisiin, kuten seisoviin verkkoihin ja kalaloukkuihin⟦0⟧.
+1466: Nuottavene
+1467: Nuottakalastuksessa käytetty iso soutuvene. St. Peter’s Fiestan aikana miehistöt kilpailevat yhä nuottaveneillä puolen mailin matkan Pavilion Beachiltä ja takaisin⟦0⟧.
+1468: Keulapuu
+1469: Keulan pitkä puomi, joka kantaa keulapurjeet veden ylle. Merimiehet kutsuivat sitä nimellä widow-maker, ”leskentekijä”, koska miehiä putosi siitä purjeita hoitaessaan⟦0⟧.
+1470: Kahveli
+1471: Kuunarissa nelikulmaisen purjeen yläreunan puomi⟦0⟧. Dorylla gaff oli koukku, jolla kala nostettiin veneeseen⟦1⟧.
+1472: Keulamasto ja isomasto
+1473: Kuunarissa on ainakin kaksi mastoa: keulamasto lähinnä keulaa ja sen takana isomasto, kahdesta korkeampi⟦0⟧.
+1474: Märssytanko
+1475: Alamaston päähän kiinnitetty toinen puu, jotta voidaan nostaa enemmän purjetta⟦0⟧.
+1476: =
+1477: Kuunarin keulapurjeista suurempi, nostetaan keulamaston eteen yhdessä halkaisijan kanssa⟦0⟧.
+1478: =
+1479: Keulapurje, jota kannetaan halkaisijan yläpuolella ja edessä, yleensä keulapuulla varustetuissa aluksissa⟦0⟧.
+1480: =
+1481: Pieni haruspurje keulamaston ja isomaston välissä⟦0⟧.
+1482: Nostimet
+1483: Köydet, joilla purjeet nostetaan, sekä niitä kannattavat kahvelit ja puomit⟦0⟧.
+1484: =
+1485: Köydet puominnostimista puomin alle; ne ottavat purjeen kiinni kuin verkko, kun se lasketaan⟦0⟧.
+1486: =
+1487: Takilaan sidottuja purkautuneen köyden tupsuja, jotta purjeet eivät hankaudu köysiä vasten⟦0⟧.
+1488: Purjeet kuivumassa takilassa
+1489: Puoliksi lasketut tai kerätyt purjeet kuivumassa, kuten Lane piirsi ne puoliprikkiin vuonna 1851⟦0⟧.
+1490: Saalingit
+1491: Vaakasuorat puut korkealla mastossa, jotka levittävät vantit⟦0⟧.
+1492: Taavetit
+1493: Pienet nosturit, yleensä perässä, veneen nostamiseen ja laskemiseen⟦0⟧. Matalikkojen kuunarit kuljettivat veneitään perätaaveteissa⟦1⟧.
+1494: Kansiaukot
+1495: Kannen tasalla olevat aukot laidassa, joista vesi valuu yli laidan⟦0⟧.
+1496: Keulakoppi (fo’c’sle)
+1497: Lyhenne sanasta forecastle: miehistön asunto rungon etuosassa⟦0⟧.
+1498: =
+1499: Laivan keittiön, kapyysin, kamiinan savuputki
+1500: Ohjaushytti
+1501: Pieni hytti kannella, joka suojaa ruoria ja ruorimiestä⟦0⟧.
+1502: =
+1503: Kalastajien nimi autopilotille, sähkölaitteelle, joka pitää aluksen kiinteässä suunnassa⟦0⟧.
+1504: =
+1505: Sileä-, koverapintainen metallirumpu, yleensä vinssiin asennettuna⟦0⟧.
+1506: =
+1507: Kalaruuman neliömäiset osastot keskilinjalla kölin päällä, kummankin puolen karsinoiden välissä⟦0⟧.
+1508: Väliseinälaudat
+1509: Irrotettavat puiset tai metalliset väliseinät, jotka sovitetaan ruumaan karsinoiksi; kun kaikki ovat paikallaan, ruuma on ”penned up”⟦0⟧. Dorymiehet käyttivät pienempiä jakaakseen doryn kalaa varten⟦1⟧.
+1510: Dorymies
+1511: Toinen niistä kahdesta miehestä, jotka kalastivat dorysta⟦0⟧.
+1512: Pitkäsiimakalastus doryista
+1513: Kalastusta pitkillä, syötitettyjä koukkuja täynnä olevilla siimoilla kuudesta kymmeneen dorysta, joita kuunari kuljetti mukanaan. Gloucesterilainen kuunari ⟦0⟧Anna⟦1⟧ teki onnistuneen dory-pitkäsiimamatkan Grand Banksille vuonna 1854, mutta Gloucesterissa menetelmä otettiin käyttöön hitaasti⟦2⟧. Gloucesterin aikajana merkitsee vuoden 1941 vuodeksi, jolloin troolarit korvasivat dorykalastuksen⟦3⟧.
+1514: Pitkäsiima
+1515: Pitkä, poijutettu ja ankkuroitu pohjasiima, josta riippuu paljon lyhyitä tapsisiimoja syötitetyin koukuin⟦0⟧. Vuonna 1881 kolja-pitkäsiiman saavissa oli 500 koukkua noin 292 sylen siimassa⟦1⟧.
+1516: Siimasaavi
+1517: Puolikas tynnyri, jossa säilytetään kiepille kierrettyä pitkäsiimaa ja sen koukkuja⟦0⟧. Vuonna 1881 dory lähti liikkeelle kuuden tai kahdeksan saavin kanssa⟦1⟧.
+1518: =
+1519: Suolatun menhadenin suikaleita, vuoden 1881 talvisten koljasiimojen pääsyötti; kun menhadenista oli pulaa, sen tilalla käytettiin tuoretta silliä. 500 koukun saavin syötittäminen vei 45 minuutista tuntiin⟦0⟧.
+1520: Doryankkuri
+1521: Pieni rautainen ankkuri, joka pitää pitkäsiiman toisen pään pohjassa⟦0⟧.
+1522: Poiju ja musta pallo
+1523: Pitkäsiimaa merkitsevä kelluke: numeroitu puutynnyri, jossa on lippu⟦0⟧. Vuonna 1881 jokaisessa päätypoijussa oli lisäksi musta pallo⟦1⟧.
+1524: =
+1525: Doryn keulan poikki asennettu käsikampi, jolla vedettiin sisään kalasta raskaat siimat⟦0⟧.
+1526: Sormisuojat (nippers)
+1527: Donitsin muotoiset suojat, jotka suojasivat kalastajan sormia juoksevalta siimalta⟦0⟧. Vuonna 1881 jokaisessa doryssa oli kaksi paria villaisia⟦1⟧.
+1528: =
+1529: Raskas kaksihaarainen puukeppi kalan tainnuttamiseen ja koukkujen irrottamiseen sen kurkusta⟦0⟧.
+1530: =
+1531: Raskas puunuija suurten kalojen, kuten ruijanpallaksen, tainnuttamiseen tai tappamiseen; ruijanpallas voi painaa yli 90 kiloa⟦0⟧.
+1532: Äyskäri
+1533: Puinen tai metallinen kauha, jolla vesi heitetään pois dorysta⟦0⟧.
+1534: Hankaintapit
+1535: Kapeat puutapit doryn laidassa, jotka pitävät airot paikallaan soudettaessa⟦0⟧.
+1536: Sumutorvi
+1537: Dorymiehillä oli mukanaan sumutorvi ja öljylamppu, joilla he antoivat kuunarille merkkejä äänellä tai valolla sakeassa sumussa tai pimeässä⟦0⟧.
+1538: =
+1539: Doryn kapea, V-muotoinen peräpeili
+1540: Antaa siimaa
+1541: Laskea siimaa laidan yli käsi kädeltä⟦0⟧.
+1542: Käsisiimakalastus
+1543: Kalastusta yhdellä siimalla, jossa on yksi tai kaksi koukkua. Doryjen pitkäsiimakalastus, jossa samassa siimassa on paljon koukkuja, korvasi sen myöhemmin⟦0⟧.
+1544: =
+1545: Metallitanko, joka piti Georges Bankin käsisiiman kaksi koukkua 30–45 senttimetrin päässä toisistaan⟦0⟧.
+1546: =
+1547: Laivaston paras alus tai paras kalastaja. Sana juontuu kannelta kalastamisen ajoilta, jolloin paras kalastaja seisoi keulan korkeimmalla paikalla⟦0⟧.
+1548: Kurenuotta
+1549: Noin 300 metrin verkko, joka lasketaan ympyräksi makrilliparven ympärille. Se korvasi käsisiiman makrillinpyynnissä⟦0⟧; Gloucesterin aikajana ajoittaa sen vuoteen 1848⟦1⟧.
+1550: Ovitrooli
+1551: Pohjaa pitkin vedettävä verkko, jota kaksi troolin ovea pitää auki⟦0⟧. Sen tulo vuonna 1905 muutti kalastuksen Uuden-Englannin matalikoilla⟦1⟧.
+1552: Alapaula ja yläpaula
+1553: Troolin alin ja ylin köysi. Yläpaulan metalliset, muoviset tai lasiset kohot pitävät verkon suun auki⟦0⟧.
+1554: Troolivaijerit
+1555: Vaijerit troolarin vinsseistä verkon kummallekin puolelle, jotka välittävät veneen vetovoiman trooliin⟦0⟧.
+1556: =
+1557: Kalastajien lyhyt nimi Georges Bankille. Kalastuskomission raportit Gloucesterista vuodelta 1883 luettelevat kuukausittain turskan ja ruijanpallaksen, joka tuotiin maihin ”George’s Bankilta”⟦0⟧.
+1558: =
+1559: Newfoundlandin edustan suuret kalastusmatalikot, joille Gloucesterin salt bankerit purjehtivat turskaa pyytämään⟦0⟧.
+1560: Saalis (fare)
+1561: Aluksen saalis sellaisena kuin se tuodaan maihin. Joulukuussa 1883 Gloucesterista lähetetyssä raportissa todetaan, että Georges Bankin alukset ”toivat kaikki hyviä turskasaaliita”⟦0⟧.
+1562: Reissu (trip)
+1563: Sekä matka että sen kotiin tuoma kala: koko laivassa oleva saalis on ”reissu”⟦0⟧.
+1564: Kotimatka
+1565: Matka kalastusalueilta takaisin kotisatamaan⟦0⟧.
+1566: Rannikkokalastus
+1567: Kalastusta lähellä kotia pienillä aluksilla ja veneillä. Marraskuussa 1883 Gloucesterin rannikkokalastuksessa oli 56 alusta ja 448 miestä⟦0⟧.
+1568: Pohjakala
+1569: Lähellä pohjaa elävät kalat, kuten turska ja kolja, Uuden-Englannin kalastuksen perusta⟦0⟧.
+1570: Jää
+1571: Kalan pakkaaminen jäihin suolan sijaan yleistyi noin vuonna 1845, jotta tuore kala ehtisi torille⟦0⟧. Yhdessä nopeampien kuunarien ja rautatien kanssa se elvytti Gloucesterin kalastuksen⟦1⟧. Jää sahattiin makean veden lammista⟦2⟧.
+1572: Pikajäädytys
+1573: Clarence Birdseyen pikajäädytysmenetelmä, jolla pakastekalan jalostus alkoi vuonna 1924⟦0⟧.
+1574: Hummerimerta
+1575: Syötitetty pyydys, joka lasketaan pohjaan; yksi Lanen ajan rannikkokalastuksen pyydyksistä⟦0⟧. Homer maalasi vuonna 1875 kolme poikaa dorylla hummerimertojen kanssa.
+1576: Kuivauskenttä
+1577: Kalankuivaustelineiden kenttä laiturien vieressä. Lanen vuoden 1836 näkymä Gloucesterista näyttää Wonsonin suvun kuivauskentän East Gloucesterissa, ja Five Pound Islandista tuli myöhemmin sellainen⟦0⟧.
+1578: Perkausporukka
+1579: Miehistö, joka perkasi turskan kannella: throater avasi vatsan ja poisti pään, gutter poisti sisälmykset mutta säästi maksan, ja splitter otti selkärangan pois⟦0⟧.
+1580: =
+1581: Lima, veri ja nesteet, joita valuu kalaa perattaessa⟦0⟧. Kuunareilla oli kannella karsina gurrya varten⟦1⟧.
+1582: =
+1583: Suolaus, jossa käytettiin enemmän suolaa kuin dunfishissa mutta vähemmän kuin suolavedessä säilötyssä ”vihreässä” turskassa⟦0⟧.
+1584: =
+1585: Nopeasti kuivattua ja kevyesti suolattua turskaa, jota joskus kypsytettiin pimeissä huoneissa kahdesta kolmeen kuukautta suolaheinän tai meriajokkaan ja painojen alla. Nimi kuuluu itäisen Mainen ja Fundynlahden pienvenekalastukseen⟦0⟧.
+1586: Vihreä turska
+1587: Turskaa, joka säilöttiin suolavesitynnyreihin kuivaamisen sijaan; tämä suolaus vaati enemmän suolaa kuin kench-suolaus⟦0⟧.
+1588: Kielet
+1589: Kalastajat leikkasivat kielen jokaisesta laivaan nostamastaan turskasta pitääkseen lukua saaliistaan ennen kuin kala suolattiin⟦0⟧.
+1590: Turskapalkkio
+1591: Liittovaltion maksu, joka auttoi Gloucesterin kalastajia rakentamaan laivastonsa uudelleen itsenäistymisen jälkeen⟦0⟧.
+1592: Surinamin kauppa
+1593: Gloucesterin kauppa Etelä-Amerikan pohjoisrannikolla sijaitsevan Surinamin kanssa oli käynnissä jo vuonna 1790, ja se kustansi monet kaupungin kauppa-alukset ja laiturit, kunnes se romahti vuonna 1863⟦0⟧.
+1594: Satamatyöntekijä (lumper)
+1595: Satamatyöntekijä, joka purkaa aluksia Gloucesterin satamassa
+1596: Kalalaituri
+1597: Jodrey State Fish Pier, avattu vuonna 1938 ja nimetty Everett R. Jodreyn mukaan⟦0⟧.
+1598: Arkkulaituri
+1599: Arkkujen varaan rakennettu laituri: arkut ovat hirsimökkiä muistuttavia suorakaiteen muotoisia puukehikoita, jotka täytetään, ja ylimmän arkun päälle asetetut palkit kantavat kantta⟦0⟧.
+1600: Kivitäytteinen laituri
+1601: Paaluista ja puusta tehty laituri, joka on täytetty kivillä. Gloucesterissa rakennettiin näin kapeita laitureita ja laiturimuureja⟦0⟧.
+1602: =
+1603: Gloucesterin sana paaluille, jotka on lyöty laiturin reunaan lepuuttimiksi alusten kiinnityskohtiin⟦0⟧.
+1604: Kylki kyljessä kiinnittyminen
+1605: Laituritilaa oli Gloucesterin satamassa niukasti, joten rannikkoalukset kiinnittyivät toisiinsa ja siirsivät lastinsa pienemmille aluksille, jotka veivät sen lähikyliin, ja päinvastoin⟦0⟧.
+1606: =
+1607: Leveä väylä Inner Harborin suulla, jossa alukset olivat ankkurissa odottamassa purkamista ja usein kevensivät lastiaan ensin siellä⟦0⟧.
+1608: Telaluiska
+1609: Kiskoilla kulkeva kehto, joka vetää aluksen vedestä korjattavaksi. Rocky Neckin telaluiska, joka aloitti vuonna 1859 ja jota käytti höyrykone noin vuoteen 1970, on tiettävästi maan vanhin yhä toiminnassa oleva⟦0⟧.
+1610: =
+1611: Blynman Canal, joka kaivettiin vuonna 1643 sataman ja Annisquam-joen väliin, jotta pienet alukset välttäisivät matkan Cape Annin ympäri. Myrskyt täyttivät sen hiekalla vuosina 1704 ja 1723; se avattiin uudelleen vuonna 1823⟦0⟧.
+1612: =
+1613: Eastern Pointin aallonmurtaja, joka on vuodesta 1905 pitänyt etelän maininkeja poissa satamasta⟦0⟧. Älä nouse sille, kun se on märkä tai jäinen.
+1614: =
+1615: Pieni saari satamassa, joka kelpasi ennen vain lammastarhoiksi ja josta tuli myöhemmin kalan kuivauskenttä⟦0⟧.
+1616: Essexissä rakennettu
+1617: Monet Gloucesterin kuunarit tulivat Essex-joen telakoilta⟦0⟧. Ensimmäinen knockabout rakennettiin Essexissä vuonna 1902 ja ⟦1⟧Adventure⟦2⟧ vuonna 1926⟦3⟧; Arthur D. Story laski siellä vesille ⟦4⟧Gertrude L. Thebaudin⟦5⟧ vuonna 1930⟦6⟧.
+1618: =
+1619: Osuusjärjestelmän virallinen nimi: reissun rahat jaetaan veneen ja miehistön kesken⟦0⟧.
+1620: Tilinteko
+1621: Reissun laskujen laskeminen yhteen ja kunkin miehen sekä veneen osuuden laskeminen; tase on tilitys⟦0⟧.
+1622: Bruttotulo ja nettotulo
+1623: Bruttotulo on kaikki raha, jonka vene ja miehistö ansaitsivat reissulta; nettotulo on se, mitä jää, kun siitä vähennetään sille kuuluvat laskut⟦0⟧.
+1624: Miinuksella
+1625: Kun reissu tuotti vähemmän kuin sen kulut, miehistö oli ”in the hole” ja maksoi laskut omasta taskustaan. Vaje oli nimeltään hole bill⟦0⟧.
+1626: Valtuutettu
+1627: Miehistön valitsema jäsen, joka puhuu miehistön puolesta tilitystä tehtäessä⟦0⟧.
+1628: =
+1629: Itärannikon sana paikalle kalastusveneessä tai lupaukselle sellaisesta⟦0⟧.
+1630: =
+1631: Välipala aterioiden välissä: kuppi kahvia ja voileipä⟦0⟧.
+1632: Sydvesti
+1633: Leveälierinen, vedenpitävä öljytty hattu huonoon säähän
+1634: Rannesuojat
+1635: Kangasputket kyynärvarsissa, peukalolenkillä paikallaan. Ne pitävät kädet lämpiminä ja on helpompi pestä puhtaiksi limasta ja verestä kuin hihat⟦0⟧.
+1636: Merimiehen pussi
+1637: Pieni pussi merimiehen henkilökohtaisten tavaroiden kantamiseen ja säilyttämiseen⟦0⟧.
+1638: =
+1639: Gloucesterin kesäkuinen juhla kalastajien suojeluspyhimyksen Pyhän Pietarin kunniaksi, ensimmäisen kerran vuonna 1926, italialaisamerikkalaisen yhteisön järjestämä: ulkoilmamessu, kulkueet, nuottaveneiden soutukilpailut, greasy pole ja laivaston siunaus⟦0⟧.
+1640: =
+1641: Voimakkaasti rasvattu salko sataman yllä ja sen päässä lippu, jota osallistujat yrittävät tavoittaa ennen kuin putoavat veteen. Se lisättiin juhlaan vuonna 1931 sisilialaisen Terrasinin kilpailun mallin mukaan; Terrasini on monen gloucesterilaissuvun kotipaikka⟦0⟧.
+1642: =
+1643: ”Eläköön Pyhä Pietari!” Huuto kuuluu juhlan kulkueissa ja greasy polella kävelevien suusta⟦0⟧.
+1644: Laivaston siunaus
+1645: Juhlasunnuntaina pappi lukee Gloucesterin kalastusalusten nimet ja siunaa ne⟦0⟧. Gloucesterin aikajana ajoittaa ensimmäisen siunauksen vuoteen 1945⟦1⟧. Vuonna 1957 portugalilainen ja italialainen laivasto siunattiin eri sunnuntaina; vuonna 1977 yhteisöt juhlivat jo yhdessä⟦2⟧.
+1646: Kalastajien muistotilaisuus
+1647: Joka elokuu kulkue kulkee Man at the Wheel -patsaalle, jossa perheet laskevat airoja ja seppeleitä ja heittävät kukkia satamaan mereen menehtyneiden miesten muistoksi⟦0⟧.
+1648: Kenotafi
+1649: Man at the Wheel -patsaan vieressä olevat laatat, joihin on kirjattu mereen menehtyneiden Gloucesterin kalastajien nimet, yli 5 000⟦0⟧. Nimiä lisätään yhä⟦1⟧.
+1650: Leonard Craskin pronssinen ruorimies Stacy Boulevardilla, paljastettu vuonna 1925⟦0⟧, ja siinä rivi psalmista 107: ”They that go down to the sea in ships”⟦1⟧.
+1651: Gloucesterin portugalilaisen yhteisön kirkko, jonka esikuvana on Santa Maria Madalena Azoreilla. Sen tornien välissä Marian patsas pitelee kaksimastoista kuunaria⟦0⟧.
+1652: Kalastajien vaimojen muistomerkki
+1653: Man at the Wheel -patsaan lähellä oleva muistomerkki, joka kunnioittaa naisia, joiden usko kantoi kalastajaperheitä⟦0⟧.
+1654: Kansainväliset kalastajakilpailut
+1655: Gloucesterin ja Nova Scotian kalastuskuunarien kilpapurjehdukset, jotka alkoivat vuonna 1920⟦0⟧. Lunenburgin ⟦1⟧Bluenose⟦2⟧ ei koskaan hävinnyt sarjaa⟦3⟧. Viimeinen, purjehdittu Gloucesterin ja Bostonin edustalla lokakuussa 1938 ⟦4⟧Gertrude L. Thebaudia⟦5⟧ vastaan, oli Pohjois-Atlantin purjekalastuskuunarien viimeinen kilpailu⟦6⟧.
+1656: Kuunari, jossa on kolme mastoa.
+1657: Laivan keittiön, kapyysin, kamiinan savuputki.
+1658: Doryn kapea, V-muotoinen peräpeili.
+1659: Satamatyöntekijä, joka purkaa aluksia Gloucesterin satamassa.
+1660: Leveälierinen, vedenpitävä öljytty hattu huonoon säähän.

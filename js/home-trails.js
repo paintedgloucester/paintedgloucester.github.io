@@ -168,11 +168,11 @@
   /* ============================== harbor words ============================== */
   const hw = document.getElementById('hw');
   if (hw) {
-    let wi = 0, open = false;
+    let wi = Math.floor(Math.random() * T.words.length), open = false;
     const draw = () => { const w = T.words[wi];
       hw.innerHTML = `<p class="kicker">Harbor words · ${wi + 1} of ${T.words.length}</p>
-        <button type="button" class="hw-card${open ? ' open' : ''}" aria-expanded="${open}" aria-controls="hw-back"><span class="hw-front"><span class="hw-q">What are</span><b>${esc(w.t.toLowerCase())}?</b><span class="hw-tap">Tap to turn the card</span></span>
-        <span class="hw-back" id="hw-back"${open ? '' : ' hidden'}><b class="hw-term">${esc(w.t)}</b>${w.w ? `<img src="thumbs/${w.w.id}.webp" alt="${esc(w.w.by + ', ' + w.w.t)}" loading="lazy">` : ''}<span>${w.d}</span></span></button>
+        <button type="button" class="hw-card${open ? ' open' : ''}" aria-expanded="${open}" aria-controls="hw-back"><span class="hw-front"><span class="hw-q">${esc(w.c)}</span><b>${esc(w.t)}</b><span class="hw-tap">Tap to turn the card</span></span>
+        <span class="hw-back" id="hw-back"${open ? '' : ' hidden'}><b class="hw-term">${esc(w.t)}</b>${w.w ? `<img src="thumbs/${w.w.id}.webp" alt="${esc(w.w.by + ', ' + w.w.t)}" loading="lazy">` : ''}<br hidden><span>${w.d}</span></span></button>
         <div class="co-acts"><button type="button" class="btn" data-a="next">Next word</button><a href="waterfront.html">The working waterfront →</a></div>`; };
     hw.addEventListener('click', e => { if (e.target.closest('.hw-card')) { open = !open; draw(); if (e.detail === 0) hw.querySelector('.hw-card').focus(); } else if (e.target.closest('[data-a]')) { wi = (wi + 1) % T.words.length; open = false; draw(); if (e.detail === 0) hw.querySelector('.hw-card').focus(); } });
     draw();

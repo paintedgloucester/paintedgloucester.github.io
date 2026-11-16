@@ -1,0 +1,252 @@
+1409: Ein Glossar des arbeitenden Hafens, von den Schiffen und ihrer Takelage über das Salzen, den Lohn und die Bräuche, mit einer Quelle für jedes Wort. Begriffe mit Bild sind auf Gemälden dieser Website zu sehen.
+1410: Schiffe und Boote
+1411: Takelage und Deck
+1412: Das Dory und sein Gerät
+1413: Fanggründe, Leinen und Netze
+1414: Der Fang und das Salzen
+1415: Kais und Hafen
+1416: Leben und Lohn an Bord
+1417: Bräuche, Regatten und Gedenken
+1418: Schaluppe (shallop)
+1419: Ein kleines Arbeitsboot der Kolonialzeit, Vorfahr vieler Fischerboote Neuenglands, darunter das Chebacco boat, das Dogbody und das Pinky⟦0⟧.
+1420: =
+1421: Ein kräftig gebautes zweimastiges Fischerboot, das sich in der Gemeinde Chebacco aus der Schaluppe entwickelte, dem Teil von Ipswich, der 1819 zur Stadt Essex wurde. Der Name war in der zweiten Hälfte des 18. Jahrhunderts gebräuchlich⟦0⟧.
+1422: =
+1423: Die Ausführung des Chebacco boat mit Spiegelheck. Woher der Name kommt, ist heute vergessen⟦0⟧.
+1424: =
+1425: Ein als Schoner getakeltes Fischerboot, das Ende des 18. Jahrhunderts aus dem Chebacco boat hervorging. Der Name bezieht sich auf das schmale „pink“-Heck, nach einem niederländischen Wort für eingekniffen⟦0⟧.
+1426: =
+1427: Ein Chebacco boat, das durch Bugspriet und Klüver zum Schoner umgetakelt wurde⟦0⟧. Gloucesters Fischerei-Chronik verzeichnet für 1816 Jigger von 30 Tonnen und mehr, gebaut für den Makrelenfang⟦1⟧.
+1428: =
+1429: Der neue Fischereischoner der 1840er-Jahre: langer Rumpf, gerader Kiel, scharfe Kimm und die erste Andeutung eines hohlen, schneidenden Bugs⟦0⟧. Lanes ⟦1⟧Ships in Ice off Ten Pound Island⟦2⟧ zeigt Fischereischoner mit den feineren Rümpfen der Sharpshooter und Clipper⟦3⟧.
+1430: Clipperschoner
+1431: Ein schneller Fischereischoner: spitz an beiden Enden, flach, breit und übertakelt. Der erste Clipper in Gloucester-Besitz wurde 1850 in Essex gebaut⟦0⟧; die ⟦1⟧Smuggler⟦2⟧ von 1877 war einer⟦3⟧.
+1432: Schoner mit senkrechtem Steven
+1433: Der Entwurf von Dennison J. Lawlor, mit senkrechtem Vorsteven und einem tieferen, stabileren Rumpf als bei den Clippern. Der Forschungsschoner der Fischereikommission, die ⟦0⟧Grampus⟦1⟧, 1885 vom Stapel gelaufen, half, das neue Muster durchzusetzen⟦2⟧.
+1434: =
+1435: Schoner, benannt nach ihrem Vorbild, der ⟦0⟧Fredonia⟦1⟧: ein eleganter Bug, ein geräumigeres Vordeck und das gerundete Heck, das für den Gloucesterman typisch ist⟦2⟧.
+1436: =
+1437: Ein Schoner ohne Bugspriet⟦0⟧. Der erste wurde 1902 in Essex gebaut, um die Arbeit für die Fischer sicherer zu machen⟦1⟧; Joseph Garland zählt den Typ zu den letzten klassischen Gloucester-Schonern⟦2⟧.
+1438: =
+1439: Der klassische Fischereischoner Gloucesters im späten 19. Jahrhundert. Gebaut für ein hart umkämpftes Gewerbe ohne Motor, wurde er hart gesegelt, denn Schnelligkeit auf der Heimfahrt bedeutete Erfolg⟦0⟧.
+1440: Dreimastschoner (tern)
+1441: Ein Schoner mit drei Masten
+1442: =
+1443: Ein Schoner, der auf der Georges Bank fischte. Gloucester verwendete den Namen schon in den 1850er-Jahren⟦0⟧.
+1444: =
+1445: Ein Schoner, der von Gloucester zu den Grand Banks vor Neufundland auf Kabeljaufang fuhr. Kiplings ⟦0⟧Captains Courageous⟦1⟧ (1897) zeichnet ein genaues Bild dieses Lebens⟦2⟧.
+1446: Hilfsmotorschiff
+1447: Ein Segelschiff, das auch einen Motor hat. Gloucesters erstes Fischereifahrzeug mit Hilfsmotor kam 1900, und in den 1920er-Jahren begann die Flotte, auf Motoren umzustellen, meist Diesel⟦0⟧.
+1448: Küstenschoner
+1449: Jeder Handelsschoner, der Fracht von einem Küstenhafen zu einem anderen brachte⟦0⟧.
+1450: Paketboot
+1451: Ein Schiff, das Passagiere und wertvollere Waren nach festem Fahrplan zwischen bestimmten Häfen beförderte. Die Paketschaluppen waren die elegantesten⟦0⟧.
+1452: Steinschaluppe
+1453: Eine schwer gebaute, schmucklose Schaluppe, die Granitblöcke von den Steinbruchanlegern rund um Cape Ann in andere Häfen brachte⟦0⟧.
+1454: Halbbrigg
+1455: Der Name, den man in Neuengland der Schonerbrigg gab: Rahsegel nur am Fockmast, am Großmast ein Besan- und ein Gaffeltoppsegel. Sie war die häufigste Brigg in der Küstenfahrt⟦0⟧.
+1456: Salzschiff
+1457: Ein Schiff oder eine Bark, die Salz zum Pökeln von Fisch nach Gloucester brachte. Voll beladen zu tief für die Kais, wurde es zuerst vor Anker teilweise entladen⟦0⟧.
+1458: Leichter
+1459: Ein kleines Fahrzeug, das einem tief beladenen Schiff Ladung abnimmt, damit es an einen Kai kommt. Gloucester erledigte einen Großteil dieses „Leichterns“ im Stream⟦0⟧.
+1460: =
+1461: Das eigene Boot des Schoners, meist sechs Meter lang oder kürzer, mit rundem Boden und Spiegelheck, in Davits am Heck aufgehängt⟦0⟧. Auf See war es das Rettungsboot, im Hafen brachte es Kapitän und Mannschaft an Land⟦1⟧. Lane malte eines, das im Hafeneis festgefroren ist⟦2⟧.
+1462: =
+1463: Ein Boot, das in den Heckdavits eines Schoners hing und dazu diente, Fässer mit Rum und Melasse von einem Strand an Bord zu bringen⟦0⟧.
+1464: =
+1465: Ein größerer, breiterer Verwandter des Dory, genutzt für sperriges Küstengerät wie Stellnetze und Fischfallen⟦0⟧.
+1466: Ringwadenboot
+1467: Das große Ruderboot der Ringwadenfischerei. Beim St. Peter’s Fiesta rudern Mannschaften noch heute in solchen Booten eine halbe Meile von Pavilion Beach hinaus und zurück um die Wette⟦0⟧.
+1468: Bugspriet
+1469: Die lange Spiere am Bug, die die Vorsegel über das Wasser hinaus trägt. Seeleute nannten sie widow-maker, den „Witwenmacher“, weil Männer beim Bedienen der Segel von ihr stürzten⟦0⟧.
+1470: Gaffel
+1471: Auf einem Schoner die Spiere an der Oberkante eines viereckigen Segels⟦0⟧. Im Dory war der Gaff der Haken, mit dem man Fisch an Bord holte⟦1⟧.
+1472: Fockmast und Großmast
+1473: Ein Schoner hat mindestens zwei Masten: den Fockmast, der dem Bug am nächsten steht, und dahinter den Großmast, den höheren der beiden⟦0⟧.
+1474: Toppmast
+1475: Eine zweite Spiere auf dem Untermast, um mehr Segel zu setzen⟦0⟧.
+1476: =
+1477: Das größere der Vorsegel eines Schoners, vor dem Fockmast zusammen mit dem Klüver gesetzt⟦0⟧.
+1478: =
+1479: Ein Vorsegel, das über und vor dem Klüver gefahren wird, meist auf Schiffen mit Bugspriet⟦0⟧.
+1480: =
+1481: Ein kleines Stagsegel zwischen Fockmast und Großmast⟦0⟧.
+1482: Fallen
+1483: Die Leinen, mit denen die Segel geheißt werden, und die Gaffeln und Bäume, die sie halten⟦0⟧.
+1484: =
+1485: Leinen von den Dirken bis unter den Baum, die das Segel beim Bergen wie ein Netz auffangen⟦0⟧.
+1486: =
+1487: Büschel aus aufgedröseltem Tauwerk, in die Takelage gebunden, damit die Segel nicht an den Leinen scheuern⟦0⟧.
+1488: Segel zum Trocknen aufgegeit
+1489: Halb gefierte oder aufgegeite Segel zum Trocknen, wie Lane sie 1851 an einer Halbbrigg zeichnete⟦0⟧.
+1490: Saling
+1491: Waagrechte Hölzer hoch am Mast, die die Wanten spreizen⟦0⟧.
+1492: =
+1493: Kleine Kräne, meist am Heck, zum Heißen und Fieren eines Bootes⟦0⟧. Die Bankschoner führten ihre Beiboote in Heckdavits⟦1⟧.
+1494: Speigatten
+1495: Öffnungen in der Bordwand auf Deckshöhe, durch die Wasser außenbords abläuft⟦0⟧.
+1496: Vorschiff (fo’c’sle)
+1497: Kurz für forecastle: das Mannschaftslogis im vorderen Teil des Rumpfes⟦0⟧.
+1498: =
+1499: Das Ofenrohr der Kombüse, der Schiffsküche
+1500: Ruderhaus
+1501: Eine kleine Kajüte an Deck, die Steuerrad und Rudergänger schützt⟦0⟧.
+1502: =
+1503: Der Name der Fischer für den Autopiloten, das elektrische Gerät, das ein Schiff auf festem Kurs hält⟦0⟧.
+1504: =
+1505: Eine Metalltrommel mit glatter, gewölbter Fläche, meist auf einer Winde montiert⟦0⟧.
+1506: =
+1507: Die quadratischen Abteile des Fischraums entlang der Mittschiffslinie über dem Kiel, zwischen den Buchten auf beiden Seiten⟦0⟧.
+1508: Schottbretter
+1509: Herausnehmbare Trennwände aus Holz oder Metall, die in den Laderaum gesteckt werden und Buchten bilden; sind alle eingesetzt, ist der Raum „penned up“⟦0⟧. Dorymänner nutzten kleinere, um das Dory für den Fisch abzuteilen⟦1⟧.
+1510: Doryfischer
+1511: Einer der zwei Männer, die von einem Dory aus fischten⟦0⟧.
+1512: Langleinenfischerei vom Dory
+1513: Fischen mit langen Langleinen voller beköderter Haken von sechs bis zehn Dorys aus, die ein Schoner mitführte. Der Gloucester-Schoner ⟦0⟧Anna⟦1⟧ machte 1854 eine erfolgreiche Dory-Langleinenfahrt zu den Grand Banks, doch Gloucester übernahm die Methode nur zögernd⟦2⟧. Gloucesters Chronik nennt 1941 als das Jahr, in dem Trawler die Doryfischerei ablösten⟦3⟧.
+1514: Langleine
+1515: Eine lange, bebojte und verankerte Grundleine mit vielen kurzen Mundschnüren und beköderten Haken⟦0⟧. 1881 trug eine Balje Schellfisch-Langleine 500 Haken an etwa 292 Faden Leine⟦1⟧.
+1516: Langleinenbalje
+1517: Ein halbes Fass, das eine aufgeschossene Langleine samt Haken aufnimmt⟦0⟧. 1881 fuhr ein Dory mit sechs bis acht davon hinaus⟦1⟧.
+1518: =
+1519: Streifen gesalzenen Menhadens, der wichtigste Köder der winterlichen Schellfisch-Langleinen von 1881; wurde Menhaden knapp, nahm man frischen Hering. Eine Balje mit 500 Haken zu beködern dauerte 45 Minuten bis eine Stunde⟦0⟧.
+1520: Doryanker
+1521: Ein kleiner Eisenanker, der ein Ende der Langleine am Grund hält⟦0⟧.
+1522: Boje und schwarzer Ball
+1523: Der Schwimmer, der eine Langleine markiert: ein nummeriertes Holzfass mit Flagge⟦0⟧. 1881 trug jede Endboje zusätzlich einen schwarzen Ball⟦1⟧.
+1524: =
+1525: Eine Handkurbel quer über dem Bug des Dory, mit der man die mit Fisch beladenen Leinen einholte⟦0⟧.
+1526: Fingerschoner (nippers)
+1527: Ringförmige Polster, die die Finger des Fischers vor der durchlaufenden Langleine schützten⟦0⟧. 1881 hatte jedes Dory zwei Paar aus Wolle an Bord⟦1⟧.
+1528: =
+1529: Ein schwerer zweizinkiger Holzstock, um Fische zu betäuben und ihnen die Haken aus dem Schlund zu nehmen⟦0⟧.
+1530: =
+1531: Eine schwere Holzkeule zum Betäuben oder Töten großer Fische wie Heilbutt, der mehr als 90 Kilo wiegen kann⟦0⟧.
+1532: Ösfass
+1533: Eine Schaufel aus Holz oder Metall, mit der man Wasser aus dem Dory schöpft⟦0⟧.
+1534: Dollen
+1535: Schmale Holzpflöcke in der Bordwand des Dory, die beim Rudern die Riemen halten⟦0⟧.
+1536: Nebelhorn
+1537: Dorymänner hatten ein Nebelhorn und eine Petroleumlampe dabei, um dem Schoner bei dichtem Nebel oder in der Dunkelheit mit Schall oder Licht Zeichen zu geben⟦0⟧.
+1538: =
+1539: Das schmale, V-förmige Heckbrett des Dory
+1540: Ausstecken
+1541: Eine Leine Hand über Hand über Bord laufen lassen⟦0⟧.
+1542: Handleinenfischerei
+1543: Fischen mit einer einzigen Leine mit einem oder zwei Haken. Die Langleinenfischerei vom Dory, mit vielen Haken an einer Leine, löste sie später ab⟦0⟧.
+1544: =
+1545: Ein Metallstab, der die zwei Haken einer Handleine auf der Georges Bank 30 bis 45 Zentimeter auseinanderhielt⟦0⟧.
+1546: =
+1547: Das beste Boot oder der beste Fischer der Flotte. Das Wort stammt aus der Zeit des Fischens vom Deck aus, als der beste Fischer den höchsten Platz am Bug einnahm⟦0⟧.
+1548: Ringwade
+1549: Ein etwa 300 Meter langes Netz, das im Kreis um einen Makrelenschwarm ausgelegt wird. Es löste beim Makrelenfang die Handleine ab⟦0⟧; Gloucesters Chronik datiert es auf 1848⟦1⟧.
+1550: Scherbrettnetz
+1551: Ein Netz, das über den Grund geschleppt und von zwei Scherbrettern offen gehalten wird⟦0⟧. Seine Einführung 1905 veränderte die Fischerei auf den Bänken Neuenglands⟦1⟧.
+1552: Grundtau und Kopftau
+1553: Die untere und die obere Leine eines Schleppnetzes. Schwimmer aus Metall, Kunststoff oder Glas am Kopftau halten die Öffnung des Netzes offen⟦0⟧.
+1554: Kurrleinen
+1555: Die Seile von den Winden des Trawlers zu beiden Seiten des Netzes, die die Zugkraft des Schiffes auf das Netz übertragen⟦0⟧.
+1556: =
+1557: Der kurze Name der Fischer für die Georges Bank. Die Berichte der Fischereikommission aus Gloucester von 1883 führen Monat für Monat den Kabeljau und Heilbutt auf, der „von der George’s Bank“ angelandet wurde⟦0⟧.
+1558: =
+1559: Die großen Fischereibänke vor Neufundland, wo Gloucesters Salt Banker auf Kabeljau fuhren⟦0⟧.
+1560: Fang (fare)
+1561: Der Fang eines Schiffes, wie er angelandet wird. Ein Bericht aus Gloucester vom Dezember 1883 hält fest, dass die Schiffe von der Georges Bank „alle gute Fänge an Kabeljau mitbrachten“⟦0⟧.
+1562: Reise (trip)
+1563: Sowohl die Fahrt als auch der Fisch, den sie heimbringt: der ganze Fang an Bord ist „die Reise“⟦0⟧.
+1564: Heimfahrt
+1565: Die Fahrt von den Fanggründen zurück in den Heimathafen⟦0⟧.
+1566: Küstenfischerei
+1567: Fischen nahe der Heimat mit kleinen Fahrzeugen und Booten. Im November 1883 zählte Gloucesters Küstenfischerei 56 Fahrzeuge und 448 Mann⟦0⟧.
+1568: Grundfisch
+1569: Fische, die nahe am Grund leben, wie Kabeljau und Schellfisch, die Grundlage der Fischerei Neuenglands⟦0⟧.
+1570: Eis
+1571: Fisch in Eis statt in Salz zu packen wurde um 1845 üblich, damit frischer Fisch auf den Markt kam⟦0⟧. Zusammen mit schnelleren Schonern und der Eisenbahn belebte es Gloucesters Fischerei neu⟦1⟧. Das Eis wurde aus Süßwasserteichen geschnitten⟦2⟧.
+1572: Schnellgefrieren
+1573: Clarence Birdseyes Schnellgefrierverfahren, mit dem 1924 die Verarbeitung von Tiefkühlfisch begann⟦0⟧.
+1574: Hummerkorb
+1575: Eine beköderte Falle, die auf den Grund gesetzt wird, eine der Fallen der Küstenfischerei zu Lanes Zeit⟦0⟧. Homer malte 1875 drei Jungen in einem Dory mit Hummerkörben.
+1576: Trockenplatz
+1577: Ein Feld von Fischgestellen neben den Kais. Lanes Ansicht von Gloucester aus dem Jahr 1836 zeigt den Trockenplatz der Familie Wonson in East Gloucester, und Five Pound Island wurde später zu einem⟦0⟧.
+1578: Schlachtmannschaft
+1579: Die Mannschaft, die den Kabeljau an Deck zurichtete: der throater schnitt den Bauch auf und nahm den Kopf ab, der gutter entfernte die Eingeweide, behielt aber die Leber, und der splitter löste das Rückgrat heraus⟦0⟧.
+1580: =
+1581: Der Schleim, das Blut und die Flüssigkeiten, die beim Zurichten von Fisch anfallen⟦0⟧. Schoner hatten an Deck einen Verschlag für den Gurry⟦1⟧.
+1582: =
+1583: Eine Salzung mit mehr Salz als beim Dunfish, aber weniger als beim in Lake eingelegten „grünen“ Kabeljau⟦0⟧.
+1584: =
+1585: Rasch getrockneter, leicht gesalzener Kabeljau, manchmal zwei oder drei Monate in dunklen Räumen unter Salzheu oder Seegras und Gewichten gereift. Der Name gehört zur Kleinbootfischerei im östlichen Maine und an der Bay of Fundy⟦0⟧.
+1586: Grüner Kabeljau
+1587: Kabeljau, der in Fässern mit Lake eingelegt statt getrocknet wurde; diese Salzung brauchte mehr Salz als die Kench-Salzung⟦0⟧.
+1588: Zungen
+1589: Die Fischer schnitten jedem Kabeljau, den sie an Bord holten, die Zunge heraus, um ihren Fang zu zählen, bevor der Fisch gesalzen wurde⟦0⟧.
+1590: Kabeljauprämie
+1591: Eine Zahlung des Bundes, die den Fischern von Gloucester half, ihre Flotte nach der Unabhängigkeit wieder aufzubauen⟦0⟧.
+1592: Surinamhandel
+1593: Gloucesters Handel mit Surinam an der Nordküste Südamerikas war 1790 im Gang und finanzierte viele der Handelsschiffe und Kais der Stadt, bis er 1863 zusammenbrach⟦0⟧.
+1594: Hafenarbeiter (lumper)
+1595: Ein Hafenarbeiter, der im Hafen von Gloucester die Schiffe entlädt
+1596: Fischpier
+1597: Der Jodrey State Fish Pier, 1938 eröffnet und nach Everett R. Jodrey benannt⟦0⟧.
+1598: Kastenkai
+1599: Ein Kai auf Kästen, rechteckigen Holzrahmen, die einer Blockhütte gleichen, aufgefüllt und mit Balken über dem obersten Kasten, die das Deck tragen⟦0⟧.
+1600: Steinschüttungskai
+1601: Ein Anleger aus Pfählen und Holz, mit Steinen aufgefüllt. Gloucester baute so Stichpiers und Kaimauern⟦0⟧.
+1602: =
+1603: Gloucesters Wort für die Pfähle, die als Fender entlang eines Kais eingerammt sind, wo Schiffe festmachen⟦0⟧.
+1604: Päckchenliegen
+1605: Kaiplatz war im Hafen von Gloucester knapp, also machten Küstenschiffe längsseits aneinander fest und gaben ihre Ladung an kleinere Fahrzeuge weiter, die sie in die Nachbarorte brachten, und umgekehrt⟦0⟧.
+1606: =
+1607: Die breite Fahrrinne an der Einfahrt zum Inner Harbor, wo Schiffe vor Anker lagen, bis sie entladen werden konnten, und oft zuerst dort leichterten⟦0⟧.
+1608: Slipanlage
+1609: Ein Schlitten auf Schienen, der ein Schiff zur Reparatur aus dem Wasser zieht. Die Slipanlage auf Rocky Neck, 1859 begonnen und bis etwa 1970 von einer Dampfmaschine betrieben, gilt als die älteste noch arbeitende im Land⟦0⟧.
+1610: =
+1611: Der Blynman Canal, 1643 zwischen Hafen und Annisquam River gegraben, damit kleine Schiffe die Fahrt um Cape Ann herum vermeiden konnten. Stürme füllten ihn 1704 und 1723 mit Sand; 1823 wurde er wieder geöffnet⟦0⟧.
+1612: =
+1613: Der Wellenbrecher an der Eastern Point, der seit 1905 die Dünung aus Süden vom Hafen fernhält⟦0⟧. Bei Nässe oder Eis nicht betreten.
+1614: =
+1615: Eine kleine Insel im Hafen, einst nur für Schafpferche gut, die später ein Trockenplatz für Fisch wurde⟦0⟧.
+1616: In Essex gebaut
+1617: Viele Gloucester-Schoner stammten aus den Werften am Essex River⟦0⟧. Der erste Knockabout wurde 1902 in Essex gebaut, die ⟦1⟧Adventure⟦2⟧ 1926⟦3⟧; Arthur D. Story ließ dort 1930 die ⟦4⟧Gertrude L. Thebaud⟦5⟧ vom Stapel⟦6⟧.
+1618: =
+1619: Das förmliche Wort für das Anteilsystem, bei dem das Geld einer Reise zwischen Schiff und Mannschaft aufgeteilt wird⟦0⟧.
+1620: Abrechnung
+1621: Die Rechnungen der Reise zusammenzählen und den Anteil jedes Mannes und den des Schiffes ausrechnen; die Bilanz ist die Abrechnung⟦0⟧.
+1622: Bruttoerlös und Nettoerlös
+1623: Der Bruttoerlös ist alles Geld, das Schiff und Mannschaft auf einer Reise verdient haben; der Nettoerlös ist, was nach Abzug der ihm angerechneten Rechnungen bleibt⟦0⟧.
+1624: In den Miesen
+1625: Brachte eine Reise weniger ein als ihre Kosten, war die Mannschaft „in the hole“ und zahlte die Rechnungen aus eigener Tasche. Das Defizit hieß hole bill⟦0⟧.
+1626: Delegierter
+1627: Das Mannschaftsmitglied, das gewählt wird, um bei der Abrechnung für die Mannschaft zu sprechen⟦0⟧.
+1628: =
+1629: Ein Wort der Ostküste für einen Platz auf einem Fischerboot oder die Zusage auf einen⟦0⟧.
+1630: =
+1631: Ein Imbiss zwischen den Mahlzeiten: eine Tasse Kaffee und ein Sandwich⟦0⟧.
+1632: Südwester
+1633: Ein breitkrempiger, wasserdichter Ölzeughut für schlechtes Wetter
+1634: Pulswärmer
+1635: Stoffröhren, die über den Unterarmen getragen und von einer Daumenschlaufe gehalten werden. Sie wärmen die Arme und lassen sich leichter von Schleim und Blut reinigen als Ärmel⟦0⟧.
+1636: Seesack
+1637: Ein kleiner Beutel zum Tragen und Verstauen der persönlichen Dinge eines Seemanns⟦0⟧.
+1638: =
+1639: Gloucesters Junifest für den heiligen Petrus, den Schutzpatron der Fischer, erstmals 1926 gefeiert und von der italienisch-amerikanischen Gemeinde ausgerichtet: Messe unter freiem Himmel, Prozessionen, Ruderregatten mit Ringwadenbooten, der Greasy Pole und die Segnung der Flotte⟦0⟧.
+1640: =
+1641: Ein stark eingefetteter Mast, der über den Hafen hinausragt, mit einer Flagge am Ende, die die Teilnehmer zu greifen versuchen, bevor sie ins Wasser fallen. Er kam 1931 zum Fest hinzu, nach dem Vorbild eines Wettbewerbs in Terrasini auf Sizilien, der Heimat vieler Familien in Gloucester⟦0⟧.
+1642: =
+1643: „Es lebe der heilige Petrus!“ Der Ruf erschallt in den Prozessionen des Festes und bei den Läufern auf dem Greasy Pole⟦0⟧.
+1644: Segnung der Flotte
+1645: Am Festsonntag verliest ein Priester die Namen der Fischerboote Gloucesters und segnet sie⟦0⟧. Gloucesters Chronik datiert die erste Segnung auf 1945⟦1⟧. 1957 wurden die portugiesische und die italienische Flotte an verschiedenen Sonntagen gesegnet; 1977 feierten beide Gemeinden gemeinsam⟦2⟧.
+1646: Gedenkfeier für die Fischer
+1647: Jeden August zieht eine Prozession zum Man at the Wheel, wo Familien Riemen und Kränze niederlegen und Blumen für die auf See gebliebenen Männer in den Hafen werfen⟦0⟧.
+1648: Kenotaph
+1649: Die Tafeln neben dem Man at the Wheel mit den Namen der auf See gebliebenen Fischer Gloucesters, mehr als 5000⟦0⟧. Noch immer kommen Namen hinzu⟦1⟧.
+1650: Leonard Craskes bronzener Steuermann am Stacy Boulevard, 1925 eingeweiht⟦0⟧, mit dem Vers aus Psalm 107, „They that go down to the sea in ships“⟦1⟧.
+1651: Die Kirche der portugiesischen Gemeinde Gloucesters, nach dem Vorbild von Santa Maria Madalena auf den Azoren. Zwischen ihren Türmen hält eine Marienstatue einen zweimastigen Schoner⟦0⟧.
+1652: Denkmal für die Fischerfrauen
+1653: Das Denkmal nahe dem Man at the Wheel, das die Frauen ehrt, deren Glaube die Fischerfamilien getragen hat⟦0⟧.
+1654: Internationale Fischerregatten
+1655: Regatten zwischen Fischereischonern aus Gloucester und Nova Scotia, seit 1920⟦0⟧. Die ⟦1⟧Bluenose⟦2⟧ aus Lunenburg verlor nie eine Serie⟦3⟧. Die letzte, im Oktober 1938 vor Gloucester und Boston gegen die ⟦4⟧Gertrude L. Thebaud⟦5⟧ gesegelt, war das letzte Rennen zwischen Fischerei-Segelschonern des Nordatlantiks⟦6⟧.
+1656: Ein Schoner mit drei Masten.
+1657: Das Ofenrohr der Kombüse, der Schiffsküche.
+1658: Das schmale, V-förmige Heckbrett des Dory.
+1659: Ein Hafenarbeiter, der im Hafen von Gloucester die Schiffe entlädt.
+1660: Ein breitkrempiger, wasserdichter Ölzeughut für schlechtes Wetter.

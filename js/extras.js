@@ -265,6 +265,142 @@ src: {
   "cr_331": [
    "Mark Rothko: Works on Paper (National Gallery of Art), catalogue entry 331",
    "https://rothko.nga.gov/Detail/objects/331"
+  ],
+  "obs_vocab": [
+   "Schooner Adventure education pages (archived Outward Bound site), “Schooner Vocabulary”",
+   "https://archives.obs-us.com/obs/adventur/schooner/vocabulary/schooner.htm"
+  ],
+  "obs_dory": [
+   "Schooner Adventure education pages (archived Outward Bound site), dory vocabulary",
+   "https://archives.obs-us.com/obs/adventur/schooner/vocabulary/dory.htm"
+  ],
+  "mfr_gloss": [
+   "NOAA Fisheries, Marine Fisheries Review, glossary of fishing terms (PDF)",
+   "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/mfr3661c.pdf"
+  ],
+  "fhl_141": [
+   "Fitz Henry Lane Online (Cape Ann Museum), entry 141, Study of Ships, 1851",
+   "https://www.fitzhenrylaneonline.org/catalogue/entry.php?id=141"
+  ],
+  "fhl_19": [
+   "Fitz Henry Lane Online (Cape Ann Museum), entry 19, On the Wharves, Gloucester Harbor, 1847",
+   "https://www.fitzhenrylaneonline.org/catalogue/entry.php?id=19"
+  ],
+  "fhl_150": [
+   "Fitz Henry Lane Online (Cape Ann Museum), entry 150, Near West Beach, Beverly, 1850s",
+   "https://www.fitzhenrylaneonline.org/catalogue/entry.php?id=150"
+  ],
+  "fhl_265": [
+   "Fitz Henry Lane Online (Cape Ann Museum), entry 265, Ships Leaving Boston Harbor, 1847",
+   "https://www.fitzhenrylaneonline.org/catalogue/entry.php?id=265"
+  ],
+  "fhl_351": [
+   "Fitz Henry Lane Online (Cape Ann Museum), entry 351, View of the Town of Gloucester, Mass., 1836",
+   "https://www.fitzhenrylaneonline.org/catalogue/entry.php?id=351"
+  ],
+  "fhl_44": [
+   "Fitz Henry Lane Online (Cape Ann Museum), entry 44, Ships in Ice off Ten Pound Island, Gloucester",
+   "https://www.fitzhenrylaneonline.org/catalogue/entry.php?id=44"
+  ],
+  "fhl_563": [
+   "Fitz Henry Lane Online (Cape Ann Museum), entry 563",
+   "https://www.fitzhenrylaneonline.org/catalogue/entry.php?id=563"
+  ],
+  "garland89": [
+   "Joseph E. Garland, “The Gloucestermen,” Sea History 49 (Spring 1989)",
+   "https://issuu.com/seahistory/docs/sh_049_spring-1989/17"
+  ],
+  "seahist77": [
+   "Sea History 6 (Winter 1976–1977), on the Gloucester fishing schooner",
+   "https://issuu.com/seahistory/docs/sh_006_winter-1977/8"
+  ],
+  "adv_1800s": [
+   "Schooner Adventure, “Gloucester Fishing Industry—1800s” (timeline)",
+   "https://schooner-adventure.org/?p=339"
+  ],
+  "adv_1900s": [
+   "Schooner Adventure, “Gloucester Fishing Industry—1900s” (timeline)",
+   "https://schooner-adventure.org/?p=341"
+  ],
+  "usfc_haddock": [
+   "G. Brown Goode and J. W. Collins, “The Winter Haddock Fishery of New England,” Bulletin of the U.S. Fish Commission, 1881 (transcription, penbay.org)",
+   "https://www.penbay.org/usfc/usfc1881_haddock.html"
+  ],
+  "usfc_1884": [
+   "Bulletin of the U.S. Fish Commission, 1884, notes on the fisheries of Gloucester, fall and winter 1883 (transcription, penbay.org)",
+   "https://penbay.org/usfc/usfc1884_fisheriesgloucfallwin83.html"
+  ],
+  "noaa_groundfish": [
+   "NOAA Fisheries, “A Brief History of the Groundfishing Industry of New England”",
+   "https://www.fisheries.noaa.gov/new-england-mid-atlantic/commercial-fishing/brief-history-groundfishing-industry-new-england"
+  ],
+  "dft_cod": [
+   "Downeast Fisheries Trail, “Fisheries Then: Cod”",
+   "https://www.downeastfisheriestrail.org/fisheries-then/cod/"
+  ],
+  "neh_georges": [
+   "New England Historical Society, articles on Georges Bank",
+   "https://newenglandhistoricalsociety.com/tag/georges-banks/"
+  ],
+  "cam_lumpers": [
+   "Cape Ann Museum Library & Archives, Matthew Cooney Lumpers Research Collection, finding aid",
+   "https://capeannmuseum.quartexcollections.com/resources/finding-aids/matthew-cooney-lumpers-research-collection-finding-aid"
+  ],
+  "nscc_pier": [
+   "North Shore Community College, Gloucester poetry site, history of the State Fish Pier",
+   "https://appsprod.northshore.edu/poetry/gloucester/fishpierhistory.htm"
+  ],
+  "gmg_rail": [
+   "Good Morning Gloucester, “Did You Know? (Gloucester Marine Railways),” April 20, 2011, quoting the railways’ history",
+   "https://goodmorninggloucester.com/2011/04/20/did-you-know-gloucester-marine-railways"
+  ],
+  "gg_cut": [
+   "Joseph E. Garland, The Gloucester Guide (1990), chapter 4, “Annisquam and Mill Rivers: The Cut to Goose Cove”",
+   "https://obs.com/gloucesterguide/c4b.htm"
+  ],
+  "gmg_cut": [
+   "Jude Seminara, “The Cut,” Good Morning Gloucester, April 30, 2020",
+   "https://goodmorninggloucester.com/2020/04/30/the-cut"
+  ],
+  "discover_fiesta": [
+   "Discover Gloucester, “St. Peter’s Fiesta and the Greasy Pole”",
+   "https://discovergloucester.com/blog/st-peters-fiesta-and-the-greasy-pole/"
+  ],
+  "nshore_pole": [
+   "Northshore Magazine, on the Greasy Pole at St. Peter’s Fiesta",
+   "https://nshoremag.com/?p=183344"
+  ],
+  "gregcook": [
+   "Greg Cook, Wonderland, photographs and notes from St. Peter’s Fiesta, June 2024",
+   "https://gregcookland.com/wonderland/?p=25272"
+  ],
+  "cnhi_blessing": [
+   "Gloucester Daily Times (CNHI), Fiesta Mass and the blessing of the fleet",
+   "https://www.cnhi.com/?p=47660"
+  ],
+  "pilot_fleet": [
+   "The Pilot (Archdiocese of Boston), “Into the Deep: The tradition of the Blessing of the Fleet”",
+   "https://www.thebostonpilot.com/article.php?ID=200209"
+  ],
+  "natfish_memorial": [
+   "National Fisherman, “Annual service honors Gloucester’s lost fishermen”",
+   "https://www.nationalfisherman.com/northeast/annual-service-honors-gloucester-s-lost-fishermen"
+  ],
+  "cnhi_cenotaph": [
+   "Gloucester Daily Times (CNHI), “Ten names added to cenotaph in time for Saturday’s Fishermen’s Memorial Service”",
+   "https://www.cnhi.com/rss_feed/ten-names-added-to-cenotaph-in-time-for-saturdays-fishermens-memorial-service/"
+  ],
+  "ch_flores": [
+   "Daniel F. Flores, “Faith to face the deep,” Christian History 159",
+   "https://christianhistoryinstitute.org/magazine/article/ch159-faith-to-face-the-deep"
+  ],
+  "fma_bluenose": [
+   "Fisheries Museum of the Atlantic (Nova Scotia), history of Bluenose",
+   "https://fisheriesmuseum.novascotia.ca/node/113"
+  ],
+  "wiki_thebaud": [
+   "Wikipedia, “Gertrude L. Thebaud”",
+   "https://en.wikipedia.org/wiki/Gertrude_L._Thebaud"
   ]
 },
 
@@ -381,12 +517,136 @@ waterfront: {
     text: 'Rothko’s 1934 wharfs had fish flakes on the pier, the last generation of the racks Lane had painted eighty years before [[wbur_gift]].' }
   ],
   terms: [
-  { t: 'Fish flakes', d: 'Low wooden racks on which split, salted cod was laid out in the sun to dry. Whole fields of them appear in Lane’s and later paintings of the waterfront [[fhl_flakes]] [[hmdb_salt]].', works: ['rothko-wharf-cam'] },
-  { t: 'Gill nets', d: 'Nets hung like a curtain in the water, catching fish by the gills. Mellen’s <i>Gloucester Harbor (Laying Nets)</i> shows crews setting them [[fhl_gill]].', works: ['mellen-gloucester-harbor'] },
-  { t: 'Dories', d: 'Small flat-bottomed boats carried on the schooners and rowed out to set lines and nets; Gordon Parks photographed Gloucester crews laying nets by hand from them in 1943 [[parks]]. Homer drew boys in dories in 1873.', works: ['homer-boys-in-a-dory', 'homer-green-dory'] },
-  { t: 'Schooners', d: 'The fore-and-aft rigged vessels of the Gloucester fleet that brought fish home from the banks [[hmdb_salt]].', works: ['homer-schooners-waterboat', 'lane-harbor-1852'] },
-  { t: 'Draggers', d: 'Motor trawlers that drag a net along the bottom; Emile Gruppé painted them at the wharves.', works: ['gruppe-draggers'] },
-  { t: 'Drydock', d: 'A berth where a vessel is taken out of the water for repair. Hassam painted one in the 1890s.', works: ['hassam-drydock'] }
+  { c: 'cure', t: 'Fish flakes', d: 'Low wooden racks on which split, salted cod was laid out in the sun to dry. Whole fields of them appear in Lane’s and later paintings of the waterfront [[fhl_flakes]] [[hmdb_salt]].', works: ['rothko-wharf-cam'] },
+  { c: 'fishing', t: 'Gill nets', d: 'Nets hung like a curtain in the water, catching fish by the gills. Mellen’s <i>Gloucester Harbor (Laying Nets)</i> shows crews setting them [[fhl_gill]].', works: ['mellen-gloucester-harbor'] },
+  { c: 'dory', t: 'Dories', d: 'Small flat-bottomed boats carried on the schooners and rowed out to set lines and nets; Gordon Parks photographed Gloucester crews laying nets by hand from them in 1943 [[parks]]. Homer drew boys in dories in 1873.', works: ['homer-boys-in-a-dory', 'homer-green-dory'] },
+  { c: 'boats', t: 'Schooners', d: 'The fore-and-aft rigged vessels of the Gloucester fleet that brought fish home from the banks [[hmdb_salt]].', works: ['homer-schooners-waterboat', 'lane-harbor-1852'] },
+  { c: 'boats', t: 'Draggers', d: 'Motor trawlers that drag a net along the bottom; Emile Gruppé painted them at the wharves.', works: ['gruppe-draggers'] },
+  { c: 'harbor', t: 'Drydock', d: 'A berth where a vessel is taken out of the water for repair. Hassam painted one in the 1890s.', works: ['hassam-drydock'] }
+  ],
+  wordsIntro: 'A glossary of the working harbor, from the vessels and their rigging to the cure, the pay and the customs, with a source for every word. Terms with a picture can be seen in paintings on this site.',
+  cats: [['boats', 'Vessels'], ['rig', 'Rig and deck'], ['dory', 'The dory and its gear'], ['fishing', 'Grounds, lines and nets'], ['cure', 'The catch and the cure'], ['harbor', 'Wharves and the harbor'], ['pay', 'Life and pay aboard'], ['custom', 'Customs, races and memory']],
+  words: [
+  { c: 'boats', t: 'Shallop', d: 'A small colonial working boat, the ancestor of many New England fishing craft, among them the Chebacco boat, the dogbody and the pinky [[fhl_141]].' },
+  { c: 'boats', t: 'Chebacco boat', d: 'A heavily built two-masted fishing boat that grew out of the shallop in Chebacco Parish, the part of Ipswich that became the town of Essex in 1819. The name was in use in the second half of the 1700s [[fhl_141]] [[garland89]].' },
+  { c: 'boats', t: 'Dogbody', d: 'The square-sterned version of the Chebacco boat. Where the name came from is now forgotten [[fhl_141]].' },
+  { c: 'boats', t: 'Pinky', d: 'A schooner-rigged fishing vessel that descended from the Chebacco boat at the end of the 1700s. The name refers to its narrow “pink” stern, from a Dutch word for pinched [[fhl_141]] [[fhl_351]].' },
+  { c: 'boats', t: 'Jigger', d: 'A Chebacco boat converted to a schooner rig by adding a bowsprit and a jib [[fhl_563]]. Gloucester’s fishing timeline records jiggers of 30 tons and more built for mackerel fishing in 1816 [[adv_1800s]].' },
+  { c: 'boats', t: 'Sharpshooter', d: 'The new fishing schooner of the 1840s: a long hull, a straight keel, sharp bilges and the first hint of a hollow, slicing bow [[garland89]]. Lane’s <i>Ships in Ice off Ten Pound Island</i> shows fishing schooners with the finer hulls of the sharpshooters and clippers [[fhl_44]].', works: ['lane-ships-in-ice'] },
+  { c: 'boats', t: 'Clipper schooner', d: 'A fast fishing schooner: sharp-ended, shallow, beamy and over-canvassed. The first clipper owned in Gloucester was built at Essex in 1850 [[adv_1800s]]; the <i>Smuggler</i> of 1877 was one [[garland89]].' },
+  { c: 'boats', t: 'Plumb-stem schooner', d: 'Dennison J. Lawlor’s design, with an upright stem and a deeper, more stable hull than the clippers. The Fish Commission’s research schooner <i>Grampus</i>, launched in 1885, helped set the new pattern [[garland89]].' },
+  { c: 'boats', t: 'Fredonia schooner', d: 'Schooners named after their prototype, the <i>Fredonia</i>: a graceful bow, a roomier foredeck and the rounded stern typical of the Gloucesterman [[garland89]].' },
+  { c: 'boats', t: 'Knockabout', d: 'A schooner with no bowsprit [[obs_vocab]]. The first was built in Essex in 1902 to make the work safer for fishermen [[adv_1900s]]; Joseph Garland counts the type among the last of the classic Gloucester schooners [[garland89]].' },
+  { c: 'boats', t: 'Gloucesterman', d: 'The classic Gloucester fishing schooner of the late 1800s. Built for a hard-fought trade without engines, it was sailed hard, because speed on the voyage home meant success [[seahist77]].' },
+  { c: 'boats', t: 'Tern', d: 'A schooner with three masts [[obs_vocab]].' },
+  { c: 'boats', t: 'Georgesman', d: 'A schooner that fished Georges Bank. Gloucester was using the name by the 1850s [[adv_1800s]].' },
+  { c: 'boats', t: 'Salt banker', d: 'A schooner that sailed from Gloucester to the Grand Banks of Newfoundland for cod. Kipling’s <i>Captains Courageous</i> (1897) gives an accurate picture of their life [[noaa_groundfish]].' },
+  { c: 'boats', t: 'Auxiliary', d: 'A sailing vessel with an engine as well. Gloucester’s first fishing vessel with an auxiliary engine came in 1900, and in the 1920s the fleet began converting to engines, mostly diesel [[adv_1900s]].' },
+  { c: 'boats', t: 'Coasting schooner', d: 'Any merchant schooner carrying cargo from one port on the coast to another [[fhl_265]].' },
+  { c: 'boats', t: 'Packet', d: 'A vessel that carried passengers and higher-value goods between particular ports on a regular schedule. The packet sloops were the most elegant [[fhl_265]].' },
+  { c: 'boats', t: 'Stone sloop', d: 'A heavily built, undecorated sloop that carried granite blocks from the quarry piers around Cape Ann to other ports [[fhl_141]].' },
+  { c: 'boats', t: 'Half brig', d: 'The New England name for the hermaphrodite brig: square sails on the foremast only, and a spanker and gaff topsail on the main. It was the commonest brig in the coasting trade [[fhl_141]].' },
+  { c: 'boats', t: 'Salt ship', d: 'A ship or bark that brought salt to Gloucester for curing fish. Too deep to reach the wharves fully loaded, it was partly unloaded at anchor first [[fhl_19]].' },
+  { c: 'boats', t: 'Lighter', d: 'A small vessel that takes cargo off a deep-loaded ship so that she can reach a wharf. Gloucester did much of this “lightering” in the Stream [[fhl_19]] [[fhl_351]].' },
+  { c: 'boats', t: 'Yawl boat', d: 'A schooner’s own boat, usually twenty feet long or less, round-bottomed and square-sterned, hung in davits at the stern [[fhl_265]]. It was the lifeboat at sea and carried the captain and crew ashore in port [[fhl_563]]. Lane painted one frozen into the harbor ice [[fhl_44]].', works: ['lane-ships-in-ice'] },
+  { c: 'boats', t: 'Moses boat', d: 'A boat carried in a schooner’s stern davits and used to bring barrels of rum and molasses out from a beach [[fhl_19]].' },
+  { c: 'boats', t: 'Wherry', d: 'A larger, wider relative of the dory, used for bulky coastal gear such as gill nets and fish traps [[fhl_150]].' },
+  { c: 'boats', t: 'Seine boat', d: 'The big rowing boat used in seining. During St. Peter’s Fiesta, crews still race seine boats a half mile out from Pavilion Beach and back [[gregcook]].' },
+  { c: 'rig', t: 'Bowsprit', d: 'The long spar at the bow that carries the headsails out over the water. Sailors called it the widow-maker, because men were lost falling from it while tending sail [[obs_vocab]].' },
+  { c: 'rig', t: 'Gaff', d: 'On a schooner, the spar along the head of a four-sided sail [[obs_vocab]]. In a dory, a gaff was the hook carried for bringing fish aboard [[usfc_haddock]].' },
+  { c: 'rig', t: 'Foremast and mainmast', d: 'A schooner has at least two masts: the foremast, nearest the bow, and the mainmast behind it, the taller of the two [[obs_vocab]].' },
+  { c: 'rig', t: 'Topmast', d: 'A second spar carried on top of a lower mast, used to fly more sail [[obs_vocab]].' },
+  { c: 'rig', t: 'Jumbo', d: 'The larger of a schooner’s headsails, set forward of the foremast with the jib [[obs_vocab]].' },
+  { c: 'rig', t: 'Yankee', d: 'A headsail flown above and forward of the jib, usually on vessels with a bowsprit [[obs_vocab]].' },
+  { c: 'rig', t: 'Queen topsail', d: 'A small staysail set between the foremast and the mainmast [[obs_vocab]].' },
+  { c: 'rig', t: 'Halyards', d: 'The lines that hoist the sails, and the gaffs and booms that hold them [[obs_vocab]].' },
+  { c: 'rig', t: 'Lazyjacks', d: 'Lines from the topping lifts to under the boom that catch the sail like a net when it is lowered [[obs_vocab]].' },
+  { c: 'rig', t: 'Baggywrinkle', d: 'Clumps of frayed rope tied into the rigging so that the sails do not chafe against the lines [[obs_vocab]].' },
+  { c: 'rig', t: 'Hanging in the gear', d: 'Sails partly lowered or clewed up to dry, as Lane drew them on a half brig in 1851 [[fhl_141]].' },
+  { c: 'rig', t: 'Crosstrees', d: 'Horizontal timbers high on the mast that spread the shrouds [[obs_vocab]].' },
+  { c: 'rig', t: 'Davits', d: 'Small cranes, usually at the stern, for raising and lowering a boat [[obs_vocab]]. Banks schooners carried their yawl boats in stern davits [[fhl_563]].' },
+  { c: 'rig', t: 'Scuppers', d: 'Holes in the vessel’s sides at deck level that drain water overboard [[obs_vocab]].' },
+  { c: 'rig', t: 'Fo’c’sle', d: 'Short for forecastle: the crew’s quarters in the forward part of the hull [[obs_vocab]].' },
+  { c: 'rig', t: 'Charley Noble', d: 'The stovepipe of the galley, the ship’s kitchen [[obs_vocab]].' },
+  { c: 'rig', t: 'Pilothouse', d: 'A small cabin on deck that shelters the wheel and the helmsman [[obs_vocab]].' },
+  { c: 'rig', t: 'Iron Mike', d: 'Fishermen’s name for the autopilot, the electrical device that holds a vessel on a set course [[mfr_gloss]].' },
+  { c: 'rig', t: 'Gypsyhead', d: 'A metal drum with a smooth, curved face, usually mounted on a winch [[mfr_gloss]].' },
+  { c: 'rig', t: 'Slaughterhouse', d: 'The square compartments of the fish hold along the centerline over the keel, between the pens on either side [[mfr_gloss]].' },
+  { c: 'rig', t: 'Pen boards', d: 'Removable dividers of wood or metal that slot into the hold to make pens; when all are in, the hold is “penned up” [[mfr_gloss]]. Dorymen used smaller ones to section off the dory for fish [[obs_dory]].' },
+  { c: 'dory', t: 'Doryman', d: 'One of the two men who fished from a dory [[obs_dory]].' },
+  { c: 'dory', t: 'Dory trawling', d: 'Fishing long trawl lines of baited hooks from six to ten dories carried on a schooner. The Gloucester schooner <i>Anna</i> made a successful dory-trawling trip to the Grand Banks in 1854, but Gloucester was slow to take up the method [[fhl_150]]. Gloucester’s timeline marks 1941 as the year draggers replaced dory fishing [[adv_1900s]].' },
+  { c: 'dory', t: 'Trawl', d: 'A long ground line, buoyed and anchored, hung with many short lines of baited hooks [[obs_dory]]. In 1881 a tub of haddock trawl held 500 hooks on about 292 fathoms of line [[usfc_haddock]].' },
+  { c: 'dory', t: 'Trawl tub', d: 'A half-barrel holding a coiled trawl and its hooks [[obs_dory]]. In 1881 a dory set out with six to eight of them [[usfc_haddock]].' },
+  { c: 'dory', t: 'Slivers', d: 'Strips of salted menhaden, the main bait for the winter haddock trawls of 1881; when menhaden ran short, fresh herring took its place. Baiting a tub of 500 hooks took 45 minutes to an hour [[usfc_haddock]].' },
+  { c: 'dory', t: 'Dory anchor', d: 'A small iron anchor that holds one end of a trawl to the bottom [[obs_dory]].' },
+  { c: 'dory', t: 'Buoy and black ball', d: 'The float marking a trawl: a numbered wooden barrel with a flag [[obs_dory]]. In 1881 each end buoy also carried a black ball [[usfc_haddock]].' },
+  { c: 'dory', t: 'Gurdy', d: 'A hand crank fitted across the bow of a dory to haul in lines heavy with fish [[obs_dory]].' },
+  { c: 'dory', t: 'Nippers', d: 'Doughnut-shaped grips that protected a fisherman’s fingers from the running trawl line [[obs_dory]]. In 1881 each dory carried two pairs, made of wool [[usfc_haddock]].' },
+  { c: 'dory', t: 'Gob stick', d: 'A heavy two-pronged wooden stick for stunning fish and taking hooks from their throats [[obs_dory]].' },
+  { c: 'dory', t: 'Halibut killer', d: 'A heavy wooden club for stunning or killing big fish such as halibut, which can weigh more than 200 pounds [[obs_dory]].' },
+  { c: 'dory', t: 'Bailer', d: 'A wooden or metal scoop for throwing water out of the dory [[obs_dory]].' },
+  { c: 'dory', t: 'Tholepins', d: 'Narrow wooden pegs set in a dory’s rail that hold the oars in place while rowing [[obs_dory]].' },
+  { c: 'dory', t: 'Fog horn', d: 'Dorymen carried a fog horn and a kerosene lamp to signal the schooner, by sound or by light, in thick fog or darkness [[obs_dory]].' },
+  { c: 'dory', t: 'Tombstone', d: 'The dory’s narrow, V-shaped stern board [[fhl_150]].' },
+  { c: 'dory', t: 'Pay out', d: 'To feed a line over the side, hand over hand [[obs_vocab]].' },
+  { c: 'fishing', t: 'Hand-lining', d: 'Fishing with a single line carrying one or two hooks. Dory trawling, with many hooks on one line, later replaced it [[fhl_19]].' },
+  { c: 'fishing', t: 'Sling ding', d: 'A metal rod that held the two hooks of a Georges Bank hand line 12 to 18 inches apart [[fhl_19]].' },
+  { c: 'fishing', t: 'Highliner', d: 'The top boat, or the top fisherman, of the fleet. The word goes back to fishing from the deck, when the best fisherman held the highest place in the bow [[obs_vocab]].' },
+  { c: 'fishing', t: 'Purse seine', d: 'A net about 1,000 feet long set in a circle around a school of mackerel. It replaced hand-lining for mackerel [[fhl_19]]; Gloucester’s timeline dates it to 1848 [[adv_1800s]].' },
+  { c: 'fishing', t: 'Otter trawl', d: 'A net towed along the bottom and held open by two otter doors [[mfr_gloss]]. Its arrival in 1905 changed fishing on the New England banks [[adv_1900s]].' },
+  { c: 'fishing', t: 'Footrope and headrope', d: 'The bottom and top lines of a trawl net. Floats of metal, plastic or glass on the headrope hold the mouth of the net open [[mfr_gloss]].' },
+  { c: 'fishing', t: 'Warps', d: 'The cables from a trawler’s winches to the two sides of the net, which carry the pull of the boat to the trawl [[mfr_gloss]].' },
+  { c: 'fishing', t: 'Georges', d: 'Fishermen’s short name for Georges Bank. The Fish Commission’s reports from Gloucester in 1883 list the cod and halibut landed “from George’s Bank” month by month [[usfc_1884]].' },
+  { c: 'fishing', t: 'Grand Banks', d: 'The great fishing banks off Newfoundland, where Gloucester’s salt bankers went for cod [[noaa_groundfish]].' },
+  { c: 'fishing', t: 'Fare', d: 'A vessel’s catch as landed. A report from Gloucester in December 1883 notes that the vessels from Georges Bank “all brought in good fares of cod” [[usfc_1884]].' },
+  { c: 'fishing', t: 'Trip', d: 'Both the voyage and the fish it brings home: the whole catch aboard is “the trip” [[mfr_gloss]].' },
+  { c: 'fishing', t: 'Home run', d: 'The passage from the fishing grounds back to the home port [[mfr_gloss]].' },
+  { c: 'fishing', t: 'Shore fishery', d: 'Fishing near home in small vessels and boats. In November 1883 Gloucester’s shore fisheries had 56 vessels and 448 men [[usfc_1884]].' },
+  { c: 'fishing', t: 'Groundfish', d: 'Fish that live near the bottom, such as cod and haddock, the mainstay of the New England fisheries [[noaa_groundfish]].' },
+  { c: 'fishing', t: 'Ice', d: 'Packing fish in ice instead of salt became common about 1845, so that fresh fish could reach market [[adv_1800s]]. With faster schooners and the railroad, it revived Gloucester’s fishing [[fhl_19]]. The ice was cut from fresh-water ponds [[noaa_groundfish]].' },
+  { c: 'fishing', t: 'Fast freezing', d: 'Clarence Birdseye’s quick-freezing method, which in 1924 started the processing of frozen fish [[adv_1900s]].' },
+  { c: 'fishing', t: 'Lobster trap', d: 'A baited trap set on the bottom, one of the traps of the coastal fisheries in Lane’s time [[fhl_150]]. Homer painted three boys in a dory with lobster pots in 1875.', works: ['homer-three-boys-lobster-pots'] },
+  { c: 'cure', t: 'Flake yard', d: 'A field of fish flakes beside the wharves. Lane’s 1836 view of Gloucester shows the Wonson family’s flake yard in East Gloucester, and Five Pound Island later became one [[fhl_351]].' },
+  { c: 'cure', t: 'Dressing gang', d: 'The crew that cleaned cod on deck: the throater cut down the belly and took off the head, the gutter removed the insides but saved the liver, and the splitter took out the backbone [[dft_cod]].' },
+  { c: 'cure', t: 'Gurry', d: 'The slime, blood and fluids spilled when fish are dressed [[mfr_gloss]]. Schooners kept a gurry pen on deck [[usfc_haddock]].' },
+  { c: 'cure', t: 'Kench cure', d: 'A salt cure that used more salt than dunfish but less than pickled “green” cod [[dft_cod]].' },
+  { c: 'cure', t: 'Dunfish', d: 'Cod quickly dried and lightly salted, sometimes cured in dark rooms for two or three months under salt hay or eelgrass and weights. The name belongs to the small-boat fisheries of eastern Maine and the Bay of Fundy [[dft_cod]].' },
+  { c: 'cure', t: 'Green cod', d: 'Cod pickled in casks of brine rather than dried; the cure took more salt than kenching [[dft_cod]].' },
+  { c: 'cure', t: 'Tongues', d: 'Fishermen cut the tongue out of each cod they hauled aboard to keep count of their catch before the fish was salted [[neh_georges]].' },
+  { c: 'cure', t: 'Codfish bounty', d: 'A federal payment that helped Gloucester fishermen rebuild their fleet after independence [[fhl_19]].' },
+  { c: 'cure', t: 'Surinam trade', d: 'Gloucester’s trade with Surinam, on the north coast of South America, was under way by 1790 and paid for many of the town’s merchant vessels and wharves until it collapsed in 1863 [[fhl_19]].' },
+  { c: 'cure', t: 'Lumper', d: 'A dock worker who unloads vessels in Gloucester Harbor [[cam_lumpers]].' },
+  { c: 'cure', t: 'Fish pier', d: 'The Jodrey State Fish Pier, opened in 1938 and named for Everett R. Jodrey [[nscc_pier]].' },
+  { c: 'harbor', t: 'Crib wharf', d: 'A wharf built on cribs, rectangular frames of timber that look like a log cabin, filled in, with beams laid over the top crib to carry the deck [[fhl_19]].' },
+  { c: 'harbor', t: 'Cob wharf', d: 'A pier of piles and timber filled in with rocks. Gloucester built finger piers and bulkheads this way [[fhl_19]].' },
+  { c: 'harbor', t: 'Spiles', d: 'Gloucester’s word for the pilings driven along a wharf as fenders where vessels tie up [[fhl_19]].' },
+  { c: 'harbor', t: 'Rafting', d: 'Wharf space in Gloucester Harbor was scarce, so coasting vessels moored together and passed cargo to smaller craft that carried it to nearby towns, and the reverse [[fhl_141]].' },
+  { c: 'harbor', t: 'The Stream', d: 'The wide channel at the entrance to the Inner Harbor, where vessels anchored while they waited to unload, often lightering there first [[fhl_351]].' },
+  { c: 'harbor', t: 'Marine railway', d: 'A cradle on rails that hauls a vessel out of the water for repair. The Rocky Neck railways, begun in 1859 and worked by a steam engine until about 1970, are said to be the oldest still operating in the country [[gmg_rail]].' },
+  { c: 'harbor', t: 'The Cut', d: 'The Blynman Canal, dug in 1643 between the harbor and the Annisquam River so that small vessels could avoid the passage around Cape Ann. Storms filled it with sand in 1704 and 1723; it was reopened in 1823 [[gg_cut]].' },
+  { c: 'harbor', t: 'Dog Bar Breakwater', d: 'The breakwater at Eastern Point that has kept southerly swells out of the harbor since 1905 [[gmg_cut]]. Stay off it when it is wet or icy.' },
+  { c: 'harbor', t: 'Five Pound Island', d: 'A small island in the harbor, once fit only for sheep pounds, that later became a flake yard for drying fish [[fhl_351]].' },
+  { c: 'harbor', t: 'Essex-built', d: 'Many Gloucester schooners came from the shipyards on the Essex River [[noaa_groundfish]]. The first knockabout was built in Essex in 1902 and the <i>Adventure</i> in 1926 [[adv_1900s]]; Arthur D. Story launched the <i>Gertrude L. Thebaud</i> there in 1930 [[wiki_thebaud]].' },
+  { c: 'pay', t: 'Lay', d: 'The formal word for the share system, under which the money from a trip is divided between the boat and the crew [[mfr_gloss]].' },
+  { c: 'pay', t: 'Settling up', d: 'Adding up the trip’s bills and working out each man’s share and the boat’s; the balance sheet is the settlement [[mfr_gloss]].' },
+  { c: 'pay', t: 'Gross stock and net stock', d: 'The gross stock is all the money the boat and crew earned from a trip; the net stock is what is left after the bills charged against it are taken out [[mfr_gloss]].' },
+  { c: 'pay', t: 'In the hole', d: 'When a trip earned less than its expenses, the crew went in the hole and paid the bills from their own pockets. The deficit was the hole bill [[mfr_gloss]].' },
+  { c: 'pay', t: 'Delegate', d: 'The crewman elected to speak for the crew when the settlement is made [[mfr_gloss]].' },
+  { c: 'pay', t: 'Site', d: 'An East Coast word for a berth on a fishing boat, or the promise of one [[mfr_gloss]].' },
+  { c: 'pay', t: 'Mug-up', d: 'A snack between meals: a cup of coffee and a sandwich [[mfr_gloss]].' },
+  { c: 'pay', t: 'Sou’wester', d: 'A wide-brimmed, waterproof oiled hat for foul weather [[mfr_gloss]].' },
+  { c: 'pay', t: 'Wristlets', d: 'Cloth tubes worn on the forearms and held by a thumb loop. They keep the arms warm and wash clean of slime and blood more easily than sleeves [[mfr_gloss]].' },
+  { c: 'pay', t: 'Ditty bag', d: 'A small bag for carrying and stowing a sailor’s personal things [[obs_vocab]].' },
+  { c: 'custom', t: 'St. Peter’s Fiesta', d: 'Gloucester’s June festival for St. Peter, patron saint of fishermen, first held in 1926 and put on by the Italian-American community: an open-air Mass, processions, seine-boat races, the greasy pole and the blessing of the fleet [[adv_1900s]] [[discover_fiesta]].' },
+  { c: 'custom', t: 'Greasy pole', d: 'A heavily greased pole run out over the harbor with a flag at the end, which walkers try to grab before they fall in. It was added to the Fiesta in 1931, after a contest in Terrasini, Sicily, the home town of many Gloucester families [[nshore_pole]] [[discover_fiesta]].' },
+  { c: 'custom', t: 'Viva San Pietro!', d: '“Long live St. Peter!” The cry is shouted in the Fiesta processions and by the greasy-pole walkers [[gregcook]].' },
+  { c: 'custom', t: 'Blessing of the fleet', d: 'On Fiesta Sunday a priest reads out the names of Gloucester’s fishing boats and blesses them [[cnhi_blessing]]. Gloucester’s timeline dates the first blessing to 1945 [[adv_1900s]]. In 1957 the Portuguese and Italian fleets were blessed on separate Sundays; by 1977 the two communities celebrated together [[pilot_fleet]].' },
+  { c: 'custom', t: 'Fishermen’s Memorial Service', d: 'Each August a procession goes to the Man at the Wheel, where families lay oars and wreaths and cast flowers into the harbor for the men lost at sea [[natfish_memorial]] [[cnhi_cenotaph]].' },
+  { c: 'custom', t: 'Cenotaph', d: 'The plaques beside the Man at the Wheel bearing the names of Gloucester fishermen lost at sea, more than 5,000 of them [[natfish_memorial]]. New names are still added [[cnhi_cenotaph]].' },
+  { c: 'custom', t: 'Man at the Wheel', d: 'Leonard Craske’s bronze helmsman on Stacy Boulevard, dedicated in 1925 [[rnat_avery]], with the line from Psalm 107, “They that go down to the sea in ships” [[ch_flores]].' },
+  { c: 'custom', t: 'Our Lady of Good Voyage', d: 'The church of Gloucester’s Portuguese community, modeled on Santa Maria Madalena in the Azores. Between its towers a statue of Mary holds a two-masted schooner [[ch_flores]].' },
+  { c: 'custom', t: 'Fishermen’s Wives Memorial', d: 'The memorial near the Man at the Wheel that honors the women whose faith kept fishing families going [[ch_flores]].' },
+  { c: 'custom', t: 'International Fishermen’s Races', d: 'Races between fishing schooners of Gloucester and Nova Scotia, begun in 1920 [[adv_1900s]]. Lunenburg’s <i>Bluenose</i> never lost a series [[fma_bluenose]]. The last, sailed off Gloucester and Boston in October 1938 against the <i>Gertrude L. Thebaud</i>, was the final race between North Atlantic sailing fishing schooners [[wiki_thebaud]].' }
   ],
   photos: 'The working harbor was photographed for the federal government twice: by Arthur Rothstein in 1937 [[nypl_rothstein]] and by Gordon Parks, who went to sea on the <i>Alden</i> in 1943 [[parks]]. Those photographs are on <a href="{up}photographers.html">the photographers page</a>.'
 },

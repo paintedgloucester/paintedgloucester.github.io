@@ -57,7 +57,7 @@ for (const l of LANGS.slice(2)) {
       for (let i = 0; i < tk.length; i++) { if (i % 2 === 0) { textK += tk[i].replace(/\s+/g, ''); continue; } const idx = +tk[i].slice(1, -1);
         if (mi < tm.length && textM.length === textK.length) { keepIdx.set(idx, next); textM += tm[mi + 1].replace(/\s+/g, ''); mi += 2; next++; } }
       if (keepIdx.size !== (tm.length - 1) / 2) continue;
-      out[l][m] = out[l][K].replace(PH, (x, i) => keepIdx.has(+i) ? '⟦' + keepIdx.get(+i) + '⟧' : '').replace(/ +([.,;:])/g, '$1').replace(/\s+/g, ' ').trim(); } } }
+      out[l][m] = out[l][K].replace(PH, (x, i) => keepIdx.has(+i) ? '⟦' + keepIdx.get(+i) + '⟧' : '').replace(l === 'fr' ? / +([.,])/g : / +([.,;:])/g, '$1').replace(/\s+/g, ' ').trim(); } } }
 
 // ---- catalogue data that is never translated (titles, painters, museums), and data pieces translated on their own ----
 const ctx = { window: {} }; vm.createContext(ctx); for (const f of ['data.js', 'places.js']) vm.runInContext(fs.readFileSync('js/' + f, 'utf8'), ctx);
