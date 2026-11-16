@@ -28,7 +28,7 @@ function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, 
 <title>${esc(title)} — Painted Gloucester</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
-<link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta property="og:type" content="${type}">
 <meta property="og:site_name" content="Painted Gloucester">
 <meta property="og:url" content="${url}">
