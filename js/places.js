@@ -4,42 +4,6 @@ window.PLACES = {
  "checked": "November 2026",
  "places": [
   {
-   "id": "island-art-hobby",
-   "type": "supply",
-   "name": "Island Art & Hobby",
-   "town": "Gloucester",
-   "addr": "117 Main Street, Gloucester, MA 01930",
-   "ll": [
-    42.61243,
-    -70.66409
-   ],
-   "phone": "(978) 879-4511",
-   "what": "Downtown Gloucester's combined art, craft and hobby shop: artist paints, brushes and surfaces alongside model kits and craft supplies.",
-   "special": [
-    "The closest full art-supply counter to the harbor painting sites, a short walk from the Cape Ann Museum.",
-    "A local review reports the owner will special-order items the shop doesn't stock.",
-    "Children's art classes have been held at the store in past years."
-   ],
-   "src": [
-    [
-     "Yellow Pages listing",
-     "https://www.yellowpages.com/gloucester-ma/mip/island-art-and-hobby-466471874"
-    ],
-    [
-     "Store listing (South End Arts)",
-     "https://searts.org/wp/?p=1848"
-    ],
-    [
-     "Good Morning Gloucester review, 2013",
-     "https://goodmorninggloucester.com/2013/03/26/island-art-hobby-review-and-info-from-eileen-oliver"
-    ]
-   ],
-   "confirm": "Directories disagree on whether this shop is still open: some now list it as closed, others still show hours. It has no website. Call before you go.",
-   "checked": "November 2026",
-   "hours": "Older listed hours: Monday–Saturday 10–6, Sunday 12–5.",
-   "winter": "Status uncertain. Call before you go."
-  },
-  {
    "id": "rusty-ingrid",
    "type": "gallery",
    "name": "Rusty and Ingrid Screen Prints",
@@ -307,7 +271,7 @@ window.PLACES = {
     42.61241,
     -70.66339
    ],
-   "what": "A gallery run by Cape Ann artists, next door to Island Art & Hobby.",
+   "what": "A gallery run by Cape Ann artists on Main Street in downtown Gloucester.",
    "special": [
     "See and buy work by painters who paint these same views today.",
     "Listed hours: 10–6 daily."

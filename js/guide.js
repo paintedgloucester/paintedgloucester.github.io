@@ -109,10 +109,10 @@ window.PG_GUIDE = {
   },
   days: [
     {
-      name:"Lane's harbor", img:"lane-ten-pound-cam", sum:"Downtown Gloucester: see Lane's canvases, stock up, then paint the harbor in the light he loved.",
+      name:"Lane's harbor", img:"lane-ten-pound-cam", sum:"Downtown Gloucester: see Lane's canvases and the work of today's painters, then paint the harbor in the light he loved.",
       steps:[
         ["10:00 a.m.","Cape Ann Museum","See Ten Pound Island and The Western Shore with Norman's Woe in the Lane galleries.","place:cape-ann-museum"],
-        ["12:00 p.m.","Island Art & Hobby","Pick up panels and paint on Main Street. Local Colors gallery is next door.","place:island-art-hobby"],
+        ["12:00 p.m.","Local Colors Artists' Cooperative","See work by today's Cape Ann painters at the artist-run gallery on Main Street.","place:local-colors"],
         ["Afternoon","Fort Point","Look south-southwest to Ten Pound Island and Eastern Point. Shore access on Fort Point itself is unconfirmed.","site:fort-point"],
         ["2 h before sunset","Rocky Neck public way","Paint Ten Pound Island and the western shore as the haze turns apricot.","site:ten-pound"]
       ]
