@@ -211,7 +211,7 @@ function drawSel() {
 /* ---------------- site panel ---------------- */
 const panel = $('.panel');
 function introPanel() {
-  panel.innerHTML = `<div class="kicker">Painting where they painted</div><h1 class="disp">Stand where they stood</h1>
+  panel.innerHTML = `<div class="kicker">Painting where they painted</div><h2 class="disp" style="font-size:34px">Stand where they stood</h2>
   <p class="lead">Nine places on Cape Ann where a painting can be tied to a spot on the ground. Pick a number on the map, or a site below, to see the painting, where the painter stood, and where the sun is at any hour you choose.</p>
   <p class="small">Each site is tagged with how firm its standing point is: documented, area documented, secondary source, or our own suggested viewpoint. Sun positions are computed for Gloucester in local time.</p>
   <div class="inlegend"><span><i style="width:11px;height:11px;border-radius:50%;background:var(--navy)"></i>Where the painter stood</span> &nbsp; <span><i style="width:9px;height:9px;background:var(--ochre);transform:rotate(45deg)"></i>What they painted</span> &nbsp; <span><i style="width:11px;height:11px;border-radius:50%;background:var(--sun)"></i>The sun</span> &nbsp; <span><i style="width:16px;border-top:2px dashed #B5762A;height:0"></i>Historic shoreline</span><br>Drag to move the map; pinch to zoom.</div>
