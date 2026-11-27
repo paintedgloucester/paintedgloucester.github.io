@@ -2,7 +2,8 @@
 // from the data in js/. Run from the repository root:  node tools/build.mjs
 // The deploy workflow runs it on every push, so editing js/places.js on github.com is enough.
 import { localizeAll, langsNav, alternates, LANGS, clean } from './i18n.mjs';
-import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import vm from 'node:vm';
+import { fitDesc, fitMeta, setMeta } from './desc.mjs';
+import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import vm from 'node:vm'; import { execFileSync } from 'node:child_process';
 const ROOT = process.cwd(), ORIGIN = 'https://paintedgloucester.github.io';
 const ctx = { window: {} }; vm.createContext(ctx);
 for (const f of ['data.js', 'places.js', 'guide.js', 'extras.js']) vm.runInContext(fs.readFileSync(`js/${f}`, 'utf8'), ctx);
@@ -18,8 +19,9 @@ const today = new Date().toISOString().slice(0, 10);
 const DEFAULT_IMG = 'img/lane-braces-rock.jpg', DEFAULT_ALT = "Fitz Henry Lane, Brace's Rock, Eastern Point, Gloucester, about 1864";
 const FLAGS = {"en": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#B22234\"/><rect y=\"1.54\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"4.61\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"7.69\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"10.77\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"13.84\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect y=\"16.92\" width=\"30\" height=\"1.54\" fill=\"#fff\"/><rect width=\"13\" height=\"10.77\" fill=\"#3C3B6E\"/><circle cx=\"1.60\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"4.05\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"6.50\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"8.95\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"11.40\" cy=\"1.50\" r=\".55\" fill=\"#fff\"/><circle cx=\"2.80\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"5.25\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"7.70\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"10.15\" cy=\"3.45\" r=\".55\" fill=\"#fff\"/><circle cx=\"1.60\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"4.05\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"6.50\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"8.95\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"11.40\" cy=\"5.40\" r=\".55\" fill=\"#fff\"/><circle cx=\"2.80\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"5.25\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"7.70\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"10.15\" cy=\"7.35\" r=\".55\" fill=\"#fff\"/><circle cx=\"1.60\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"4.05\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"6.50\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"8.95\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/><circle cx=\"11.40\" cy=\"9.30\" r=\".55\" fill=\"#fff\"/></svg>", "pt": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#DA291C\"/><rect width=\"12\" height=\"20\" fill=\"#046A38\"/><circle cx=\"12\" cy=\"10\" r=\"4.4\" fill=\"#FFE900\"/><path d=\"M9.7 7.4h4.6v3.4a2.3 2.3 0 0 1-4.6 0z\" fill=\"#fff\" stroke=\"#DA291C\" stroke-width=\".8\"/></svg>", "it": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect width=\"10\" height=\"20\" fill=\"#009246\"/><rect x=\"20\" width=\"10\" height=\"20\" fill=\"#CE2B37\"/></svg>", "es": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#AA151B\"/><rect y=\"5\" width=\"30\" height=\"10\" fill=\"#F1BF00\"/></svg>", "fr": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect width=\"10\" height=\"20\" fill=\"#002395\"/><rect x=\"20\" width=\"10\" height=\"20\" fill=\"#ED2939\"/></svg>", "de": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#FFCE00\"/><rect width=\"30\" height=\"13.34\" fill=\"#DD0000\"/><rect width=\"30\" height=\"6.67\" fill=\"#000\"/></svg>", "nl": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#21468B\"/><rect width=\"30\" height=\"13.34\" fill=\"#fff\"/><rect width=\"30\" height=\"6.67\" fill=\"#AE1C28\"/></svg>", "zh": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#EE1C25\"/><polygon points=\"5.00,2.00 5.67,4.07 7.85,4.07 6.09,5.35 6.76,7.43 5.00,6.15 3.24,7.43 3.91,5.35 2.15,4.07 4.33,4.07\" fill=\"#FFDE00\"/><polygon points=\"9.14,2.51 9.62,1.97 9.25,1.34 9.91,1.63 10.39,1.08 10.33,1.80 11.00,2.09 10.29,2.25 10.22,2.97 9.85,2.35\" fill=\"#FFDE00\"/><polygon points=\"11.01,4.14 11.66,3.82 11.56,3.10 12.07,3.62 12.72,3.30 12.38,3.95 12.88,4.47 12.17,4.34 11.83,4.99 11.73,4.27\" fill=\"#FFDE00\"/><polygon points=\"11.04,6.73 11.76,6.70 11.96,6.00 12.21,6.68 12.94,6.66 12.37,7.10 12.62,7.79 12.01,7.38 11.44,7.83 11.64,7.13\" fill=\"#FFDE00\"/><polygon points=\"9.22,8.38 9.90,8.63 10.35,8.06 10.32,8.79 11.00,9.05 10.30,9.24 10.26,9.96 9.87,9.36 9.16,9.55 9.62,8.98\" fill=\"#FFDE00\"/></svg>", "fi": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect x=\"8.33\" width=\"5\" height=\"20\" fill=\"#002F6C\"/><rect y=\"7.27\" width=\"30\" height=\"5.45\" fill=\"#002F6C\"/></svg>", "ko": "<svg viewBox=\"0 0 30 20\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#fff\"/><g transform=\"rotate(33.7 15 10)\"><path d=\"M10 10a5 5 0 0 1 10 0z\" fill=\"#CD2E3A\"/><path d=\"M10 10a5 5 0 0 0 10 0z\" fill=\"#0047A0\"/><circle cx=\"12.5\" cy=\"10\" r=\"2.5\" fill=\"#CD2E3A\"/><circle cx=\"17.5\" cy=\"10\" r=\"2.5\" fill=\"#0047A0\"/></g><g fill=\"#000\"><g transform=\"rotate(-56.3 6.7 4.5)\"><rect x=\"4.70\" y=\"2.45\" width=\"4\" height=\"0.9\"/><rect x=\"4.70\" y=\"4.05\" width=\"4\" height=\"0.9\"/><rect x=\"4.70\" y=\"5.65\" width=\"4\" height=\"0.9\"/></g><g transform=\"rotate(-56.3 23.3 15.5)\"><rect x=\"21.30\" y=\"13.45\" width=\"1.7\" height=\"0.9\"/><rect x=\"23.60\" y=\"13.45\" width=\"1.7\" height=\"0.9\"/><rect x=\"21.30\" y=\"15.05\" width=\"1.7\" height=\"0.9\"/><rect x=\"23.60\" y=\"15.05\" width=\"1.7\" height=\"0.9\"/><rect x=\"21.30\" y=\"16.65\" width=\"1.7\" height=\"0.9\"/><rect x=\"23.60\" y=\"16.65\" width=\"1.7\" height=\"0.9\"/></g><g transform=\"rotate(56.3 23.3 4.5)\"><rect x=\"21.30\" y=\"2.45\" width=\"1.7\" height=\"0.9\"/><rect x=\"23.60\" y=\"2.45\" width=\"1.7\" height=\"0.9\"/><rect x=\"21.30\" y=\"4.05\" width=\"4\" height=\"0.9\"/><rect x=\"21.30\" y=\"5.65\" width=\"1.7\" height=\"0.9\"/><rect x=\"23.60\" y=\"5.65\" width=\"1.7\" height=\"0.9\"/></g><g transform=\"rotate(56.3 6.7 15.5)\"><rect x=\"4.70\" y=\"13.45\" width=\"4\" height=\"0.9\"/><rect x=\"4.70\" y=\"15.05\" width=\"1.7\" height=\"0.9\"/><rect x=\"7.00\" y=\"15.05\" width=\"1.7\" height=\"0.9\"/><rect x=\"4.70\" y=\"16.65\" width=\"4\" height=\"0.9\"/></g></g></svg>"};
 const written = [], pages = [];
-function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, type = 'website', ld, body, crumbs = [], head = '', tail = '' }) {
-  const up = '../'.repeat(file.split('/').length - 1), url = `${ORIGIN}/${file.replace(/index\.html$/, '')}`;
+function page({ file, title, desc, image = DEFAULT_IMG, imageAlt = DEFAULT_ALT, type = 'website', ld, body, crumbs = [], head = '', tail = '', notFound = false }) {
+  // the "page not found" page is served for a missing address at any depth, so its links start at the root
+  const up = notFound ? '/' : '../'.repeat(file.split('/').length - 1), url = `${ORIGIN}/${file.replace(/index\.html$/, '')}`;
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +63,11 @@ ${tail ? tail(up) : ''}<script src="${up}js/langhint.js" defer></script><script 
 </body>
 </html>
 `;
-  fs.mkdirSync(path.dirname(path.join(ROOT, file)), { recursive: true }); fs.writeFileSync(path.join(ROOT, file), html); written.push(file); pages.push({ file, html });
+  if (notFound) { // not a page of the guide: no translations, no sitemap entry, and kept out of search results
+    fs.writeFileSync(path.join(ROOT, file), fitMeta(html.replace(/<link rel="alternate"[^>]*>\n?/g, '').replace(/<link rel="canonical"[^>]*>\n?/, '<meta name="robots" content="noindex">\n')
+      .replace(/<meta property="og:url"[^>]*>\n?/, '').replace(/<nav class="langs"[\s\S]*?<\/nav>/, '').replace(/<script src="[^"]*js\/langhint\.js" defer><\/script>/, ''))); return; }
+  // The file on disk gets the shortened search description; the translator is handed the full sentence its glossaries know.
+  fs.mkdirSync(path.dirname(path.join(ROOT, file)), { recursive: true }); fs.writeFileSync(path.join(ROOT, file), fitMeta(html)); written.push(file); pages.push({ file, html });
 }
 const chipLabel = { documented: 'Vantage documented', approx: 'Area documented · spot approximate', secondary: 'Secondary source · spot approximate', inferred: 'Modern viewpoint · our suggestion' };
 
@@ -111,7 +117,7 @@ D.sites.forEach((s, i) => {
 ${w && w.img ? `<figure class="plate"><a href="${up}works/${w.id}.html"><img src="${up}img/m/${w.id}.webp" alt="${esc(`${w.by}, ${w.t}, ${w.d}`)}"></a><figcaption>${esc(w.by)}, <i>${esc(w.t)}</i>, ${esc(w.d)}. ${esc(mus(w))}.</figcaption></figure>` : ''}
 <div class="btnrow"><a class="btn solid" href="${up}#site-${s.n}">Open on the chart: sun planner and camera</a><a class="btn" href="${dir(s.V)}">Directions to the standing point ↗</a></div>
 <dl class="facts"><dt>Standing point</dt><dd>${esc(s.V[2])} (${s.V[0].toFixed(5)}, ${s.V[1].toFixed(5)})</dd><dt>Looking at</dt><dd>${esc(s.S[2])}</dd><dt>Direction of view</dt><dd>${esc(s.compass)}, ${Math.round(s.bearing)}° from true north</dd><dt>Distance to subject</dt><dd>${esc(s.dist)}</dd>${s.sun0 ? `<dt>The painter's light</dt><dd>${esc(s.sun0.label)}: about ${esc(s.sun0.time)} on ${esc(s.sun0.date)}</dd>` : ''}</dl>
-<h2>Where they stood</h2><p>${notes(s.where, up)}</p>
+<h2>Where they stood</h2><p data-desc>${notes(s.where, up)}</p>
 <h2>The light</h2><p>${notes(s.light, up)}</p>
 <h2>Paint it today</h2><ul class="today">${s.today.map(t => `<li>${notes(t, up)}</li>`).join('')}</ul>
 ${s.comp.length ? `<h2>Also painted here</h2><ul class="wlist">${s.comp.map(id => { const c = WBY[id]; return `<li>${c.img ? `<a class="th" href="${up}works/${c.id}.html" tabindex="-1" aria-hidden="true"><img src="${up}thumbs/${c.id}.webp" alt="" loading="lazy"></a>` : ''}<div><a class="t" href="${up}works/${c.id}.html"><i>${esc(c.t)}</i></a><span class="m">${esc(c.by)}, ${esc(c.d)}</span><span class="m">${esc(mus(c))}</span></div></li>`; }).join('')}</ul>` : ''}
@@ -165,8 +171,20 @@ page({ file: 'field-notes.html', title: 'Field notes: palettes, light, condition
 /* ---------- trails, seasons, waterfront, photographers, teachers, gallery, translations ---------- */
 await import('./extras.mjs').then(m => m.default({ page, esc, strip, WBY, D, P, X, ORIGIN, dir, mus, SITE_OF, ctx, fs }));
 
-/* ---------- the two hand-written pages: language menu, alternates, brief's language bar ---------- */
+/* ---------- page not found (GitHub Pages serves 404.html for any missing address) ---------- */
+page({ file: '404.html', notFound: true, title: 'Page not found', desc: 'That address is not part of the Painted Gloucester guide. Start again from the chart, the nine painting sites or the list of paintings.',
+  body: up => `<div class="kicker">Off the chart</div><h1>That page is not in the guide</h1>
+<p class="lead measure">The address may have been mistyped, or the page may have moved. Everything in the guide is one step from here.</p>
+<div class="btnrow"><a class="btn solid" href="${up}">Open the guide</a><a class="btn" href="${up}sites/">The nine painting sites</a><a class="btn" href="${up}works/">All ${D.works.length} paintings</a><a class="btn" href="${up}shops.html">Shops and studios</a></div>
+<p class="measure" translate="no">${LANGS.map(([c, hl, n]) => `<a href="${up}${c}/" hreflang="${hl}" lang="${hl}" style="white-space:nowrap">${n}</a>`).join(' · ')}</p>` });
+
+/* ---------- the two hand-written pages: search description, language menu, alternates, brief's language bar ---------- */
+// Their full descriptions live here, because the files themselves carry the shortened form (see tools/desc.mjs)
+// and the glossaries are keyed on the full sentence. To change one, change it here and add its translations.
+const HAND = { 'index.html': `Stand where Fitz Henry Lane, Winslow Homer and Childe Hassam stood. A free guide to painting Cape Ann: a chart of the painters' vantage points, the sun at any hour, ${D.works.length} paintings, palettes, local art shops, workshops and a painter's passport.`,
+  'brief.html': 'Research brief on paintings of Gloucester and Cape Ann by Fitz Henry Lane, Winslow Homer, Childe Hassam, John Twachtman and others: where each work hangs, with sources and notes.' };
 for (const f of ['index.html', 'brief.html']) { let h = fs.readFileSync(f, 'utf8'); const o = h;
+  h = setMeta(h, fitDesc(HAND[f]));
   h = h.replace(/(?:<link rel="alternate" hreflang="[^"]+" href="[^"]+">\n?)+/, alternates(f, ORIGIN) + '\n');
   if (f === 'index.html') h = h.replace(/<nav class="langs"[\s\S]*?<\/nav>/, langsNav(f, 'en', FLAGS, true));
   else h = h.replace(/<span class="blangs"[\s\S]*?<\/span><!--\/blangs-->|<a href="pt\/brief\.html"[\s\S]*?Italiano<\/a>/, `<span class="blangs" translate="no">${[['en', 'en', 'English'], ...LANGS].map(([c, hl, n]) => `<a href="${c === 'en' ? '' : '../'.repeat(0) + c + '/'}brief.html" hreflang="${hl}" lang="${hl}" data-lang="${c}" style="color:#F3EDE1;border-bottom:1px solid #D9B07A">${n}</a>`).join(' &nbsp;·&nbsp; ')}</span><!--/blangs-->`);
@@ -176,7 +194,7 @@ for (const f of ['index.html', 'brief.html']) { let h = fs.readFileSync(f, 'utf8
   if (h !== o) fs.writeFileSync(f, h); }
 
 /* ---------- translated copies ---------- */
-{ const home = fs.readFileSync('index.html', 'utf8'), brief = fs.readFileSync('brief.html', 'utf8');
+{ const home = setMeta(fs.readFileSync('index.html', 'utf8'), HAND['index.html']), brief = setMeta(fs.readFileSync('brief.html', 'utf8'), HAND['brief.html']);
   const rep = localizeAll([...pages, { file: 'index.html', html: home, spa: true }, { file: 'brief.html', html: brief }], { ORIGIN, FLAGS });
   console.log('translations: ' + Object.entries(rep).map(([l, m]) => `${l} ${m.length} strings still in English`).join(', ')); }
 
@@ -186,7 +204,19 @@ const urls = [...enUrls, 'Painted-Gloucester-brief.pdf', 'print/Painted-Gloucest
 const IMG = {}; for (const w of D.works) if (w.img) IMG[`works/${w.id}.html`] = [`img/${w.id}.jpg`];
 for (const s of D.sites) { const ids = [s.main, ...s.comp].filter(id => id && WBY[id].img); if (ids.length) IMG[`sites/${s.id}.html`] = ids.map(id => `img/${id}.jpg`); }
 const imgTags = u => (IMG[u] || []).filter(f => fs.existsSync(f)).map(f => `<image:image><image:loc>${ORIGIN}/${f}</image:loc></image:image>`).join('');
-fs.writeFileSync('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.map(u => `  <url><loc>${ORIGIN}/${u}</loc><lastmod>${today}</lastmod>${imgTags(u)}</url>`).join('\n')}\n</urlset>\n`);
+// lastmod is the day each page last changed: today if this build wrote it differently from the committed copy,
+// otherwise the day of the last commit that touched it (the deploy workflow checks out the full history).
+// Both are UTC days, so a page's date never steps back between the build before a commit and the build after it.
+const lastmod = (() => { try { const git = a => execFileSync('git', a, { encoding: 'utf8', maxBuffer: 1 << 28, env: { ...process.env, TZ: 'UTC' } });
+    const changed = new Set(git(['status', '--porcelain', '--untracked-files=all']).split('\n').filter(Boolean).map(l => l.slice(3)));
+    const when = {}; let d = today;
+    for (const l of git(['log', '--format=@%cd', '--date=format-local:%Y-%m-%d', '--name-only']).split('\n')) { if (l[0] === '@') d = l.slice(1); else if (l && !(l in when)) when[l] = d; }
+    return u => { const f = u === '' || u.endsWith('/') ? u + 'index.html' : u; return changed.has(f) ? today : when[f] || today; };
+  } catch { return () => today; } })();
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.map(u => `  <url><loc>${ORIGIN}/${u}</loc><lastmod>${lastmod(u)}</lastmod>${imgTags(u)}</url>`).join('\n')}\n</urlset>\n`;
+// One list under two names. robots.txt and Search Console point to sitemap-pages.xml: Google never read sitemap.xml,
+// and a new address prompts a fresh read. sitemap.xml stays because Bing reads it and other services may hold it.
+for (const f of ['sitemap-pages.xml', 'sitemap.xml']) fs.writeFileSync(f, sitemap);
 
 /* ---------- offline worker ---------- */
 const ls = d => fs.existsSync(d) ? fs.readdirSync(d).filter(f => !f.startsWith('.')).map(f => `${d}/${f}`) : [];

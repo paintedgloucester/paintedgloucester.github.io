@@ -17,8 +17,10 @@ catch { console.log('IndexNow: could not compare commits; nothing sent.'); proce
 
 const urls = [...new Set(files
   .filter(f => /\.(html|pdf)$/.test(f) && !/^(vendor|tools|node_modules)\//.test(f))
+  // not pages of the guide: the "page not found" page, Google's ownership file and the print layouts kept out of search
+  .filter(f => !/^(404\.html|google[0-9a-f]+\.html|print\/.*\.html)$/.test(f))
   .map(f => `${ORIGIN}/${f.replace(/(^|\/)index\.html$/, '$1')}`))].slice(0, 10000);
-if (files.includes('sitemap.xml')) urls.push(`${ORIGIN}/sitemap.xml`);
+for (const s of ['sitemap-pages.xml', 'sitemap.xml']) if (files.includes(s)) urls.push(`${ORIGIN}/${s}`);
 if (!urls.length) { console.log('IndexNow: no pages changed; nothing sent.'); process.exit(0); }
 
 const res = await fetch('https://api.indexnow.org/indexnow', {

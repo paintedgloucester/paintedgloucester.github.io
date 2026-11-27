@@ -1,6 +1,7 @@
 // Writes the Portuguese and Italian copies of every page. Called by tools/build.mjs.
 // Glossaries: i18n/<lang>.json, built by tools/i18n-merge.mjs from the numbered batches in i18n/batches/.
 import fs from 'node:fs'; import path from 'node:path'; import { createRequire } from 'node:module';
+import { fitMeta } from './desc.mjs';
 const require = createRequire(import.meta.url); const { make } = require('../js/i18n.js');
 // [folder, hreflang / html lang, name in its own language], in the order the language menu lists them
 export const LANGS = [['es', 'es', 'Español'], ['fr', 'fr', 'Français'], ['de', 'de', 'Deutsch'], ['it', 'it', 'Italiano'], ['pt', 'pt-PT', 'Português'], ['nl', 'nl', 'Nederlands'], ['fi', 'fi', 'Suomi'], ['zh', 'zh-Hans', '中文（简体）'], ['ko', 'ko', '한국어']];
@@ -48,7 +49,8 @@ export function localizeAll(pages, { ORIGIN, FLAGS }) {
       out = out.replace(`<link rel="canonical" href="${ORIGIN}/${f}">`, `<link rel="canonical" href="${ORIGIN}/${dir}/${f}">`).replace(`<meta property="og:url" content="${ORIGIN}/${f}">`, `<meta property="og:url" content="${ORIGIN}/${dir}/${f}">`)
         .replace(/<nav class="langs"[\s\S]*?<\/nav>/, langsNav(file, dir, FLAGS, spa))
         .replace(/<\/body>/, `<script src="${spa ? '' : rootRel}i18n/${dir}.js"></script><script src="${spa ? '' : rootRel}js/i18n.js"></script>\n</body>`);
-      fs.mkdirSync(path.dirname(path.join(dir, file)), { recursive: true }); fs.writeFileSync(path.join(dir, file), out);
+      // the description is shortened last, once it has been translated whole (tools/desc.mjs)
+      fs.mkdirSync(path.dirname(path.join(dir, file)), { recursive: true }); fs.writeFileSync(path.join(dir, file), fitMeta(out));
     }
     report[dir] = [...T.missing];
   }
